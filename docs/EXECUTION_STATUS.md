@@ -20,6 +20,6 @@ The dated evidence under `validation/recovery_20260927/` includes exact resident
 
 Historical full author reports remain under `validation/author_reference/`. They do not satisfy unfinished stages in a new run. Large historical prediction arrays were not included in the compact author archive.
 
-## Still required from the latest Falcon run
+## Full-run reports
 
-The user's latest executed full notebook, actual source changes, complete run reports and exact Python 3.11 environment freezes have not yet been supplied. Follow `docs/FALCON_FILES_TO_SEND.md`. No new full raw-data reproduction or GitHub-hosted Actions run is claimed by this local package build.
+Each full execution writes its own stage statuses and strict comparison reports under the configured `run_root`. Archive these with the executed notebook and exact environment versions using [the collection guide](FALCON_FILES_TO_SEND.md). The dated reports above describe their respective execution scopes.

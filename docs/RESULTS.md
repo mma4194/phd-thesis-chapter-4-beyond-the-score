@@ -18,4 +18,4 @@ Run `supplementary_audit` to regenerate the population and table checks. Its det
 
 Use the original comparators, rounding conventions and tolerances supplied by the experiment. Do not loosen tolerances, update reference CSVs or change random seeds to obtain PASS. Read both `execution_status` and `comparison`: successful computation can still be numerically DIFFERENT. Preserve a difference report alongside the interpreter versions and input hashes. `python compare_runs.py --config config/local.json` regenerates the final report from available stage evidence.
 
-The current user's latest completed Falcon master-run outputs and Python 3.11 dependency closure have not been supplied in this repository preparation. Follow FALCON_FILES_TO_SEND.md to add them before describing that run as independently verified.
+For each full run, archive the executed notebook, source snapshot, comparison reports and exact environment freeze using [the collection guide](FALCON_FILES_TO_SEND.md).

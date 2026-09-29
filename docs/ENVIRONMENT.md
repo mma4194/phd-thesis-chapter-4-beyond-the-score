@@ -47,7 +47,7 @@ The helper uses `environment/public.in` and `environment/residential.in`, pins t
 
 The older instructions recommended Python 3.11 but distributed a dependency closure captured under Python 3.12. In particular, its ContourPy 1.4.0 pin is incompatible with Python 3.11. This repository labels those records `public-py312-recorded.lock.txt` and `residential-py312-recorded.lock.txt`. They are provenance, not default Python 3.11 requirements.
 
-On Python 3.12, `--recorded-locks` explicitly selects that captured closure. On other versions the helper refuses this option. The direct `.in` route retains scientific version pins, but supporting dependencies are not claimed fully frozen until the actual Falcon freeze is collected. The latest full Falcon dependency closure is an outstanding evidence item listed in `FALCON_FILES_TO_SEND.md`.
+On Python 3.12, `--recorded-locks` explicitly selects that captured closure. On other versions the helper refuses this option. The direct `.in` route pins scientific packages and resolves supporting dependencies for the selected interpreter. Preserve the resulting `pip freeze` with each execution using the collection procedure in `FALCON_FILES_TO_SEND.md`.
 
 Do not edit `expected_environments.json` to silence a version mismatch. Resolve the interpreter path or install the correct separate environment. A printed Python version alone does not establish numerical compatibility.
 

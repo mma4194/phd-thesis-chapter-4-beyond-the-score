@@ -18,7 +18,7 @@ The [master notebook](notebooks/Beyond_the_Score_Chapter4.ipynb) is the guided e
 | Raw TON_IoT files | Obtain from the provider: 42 telemetry members and 15 normal captures. Not redistributed. |
 | Earlier completed author runs | Supplied reports: full controlled comparison PASS, residential 90 source jobs/3,060 rows, external 72 source jobs/87 checks and 8,508 prediction-loss checks. |
 | Recovery validation | 144 record checks, 45 headline values and 21 software tests passed; exact input, telemetry and selected fresh experiments checked. Full/partial execution is labelled. |
-| New complete Falcon master run | Not yet supplied. [Collect the current run](docs/FALCON_FILES_TO_SEND.md) before presenting it as a newly verified full execution. |
+| Full reproduction workflow | Execute the master notebook and inspect the generated stage reports, strict comparisons and prediction checks. |
 
 The current thesis supplement correctly separates the median populations and uses the newer controlled Table S14 endpoints. Original canonical results remain intact as a separate historical experiment. See [supplement comparison](docs/SUPPLEMENT_COMPARISON.md).
 
@@ -73,7 +73,7 @@ Inspect `final_report/workflow_comparison.csv`, stage-specific comparison tables
 | [Results](docs/RESULTS.md) | Expected outputs, strict comparison rules and scope |
 | [Recovery](docs/RECOVERY.md) | Resume safely after a time-budget pause or interruption |
 | [Repository map](docs/FILE_MAP.md) | Layout matching the Chapter 3 documentation pattern |
-| [Falcon files to send](docs/FALCON_FILES_TO_SEND.md) | Exact outstanding execution evidence and collection command |
+| [Collect run outputs](docs/FALCON_FILES_TO_SEND.md) | Archive the executed notebook, environment details and comparison reports |
 | [GitHub Desktop publication](docs/GITHUB_DESKTOP_GUIDE.md) | Create, check, publish and freeze an examination release |
 
 ## Scientific scope

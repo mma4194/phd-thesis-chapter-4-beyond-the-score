@@ -33,13 +33,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 6752,
-      "sha256": "06abf11f8e72b9f0e6fa77d5ed7be61d09222545e267b81b023299a6192d0f95"
+      "bytes": 6741,
+      "sha256": "5a5417767f41ad223601aa1b4098a7f28a5feb2e2dc6439bf15f11cfa549d531"
     },
     {
       "path": "RECOVERY_HANDOVER.md",
-      "bytes": 741,
-      "sha256": "833314ee9a326d6aa6c784e22bc66f67d2bab1178957afed1e5265b405d37a38"
+      "bytes": 693,
+      "sha256": "e324c4d341f33e19186eb44742cf033dfe01028cfde9fd544fde70743a365dae"
     },
     {
       "path": "SOURCE_ARCHIVES.json",
@@ -273,8 +273,8 @@
     },
     {
       "path": "docs/ENVIRONMENT.md",
-      "bytes": 4922,
-      "sha256": "f5265becf5e146715ef3abd9fdfdcf20bfae55af3cc43aae25427cc5ab8a0b02"
+      "bytes": 4885,
+      "sha256": "c966ee9e94b36b1d33db9699d4356f865671c67f565a0523e0ed405ba20cd017"
     },
     {
       "path": "docs/ENVIRONMENTS.md",
@@ -283,13 +283,13 @@
     },
     {
       "path": "docs/EXECUTION_STATUS.md",
-      "bytes": 2532,
-      "sha256": "70bc1f19f86205480e0c5e19c3ee7e65e4380c3075afac3a39ce202f2e8871ff"
+      "bytes": 2517,
+      "sha256": "078ade9aa68f51ec8bfef98f470732978247b6f38c6a3481e41d8c237e24896f"
     },
     {
       "path": "docs/FALCON_FILES_TO_SEND.md",
-      "bytes": 2493,
-      "sha256": "36af60e9215fa9b6dabceb3f78dec5935a9c03ea7972b65426bb0a12998d17bb"
+      "bytes": 2366,
+      "sha256": "12bdddf0f2563c06f6f0ba07730588e5817cc3e0a22d2e655c51696c811b86de"
     },
     {
       "path": "docs/FEATURE_DICTIONARY.md",
@@ -353,8 +353,8 @@
     },
     {
       "path": "docs/RESULTS.md",
-      "bytes": 2967,
-      "sha256": "83f945d6416010f551e68143544cbec6999c8a70776c4068d2aa580111c9b246"
+      "bytes": 2888,
+      "sha256": "74739d4e1fb1ca8ba6916da5bc91f0d7037928667354db8b99c0c5a59f02d99a"
     },
     {
       "path": "docs/RESULT_COVERAGE.md",
