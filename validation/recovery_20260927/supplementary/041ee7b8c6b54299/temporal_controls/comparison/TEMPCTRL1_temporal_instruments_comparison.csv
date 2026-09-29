@@ -1,0 +1,7 @@
+quantity,rows,mismatches,max_absolute_error,atol,rtol
+acf_abs_error_mean,20,0,0.0,1e-07,1e-06
+acf_abs_error_median,20,0,0.0,1e-07,1e-06
+block_rows,20,0,0.0,1e-07,1e-06
+spectral_l1_mean,20,0,0.0,1e-07,1e-06
+temporal_n_feature_lags,20,0,0.0,1e-07,1e-06
+transition_rate_mae,20,0,0.0,1e-07,1e-06

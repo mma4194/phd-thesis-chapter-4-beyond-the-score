@@ -1,0 +1,15 @@
+{
+  "execution_status": "COMPLETED",
+  "paper_comparison": "PASS",
+  "source_jobs": 90,
+  "utility_rows": 3060,
+  "p0_refitted": true,
+  "frozen_task_discovery": true,
+  "new_prediction_files": 16291,
+  "private_outputs_do_not_submit": true,
+  "prediction_loss_checks": {
+    "arrays": 16291,
+    "passed": true,
+    "scope": "Fresh score outputs independently recalculated from their saved targets and predictions; no old-array byte claim."
+  }
+}

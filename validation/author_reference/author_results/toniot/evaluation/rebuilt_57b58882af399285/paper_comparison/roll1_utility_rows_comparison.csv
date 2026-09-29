@@ -1,0 +1,9 @@
+quantity,rows,mismatches,max_absolute_error,atol,rtol
+status,144,0,,1e-07,1e-06
+permission,144,0,,1e-07,1e-06
+real_loss,144,0,1.9984014443252818e-15,1e-07,1e-06
+synthetic_loss,144,0,2.348121697082206e-14,1e-07,1e-06
+naive_loss,144,0,0.0,1e-07,1e-06
+n_real_train,144,0,0.0,1e-07,1e-06
+n_synthetic_train,144,0,0.0,1e-07,1e-06
+n_test,144,0,0.0,1e-07,1e-06

@@ -1,0 +1,227 @@
+{
+  "methodology_hash": "592075a39c6a1c0cc8332db9c1b2aba6182c721c3b2cf9ff76c86f859f596195",
+  "signature": {
+    "engine_version": "v7.14.5_invalid_health_payload_contract",
+    "run_profile_scope_state": "FULL_CAMPAIGN",
+    "scope_of_inference": "one residential smart-home deployment; no population generalisation",
+    "split_contract": {
+      "train_frac": 0.6,
+      "val_frac": 0.2,
+      "test_frac": 0.2,
+      "inner_calibration_frac": 0.2,
+      "embargo_steps": 121,
+      "lags": [
+        1,
+        5,
+        30,
+        60
+      ],
+      "horizons": [
+        5,
+        15,
+        60
+      ],
+      "selection": "TRAIN only",
+      "admissibility": "TRAIN to VAL only",
+      "final_test": "TEST only after complete freeze"
+    },
+    "instrument_contract": {
+      "metrics": [
+        "marginal_ks_mean",
+        "zero_rate_mae",
+        "wasserstein_iqr_mean",
+        "acf_abs_error_mean",
+        "spectral_l1_mean",
+        "transition_rate_mae",
+        "coupling_corr_mae",
+        "coupling_corr_relative_l2",
+        "coupling_coactivation_mae",
+        "c2st_max_auc"
+      ],
+      "controlled_fixture_seeds": [
+        19,
+        29,
+        39
+      ],
+      "controlled_monotonicity_min": 0.8,
+      "same_distribution_c2st_auc_max": 0.6,
+      "c2st_grouped_blocks": true,
+      "c2st_classifiers": [
+        "random_forest",
+        "logistic_regression"
+      ],
+      "c2st_permutation_role": "diagnostic null calibration only; headline inference uses paired primary-seed intervals",
+      "fidelity_scopes": {
+        "primary": "protocol_value_v3",
+        "secondary": "all_value_v3",
+        "observability": "observability_v1",
+        "mask_only": "mask_only_v1"
+      }
+    },
+    "utility_contract": {
+      "loss_ratio": "TSTR task loss divided by fold-specific TRTR task loss",
+      "relative_excess_loss_vs_naive": "(TSTR loss - TRTR loss) divided by naive held-out loss",
+      "regression_loss": "MAE normalised by held-out target IQR",
+      "classification_loss": "Brier score",
+      "minimum_reference_loss": 1e-05,
+      "training_sample_size_match": "synthetic/reference task-training row ratio in [0.95, 1.05]",
+      "noninferiority_ratio": 1.1,
+      "hierarchy": "primary seed -> capability -> semantic task family -> task-model card",
+      "evaluation_axes": [
+        "same_period",
+        "future"
+      ],
+      "relative_transfer_estimand": "chronology-paired log future loss ratio minus log same-period loss ratio; descriptive contrast only, not a causal drift effect"
+    },
+    "p0_contract": {
+      "anchors": [
+        "real_identity",
+        "real_block_a",
+        "real_block_b",
+        "real_resample"
+      ],
+      "matching": "TRAIN-only profile-matched non-overlapping temporal blocks",
+      "margin_calibration": "disjoint TRAIN calibration pairs",
+      "qualification": "held-out TRAIN qualification pairs",
+      "licensing_unit": "reviewer-facing capability within suite",
+      "identity_margin": 0.03,
+      "contemporaneous_margin_bounds": [
+        0.09531017980432493,
+        0.4054651081081644
+      ],
+      "temporal_ratio_bounds": [
+        1.25,
+        1.8
+      ],
+      "temporal_order_effect_min": 0.04879016416943205,
+      "minimum_licensed_fraction": 0.6,
+      "test_used": false
+    },
+    "generator_registry": [
+      {
+        "generator_id": "real_resample",
+        "family": "real_anchor",
+        "cost_kind": "anchor",
+        "order_preserving": false,
+        "release_eligible": false,
+        "required_for_core": true,
+        "params": {}
+      },
+      {
+        "generator_id": "real_block",
+        "family": "real_anchor",
+        "cost_kind": "anchor",
+        "order_preserving": true,
+        "release_eligible": false,
+        "required_for_core": true,
+        "params": {}
+      },
+      {
+        "generator_id": "independent_marginal",
+        "family": "destruction_anchor",
+        "cost_kind": "anchor",
+        "order_preserving": false,
+        "release_eligible": false,
+        "required_for_core": true,
+        "params": {}
+      },
+      {
+        "generator_id": "column_shuffle",
+        "family": "destruction_anchor",
+        "cost_kind": "anchor",
+        "order_preserving": false,
+        "release_eligible": false,
+        "required_for_core": true,
+        "params": {}
+      },
+      {
+        "generator_id": "hurdle_iid",
+        "family": "mechanism_ablation",
+        "cost_kind": "rank_stitch",
+        "order_preserving": false,
+        "release_eligible": false,
+        "required_for_core": true,
+        "params": {
+          "stitch_mode": "none"
+        }
+      },
+      {
+        "generator_id": "hurdle_independent_stitch",
+        "family": "mechanism_ablation",
+        "cost_kind": "rank_stitch",
+        "order_preserving": true,
+        "release_eligible": false,
+        "required_for_core": true,
+        "params": {
+          "stitch_mode": "independent"
+        }
+      },
+      {
+        "generator_id": "hurdle_shared_stitch",
+        "family": "transparent_candidate",
+        "cost_kind": "rank_stitch",
+        "order_preserving": true,
+        "release_eligible": true,
+        "required_for_core": true,
+        "params": {
+          "stitch_mode": "shared"
+        }
+      },
+      {
+        "generator_id": "learned_gmm_overlay",
+        "family": "learned_row_control",
+        "cost_kind": "learned_gmm",
+        "order_preserving": false,
+        "release_eligible": true,
+        "required_for_core": true,
+        "params": {
+          "fit_rows": 100000,
+          "pca_components": 16,
+          "gmm_components": 8
+        }
+      },
+      {
+        "generator_id": "learned_latent_var_overlay",
+        "family": "learned_temporal",
+        "cost_kind": "learned_var_overlay",
+        "order_preserving": true,
+        "release_eligible": true,
+        "required_for_core": true,
+        "params": {
+          "fit_rows": 100000,
+          "pca_components": 16,
+          "lags": [
+            1,
+            5,
+            30
+          ],
+          "ridge": 1.0
+        }
+      }
+    ],
+    "privacy_contract": "disjoint same-period projected-row, discretised-trajectory, binary-activity-trajectory, DCR and NNDR diagnostics; no membership-inference or formal privacy claim",
+    "time_axis_contract": {
+      "explicit_numeric_time_required": true,
+      "missing_timestamps_forbidden": true,
+      "duplicate_policy": false,
+      "expected_step": 1.0,
+      "maximum_irregular_positive_step_rate": 0.001
+    },
+    "single_deployment_breadth_contract": {
+      "primary_seeds": [
+        1337,
+        1338,
+        1339,
+        1340,
+        1341
+      ],
+      "rolling_origins_minimum": 3,
+      "multiple_tiers_and_task_families": true,
+      "multiple_downstream_model_types": true,
+      "controlled_instrument_perturbations": true,
+      "mechanism_ladder": true,
+      "same_period_future_chronology_paired_contrast": true,
+      "external_replication": "optional corroboration, not available in the present study"
+    }
+  }
+}

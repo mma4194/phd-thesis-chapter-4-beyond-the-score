@@ -1,0 +1,4 @@
+check,passed,detail
+C2ST2_controlled_sample_size_response_unique_keys,True,
+C2ST2_controlled_sample_size_response_same_keys,True,12 joined records
+C2ST2_controlled_sample_size_response_values,True,13 quantities compared

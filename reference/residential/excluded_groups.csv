@@ -1,0 +1,11 @@
+arm,suite,capability,clipped,eligible,without_reference_skill_check,final_rule_licensed,state,calibration_pairs,qualification_pairs,raw_bound,applied_bound,identity_ok,relative_ok,order_ok,reference_viable,reference_skill,reference_skill_lo,reference_skill_hi,block_ratio,block_ratio_hi,resample_minus_block_log,resample_minus_block_log_lo,noninferiority_rate,valid_card_rows,unobserved_target_contexts_in_valid_rows
+balanced_observed,contemporaneous,contemporaneous_dependency|physical_context,True,False,False,False,Not-Estimable,0,0,,0.0953101798043249,False,False,True,False,,,,,,,,,0,0
+balanced_observed,contemporaneous,contemporaneous_dependency|state_event,True,False,False,False,Not-Estimable,0,0,,0.0953101798043249,False,False,True,False,,,,,,,,,0,0
+balanced_observed,temporal,burst|packet_count,True,False,False,False,Not-Estimable,2,3,1.4102751538942884,1.4102751538942884,False,False,False,False,0.52061980114879,0.0106246273231565,0.6696864677884445,1.9002717364990616,3.269111314866477,0.4741838954365117,-0.0886700331121234,0.4166666666666667,136,0
+balanced_observed,temporal,burst|physical_context,True,False,False,False,Not-Estimable,0,0,,1.25,False,False,False,False,,,,,,,,,0,0
+balanced_observed,temporal,cross_tier_response|physical_context,True,False,False,False,Not-Estimable,0,0,,1.25,False,False,False,False,,,,,,,,,0,0
+balanced_observed,temporal,cross_tier_response|radio_quality,True,False,False,False,Not-Estimable,0,0,,1.25,False,False,False,False,,,,,,,,,0,0
+balanced_observed,temporal,cross_tier_response|state_event,True,False,False,False,Not-Estimable,0,0,,1.25,False,False,False,False,,,,,,,,,0,0
+balanced_observed,temporal,forecast|physical_context,True,False,False,False,Not-Estimable,0,0,,1.25,False,False,False,False,,,,,,,,,0,0
+balanced_observed,temporal,forecast|radio_quality,True,False,False,False,Not-Estimable,0,0,,1.25,False,False,False,False,,,,,,,,,0,0
+balanced_observed,temporal,forecast|state_event,True,False,False,False,Not-Estimable,0,0,,1.25,False,False,False,False,,,,,,,,,0,0

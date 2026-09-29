@@ -1,0 +1,7 @@
+quantity,rows,mismatches,max_absolute_error,atol,rtol
+observed_permission,13,0,,1e-07,1e-06
+observed_outcome,13,0,,1e-07,1e-06
+observed_failure_stage,13,0,0.0,1e-07,1e-06
+utility_geometric_mean_loss_ratio,13,0,1.840203323055789e-09,1e-07,1e-06
+utility_ci_lo,13,0,1.4417756766249568e-08,1e-07,1e-06
+utility_ci_hi,13,0,5.2456619048513176e-09,1e-07,1e-06

@@ -1,0 +1,928 @@
+{
+  "residential": {},
+  "external": {
+    "c2st": {
+      "block_rows": 60,
+      "block_seconds": 300,
+      "ceiling_auc": 0.995,
+      "discriminators": [
+        "random_forest",
+        "logistic_linear"
+      ],
+      "headline": "anchor-relative excess AUC",
+      "same_distribution_control": "conditional label randomisation within matched blocks",
+      "same_distribution_excess_max": 0.03,
+      "scopes": {
+        "iot_values": [
+          "iot__modbus__register_3_mean",
+          "iot__modbus__register_1_mean",
+          "iot__modbus__register_4_mean",
+          "iot__modbus__register_2_mean",
+          "iot__gps__longitude_mean",
+          "iot__gps__latitude_mean",
+          "iot__weather__humidity_mean",
+          "iot__thermostat__temperature_mean",
+          "iot__weather__temperature_mean",
+          "iot__weather__pressure_mean",
+          "iot__fridge__temperature_mean",
+          "iot__motion_light__light_on_fraction",
+          "iot__motion_light__motion_true_fraction",
+          "iot__fridge__condition_high_fraction",
+          "iot__thermostat__status_true_fraction",
+          "iot__garage__door_open_fraction",
+          "iot__garage__smartphone_signal_true_fraction"
+        ],
+        "multimodal_balanced": [
+          "router__general__byte_count",
+          "router__general__packet_length_max",
+          "router__general__packet_count",
+          "router__general__packet_length_mean",
+          "router__general__packet_length_std",
+          "router__general__ipv4_count",
+          "router__general__tcp_count",
+          "router__general__ipv6_count",
+          "router__general__http_port_packets",
+          "router__general__packet_length_min",
+          "router__general__mqtt_port_packets",
+          "router__general__icmp_count",
+          "router__general__unique_endpoint_pair_count",
+          "router__general__udp_count",
+          "router__general__dns_port_packets",
+          "router__general__https_port_packets",
+          "router__iot_named__byte_count",
+          "router__iot_named__packet_length_max",
+          "router__iot_named__packet_length_std",
+          "router__iot_named__packet_length_mean",
+          "router__iot_named__packet_count",
+          "router__iot_named__ipv4_count",
+          "router__iot_named__tcp_count",
+          "router__iot_named__mqtt_port_packets",
+          "router__iot_named__packet_length_min",
+          "router__iot_named__https_port_packets",
+          "router__iot_named__arp_count",
+          "router__iot_named__udp_count",
+          "router__iot_named__dns_port_packets",
+          "router__iot_named__unique_endpoint_pair_count",
+          "router__iot_named__unique_src_ip_count",
+          "router__iot_named__unique_dst_ip_count",
+          "iot__modbus__register_3_mean",
+          "iot__modbus__register_1_mean",
+          "iot__modbus__register_4_mean",
+          "iot__modbus__register_2_mean",
+          "iot__gps__longitude_mean",
+          "iot__gps__latitude_mean",
+          "iot__weather__humidity_mean",
+          "iot__thermostat__temperature_mean",
+          "iot__weather__temperature_mean",
+          "iot__weather__pressure_mean",
+          "iot__fridge__temperature_mean",
+          "iot__motion_light__light_on_fraction",
+          "iot__motion_light__motion_true_fraction",
+          "iot__fridge__condition_high_fraction",
+          "iot__thermostat__status_true_fraction",
+          "iot__garage__door_open_fraction"
+        ],
+        "network_general": [
+          "router__general__byte_count",
+          "router__general__packet_length_max",
+          "router__general__packet_count",
+          "router__general__packet_length_mean",
+          "router__general__packet_length_std",
+          "router__general__ipv4_count",
+          "router__general__tcp_count",
+          "router__general__ipv6_count",
+          "router__general__http_port_packets",
+          "router__general__packet_length_min",
+          "router__general__mqtt_port_packets",
+          "router__general__icmp_count",
+          "router__general__unique_endpoint_pair_count",
+          "router__general__udp_count",
+          "router__general__dns_port_packets",
+          "router__general__https_port_packets",
+          "router__general__unique_dst_ip_count",
+          "router__general__arp_count",
+          "router__general__unique_src_ip_count",
+          "router__general__tcp_fin_count",
+          "router__general__tcp_syn_count",
+          "router__general__tcp_rst_count",
+          "router__general__interarrival_positive_mean",
+          "router__general__interarrival_positive_std"
+        ],
+        "network_iot_named": [
+          "router__iot_named__byte_count",
+          "router__iot_named__packet_length_max",
+          "router__iot_named__packet_length_std",
+          "router__iot_named__packet_length_mean",
+          "router__iot_named__packet_count",
+          "router__iot_named__ipv4_count",
+          "router__iot_named__tcp_count",
+          "router__iot_named__mqtt_port_packets",
+          "router__iot_named__packet_length_min",
+          "router__iot_named__https_port_packets",
+          "router__iot_named__arp_count",
+          "router__iot_named__udp_count",
+          "router__iot_named__dns_port_packets",
+          "router__iot_named__unique_endpoint_pair_count",
+          "router__iot_named__unique_src_ip_count",
+          "router__iot_named__unique_dst_ip_count",
+          "router__iot_named__tcp_syn_count",
+          "router__iot_named__tcp_fin_count",
+          "router__iot_named__http_port_packets",
+          "router__iot_named__icmp_count",
+          "router__iot_named__tcp_rst_count",
+          "router__iot_named__interarrival_positive_std",
+          "router__iot_named__interarrival_positive_mean"
+        ]
+      }
+    },
+    "canonical_sha256": "4fd1d7225202e111c20e521f19afd56b0c319059d21037d929a2257a3b3a5692",
+    "dataset": "TON_IoT",
+    "decision_rules": {
+      "c2st": {
+        "ceiling_auc": 0.995,
+        "same_distribution_excess_max": 0.03
+      },
+      "instrument": {
+        "endpoint_thresholds": {
+          "acf_error": 0.01,
+          "c2st_excess_auc": 0.02,
+          "coactivation_mae": 0.0005,
+          "correlation_mae": 0.02,
+          "iqr_normalized_wasserstein": 0.05,
+          "mean_ks": 0.02,
+          "spectral_l1": 0.03,
+          "transition_rate_mae": 0.0005,
+          "zero_rate_mae": 0.002
+        },
+        "rho_min": 0.8
+      },
+      "learned_fit_health": {
+        "activity_error_max_max": 0.4,
+        "activity_error_mean_max": 0.08,
+        "activity_error_p95_max": 0.2,
+        "support_violation_max": 0.0001,
+        "variable_fraction_min": 0.7
+      },
+      "suite_breadth": {
+        "min_capabilities": 4,
+        "min_fraction": 0.6
+      },
+      "temporal_property": {
+        "order_damage_ratio_min": 1.05
+      },
+      "terminal_state_precedence": [
+        "Instrument-Invalid",
+        "Not-Estimable",
+        "Property-Unlicensed",
+        "Fit-Invalid",
+        "Admissible"
+      ],
+      "utility": {
+        "tstr_trtr_noninferior_upper_ratio": 1.1
+      }
+    },
+    "embargo_rows": 25,
+    "embargo_seconds": 125,
+    "generators": {
+      "ladder": [
+        {
+          "learned": false,
+          "order_preserving": false,
+          "role": "sampling_anchor",
+          "source": "real_row_resample"
+        },
+        {
+          "learned": false,
+          "order_preserving": true,
+          "role": "temporal_anchor",
+          "source": "real_contiguous_block"
+        },
+        {
+          "learned": false,
+          "order_preserving": false,
+          "role": "destruction_anchor",
+          "source": "independent_marginals"
+        },
+        {
+          "learned": false,
+          "order_preserving": false,
+          "role": "joint_destruction",
+          "source": "column_shuffle"
+        },
+        {
+          "learned": false,
+          "order_preserving": false,
+          "role": "mechanism",
+          "source": "hurdle_iid"
+        },
+        {
+          "learned": false,
+          "order_preserving": true,
+          "role": "mechanism",
+          "source": "independent_stitch"
+        },
+        {
+          "learned": false,
+          "order_preserving": true,
+          "role": "transparent_candidate",
+          "source": "shared_stitch"
+        },
+        {
+          "learned": true,
+          "order_preserving": false,
+          "role": "learned_control",
+          "source": "learned_gmm_overlay"
+        },
+        {
+          "learned": true,
+          "order_preserving": true,
+          "role": "learned_temporal",
+          "source": "learned_latent_var_overlay"
+        }
+      ],
+      "learned_scope": [
+        "iot__modbus__register_3_mean",
+        "iot__modbus__register_1_mean",
+        "iot__modbus__register_4_mean",
+        "iot__modbus__register_2_mean",
+        "iot__gps__longitude_mean",
+        "iot__gps__latitude_mean",
+        "iot__weather__humidity_mean",
+        "iot__thermostat__temperature_mean",
+        "iot__weather__temperature_mean",
+        "iot__weather__pressure_mean",
+        "iot__fridge__temperature_mean",
+        "iot__motion_light__light_on_fraction",
+        "iot__motion_light__motion_true_fraction",
+        "iot__fridge__condition_high_fraction",
+        "iot__thermostat__status_true_fraction",
+        "iot__garage__door_open_fraction",
+        "router__general__byte_count",
+        "router__general__packet_length_max",
+        "router__general__packet_count",
+        "router__general__packet_length_mean",
+        "router__general__packet_length_std",
+        "router__general__ipv4_count",
+        "router__general__tcp_count",
+        "router__general__ipv6_count",
+        "router__general__http_port_packets",
+        "router__general__packet_length_min",
+        "router__general__mqtt_port_packets",
+        "router__general__icmp_count",
+        "router__general__unique_endpoint_pair_count",
+        "router__general__udp_count",
+        "router__general__dns_port_packets",
+        "router__general__https_port_packets",
+        "router__iot_named__byte_count",
+        "router__iot_named__packet_length_max",
+        "router__iot_named__packet_length_std",
+        "router__iot_named__packet_length_mean",
+        "router__iot_named__packet_count",
+        "router__iot_named__ipv4_count",
+        "router__iot_named__tcp_count",
+        "router__iot_named__mqtt_port_packets",
+        "router__iot_named__packet_length_min",
+        "router__iot_named__https_port_packets",
+        "router__iot_named__arp_count",
+        "router__iot_named__udp_count",
+        "router__iot_named__dns_port_packets",
+        "router__iot_named__unique_endpoint_pair_count",
+        "router__iot_named__unique_src_ip_count",
+        "router__iot_named__unique_dst_ip_count"
+      ]
+    },
+    "p0": {
+      "block_minutes": 30,
+      "calibration_pairs": 5,
+      "min_block_coverage": 0.95,
+      "pairs": [
+        {
+          "a_block": 8,
+          "a_coverage": 1.0,
+          "a_start": 7200,
+          "b_block": 36,
+          "b_coverage": 0.9993826746940613,
+          "b_start": 17280,
+          "profile_distance": 8.062544459393605,
+          "role": "calibration"
+        },
+        {
+          "a_block": 5,
+          "a_coverage": 0.9999995827674866,
+          "a_start": 6120,
+          "b_block": 24,
+          "b_coverage": 1.0,
+          "b_start": 12960,
+          "profile_distance": 8.409337911960435,
+          "role": "qualification"
+        },
+        {
+          "a_block": 7,
+          "a_coverage": 1.0,
+          "a_start": 6840,
+          "b_block": 25,
+          "b_coverage": 0.9993826746940613,
+          "b_start": 13320,
+          "profile_distance": 8.412350583846889,
+          "role": "calibration"
+        },
+        {
+          "a_block": 10,
+          "a_coverage": 1.0,
+          "a_start": 7920,
+          "b_block": 21,
+          "b_coverage": 0.9993826746940613,
+          "b_start": 11880,
+          "profile_distance": 8.672877581199671,
+          "role": "qualification"
+        },
+        {
+          "a_block": 4,
+          "a_coverage": 0.9993826746940613,
+          "a_start": 5760,
+          "b_block": 34,
+          "b_coverage": 1.0,
+          "b_start": 16560,
+          "profile_distance": 8.77704765155863,
+          "role": "calibration"
+        },
+        {
+          "a_block": 14,
+          "a_coverage": 1.0,
+          "a_start": 9360,
+          "b_block": 31,
+          "b_coverage": 0.9993826746940613,
+          "b_start": 15480,
+          "profile_distance": 9.081770429762706,
+          "role": "qualification"
+        },
+        {
+          "a_block": 12,
+          "a_coverage": 1.0,
+          "a_start": 8640,
+          "b_block": 33,
+          "b_coverage": 0.9944444298744202,
+          "b_start": 16200,
+          "profile_distance": 9.338688170528043,
+          "role": "calibration"
+        },
+        {
+          "a_block": 15,
+          "a_coverage": 0.9993826746940613,
+          "a_start": 9720,
+          "b_block": 23,
+          "b_coverage": 0.9999995827674866,
+          "b_start": 12600,
+          "profile_distance": 9.372087886412544,
+          "role": "qualification"
+        },
+        {
+          "a_block": 11,
+          "a_coverage": 0.9993826746940613,
+          "a_start": 8280,
+          "b_block": 35,
+          "b_coverage": 0.9993826746940613,
+          "b_start": 16920,
+          "profile_distance": 9.672580881540728,
+          "role": "calibration"
+        },
+        {
+          "a_block": 6,
+          "a_coverage": 1.0,
+          "a_start": 6480,
+          "b_block": 26,
+          "b_coverage": 1.0,
+          "b_start": 13680,
+          "profile_distance": 9.687544411576807,
+          "role": "qualification"
+        }
+      ],
+      "qualification_pairs": 5,
+      "quality_rule": "distance <= median + 3*1.4826*MAD"
+    },
+    "primary_seeds": [
+      1337,
+      1338,
+      1339,
+      1340,
+      1341
+    ],
+    "primary_splits": [
+      {
+        "end_exclusive": 19872,
+        "end_sec": 99355,
+        "rows": 19872,
+        "split": "TRAIN",
+        "start": 0,
+        "start_sec": 0
+      },
+      {
+        "end_exclusive": 26521,
+        "end_sec": 132600,
+        "rows": 6624,
+        "split": "VAL",
+        "start": 19897,
+        "start_sec": 99485
+      },
+      {
+        "end_exclusive": 33170,
+        "end_sec": 165845,
+        "rows": 6624,
+        "split": "TEST",
+        "start": 26546,
+        "start_sec": 132730
+      }
+    ],
+    "protocol_sha256": "f89b99f2b6f1c96d0d54b072e5582758f0e5e9c9ab10d08dc418e552dc65129b",
+    "protocol_version": "TON_IoT_full_design_freeze_v2",
+    "robustness_origins": [
+      {
+        "origin": 0,
+        "role": "robustness_only_primary_registry_frozen",
+        "test_end": 24926,
+        "test_start": 19951,
+        "train_end": 14926,
+        "train_start": 0,
+        "val_end": 19926,
+        "val_start": 14951
+      },
+      {
+        "origin": 1,
+        "role": "robustness_only_primary_registry_frozen",
+        "test_end": 26585,
+        "test_start": 21610,
+        "train_end": 16585,
+        "train_start": 0,
+        "val_end": 21585,
+        "val_start": 16610
+      },
+      {
+        "origin": 2,
+        "role": "robustness_only_primary_registry_frozen",
+        "test_end": 28243,
+        "test_start": 23268,
+        "train_end": 18243,
+        "train_start": 0,
+        "val_end": 23243,
+        "val_start": 18268
+      }
+    ],
+    "state": "GO_FOR_FULL_RUN",
+    "step_seconds": 5,
+    "tasks": {
+      "admitted_capabilities": [
+        "cross_tier_dependency",
+        "cross_tier_future_response",
+        "network_burst_prediction",
+        "network_volume_forecast",
+        "state_transition_prediction"
+      ],
+      "admitted_count": 32,
+      "candidate_count": 155,
+      "registry_file": "tables/frozen_task_registry_v2.csv"
+    },
+    "test_policy": "not used during protocol design or VAL admission",
+    "uncertainty": {
+      "adjacent_rows_independent": false,
+      "aggregation_order": [
+        "seed",
+        "capability",
+        "semantic_family",
+        "task_card"
+      ],
+      "p0_bootstrap_axes": [
+        "matched_block_pair",
+        "seed"
+      ],
+      "population_generalisation": "not claimed",
+      "primary_randomness_unit": "seed",
+      "primary_seeds": [
+        1337,
+        1338,
+        1339,
+        1340,
+        1341
+      ],
+      "robustness_origins": "reported separately; never pooled with primary seeds"
+    }
+  },
+  "task_templates": [
+    {
+      "task_id": "C0009",
+      "axis": "temporal",
+      "capability": "state_transition_prediction",
+      "target": "iot__motion_light__motion_true_fraction",
+      "predictors": [
+        "iot__motion_light__motion_true_fraction"
+      ],
+      "lag_rows": 1,
+      "horizon_rows": 1,
+      "task_type": "transition_classification",
+      "train_threshold": 0.5
+    },
+    {
+      "task_id": "C0013",
+      "axis": "temporal",
+      "capability": "state_transition_prediction",
+      "target": "iot__motion_light__light_on_fraction",
+      "predictors": [
+        "iot__motion_light__light_on_fraction"
+      ],
+      "lag_rows": 1,
+      "horizon_rows": 1,
+      "task_type": "transition_classification",
+      "train_threshold": 0.5
+    },
+    {
+      "task_id": "C0021",
+      "axis": "temporal",
+      "capability": "state_transition_prediction",
+      "target": "iot__thermostat__status_true_fraction",
+      "predictors": [
+        "iot__thermostat__status_true_fraction"
+      ],
+      "lag_rows": 1,
+      "horizon_rows": 1,
+      "task_type": "transition_classification",
+      "train_threshold": 0.5
+    },
+    {
+      "task_id": "C0033",
+      "axis": "temporal",
+      "capability": "network_burst_prediction",
+      "target": "router__general__byte_count",
+      "predictors": [
+        "router__general__byte_count"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 1,
+      "task_type": "threshold_classification",
+      "train_threshold": 538177.3
+    },
+    {
+      "task_id": "C0034",
+      "axis": "temporal",
+      "capability": "network_volume_forecast",
+      "target": "router__general__packet_length_max",
+      "predictors": [
+        "router__general__packet_length_max"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 1,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0035",
+      "axis": "temporal",
+      "capability": "network_volume_forecast",
+      "target": "router__general__packet_length_max",
+      "predictors": [
+        "router__general__packet_length_max"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 3,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0037",
+      "axis": "temporal",
+      "capability": "network_burst_prediction",
+      "target": "router__general__packet_length_max",
+      "predictors": [
+        "router__general__packet_length_max"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 1,
+      "task_type": "threshold_classification",
+      "train_threshold": 5669.0
+    },
+    {
+      "task_id": "C0038",
+      "axis": "temporal",
+      "capability": "network_volume_forecast",
+      "target": "router__general__packet_count",
+      "predictors": [
+        "router__general__packet_count"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 1,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0039",
+      "axis": "temporal",
+      "capability": "network_volume_forecast",
+      "target": "router__general__packet_count",
+      "predictors": [
+        "router__general__packet_count"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 3,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0040",
+      "axis": "temporal",
+      "capability": "network_volume_forecast",
+      "target": "router__general__packet_count",
+      "predictors": [
+        "router__general__packet_count"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 12,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0041",
+      "axis": "temporal",
+      "capability": "network_burst_prediction",
+      "target": "router__general__packet_count",
+      "predictors": [
+        "router__general__packet_count"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 1,
+      "task_type": "threshold_classification",
+      "train_threshold": 935.0
+    },
+    {
+      "task_id": "C0044",
+      "axis": "temporal",
+      "capability": "network_volume_forecast",
+      "target": "router__general__packet_length_mean",
+      "predictors": [
+        "router__general__packet_length_mean"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 12,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0045",
+      "axis": "temporal",
+      "capability": "network_burst_prediction",
+      "target": "router__general__packet_length_mean",
+      "predictors": [
+        "router__general__packet_length_mean"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 1,
+      "task_type": "threshold_classification",
+      "train_threshold": 589.3259765625
+    },
+    {
+      "task_id": "C0049",
+      "axis": "temporal",
+      "capability": "network_burst_prediction",
+      "target": "router__general__packet_length_std",
+      "predictors": [
+        "router__general__packet_length_std"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 1,
+      "task_type": "threshold_classification",
+      "train_threshold": 400.6561065673829
+    },
+    {
+      "task_id": "C0050",
+      "axis": "temporal",
+      "capability": "network_volume_forecast",
+      "target": "router__general__ipv4_count",
+      "predictors": [
+        "router__general__ipv4_count"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 1,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0051",
+      "axis": "temporal",
+      "capability": "network_volume_forecast",
+      "target": "router__general__ipv4_count",
+      "predictors": [
+        "router__general__ipv4_count"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 3,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0052",
+      "axis": "temporal",
+      "capability": "network_volume_forecast",
+      "target": "router__general__ipv4_count",
+      "predictors": [
+        "router__general__ipv4_count"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 12,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0053",
+      "axis": "temporal",
+      "capability": "network_burst_prediction",
+      "target": "router__general__ipv4_count",
+      "predictors": [
+        "router__general__ipv4_count"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 1,
+      "task_type": "threshold_classification",
+      "train_threshold": 173.0
+    },
+    {
+      "task_id": "C0057",
+      "axis": "temporal",
+      "capability": "network_burst_prediction",
+      "target": "router__general__tcp_count",
+      "predictors": [
+        "router__general__tcp_count"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 1,
+      "task_type": "threshold_classification",
+      "train_threshold": 134.0
+    },
+    {
+      "task_id": "C0061",
+      "axis": "temporal",
+      "capability": "network_burst_prediction",
+      "target": "router__general__ipv6_count",
+      "predictors": [
+        "router__general__ipv6_count"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 1,
+      "task_type": "threshold_classification",
+      "train_threshold": 7.0
+    },
+    {
+      "task_id": "C0065",
+      "axis": "temporal",
+      "capability": "network_volume_forecast",
+      "target": "router__general__packet_length_min",
+      "predictors": [
+        "router__general__packet_length_min"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 1,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0066",
+      "axis": "temporal",
+      "capability": "network_volume_forecast",
+      "target": "router__general__packet_length_min",
+      "predictors": [
+        "router__general__packet_length_min"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 3,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0067",
+      "axis": "temporal",
+      "capability": "network_volume_forecast",
+      "target": "router__general__packet_length_min",
+      "predictors": [
+        "router__general__packet_length_min"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 12,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0071",
+      "axis": "temporal",
+      "capability": "network_burst_prediction",
+      "target": "router__iot_named__mqtt_port_packets",
+      "predictors": [
+        "router__iot_named__mqtt_port_packets"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 1,
+      "task_type": "threshold_classification",
+      "train_threshold": 47.0
+    },
+    {
+      "task_id": "C0078",
+      "axis": "temporal",
+      "capability": "network_volume_forecast",
+      "target": "router__iot_named__arp_count",
+      "predictors": [
+        "router__iot_named__arp_count"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 12,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0079",
+      "axis": "temporal",
+      "capability": "network_burst_prediction",
+      "target": "router__iot_named__arp_count",
+      "predictors": [
+        "router__iot_named__arp_count"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 1,
+      "task_type": "threshold_classification",
+      "train_threshold": 9.0
+    },
+    {
+      "task_id": "C0081",
+      "axis": "temporal",
+      "capability": "network_volume_forecast",
+      "target": "router__iot_named__udp_count",
+      "predictors": [
+        "router__iot_named__udp_count"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 3,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0082",
+      "axis": "temporal",
+      "capability": "network_volume_forecast",
+      "target": "router__iot_named__udp_count",
+      "predictors": [
+        "router__iot_named__udp_count"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 12,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0085",
+      "axis": "temporal",
+      "capability": "network_volume_forecast",
+      "target": "router__iot_named__dns_port_packets",
+      "predictors": [
+        "router__iot_named__dns_port_packets"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 3,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0086",
+      "axis": "temporal",
+      "capability": "network_volume_forecast",
+      "target": "router__iot_named__dns_port_packets",
+      "predictors": [
+        "router__iot_named__dns_port_packets"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 12,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0149",
+      "axis": "contemporaneous",
+      "capability": "cross_tier_dependency",
+      "target": "router__general__ipv4_count",
+      "predictors": [
+        "router__iot_named__mqtt_port_packets"
+      ],
+      "lag_rows": 0,
+      "horizon_rows": 0,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0150",
+      "axis": "temporal",
+      "capability": "cross_tier_future_response",
+      "target": "router__general__ipv4_count",
+      "predictors": [
+        "router__iot_named__mqtt_port_packets"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 1,
+      "task_type": "regression",
+      "train_threshold": null
+    }
+  ],
+  "source_files": {}
+}

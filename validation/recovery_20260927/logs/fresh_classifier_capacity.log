@@ -1,0 +1,34 @@
+Supplementary: targeted, cell 4
+ canonical_cell                            name                                                           sha256  lines
+              2                  _c2st_auc_once aedbbd1b5172778a49b83ab8d3984b15539ef1935c9edcb890289fcb6aa7e4e5     38
+              2   _permute_labels_within_groups af91fd0252bb481acfc77f9c28862d5fdac7e680f3e88628729ca1511a7cddd1     12
+              2              _valid_group_split 4fef00be792a4fc0f6c86ea5fc074e6d96ca7e14a63be329391e754c37e07d15      6
+              2                 autocorrelation 6b292567b3804ead2c13abcb9d8e1588fa6dd0eb3076950cf700912de774a3ad      5
+              2    build_controlled_iot_fixture 5ff29edb3d1f80b7ccb33bd71af43341f36ac58f1e3d482dc8e1a255ed57bedc     33
+              2                    c2st_profile 3f8bb76793c145fae6236ef0d55b6cf6e3d789993496b822934772ed6125724f     67
+              2     coupling_profile_from_pairs 507db08ec7dcce9f62267555c9c9aa181099c2281c56e014d146eeb910e278a5     46
+              2 deterministic_subsample_indices 8f2b1dea01733c221ef83854e0464296d31f4b04c2fcf232c58e7966976790f4      5
+              2                marginal_profile 76259a53e55ec7540ea6d23c795746153b0c3312a9e2674f721256337bec27e5     29
+              2                 perturb_fixture a83d734c38893f421a60a240ecb2db05cf718a06ee2873ac8340b448ad441ea1     42
+              2                rank_correlation ee9f591c3378c8885fc351e4706b3a23efbd23acdeb73ecc20a1ab1c940b2bde      6
+              2                      robust_iqr b0e9f2e1ada1a4d6260817dcbb9657f95075e5c4bf1890899911236af6115289      6
+Loaded exact canonical definitions: 43
+Supplementary: targeted, cell 5
+Frozen metrics rows: 60
+Frozen utility rows: 20895
+Frozen valid task-model cards: 199
+Supplementary: targeted, cell 12
+        condition  row_cap_total  c2st_n_per_class  c2st_rf_auc  c2st_linear_auc  c2st_max_auc  c2st_null_p95  c2st_excess_over_null_p95  c2st_permutation_p
+same_distribution           2000              1000     0.508200         0.534466      0.534466       0.519772                   0.014694                 0.1
+same_distribution           5000              2500     0.515952         0.506286      0.515952       0.532463                   0.000000                 0.3
+same_distribution          10000              5000     0.512538         0.500894      0.512538       0.518492                   0.000000                 0.3
+same_distribution          12000              6000     0.505208         0.503804      0.505208       0.512371                   0.000000                 0.6
+same_distribution          20000             10000     0.501452         0.507483      0.507483       0.518699                   0.000000                 0.5
+same_distribution          40000             20000     0.502231         0.500345      0.502231       0.510436                   0.000000                 0.9
+    marginal_0.25           2000              1000     1.000000         0.997429      1.000000       0.535441                   0.464559                 0.1
+    marginal_0.25           5000              2500     0.999999         0.999299      0.999999       0.531968                   0.468031                 0.1
+    marginal_0.25          10000              5000     0.999999         0.999375      0.999999       0.515187                   0.484812                 0.1
+    marginal_0.25          12000              6000     0.999999         0.999026      0.999999       0.512917                   0.487082                 0.1
+    marginal_0.25          20000             10000     1.000000         0.999392      1.000000       0.519002                   0.480998                 0.1
+    marginal_0.25          40000             20000     1.000000         0.999437      1.000000       0.505209                   0.494791                 0.1
+validation_current/supplementary/6d2fbd13fff0f5f1/classifier_capacity

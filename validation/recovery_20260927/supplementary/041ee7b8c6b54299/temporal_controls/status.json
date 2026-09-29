@@ -1,0 +1,9 @@
+{
+  "execution_status": "COMPLETED",
+  "comparison": "PASS",
+  "checks": 3,
+  "failed": 0,
+  "stage": "temporal_controls",
+  "new_fits": false,
+  "scope": "Recovered fixed supplementary methods. Historical canonical task/licence records remain explicit inputs."
+}

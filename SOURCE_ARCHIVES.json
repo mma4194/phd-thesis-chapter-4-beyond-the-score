@@ -1,0 +1,38 @@
+[
+  {
+    "archive": "AUTHOR_RESULTS_TO_RETURN.zip",
+    "sha256": "298868ca2094582b5629d21b2d102987ae735506a1f93099b8907f314c0f93dd",
+    "members": 67,
+    "uncompressed_bytes": 4037511
+  },
+  {
+    "archive": "TIOT_Anonymous_Artifact_v1.zip",
+    "sha256": "8cc8f2c183a29cefd4cbf8ef400c0df3fe73668c657d27237b692bf5315b9d53",
+    "members": 182,
+    "uncompressed_bytes": 28316265
+  },
+  {
+    "archive": "TIOT_Black_Overleaf.zip",
+    "sha256": "1bcecee9e404a096db812fe0226ce7ee81ac5c332c8b3628480c682f8a22e1bc",
+    "members": 16,
+    "uncompressed_bytes": 1062938
+  },
+  {
+    "archive": "TIOT_FINALISATION(2).zip",
+    "sha256": "98aa22ae3b0e462e46e28032b26b2d31288796f4a715521c7b498c7531267820",
+    "members": 17153,
+    "uncompressed_bytes": 277645995
+  },
+  {
+    "archive": "notebooks(1).zip",
+    "sha256": "c69660c05ecb70cdfa528f2465346c956adc3acf77e4520cd86b5c01844995b0",
+    "members": 10,
+    "uncompressed_bytes": 641210
+  },
+  {
+    "archive": "notebooks_2.zip",
+    "sha256": "46abbcc2d7f50b18ac88ed74aa42da383ec4722483c87e77322c3f7f6cc144f5",
+    "members": 17,
+    "uncompressed_bytes": 18270273
+  }
+]

@@ -1,0 +1,4 @@
+quantity,rows,mismatches,max_absolute_error,atol,rtol
+skill,14,0,8.326672684688674e-17,1e-10,1e-09
+lo,14,0,8.326672684688674e-17,1e-10,1e-09
+hi,14,0,7.632783294297951e-17,1e-10,1e-09

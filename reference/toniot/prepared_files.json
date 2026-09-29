@@ -1,0 +1,19 @@
+{
+  "capture_metadata.json": "fe3ff5ca43ce33475388455870e32826abe6fb31aff61f8a73a722db707fb057",
+  "feature_availability.csv": "713f1e5271d1f8a698422b0ef9a98792ab0baf916bec5bb456ad7bd41b8e041a",
+  "general_5s_features.csv.gz": "7f4ade837bf1ab9a0a1785986a80b6eb2d9fcd0190b02461e6804b655008d37f",
+  "iot_named_5s_features.csv.gz": "0297d763720c7ee5902069d1b409e708d794732298b3b6b4363c95aa0d9ac6c2",
+  "network_coverage_diagnostics.csv": "1e15b1dfa94e4ae147672857af6ecb68a87152d6c224dc608c29cdfba58a23c2",
+  "preparation_protocol.json": "1f91a462150d13da3bee57fd460610bfae2a1eb09ac37f6c5e744af2ae7b5754",
+  "preparation_status.json": "105d04d285831e3ca2d29523b982e1c0f5a83b200a0ab9d6eacdf3e403e0faef",
+  "telemetry_observed_counts.csv.gz": "acf32b593a10ee83fc0f1b0c28abf44ed1c8da8608601bf1f3c1230fd346036a",
+  "TON_IoT_normal_5s_canonical_rebuilt.csv.gz": "8048374314f641dcdba7fbcad5fc1423ea6cf1b9cd6b93984516b1ad52cfcfc0",
+  "TON_IoT_normal_5s_observed_mask.csv.gz": "8ab22b23f3b4e0fee0bfae986f2e57a8d39ccaf96b823e6d1f969681323b6866",
+  "TON_IoT_normal_5s_preimputation_rebuilt.csv.gz": "2d154d5463c3e0f8a0bf3cbc2aae637a559d1e1c50aa391c6619159a62b08563",
+  "telemetry_audit/fridge_date_repair_all_rows.csv.gz": "153bc97e77c66b3799418594f5c9662c668cb065c103c246f3daa6a722a07e38",
+  "telemetry_audit/malformed_original_lines.csv": "3edf437e2724b855fc3258a77d6eea5b9f855fd8c840a56382b6eae8840cf9a1",
+  "telemetry_audit/measurement_correspondence.csv": "93b5fad1c2476f67e5e3644a41163297437369c88741cd43a081342bc70ec36d",
+  "telemetry_audit/source_date_tokens.csv": "56607510fdab74466e37a13bcb02e81c3e052e1be29fac8b7f3de2e38cc04cd5",
+  "telemetry_audit/telemetry_families.csv": "51ab5d689b71272170dadeaaf50c896fb077a8795a16016f0e32db7265d02d08",
+  "telemetry_audit/telemetry_pairs.csv": "b9943f672c5ded7b082ab8e1e0fcbfcf3231218f5e61c2e1348986c5e76a7a7e"
+}

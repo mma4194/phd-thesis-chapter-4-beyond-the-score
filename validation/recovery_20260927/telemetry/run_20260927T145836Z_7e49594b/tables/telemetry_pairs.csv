@@ -1,0 +1,22 @@
+file,family,part,filtered_rows,original_rows,malformed_original_lines,exact_measurement_match,match_within_declared_rounding,timestamp_basis,invalid_before,repaired_rows,invalid_after,original_timestamp_disagreements_after,duplicate_timestamp_rows,duplicate_time_and_value_rows,backward_timestamp_steps,first_utc_coordinate,last_utc_coordinate
+IoT_normal_fridge_1,fridge,1,40057,40057,0,True,True,Original GMT log; row correspondence verified,0,0,0,0.0,30482,5872,0,2019-03-31 12:36:52+00:00,2019-04-02 02:46:49+00:00
+IoT_normal_fridge_2,fridge,2,190162,190162,0,True,True,Original GMT log; row correspondence verified,0,0,0,0.0,184224,85229,0,2019-04-02 03:57:10+00:00,2019-04-02 09:38:50+00:00
+IoT_normal_fridge_3,fridge,3,153150,153150,0,True,True,Original GMT log; row correspondence verified,28200,28200,0,0.0,111329,3175,0,2019-04-02 09:43:12+00:00,2019-04-04 07:50:01+00:00
+IoT_normal_Garage_door_1,Garage_door,1,40057,56948,0,False,False,Filtered clock only; UTC coordinate convention is not independent clock validation,0,0,0,,30482,28681,0,2019-03-31 12:36:52+00:00,2019-04-02 02:46:49+00:00
+IoT_normal_Garage_door_2,Garage_door,2,188978,188978,0,True,True,Filtered clock only; UTC coordinate convention is not independent clock validation,0,0,0,,184224,182727,0,2019-04-02 03:57:10+00:00,2019-04-02 08:49:29+00:00
+IoT_normal_Garage_door_3,Garage_door,3,153150,124216,0,False,False,Filtered clock only; UTC coordinate convention is not independent clock validation,0,0,0,,111329,101792,0,2019-04-02 09:43:12+00:00,2019-04-04 07:50:01+00:00
+IoT_normal_GPS_Tracker_1,GPS_Tracker,1,48492,48492,0,False,True,Original GMT log; row correspondence verified,0,0,0,0.0,23098,0,0,2019-03-31 12:36:52+00:00,2019-04-02 02:46:49+00:00
+IoT_normal_GPS_Tracker_2,GPS_Tracker,2,188979,188979,0,False,True,Original GMT log; row correspondence verified,0,0,0,0.0,183244,2,0,2019-04-02 03:57:10+00:00,2019-04-02 09:38:50+00:00
+IoT_normal_GPS_Tracker_3,GPS_Tracker,3,153147,153147,0,False,True,Original GMT log; row correspondence verified,0,0,0,0.0,108500,0,0,2019-04-02 09:43:13+00:00,2019-04-04 07:50:01+00:00
+IoT_normal_modbus_1,modbus,1,48492,48805,1,False,False,Filtered clock only; UTC coordinate convention is not independent clock validation,0,0,0,,23098,17320,0,2019-03-31 12:36:52+00:00,2019-04-02 02:46:49+00:00
+IoT_normal_modbus_2,modbus,2,12901,12901,0,True,True,Filtered clock only; UTC coordinate convention is not independent clock validation,0,0,0,,12506,9377,0,2019-04-02 03:57:10+00:00,2019-04-02 04:03:46+00:00
+IoT_normal_modbus_3,modbus,3,153147,165694,0,False,False,Filtered clock only; UTC coordinate convention is not independent clock validation,0,0,0,,108500,81369,0,2019-04-02 09:43:13+00:00,2019-04-04 07:50:01+00:00
+IoT_normal_Motion_Light_1,Motion_Light,1,45137,45137,0,True,True,Original tabular clock agrees row for row; timezone is unstated,0,0,0,0.0,23421,20419,0,2019-03-31 12:36:52+00:00,2019-04-02 02:46:52+00:00
+IoT_normal_Motion_Light_2,Motion_Light,2,147745,147745,0,True,True,Original GMT log; row correspondence verified,0,0,0,0.0,143259,141734,0,2019-04-02 03:57:10+00:00,2019-04-02 09:38:42+00:00
+IoT_normal_Motion_Light_3,Motion_Light,3,98301,98301,0,True,True,Original GMT log; row correspondence verified,0,0,0,0.0,20093,11150,0,2019-04-02 09:43:16+00:00,2019-04-04 07:49:59+00:00
+IoT_normal_Thermostat_1,Thermostat,1,40049,40049,0,False,True,Filtered clock only; UTC coordinate convention is not independent clock validation,0,0,0,,22375,819,0,2019-03-31 12:36:52+00:00,2019-04-02 00:27:59+00:00
+IoT_normal_Thermostat_2,Thermostat,2,152833,189881,0,False,False,Filtered clock only; UTC coordinate convention is not independent clock validation,0,0,0,,144305,6993,0,2019-04-02 00:28:00+00:00,2019-04-02 09:38:42+00:00
+IoT_normal_Thermostat_3,Thermostat,3,98301,124214,0,False,False,Filtered clock only; UTC coordinate convention is not independent clock validation,0,0,0,,20093,58,0,2019-04-02 09:43:16+00:00,2019-04-04 07:49:59+00:00
+IoT_normal_weather_1,weather,1,56947,56947,0,False,True,Original GMT log; row correspondence verified,0,0,0,0.0,36284,0,0,2019-03-31 12:36:52+00:00,2019-04-02 02:46:49+00:00
+IoT_normal_weather_2,weather,2,189090,189090,0,False,True,Original GMT log; row correspondence verified,0,0,0,0.0,184304,0,0,2019-04-02 03:57:10+00:00,2019-04-02 09:38:49+00:00
+IoT_normal_weather_3,weather,3,153152,153152,0,False,True,Original GMT log; row correspondence verified,0,0,0,0.0,106356,0,0,2019-04-02 09:43:06+00:00,2019-04-04 07:50:01+00:00

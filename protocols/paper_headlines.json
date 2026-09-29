@@ -1,0 +1,362 @@
+[
+  {
+    "id": "residential_future_real_resample_loss_ratio",
+    "table": "residential_summary_replay",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'real_resample'",
+    "column": "loss_ratio",
+    "decimals": 2,
+    "paper_value": 1.1
+  },
+  {
+    "id": "residential_future_real_resample_ci_lo",
+    "table": "residential_summary_replay",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'real_resample'",
+    "column": "ci_lo",
+    "decimals": 2,
+    "paper_value": 1.02
+  },
+  {
+    "id": "residential_future_real_resample_ci_hi",
+    "table": "residential_summary_replay",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'real_resample'",
+    "column": "ci_hi",
+    "decimals": 2,
+    "paper_value": 1.21
+  },
+  {
+    "id": "residential_future_real_block_loss_ratio",
+    "table": "residential_summary_replay",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'real_block'",
+    "column": "loss_ratio",
+    "decimals": 2,
+    "paper_value": 2.04
+  },
+  {
+    "id": "residential_future_real_block_ci_lo",
+    "table": "residential_summary_replay",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'real_block'",
+    "column": "ci_lo",
+    "decimals": 2,
+    "paper_value": 1.94
+  },
+  {
+    "id": "residential_future_real_block_ci_hi",
+    "table": "residential_summary_replay",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'real_block'",
+    "column": "ci_hi",
+    "decimals": 2,
+    "paper_value": 2.11
+  },
+  {
+    "id": "residential_future_independent_marginal_loss_ratio",
+    "table": "residential_summary_replay",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'independent_marginal'",
+    "column": "loss_ratio",
+    "decimals": 2,
+    "paper_value": 95.17
+  },
+  {
+    "id": "residential_future_independent_marginal_ci_lo",
+    "table": "residential_summary_replay",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'independent_marginal'",
+    "column": "ci_lo",
+    "decimals": 2,
+    "paper_value": 94.07
+  },
+  {
+    "id": "residential_future_independent_marginal_ci_hi",
+    "table": "residential_summary_replay",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'independent_marginal'",
+    "column": "ci_hi",
+    "decimals": 2,
+    "paper_value": 96.28
+  },
+  {
+    "id": "residential_future_column_shuffle_loss_ratio",
+    "table": "residential_summary_replay",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'column_shuffle'",
+    "column": "loss_ratio",
+    "decimals": 2,
+    "paper_value": 96.51
+  },
+  {
+    "id": "residential_future_column_shuffle_ci_lo",
+    "table": "residential_summary_replay",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'column_shuffle'",
+    "column": "ci_lo",
+    "decimals": 2,
+    "paper_value": 93.8
+  },
+  {
+    "id": "residential_future_column_shuffle_ci_hi",
+    "table": "residential_summary_replay",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'column_shuffle'",
+    "column": "ci_hi",
+    "decimals": 2,
+    "paper_value": 100.16
+  },
+  {
+    "id": "residential_future_hurdle_iid_loss_ratio",
+    "table": "residential_summary_replay",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'hurdle_iid'",
+    "column": "loss_ratio",
+    "decimals": 2,
+    "paper_value": 95.86
+  },
+  {
+    "id": "residential_future_hurdle_iid_ci_lo",
+    "table": "residential_summary_replay",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'hurdle_iid'",
+    "column": "ci_lo",
+    "decimals": 2,
+    "paper_value": 94.83
+  },
+  {
+    "id": "residential_future_hurdle_iid_ci_hi",
+    "table": "residential_summary_replay",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'hurdle_iid'",
+    "column": "ci_hi",
+    "decimals": 2,
+    "paper_value": 96.77
+  },
+  {
+    "id": "residential_future_hurdle_independent_stitch_loss_ratio",
+    "table": "residential_summary_replay",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'hurdle_independent_stitch'",
+    "column": "loss_ratio",
+    "decimals": 2,
+    "paper_value": 96.42
+  },
+  {
+    "id": "residential_future_hurdle_independent_stitch_ci_lo",
+    "table": "residential_summary_replay",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'hurdle_independent_stitch'",
+    "column": "ci_lo",
+    "decimals": 2,
+    "paper_value": 93.66
+  },
+  {
+    "id": "residential_future_hurdle_independent_stitch_ci_hi",
+    "table": "residential_summary_replay",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'hurdle_independent_stitch'",
+    "column": "ci_hi",
+    "decimals": 2,
+    "paper_value": 98.84
+  },
+  {
+    "id": "residential_future_hurdle_shared_stitch_loss_ratio",
+    "table": "residential_summary_replay",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'hurdle_shared_stitch'",
+    "column": "loss_ratio",
+    "decimals": 2,
+    "paper_value": 19.06
+  },
+  {
+    "id": "residential_future_hurdle_shared_stitch_ci_lo",
+    "table": "residential_summary_replay",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'hurdle_shared_stitch'",
+    "column": "ci_lo",
+    "decimals": 2,
+    "paper_value": 18.6
+  },
+  {
+    "id": "residential_future_hurdle_shared_stitch_ci_hi",
+    "table": "residential_summary_replay",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'hurdle_shared_stitch'",
+    "column": "ci_hi",
+    "decimals": 2,
+    "paper_value": 19.61
+  },
+  {
+    "id": "residential_future_learned_gmm_overlay_loss_ratio",
+    "table": "residential_summary_replay",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'learned_gmm_overlay'",
+    "column": "loss_ratio",
+    "decimals": 2,
+    "paper_value": 14.12
+  },
+  {
+    "id": "residential_future_learned_gmm_overlay_ci_lo",
+    "table": "residential_summary_replay",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'learned_gmm_overlay'",
+    "column": "ci_lo",
+    "decimals": 2,
+    "paper_value": 12.81
+  },
+  {
+    "id": "residential_future_learned_gmm_overlay_ci_hi",
+    "table": "residential_summary_replay",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'learned_gmm_overlay'",
+    "column": "ci_hi",
+    "decimals": 2,
+    "paper_value": 15.73
+  },
+  {
+    "id": "residential_future_learned_latent_var_overlay_loss_ratio",
+    "table": "residential_summary_replay",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'learned_latent_var_overlay'",
+    "column": "loss_ratio",
+    "decimals": 2,
+    "paper_value": 11.81
+  },
+  {
+    "id": "residential_future_learned_latent_var_overlay_ci_lo",
+    "table": "residential_summary_replay",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'learned_latent_var_overlay'",
+    "column": "ci_lo",
+    "decimals": 2,
+    "paper_value": 10.43
+  },
+  {
+    "id": "residential_future_learned_latent_var_overlay_ci_hi",
+    "table": "residential_summary_replay",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'learned_latent_var_overlay'",
+    "column": "ci_hi",
+    "decimals": 2,
+    "paper_value": 13.42
+  },
+  {
+    "id": "residential_skill_hurdle_shared_stitch_direct_synthetic_skill",
+    "table": "residential_synthetic_skill",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'hurdle_shared_stitch'",
+    "column": "direct_synthetic_skill",
+    "decimals": 3,
+    "paper_value": 0.523
+  },
+  {
+    "id": "residential_skill_hurdle_shared_stitch_skill_lo",
+    "table": "residential_synthetic_skill",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'hurdle_shared_stitch'",
+    "column": "skill_lo",
+    "decimals": 3,
+    "paper_value": 0.439
+  },
+  {
+    "id": "residential_skill_hurdle_shared_stitch_skill_hi",
+    "table": "residential_synthetic_skill",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'hurdle_shared_stitch'",
+    "column": "skill_hi",
+    "decimals": 3,
+    "paper_value": 0.606
+  },
+  {
+    "id": "residential_skill_learned_gmm_overlay_direct_synthetic_skill",
+    "table": "residential_synthetic_skill",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'learned_gmm_overlay'",
+    "column": "direct_synthetic_skill",
+    "decimals": 3,
+    "paper_value": 0.545
+  },
+  {
+    "id": "residential_skill_learned_gmm_overlay_skill_lo",
+    "table": "residential_synthetic_skill",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'learned_gmm_overlay'",
+    "column": "skill_lo",
+    "decimals": 3,
+    "paper_value": 0.496
+  },
+  {
+    "id": "residential_skill_learned_gmm_overlay_skill_hi",
+    "table": "residential_synthetic_skill",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'learned_gmm_overlay'",
+    "column": "skill_hi",
+    "decimals": 3,
+    "paper_value": 0.594
+  },
+  {
+    "id": "residential_skill_learned_latent_var_overlay_direct_synthetic_skill",
+    "table": "residential_synthetic_skill",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'learned_latent_var_overlay'",
+    "column": "direct_synthetic_skill",
+    "decimals": 3,
+    "paper_value": 0.599
+  },
+  {
+    "id": "residential_skill_learned_latent_var_overlay_skill_lo",
+    "table": "residential_synthetic_skill",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'learned_latent_var_overlay'",
+    "column": "skill_lo",
+    "decimals": 3,
+    "paper_value": 0.483
+  },
+  {
+    "id": "residential_skill_learned_latent_var_overlay_skill_hi",
+    "table": "residential_synthetic_skill",
+    "query": "matching == 'balanced_observed' and period == 'future' and source == 'learned_latent_var_overlay'",
+    "column": "skill_hi",
+    "decimals": 3,
+    "paper_value": 0.682
+  },
+  {
+    "id": "toniot_future_real_contiguous_block_loss_ratio",
+    "table": "toniot_utility",
+    "query": "regime == 'primary' and period == 'future' and source == 'real_contiguous_block'",
+    "column": "loss_ratio",
+    "decimals": 3,
+    "paper_value": 0.921
+  },
+  {
+    "id": "toniot_future_real_contiguous_block_lo",
+    "table": "toniot_utility",
+    "query": "regime == 'primary' and period == 'future' and source == 'real_contiguous_block'",
+    "column": "lo",
+    "decimals": 3,
+    "paper_value": 0.861
+  },
+  {
+    "id": "toniot_future_real_contiguous_block_hi",
+    "table": "toniot_utility",
+    "query": "regime == 'primary' and period == 'future' and source == 'real_contiguous_block'",
+    "column": "hi",
+    "decimals": 3,
+    "paper_value": 0.989
+  },
+  {
+    "id": "toniot_future_independent_stitch_loss_ratio",
+    "table": "toniot_utility",
+    "query": "regime == 'primary' and period == 'future' and source == 'independent_stitch'",
+    "column": "loss_ratio",
+    "decimals": 3,
+    "paper_value": 1.33
+  },
+  {
+    "id": "toniot_future_independent_stitch_lo",
+    "table": "toniot_utility",
+    "query": "regime == 'primary' and period == 'future' and source == 'independent_stitch'",
+    "column": "lo",
+    "decimals": 3,
+    "paper_value": 1.272
+  },
+  {
+    "id": "toniot_future_independent_stitch_hi",
+    "table": "toniot_utility",
+    "query": "regime == 'primary' and period == 'future' and source == 'independent_stitch'",
+    "column": "hi",
+    "decimals": 3,
+    "paper_value": 1.393
+  },
+  {
+    "id": "toniot_future_shared_stitch_loss_ratio",
+    "table": "toniot_utility",
+    "query": "regime == 'primary' and period == 'future' and source == 'shared_stitch'",
+    "column": "loss_ratio",
+    "decimals": 3,
+    "paper_value": 1.396
+  },
+  {
+    "id": "toniot_future_shared_stitch_lo",
+    "table": "toniot_utility",
+    "query": "regime == 'primary' and period == 'future' and source == 'shared_stitch'",
+    "column": "lo",
+    "decimals": 3,
+    "paper_value": 1.375
+  },
+  {
+    "id": "toniot_future_shared_stitch_hi",
+    "table": "toniot_utility",
+    "query": "regime == 'primary' and period == 'future' and source == 'shared_stitch'",
+    "column": "hi",
+    "decimals": 3,
+    "paper_value": 1.415
+  }
+]

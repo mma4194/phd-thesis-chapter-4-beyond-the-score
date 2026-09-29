@@ -1,0 +1,10 @@
+check,passed,detail
+WASS2_feature_level_unique_keys,True,
+WASS2_feature_level_same_keys,True,135 joined records
+WASS2_feature_level_values,True,7 quantities compared
+C2ST2_primary_27_rows_unique_keys,True,
+C2ST2_primary_27_rows_same_keys,True,27 joined records
+C2ST2_primary_27_rows_values,True,20 quantities compared
+C2ST2_classifier_selection_sensitivity_unique_keys,True,
+C2ST2_classifier_selection_sensitivity_same_keys,True,6 joined records
+C2ST2_classifier_selection_sensitivity_values,True,2 quantities compared

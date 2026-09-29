@@ -1,0 +1,54 @@
+{
+  "fixture_seeds": [
+    19,
+    29,
+    39
+  ],
+  "rows_per_fixture": 24000,
+  "severities": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "target_metrics": {
+    "marginal": [
+      "marginal_ks_mean",
+      "wasserstein_iqr_mean",
+      "zero_rate_mae",
+      "c2st_max_auc"
+    ],
+    "order": [
+      "acf_abs_error_mean",
+      "spectral_l1_mean",
+      "transition_rate_mae"
+    ],
+    "coupling": [
+      "coupling_corr_mae",
+      "coupling_coactivation_mae",
+      "c2st_max_auc"
+    ]
+  },
+  "endpoint_minimum": {
+    "marginal_ks_mean": 0.02,
+    "wasserstein_iqr_mean": 0.05,
+    "zero_rate_mae": 0.002,
+    "c2st_max_auc": 0.02,
+    "acf_abs_error_mean": 0.01,
+    "spectral_l1_mean": 0.03,
+    "transition_rate_mae": 0.0005,
+    "coupling_corr_mae": 0.02,
+    "coupling_coactivation_mae": 0.0005
+  },
+  "qualification_threshold": 0.8,
+  "c2st_null_auc_max_legacy_diagnostic": 0.6,
+  "c2st_null_excess_max": 0.03,
+  "c2st_contract": {
+    "row_cap": 12000,
+    "n_splits": 3,
+    "rf_trees": 100,
+    "null_trees": 25
+  },
+  "c2st_grouping_contract": "real and synthetic observations sharing a temporal block use the same group ID; labels are randomised within blocks"
+}

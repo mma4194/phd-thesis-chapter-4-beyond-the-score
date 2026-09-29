@@ -1,0 +1,4 @@
+source,metric,perturbation,severity,paper_value,record_value,record_printed,paper_printed,difference,matched_at_six_decimals,source_sha256
+controlled_reproduction_reference,c2st_max_auc,marginal,0,0.505879,0.5059681594915876,0.505968,0.505879,8.915949158760927e-05,False,19f266defeee40c69dd0f521a4a7ff3b533f1e49c1d34fbb61cd4c67b7a4831e
+controlled_reproduction_reference,c2st_max_auc,coupling,0,0.505879,0.5059681594915876,0.505968,0.505879,8.915949158760927e-05,False,19f266defeee40c69dd0f521a4a7ff3b533f1e49c1d34fbb61cd4c67b7a4831e
+controlled_reproduction_reference,c2st_max_auc,coupling,1,0.987818,0.9878739162149105,0.987874,0.987818,5.591621491052301e-05,False,19f266defeee40c69dd0f521a4a7ff3b533f1e49c1d34fbb61cd4c67b7a4831e

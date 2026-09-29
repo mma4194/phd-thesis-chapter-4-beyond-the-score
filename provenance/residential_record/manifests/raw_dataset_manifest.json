@@ -1,0 +1,11 @@
+{
+  "dataset_kind": "real",
+  "source_path": "/shared/home1/c.c21126547/data/cps_unified_1s_FULLGRID_FINAL_WITH_IOT_STATEFUL_STRICTMASKED_TRIMMED.parquet",
+  "source_sha256": "a4d7446daba0e46dab2dc21607a99c5a734a5366a6c24018a82ef2ef35fc4bda",
+  "rows": 1277694,
+  "columns": 740,
+  "column_names_hash": "108e53424e4502449e9ec3c84290c567c20ca121677e0f460a27c892dfe7e56a",
+  "time_column": "sec",
+  "time_axis_hash": "54823f2a0d1c9c293acca001aae1a2348d76d5d52fd5138569ccd2eb5171b25a",
+  "row_limit": 0
+}

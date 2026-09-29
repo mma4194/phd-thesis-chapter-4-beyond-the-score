@@ -1,0 +1,33 @@
+{
+  "artifact_root": "/shared/home1/c.c21126547/tiot_v7_14_5_full_real_r4_002",
+  "version": "v2_explicit_semantic_bindings",
+  "analyses": {
+    "capability_local_fit_health": {
+      "card_rows": 3184,
+      "applicable_rows": 3184,
+      "capability_rows": 352,
+      "rolling_local_all_pass": 66,
+      "rolling_capability_rows": 132
+    },
+    "fixture_cross_sensitivity": {
+      "rows": 30,
+      "instruments": 9,
+      "instruments_selectivity_lt_1": 2,
+      "instruments_with_strong_offtarget_monotonicity": 6
+    },
+    "c2st_resolution": {
+      "rows": 27,
+      "resolution_available_rows": 8,
+      "resolution_unavailable_rows": 19
+    },
+    "threshold_robustness": {
+      "rows": 26,
+      "decision_families": 6,
+      "minimum_positive_distance": 0.0141909722222222
+    }
+  },
+  "warnings": [
+    "Capability-local fit-health is a post-hoc diagnostic and does NOT override the frozen global Fit-Invalid rolling-origin gate.",
+    "Fixture cross-sensitivity is a one-factor construct diagnostic, not a factorial interaction experiment."
+  ]
+}

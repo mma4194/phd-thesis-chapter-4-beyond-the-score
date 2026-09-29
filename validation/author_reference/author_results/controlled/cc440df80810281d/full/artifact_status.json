@@ -1,0 +1,21 @@
+{
+  "execution_status": "COMPLETED",
+  "profile": "full",
+  "fresh_metrics": true,
+  "fresh_full_scenario_run": true,
+  "scope": "Constructed development cases; not independent validation.",
+  "environment": {
+    "python": "3.11.11 (main, Jun 20 2025, 00:00:00) [GCC 11.5.0 20240719 (Red Hat 11.5.0-5)]",
+    "platform": "Linux-5.14.0-503.40.1.el9_5.x86_64-x86_64-with-glibc2.34",
+    "packages": {
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "scipy": "1.17.0",
+      "scikit-learn": "1.8.0",
+      "pyarrow": "not installed",
+      "matplotlib": "3.10.8",
+      "threadpoolctl": "3.6.0"
+    }
+  },
+  "paper_comparison": "PASS"
+}

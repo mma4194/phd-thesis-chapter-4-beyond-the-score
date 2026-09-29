@@ -1,0 +1,108 @@
+Supplementary: targeted, cell 4
+ canonical_cell                            name                                                           sha256  lines
+              2                  _c2st_auc_once aedbbd1b5172778a49b83ab8d3984b15539ef1935c9edcb890289fcb6aa7e4e5     38
+              2   _permute_labels_within_groups af91fd0252bb481acfc77f9c28862d5fdac7e680f3e88628729ca1511a7cddd1     12
+              2              _valid_group_split 4fef00be792a4fc0f6c86ea5fc074e6d96ca7e14a63be329391e754c37e07d15      6
+              2                 autocorrelation 6b292567b3804ead2c13abcb9d8e1588fa6dd0eb3076950cf700912de774a3ad      5
+              2    build_controlled_iot_fixture 5ff29edb3d1f80b7ccb33bd71af43341f36ac58f1e3d482dc8e1a255ed57bedc     33
+              2                    c2st_profile 3f8bb76793c145fae6236ef0d55b6cf6e3d789993496b822934772ed6125724f     67
+              2     coupling_profile_from_pairs 507db08ec7dcce9f62267555c9c9aa181099c2281c56e014d146eeb910e278a5     46
+              2 deterministic_subsample_indices 8f2b1dea01733c221ef83854e0464296d31f4b04c2fcf232c58e7966976790f4      5
+              2                marginal_profile 76259a53e55ec7540ea6d23c795746153b0c3312a9e2674f721256337bec27e5     29
+              2                 perturb_fixture a83d734c38893f421a60a240ecb2db05cf718a06ee2873ac8340b448ad441ea1     42
+              2                rank_correlation ee9f591c3378c8885fc351e4706b3a23efbd23acdeb73ecc20a1ab1c940b2bde      6
+              2                      robust_iqr b0e9f2e1ada1a4d6260817dcbb9657f95075e5c4bf1890899911236af6115289      6
+Loaded exact canonical definitions: 43
+Supplementary: targeted, cell 5
+Frozen metrics rows: 60
+Frozen utility rows: 20895
+Frozen valid task-model cards: 199
+Supplementary: targeted, cell 7
+ fixture_seed  severity  reconstructed_mean   median          max  min_reference_iqr  n_floor_active  top1_share  wasserstein_iqr_mean     abs_diff
+           19      0.00            0.000000 0.000000     0.000000                0.0               1         NaN              0.000000 0.000000e+00
+           19      0.25          370.991634 0.068417  3333.333333                0.0               1    0.998325            370.991634 5.684342e-14
+           19      0.50          741.982899 0.133521  6666.666667                0.0               1    0.998326            741.982899 1.136868e-13
+           19      0.75         1108.344736 0.200438  9958.333333                0.0               1    0.998319           1108.344736 4.547474e-13
+           19      1.00         1479.336368 0.268833 13291.666667                0.0               1    0.998321           1479.336368 2.273737e-13
+           29      0.00            0.000000 0.000000     0.000000                0.0               1         NaN              0.000000 0.000000e+00
+           29      0.25          380.265161 0.066542  3416.666667                0.0               1    0.998329            380.265161 0.000000e+00
+           29      0.50          755.900832 0.134333  6791.666667                0.0               1    0.998318            755.900832 0.000000e+00
+           29      0.75         1136.166014 0.201062 10208.333333                0.0               1    0.998322           1136.166014 0.000000e+00
+           29      1.00         1511.801785 0.269750 13583.333333                0.0               1    0.998318           1511.801785 0.000000e+00
+           39      0.00            0.000000 0.000000     0.000000                0.0               1         NaN              0.000000 0.000000e+00
+           39      0.25          347.835298 0.067625  3125.000000                0.0               1    0.998237            347.835298 5.684342e-14
+ fixture_seed  severity    feature_name  wasserstein_raw  reference_iqr  denominator_floor  denominator_used  floor_active  wasserstein_iqr_normalised  share_within_seed_severity
+           19       1.0  zigbee__events         0.013292       0.000000           0.000001          0.000001          True                13291.666667                    0.998321
+           19       1.0     iot__sensor        32.779539       1.874236           0.000001          1.874236         False                   17.489549                    0.001314
+           19       1.0   router__bytes      3513.044841    1504.305981           0.000001       1504.305981         False                    2.335326                    0.000175
+           19       1.0      iot__power        64.956877      28.654056           0.000001         28.654056         False                    2.266935                    0.000170
+           19       1.0  ota24__retries         0.537667       2.000000           0.000001          2.000000         False                    0.268833                    0.000020
+           19       1.0 router__packets         0.000000       8.000000           0.000001          8.000000         False                    0.000000                    0.000000
+           19       1.0   ota24__frames         0.000000       8.000000           0.000001          8.000000         False                    0.000000                    0.000000
+           19       1.0 zigbee__packets         0.000000       3.000000           0.000001          3.000000         False                    0.000000                    0.000000
+           19       1.0      iot__state         0.000000       1.000000           0.000001          1.000000         False                    0.000000                    0.000000
+           29       1.0  zigbee__events         0.013583       0.000000           0.000001          0.000001          True                13583.333333                    0.998318
+           29       1.0     iot__sensor        32.772240       1.819723           0.000001          1.819723         False                   18.009467                    0.001324
+           29       1.0   router__bytes      3498.572041    1497.797234           0.000001       1497.797234         False                    2.335812                    0.000172
+{
+  "max_abs_reproduction_error": 4.547473508864641e-13,
+  "n_floor_active_total": 15,
+  "severity1_min_reference_iqr": 0.0,
+  "severity1_max_top1_share": 0.9983205199584549
+}
+Supplementary: targeted, cell 9
+             generator_id          scope  n_seeds  candidate_rf_auc  candidate_linear_auc  candidate_max_auc  candidate_selection_gain  anchor_rf_auc  anchor_linear_auc  anchor_max_auc   excess_auc  excess_seed_sd  candidate_n_per_class  candidate_null_p95  candidate_perm_p  resolved_0_994  resolved_0_9945  resolved_0_995  resolved_0_9955  resolved_0_996  candidate_headroom_0_995  anchor_headroom_0_995
+           column_shuffle protocol_value        5          0.999978              0.866972           0.999978                       0.0       0.925420           0.876214        0.925420 7.455835e-02    2.075300e-03                25000.0            0.507645              0.05           False            False           False            False           False                 -0.004978               0.069580
+           column_shuffle      all_modal        5          1.000000              0.999998           1.000000                       0.0       1.000000           0.999967        1.000000 1.568443e-08    2.147692e-08                25000.0            0.507729              0.05           False            False           False            False           False                 -0.005000              -0.005000
+           column_shuffle      mask_only        5          1.000000              1.000000           1.000000                       0.0       0.991919           0.991497        0.992359 7.641280e-03    8.394496e-04                25000.0            0.506929              0.05           False            False           False            False           False                 -0.005000               0.002641
+               hurdle_iid protocol_value        5          0.999980              0.867230           0.999980                       0.0       0.925420           0.876214        0.925420 7.456000e-02    2.078220e-03                25000.0            0.508526              0.05           False            False           False            False           False                 -0.004980               0.069580
+               hurdle_iid      all_modal        5          1.000000              1.000000           1.000000                       0.0       1.000000           0.999967        1.000000 1.568443e-08    2.147692e-08                25000.0            0.507346              0.05           False            False           False            False           False                 -0.005000              -0.005000
+               hurdle_iid      mask_only        5          1.000000              1.000000           1.000000                       0.0       0.991919           0.991497        0.992359 7.641280e-03    8.394496e-04                25000.0            0.507617              0.05           False            False           False            False           False                 -0.005000               0.002641
+hurdle_independent_stitch protocol_value        5          0.999977              0.866725           0.999977                       0.0       0.925420           0.876214        0.925420 7.455664e-02    2.074118e-03                25000.0            0.507264              0.05           False            False           False            False           False                 -0.004977               0.069580
+hurdle_independent_stitch      all_modal        5          1.000000              1.000000           1.000000                       0.0       1.000000           0.999967        1.000000 1.568443e-08    2.147692e-08                25000.0            0.508880              0.05           False            False           False            False           False                 -0.005000              -0.005000
+hurdle_independent_stitch      mask_only        5          0.995431              0.992936           0.995431                       0.0       0.991919           0.991497        0.992359 3.072528e-03    3.119541e-04                25000.0            0.506858              0.05           False            False           False             True            True                 -0.000431               0.002641
+     hurdle_shared_stitch protocol_value        5          0.937417              0.876806           0.937417                       0.0       0.925420           0.876214        0.925420 1.199674e-02    3.546377e-03                25000.0            0.509704              0.05            True             True            True             True            True                  0.057583               0.069580
+     hurdle_shared_stitch      all_modal        5          1.000000              1.000000           1.000000                       0.0       1.000000           0.999967        1.000000 1.568443e-08    2.147692e-08                25000.0            0.509356              0.05           False            False           False            False           False                 -0.005000              -0.005000
+     hurdle_shared_stitch      mask_only        5          0.992090              0.991967           0.992743                       0.0       0.991919           0.991497        0.992359 3.842907e-04    6.844333e-04                25000.0            0.506828              0.05            True             True            True             True            True                  0.002257               0.002641
+Rows: 27
+resolved_0_994     6
+resolved_0_9945    6
+resolved_0_995     8
+resolved_0_9955    9
+resolved_0_996     9
+dtype: int64
+Supplementary: targeted, cell 10
+ ceiling selection_rule  resolved_rows  ceiling_limited_rows
+  0.9945             rf              7                    20
+  0.9945         linear             14                    13
+  0.9945            max              6                    21
+  0.9950             rf              8                    19
+  0.9950         linear             14                    13
+  0.9950            max              8                    19
+              generator_id          scope  n_seeds  candidate_rf_auc  candidate_linear_auc  candidate_max_auc  candidate_selection_gain  anchor_rf_auc  anchor_linear_auc  anchor_max_auc  excess_auc  excess_seed_sd  candidate_n_per_class  candidate_null_p95  candidate_perm_p  resolved_0_994  resolved_0_9945  resolved_0_995  resolved_0_9955  resolved_0_996  candidate_headroom_0_995  anchor_headroom_0_995
+                real_block      mask_only        5          0.993709              0.993305           0.994591                       0.0       0.991919           0.991497        0.992359    0.002232        0.002845                25000.0            0.507331              0.05           False            False            True             True            True                  0.000409               0.002641
+ hurdle_independent_stitch      mask_only        5          0.995431              0.992936           0.995431                       0.0       0.991919           0.991497        0.992359    0.003073        0.000312                25000.0            0.506858              0.05           False            False           False             True            True                 -0.000431               0.002641
+learned_latent_var_overlay protocol_value        5          0.994682              0.881298           0.994682                       0.0       0.925420           0.876214        0.925420    0.069261        0.002459                25000.0            0.506336              0.05           False            False            True             True            True                  0.000318               0.069580
+Supplementary: targeted, cell 21
+{
+  "canonical_notebook": "/workspace/scratch/d2f19d71b02c/deliverable/Thesis_Reproduction/provenance/canonical_cells.json",
+  "canonical_sha256": "b676305d31e2d0ceec7c55efd766f2843a257b76d5bdd65b0cb770d664fa4517",
+  "definition_count": 43,
+  "wass2": {
+    "completed": true,
+    "max_abs_reproduction_error": 4.547473508864641e-13,
+    "n_floor_active_total": 15,
+    "severity1_max_top1_share": 0.9983205199584549
+  },
+  "c2st2": {
+    "completed": true,
+    "rows": 27,
+    "resolved_0_995": 8,
+    "resolved_0_9945": 6
+  },
+  "new_experiments_enabled": false,
+  "posctrl1_completed": false,
+  "tempctrl1_completed": false
+}
+
+Return this notebook plus the complete TIOT_TARGETED_V4_OUTPUTS directory.

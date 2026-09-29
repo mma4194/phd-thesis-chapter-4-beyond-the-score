@@ -1,0 +1,15 @@
+positive_control_role,positive_control,capability,n,median_anchor_relative_loss_ratio,mean_anchor_relative_loss_ratio,no_worse_than_anchor_rate,n_task_families
+contemporaneous,mild,contemporaneous_dependency|byte_volume,50,1.000338850007723,5.360389353135565,0.38,3
+contemporaneous,mild,contemporaneous_dependency|management_control,35,1.000110951058262,2.2460721156216814,0.37142857142857144,2
+contemporaneous,mild,contemporaneous_dependency|packet_count,35,1.000663004459361,1.0231917628435607,0.37142857142857144,2
+contemporaneous,mild,contemporaneous_dependency|protocol_other,60,1.0009368691617644,3.5771317886048166,0.35,3
+contemporaneous,mild,contemporaneous_dependency|radio_quality,35,4.304197195723282,8.879294605770227,0.22857142857142856,2
+contemporaneous,strong,contemporaneous_dependency|byte_volume,50,1.0000029499731318,5.2966524748432615,0.44,3
+contemporaneous,strong,contemporaneous_dependency|management_control,35,1.0031631199661297,2.2718926093541456,0.4,2
+contemporaneous,strong,contemporaneous_dependency|packet_count,35,1.0000002257539842,1.1653103369139315,0.4857142857142857,2
+contemporaneous,strong,contemporaneous_dependency|protocol_other,60,1.0000000000000036,3.407971642846678,0.45,3
+contemporaneous,strong,contemporaneous_dependency|radio_quality,35,4.304197195723282,8.879754230050834,0.22857142857142856,2
+temporal,mild,burst|byte_volume,80,0.9979406959843915,1.434537911698459,0.5625,2
+temporal,mild,burst|protocol_other,40,0.9543362585399245,0.9093030803623247,0.775,1
+temporal,strong,burst|byte_volume,80,0.9972399987416802,1.4104855527748217,0.575,2
+temporal,strong,burst|protocol_other,40,0.9800605117748941,0.906540783498008,0.65,1

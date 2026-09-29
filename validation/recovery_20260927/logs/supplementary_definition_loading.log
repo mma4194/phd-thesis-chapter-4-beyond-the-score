@@ -1,0 +1,35 @@
+Supplementary: positive_control, cell 2
+ canonical_cell                            name                                                           sha256
+              2 deterministic_subsample_indices 8f2b1dea01733c221ef83854e0464296d31f4b04c2fcf232c58e7966976790f4
+              2                      robust_iqr b0e9f2e1ada1a4d6260817dcbb9657f95075e5c4bf1890899911236af6115289
+              2                       safe_corr 3eba9cfae6fdb80de64c9f3abf17ecf3cbb364d03d15b49f8f787958558a4ad0
+              2                marginal_profile 76259a53e55ec7540ea6d23c795746153b0c3312a9e2674f721256337bec27e5
+              2                 autocorrelation 6b292567b3804ead2c13abcb9d8e1588fa6dd0eb3076950cf700912de774a3ad
+              2                temporal_profile 195602a7ae523da7e8758b99cf8abc967d92541724c1200c98be066c40115268
+              2     coupling_profile_from_pairs 507db08ec7dcce9f62267555c9c9aa181099c2281c56e014d146eeb910e278a5
+              2              _valid_group_split 4fef00be792a4fc0f6c86ea5fc074e6d96ca7e14a63be329391e754c37e07d15
+              2                  _c2st_auc_once aedbbd1b5172778a49b83ab8d3984b15539ef1935c9edcb890289fcb6aa7e4e5
+              2   _permute_labels_within_groups af91fd0252bb481acfc77f9c28862d5fdac7e680f3e88628729ca1511a7cddd1
+              2                    c2st_profile 3f8bb76793c145fae6236ef0d55b6cf6e3d789993496b822934772ed6125724f
+              2    build_controlled_iot_fixture 5ff29edb3d1f80b7ccb33bd71af43341f36ac58f1e3d482dc8e1a255ed57bedc
+Loaded exact canonical definitions: 48
+Supplementary: positive_control, cell 3
+Task-model cards: 199
+TASK CARDS 199
+positive_controls PASS: canonical definitions imported without fitting
+Supplementary: positive_diagnostics, cell 2
+ canonical_cell                            name                                                           sha256  lines
+              2                  _c2st_auc_once aedbbd1b5172778a49b83ab8d3984b15539ef1935c9edcb890289fcb6aa7e4e5     38
+              2   _permute_labels_within_groups af91fd0252bb481acfc77f9c28862d5fdac7e680f3e88628729ca1511a7cddd1     12
+              2              _valid_group_split 4fef00be792a4fc0f6c86ea5fc074e6d96ca7e14a63be329391e754c37e07d15      6
+              2                    c2st_profile 3f8bb76793c145fae6236ef0d55b6cf6e3d789993496b822934772ed6125724f     67
+              2 deterministic_subsample_indices 8f2b1dea01733c221ef83854e0464296d31f4b04c2fcf232c58e7966976790f4      5
+              2                      robust_iqr b0e9f2e1ada1a4d6260817dcbb9657f95075e5c4bf1890899911236af6115289      6
+              3                   column_prefix c235c8091865e390d504aeaaf11bc89a648cc8672ab95075abd678cc6d1e6293      2
+              3              contiguous_indices 9ee5cdb48b8e618510249df98bacd4e258c86af619bccfc08da037c5e2d98481      2
+              3                      family_key 9a2ea7c7b8fa969fc40a74b6bbb59ec00daef1bb2ce4ba2d970e2434f262c871     10
+              3                      infer_tier 6f833d4881a2a9a1692fc310f213bd8424cba6d632c5d3a6c6ca28d455a114ab     11
+              3                    read_dataset 4cb9139434072917571a40aee96cf99dc709d2ba2ce193f0804485b6977dff74     13
+              3                   rolling_folds 8299a5688b2ffbfe74cacf9a18fb740cfb03a05a8e0993866adc6630f996506d     23
+Loaded exact canonical definitions: 21
+positive_diagnostics PASS: canonical definitions imported without fitting

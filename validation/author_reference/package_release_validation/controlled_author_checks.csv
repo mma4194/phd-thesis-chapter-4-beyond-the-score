@@ -1,0 +1,10 @@
+check,passed,detail
+metric_instruments_unique_keys,True,
+metric_instruments_same_keys,True,11 joined records
+metric_instruments_values,True,3 quantities compared
+development_results_unique_keys,True,
+development_results_same_keys,True,72 joined records
+development_results_values,True,6 quantities compared
+development_ablations_unique_keys,True,
+development_ablations_same_keys,True,576 joined records
+development_ablations_values,True,2 quantities compared

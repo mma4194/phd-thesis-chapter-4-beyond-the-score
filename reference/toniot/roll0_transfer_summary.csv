@@ -1,0 +1,8 @@
+regime,source,axis,capability,common_tasks,permission,outcome,estimate,lo,hi,n_seeds,interpretation
+roll0,column_shuffle,temporal,network_volume_forecast,8,Admissible,descriptive_origin_only,-0.0493400712992663,,,1,Change in synthetic/real loss ratio. Not a causal estimate of drift.
+roll0,hurdle_iid,temporal,network_volume_forecast,8,Admissible,descriptive_origin_only,-0.020603013680808073,,,1,Change in synthetic/real loss ratio. Not a causal estimate of drift.
+roll0,independent_marginals,temporal,network_volume_forecast,8,Admissible,descriptive_origin_only,-0.025966741746355947,,,1,Change in synthetic/real loss ratio. Not a causal estimate of drift.
+roll0,independent_stitch,temporal,network_volume_forecast,8,Admissible,descriptive_origin_only,0.04497710277400704,,,1,Change in synthetic/real loss ratio. Not a causal estimate of drift.
+roll0,real_contiguous_block,temporal,network_volume_forecast,8,Admissible,descriptive_origin_only,0.03346309989490065,,,1,Change in synthetic/real loss ratio. Not a causal estimate of drift.
+roll0,real_row_resample,temporal,network_volume_forecast,8,Admissible,descriptive_origin_only,-6.280654661274809e-05,,,1,Change in synthetic/real loss ratio. Not a causal estimate of drift.
+roll0,shared_stitch,temporal,network_volume_forecast,8,Admissible,descriptive_origin_only,-0.0024687589260531384,,,1,Change in synthetic/real loss ratio. Not a causal estimate of drift.

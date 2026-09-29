@@ -1,0 +1,196 @@
+{
+  "generators": [
+    {
+      "generator_id": "real_resample",
+      "family": "real_anchor",
+      "cost_kind": "anchor",
+      "order_preserving": false,
+      "release_eligible": false,
+      "required_for_core": true,
+      "params": {}
+    },
+    {
+      "generator_id": "real_block",
+      "family": "real_anchor",
+      "cost_kind": "anchor",
+      "order_preserving": true,
+      "release_eligible": false,
+      "required_for_core": true,
+      "params": {}
+    },
+    {
+      "generator_id": "independent_marginal",
+      "family": "destruction_anchor",
+      "cost_kind": "anchor",
+      "order_preserving": false,
+      "release_eligible": false,
+      "required_for_core": true,
+      "params": {}
+    },
+    {
+      "generator_id": "column_shuffle",
+      "family": "destruction_anchor",
+      "cost_kind": "anchor",
+      "order_preserving": false,
+      "release_eligible": false,
+      "required_for_core": true,
+      "params": {}
+    },
+    {
+      "generator_id": "hurdle_iid",
+      "family": "mechanism_ablation",
+      "cost_kind": "rank_stitch",
+      "order_preserving": false,
+      "release_eligible": false,
+      "required_for_core": true,
+      "params": {
+        "stitch_mode": "none"
+      }
+    },
+    {
+      "generator_id": "hurdle_independent_stitch",
+      "family": "mechanism_ablation",
+      "cost_kind": "rank_stitch",
+      "order_preserving": true,
+      "release_eligible": false,
+      "required_for_core": true,
+      "params": {
+        "stitch_mode": "independent"
+      }
+    },
+    {
+      "generator_id": "hurdle_shared_stitch",
+      "family": "transparent_candidate",
+      "cost_kind": "rank_stitch",
+      "order_preserving": true,
+      "release_eligible": true,
+      "required_for_core": true,
+      "params": {
+        "stitch_mode": "shared"
+      }
+    },
+    {
+      "generator_id": "learned_gmm_overlay",
+      "family": "learned_row_control",
+      "cost_kind": "learned_gmm",
+      "order_preserving": false,
+      "release_eligible": true,
+      "required_for_core": true,
+      "params": {
+        "fit_rows": 100000,
+        "pca_components": 16,
+        "gmm_components": 8
+      }
+    },
+    {
+      "generator_id": "learned_latent_var_overlay",
+      "family": "learned_temporal",
+      "cost_kind": "learned_var_overlay",
+      "order_preserving": true,
+      "release_eligible": true,
+      "required_for_core": true,
+      "params": {
+        "fit_rows": 100000,
+        "pca_components": 16,
+        "lags": [
+          1,
+          5,
+          30
+        ],
+        "ridge": 1.0
+      }
+    }
+  ],
+  "learned_scope": {
+    "selection_split": "PRIMARY_TRAIN",
+    "selection_rule": "Admissible task targets first, followed by round-robin tier/signal-balanced TRAIN variability ranking; observability masks and identifier-like fields excluded.",
+    "columns": [
+      "ota5__bytes_total",
+      "zigbee__beacon",
+      "zigbee__beacon_rate",
+      "ota__bytes_total",
+      "router__tcp_pkt",
+      "ota5__mgmt",
+      "iot__smart_plug__sensor__voltage__value",
+      "iot__smart_plug__sensor__signal_strength__value",
+      "iot__s5_max_main_brush_time_left__sensor__state__value",
+      "router__bytes_total__absdiff1",
+      "ota__mgmt",
+      "iot__smart_plug_ps5__sensor__voltage__value",
+      "iot__smart_plug_ps5__sensor__signal_strength__value",
+      "iot__s5_max_side_brush_time_left__sensor__state__value",
+      "router__udp_pkt",
+      "router__bytes_total__diff1",
+      "ota__data",
+      "ota24__rssi_n",
+      "zb__app_event_flag",
+      "zigbee__bytes_total",
+      "ota__pkt_total",
+      "ota5__rssi_n",
+      "zb__app_event_intensity",
+      "zigbee__ack",
+      "router__pkt_total__absdiff1",
+      "zigbee__ack_rate",
+      "router__pkt_total__diff1",
+      "zigbee__pkt_total",
+      "zigbee__pps",
+      "iot__entity_stale__s5_max_total_cleaning_count",
+      "iot__unknown_70_ee_50_7a_e5_2c__sensor__atmospheric_pressure__value",
+      "iot__coffee_maker_hot__sensor__water__value",
+      "iot__unknown_70_ee_50_7a_e5_2c__sensor__noise__value",
+      "iot__s5_max_filter_time_left__sensor__state__value",
+      "ota24__bytes_total",
+      "ota24__mgmt",
+      "ota5__pkt_total",
+      "ota24__rssi_min",
+      "router__byte_rate",
+      "router__tcp_ack",
+      "router__pkt_rate",
+      "zigbee__data",
+      "iot__entity_stale__withings_snoring_episode_count",
+      "iot__smart_plug_ps5_current__sensor__consumption__value",
+      "iot__twinguard_087__sensor__purity__value",
+      "iot__lifx_color_6757ce__sensor__rssi__value",
+      "iot__s5_max_sensor_time_left__sensor__state__value",
+      "ota__probe_resp",
+      "ota5__data",
+      "ota5__rssi_min",
+      "router__bytes_total",
+      "router__dns_pkt__diff1",
+      "router__pkt_total",
+      "zigbee__nwk_present",
+      "iot__entity_stale__withings_wakeup_count",
+      "iot__unknown_70_ee_50_7a_e5_2c__sensor__outdoor_humidity__value",
+      "iot__coffee_maker__sensor__coffees__value",
+      "iot__s5_max_total_cleaning_time__sensor__state__value",
+      "ota24__probe_resp",
+      "ota24__pkt_total",
+      "ota5__rssi_mean",
+      "router__avg_pkt_bytes",
+      "router__dns_pkt__absdiff1",
+      "router__ip_dst_unique__diff1"
+    ],
+    "n_columns": 64,
+    "tiers": {
+      "ota": 18,
+      "zigbee": 11,
+      "router": 15,
+      "iot": 20
+    },
+    "signals": {
+      "byte_volume": 9,
+      "management_control": 7,
+      "packet_count": 10,
+      "physical_context": 5,
+      "radio_quality": 9,
+      "state_event": 7,
+      "protocol_other": 17
+    }
+  },
+  "fit_validity_contract": "Scientific fit validity is determined by convergence, held-out TRAIN health, support, variation, and sparsity checks. Poor C2ST or utility is a valid negative quality result, not by itself a degenerate fit.",
+  "property_license": {
+    "temporal_utility": "order_preserving=True and capability-specific P0 temporal licence passes",
+    "contemporaneous_utility": "capability-specific P0 contemporaneous licence passes",
+    "release_candidate": "release_eligible=True; real anchors are never release candidates"
+  }
+}

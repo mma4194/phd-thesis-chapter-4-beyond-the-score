@@ -1,0 +1,23 @@
+Output folder: /workspace/scratch/d2f19d71b02c/Thesis_Reproduction/validation_current/telemetry/run_20260927T145836Z_7e49594b
+IoT_normal_fridge_1: 40,057 records; 0 date repairs
+IoT_normal_fridge_2: 190,162 records; 0 date repairs
+IoT_normal_fridge_3: 153,150 records; 28,200 date repairs
+IoT_normal_Garage_door_1: 40,057 records; 0 date repairs
+IoT_normal_Garage_door_2: 188,978 records; 0 date repairs
+IoT_normal_Garage_door_3: 153,150 records; 0 date repairs
+IoT_normal_GPS_Tracker_1: 48,492 records; 0 date repairs
+IoT_normal_GPS_Tracker_2: 188,979 records; 0 date repairs
+IoT_normal_GPS_Tracker_3: 153,147 records; 0 date repairs
+IoT_normal_modbus_1: 48,492 records; 0 date repairs
+IoT_normal_modbus_2: 12,901 records; 0 date repairs
+IoT_normal_modbus_3: 153,147 records; 0 date repairs
+IoT_normal_Motion_Light_1: 45,137 records; 0 date repairs
+IoT_normal_Motion_Light_2: 147,745 records; 0 date repairs
+IoT_normal_Motion_Light_3: 98,301 records; 0 date repairs
+IoT_normal_Thermostat_1: 40,049 records; 0 date repairs
+IoT_normal_Thermostat_2: 152,833 records; 0 date repairs
+IoT_normal_Thermostat_3: 98,301 records; 0 date repairs
+IoT_normal_weather_1: 56,947 records; 0 date repairs
+IoT_normal_weather_2: 189,090 records; 0 date repairs
+IoT_normal_weather_3: 153,152 records; 0 date repairs
+Complete /workspace/scratch/d2f19d71b02c/Thesis_Reproduction/validation_current/telemetry/run_20260927T145836Z_7e49594b

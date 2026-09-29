@@ -1,0 +1,7 @@
+ceiling,selection_rule,resolved_rows,ceiling_limited_rows
+0.9945,rf,7,20
+0.9945,linear,14,13
+0.9945,max,6,21
+0.995,rf,8,19
+0.995,linear,14,13
+0.995,max,8,19

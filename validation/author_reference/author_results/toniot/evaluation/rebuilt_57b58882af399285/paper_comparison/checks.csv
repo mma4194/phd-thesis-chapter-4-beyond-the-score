@@ -1,0 +1,88 @@
+check,passed,detail
+primary_task_admission_unique_keys,True,
+primary_task_admission_same_keys,True,32 joined records
+primary_task_admission_values,True,7 quantities compared
+primary_qualification_unique_keys,True,
+primary_qualification_same_keys,True,2 joined records
+primary_qualification_values,True,7 quantities compared
+primary_qualification_unclipped_unique_keys,True,
+primary_qualification_unclipped_same_keys,True,2 joined records
+primary_qualification_unclipped_values,True,3 quantities compared
+primary_utility_rows_unique_keys,True,
+primary_utility_rows_same_keys,True,990 joined records
+primary_utility_rows_values,True,8 quantities compared
+primary_utility_summary_unique_keys,True,
+primary_utility_summary_same_keys,True,36 joined records
+primary_utility_summary_values,True,6 quantities compared
+primary_transfer_summary_unique_keys,True,
+primary_transfer_summary_same_keys,True,7 joined records
+primary_transfer_summary_values,True,4 quantities compared
+primary_C2ST_summary_unique_keys,True,
+primary_C2ST_summary_same_keys,True,72 joined records
+primary_C2ST_summary_values,True,8 quantities compared
+roll0_task_admission_unique_keys,True,
+roll0_task_admission_same_keys,True,32 joined records
+roll0_task_admission_values,True,7 quantities compared
+roll0_qualification_unique_keys,True,
+roll0_qualification_same_keys,True,1 joined records
+roll0_qualification_values,True,7 quantities compared
+roll0_qualification_unclipped_unique_keys,True,
+roll0_qualification_unclipped_same_keys,True,1 joined records
+roll0_qualification_unclipped_values,True,3 quantities compared
+roll0_utility_rows_unique_keys,True,
+roll0_utility_rows_same_keys,True,144 joined records
+roll0_utility_rows_values,True,8 quantities compared
+roll0_utility_summary_unique_keys,True,
+roll0_utility_summary_same_keys,True,18 joined records
+roll0_utility_summary_values,True,6 quantities compared
+roll0_transfer_summary_unique_keys,True,
+roll0_transfer_summary_same_keys,True,7 joined records
+roll0_transfer_summary_values,True,4 quantities compared
+roll0_C2ST_summary_unique_keys,True,
+roll0_C2ST_summary_same_keys,True,72 joined records
+roll0_C2ST_summary_values,True,8 quantities compared
+roll1_task_admission_unique_keys,True,
+roll1_task_admission_same_keys,True,32 joined records
+roll1_task_admission_values,True,7 quantities compared
+roll1_qualification_unique_keys,True,
+roll1_qualification_same_keys,True,1 joined records
+roll1_qualification_values,True,7 quantities compared
+roll1_qualification_unclipped_unique_keys,True,
+roll1_qualification_unclipped_same_keys,True,1 joined records
+roll1_qualification_unclipped_values,True,3 quantities compared
+roll1_utility_rows_unique_keys,True,
+roll1_utility_rows_same_keys,True,144 joined records
+roll1_utility_rows_values,True,8 quantities compared
+roll1_utility_summary_unique_keys,True,
+roll1_utility_summary_same_keys,True,18 joined records
+roll1_utility_summary_values,True,6 quantities compared
+roll1_transfer_summary_unique_keys,True,
+roll1_transfer_summary_same_keys,True,7 joined records
+roll1_transfer_summary_values,True,4 quantities compared
+roll1_C2ST_summary_unique_keys,True,
+roll1_C2ST_summary_same_keys,True,72 joined records
+roll1_C2ST_summary_values,True,8 quantities compared
+roll2_task_admission_unique_keys,True,
+roll2_task_admission_same_keys,True,32 joined records
+roll2_task_admission_values,True,7 quantities compared
+roll2_qualification_unique_keys,True,
+roll2_qualification_same_keys,True,1 joined records
+roll2_qualification_values,True,7 quantities compared
+roll2_qualification_unclipped_unique_keys,True,
+roll2_qualification_unclipped_same_keys,True,1 joined records
+roll2_qualification_unclipped_values,True,3 quantities compared
+roll2_utility_rows_unique_keys,True,
+roll2_utility_rows_same_keys,True,162 joined records
+roll2_utility_rows_values,True,8 quantities compared
+roll2_utility_summary_unique_keys,True,
+roll2_utility_summary_same_keys,True,18 joined records
+roll2_utility_summary_values,True,6 quantities compared
+roll2_transfer_summary_unique_keys,True,
+roll2_transfer_summary_same_keys,True,7 joined records
+roll2_transfer_summary_values,True,4 quantities compared
+roll2_C2ST_summary_unique_keys,True,
+roll2_C2ST_summary_same_keys,True,72 joined records
+roll2_C2ST_summary_values,True,8 quantities compared
+source_contracts_unique_keys,True,
+source_contracts_same_keys,True,72 joined records
+source_contracts_values,True,4 quantities compared

@@ -1,0 +1,392 @@
+Executing code cell 2
+
+Executing code cell 4
+preflight: /workspace/scratch/d2f19d71b02c/.validation-public/bin/python
+15:19:08 10 software checks passed. These are not research results.
+test_comparison_rejects_missing_duplicate_and_changed_rows (test_contracts.ScientificContracts.test_comparison_rejects_missing_duplicate_and_changed_rows) ... ok
+test_ethernet_ipv4_tcp_dns (test_contracts.ScientificContracts.test_ethernet_ipv4_tcp_dns) ... ok
+test_full_support_not_prefix (test_contracts.ScientificContracts.test_full_support_not_prefix) ... ok
+test_missing_labels_and_join_embargo (test_contracts.ScientificContracts.test_missing_labels_and_join_embargo) ... ok
+test_new_incomplete_run_cannot_reuse_old_pass (test_contracts.ScientificContracts.test_new_incomplete_run_cannot_reuse_old_pass) ... ok
+test_pcaps_both_endian_and_incomplete_tail (test_contracts.ScientificContracts.test_pcaps_both_endian_and_incomplete_tail) ... ok
+test_public_model_and_mask_contracts (test_contracts.ScientificContracts.test_public_model_and_mask_contracts) ... ok
+test_skill_is_per_task_not_aggregate_identity (test_contracts.ScientificContracts.test_skill_is_per_task_not_aggregate_identity) ... ok
+test_changed_preparation_identity_rejected (test_preparation_integrity.PreparationIntegrity.test_changed_preparation_identity_rejected) ... ok
+test_copied_report_corruption_rejected (test_preparation_integrity.PreparationIntegrity.test_copied_report_corruption_rejected) ... ok
+test_evaluation_progress_does_not_invalidate_preparation (test_preparation_integrity.PreparationIntegrity.test_evaluation_progress_does_not_invalidate_preparation) ... ok
+test_manifest_corruption_rejected (test_preparation_integrity.PreparationIntegrity.test_manifest_corruption_rejected) ... ok
+test_missing_table_rejected (test_preparation_integrity.PreparationIntegrity.test_missing_table_rejected) ... ok
+test_production_evaluation_wrapper_preserves_preparation (test_preparation_integrity.PreparationIntegrity.test_production_evaluation_wrapper_preserves_preparation) ... ok
+test_receipt_corruption_rejected (test_preparation_integrity.PreparationIntegrity.test_receipt_corruption_rejected) ... ok
+test_table_corruption_rejected (test_preparation_integrity.PreparationIntegrity.test_table_corruption_rejected) ... ok
+test_counts_masks_and_missingness_fail (test_prepared_content.PreparedContentContracts.test_counts_masks_and_missingness_fail) ... ok
+test_format_and_one_ulp_only (test_prepared_content.PreparedContentContracts.test_format_and_one_ulp_only) ... ok
+test_row_and_column_structure_fail (test_prepared_content.PreparedContentContracts.test_row_and_column_structure_fail) ... ok
+test_missing_second_rejected (test_supplementary_window.TemporalWindowEquivalence.test_missing_second_rejected) ... ok
+test_window_matches_full_canonical_conversion (test_supplementary_window.TemporalWindowEquivalence.test_window_matches_full_canonical_conversion) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.811s
+
+OK
+
+
+Executing code cell 6
+history: /workspace/scratch/d2f19d71b02c/.validation-public/bin/python
+
+Executing code cell 7
+
+Executing code cell 9
+records: /workspace/scratch/d2f19d71b02c/.validation-public/bin/python
+Residential losses and P0 ...
+TON_IoT losses and P0 ...
+Controlled responses and decisions ...
+{
+  "execution_status": "COMPLETED",
+  "calculation_status": "PASS",
+  "checks": 144,
+  "failed": 0,
+  "model_fits": 0,
+  "scope": "Recalculation from saved task losses, gate inputs and metric responses. Predictions and raw-input fits are separate workflows.",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "packages": {
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "scipy": "1.17.0",
+      "scikit-learn": "1.8.0",
+      "pyarrow": "25.0.0",
+      "matplotlib": "3.10.8",
+      "threadpoolctl": "3.6.0",
+      "joblib": "1.5.3",
+      "nbformat": "5.10.4",
+      "nbclient": "0.10.2",
+      "ipykernel": "6.30.1"
+    }
+  }
+}
+Results: /workspace/scratch/d2f19d71b02c/analysis/master_records_run/records
+
+Executing code cell 10
+
+Executing code cell 12
+supplementary_audit: /workspace/scratch/d2f19d71b02c/.validation-public/bin/python
+
+Executing code cell 13
+
+Executing code cell 15
+thresholds: /workspace/scratch/d2f19d71b02c/.validation-residential/bin/python
+Supplementary: threshold_closeout, cell 2
+Loaded exact frozen tables.
+P0 utility: (8600, 42)
+All utility: (20895, 42)
+Task cards: (640, 31)
+Supplementary: threshold_closeout, cell 4
+                                   capability  raw_xs_margin  applied_xs_margin xs_binding  raw_temporal_ratio  applied_temporal_ratio temporal_binding
+                            burst|byte_volume            NaN           0.095310       none            1.426018                1.426018             none
+                           burst|packet_count            NaN           0.095310       none            3.267474                1.800000          ceiling
+                         burst|protocol_other            NaN           0.095310       none            1.441181                1.441181             none
+                          burst|radio_quality            NaN           0.095310       none            1.360133                1.360133             none
+       contemporaneous_dependency|byte_volume       1.293119           0.405465    ceiling                 NaN                1.250000             none
+contemporaneous_dependency|management_control       0.542071           0.405465    ceiling                 NaN                1.250000             none
+      contemporaneous_dependency|packet_count       1.908945           0.405465    ceiling                 NaN                1.250000             none
+  contemporaneous_dependency|physical_context       0.000000           0.095310      floor                 NaN                1.250000             none
+    contemporaneous_dependency|protocol_other       0.341711           0.341711       none                 NaN                1.250000             none
+     contemporaneous_dependency|radio_quality       0.766224           0.405465    ceiling                 NaN                1.250000             none
+       contemporaneous_dependency|state_event            NaN           0.095310       none                 NaN                1.250000             none
+             cross_tier_response|packet_count            NaN           0.095310       none            1.378591                1.378591             none
+                                   capability           suite  applied_licensed  raw_licensed  changed
+                            burst|byte_volume        temporal              True          True    False
+                         burst|protocol_other        temporal              True          True    False
+                          burst|radio_quality        temporal             False         False    False
+       contemporaneous_dependency|byte_volume contemporaneous              True          True    False
+contemporaneous_dependency|management_control contemporaneous              True          True    False
+      contemporaneous_dependency|packet_count contemporaneous              True          True    False
+    contemporaneous_dependency|protocol_other contemporaneous              True          True    False
+     contemporaneous_dependency|radio_quality contemporaneous              True          True    False
+             cross_tier_response|packet_count        temporal             False         False    False
+                         forecast|byte_volume        temporal             False         False    False
+                  forecast|management_control        temporal             False         False    False
+                      forecast|protocol_other        temporal             False         False    False
+State changes: 0
+Supplementary: threshold_closeout, cell 6
+{
+  "rows_total": 20895,
+  "rows_with_accounting": 10885,
+  "rows_nonparity": 0,
+  "rows_ntrain_reference_difference": 0,
+  "unique_nonmissing_ratios": [
+    1.0
+  ]
+}
+ count  min  max  mean
+   490  1.0  1.0   1.0
+   490  1.0  1.0   1.0
+  1810  1.0  1.0   1.0
+  2326  1.0  1.0   1.0
+   490  1.0  1.0   1.0
+   490  1.0  1.0   1.0
+  1810  1.0  1.0   1.0
+  2346  1.0  1.0   1.0
+   633  1.0  1.0   1.0
+Supplementary: threshold_closeout, cell 8
+{
+  "candidate_cards": 640,
+  "admitted_cards": 199,
+  "rejected_cards": 441,
+  "leakage_rows": 640,
+  "leakage_passes": 640,
+  "test_used_for_selection": 0,
+  "failed_leakage_checks": 0,
+  "valid_capabilities": 22,
+  "valid_families": 36,
+  "valid_tiers": 4
+}
+Empty DataFrame
+Columns: [card_id, selection_split, admissibility_split, test_used_for_selection, same_lineage_predictors, target_derivation_predictors, cross_tier_driver_violation, passed]
+Index: []
+Supplementary: threshold_closeout, cell 10
+Frozen qualification row:
+          instrument target_perturbation  spearman_rho  endpoint_effect  minimum_endpoint_effect  threshold fixture_seeds  passed  raw_auc_diagnostic
+wasserstein_iqr_mean            marginal           1.0      1463.912776                     0.05        0.8  [19, 29, 39]    True                 NaN
+Per-seed/per-severity aggregate Wasserstein/IQR:
+ fixture_seed  severity  wasserstein_iqr_mean  marginal_n_features
+           19      0.00              0.000000                    9
+           19      0.25            370.991634                    9
+           19      0.50            741.982899                    9
+           19      0.75           1108.344736                    9
+           19      1.00           1479.336368                    9
+           29      0.00              0.000000                    9
+           29      0.25            380.265161                    9
+           29      0.50            755.900832                    9
+           29      0.75           1136.166014                    9
+           29      1.00           1511.801785                    9
+           39      0.00              0.000000                    9
+           39      0.25            347.835298                    9
+Recomputed aggregate endpoint effect: 1463.912775650032
+Reported Table 5 endpoint effect: 1463.912775650032
+Absolute difference: 0.0
+{
+  "aggregate_reproduced": true,
+  "feature_level_denominator_audit_available": false,
+  "required_next_step": "rerun controlled fixture with per-feature raw Wasserstein and reference-IQR logging"
+}
+Supplementary: threshold_closeout, cell 12
+Resolution map shape: (1, 9)
+Columns: ['signature.run_profile_scope_state', 'methodology_hash', 'signature.instrument_contract.c2st_classifiers', 'signature.time_axis_contract.explicit_numeric_time_required', '_auc', '_anchor_auc', 'headroom', 'excess_auc', 'resolution_available']
+signature.run_profile_scope_state                                                 methodology_hash signature.instrument_contract.c2st_classifiers  signature.time_axis_contract.explicit_numeric_time_required  _auc  _anchor_auc  headroom  excess_auc  resolution_available
+                    FULL_CAMPAIGN 592075a39c6a1c0cc8332db9c1b2aba6182c721c3b2cf9ff76c86f859f596195       ['random_forest', 'logistic_regression']                                                         True   0.6          NaN       NaN         NaN                 False
+Numeric AUC columns: ['_auc', '_anchor_auc', 'excess_auc']
+ ceiling  _auc_below  _anchor_auc_below  excess_auc_below
+  0.9940           1                  0                 0
+  0.9945           1                  0                 0
+  0.9950           1                  0                 0
+  0.9955           1                  0                 0
+  0.9960           1                  0                 0
+Supplementary: threshold_closeout, cell 14
+{
+  "p0_raw_vs_applied": "PASS_NO_STATE_CHANGE",
+  "training_budget_parity": "PASS",
+  "task_leakage": "PASS",
+  "wasserstein_aggregate": "PASS",
+  "wasserstein_feature_denominator_audit": "REQUIRES_TARGETED_RERUN",
+  "note": "This gate covers only checks executable from the frozen residential evidence package."
+}
+
+Executing code cell 17
+fixture_audit: /workspace/scratch/d2f19d71b02c/.validation-residential/bin/python
+Supplementary: targeted, cell 4
+ canonical_cell                            name                                                           sha256  lines
+              2                  _c2st_auc_once aedbbd1b5172778a49b83ab8d3984b15539ef1935c9edcb890289fcb6aa7e4e5     38
+              2   _permute_labels_within_groups af91fd0252bb481acfc77f9c28862d5fdac7e680f3e88628729ca1511a7cddd1     12
+              2              _valid_group_split 4fef00be792a4fc0f6c86ea5fc074e6d96ca7e14a63be329391e754c37e07d15      6
+              2                 autocorrelation 6b292567b3804ead2c13abcb9d8e1588fa6dd0eb3076950cf700912de774a3ad      5
+              2    build_controlled_iot_fixture 5ff29edb3d1f80b7ccb33bd71af43341f36ac58f1e3d482dc8e1a255ed57bedc     33
+              2                    c2st_profile 3f8bb76793c145fae6236ef0d55b6cf6e3d789993496b822934772ed6125724f     67
+              2     coupling_profile_from_pairs 507db08ec7dcce9f62267555c9c9aa181099c2281c56e014d146eeb910e278a5     46
+              2 deterministic_subsample_indices 8f2b1dea01733c221ef83854e0464296d31f4b04c2fcf232c58e7966976790f4      5
+              2                marginal_profile 76259a53e55ec7540ea6d23c795746153b0c3312a9e2674f721256337bec27e5     29
+              2                 perturb_fixture a83d734c38893f421a60a240ecb2db05cf718a06ee2873ac8340b448ad441ea1     42
+              2                rank_correlation ee9f591c3378c8885fc351e4706b3a23efbd23acdeb73ecc20a1ab1c940b2bde      6
+              2                      robust_iqr b0e9f2e1ada1a4d6260817dcbb9657f95075e5c4bf1890899911236af6115289      6
+Loaded exact canonical definitions: 43
+Supplementary: targeted, cell 5
+Frozen metrics rows: 60
+Frozen utility rows: 20895
+Frozen valid task-model cards: 199
+Supplementary: targeted, cell 7
+ fixture_seed  severity  reconstructed_mean   median          max  min_reference_iqr  n_floor_active  top1_share  wasserstein_iqr_mean     abs_diff
+           19      0.00            0.000000 0.000000     0.000000                0.0               1         NaN              0.000000 0.000000e+00
+           19      0.25          370.991634 0.068417  3333.333333                0.0               1    0.998325            370.991634 5.684342e-14
+           19      0.50          741.982899 0.133521  6666.666667                0.0               1    0.998326            741.982899 1.136868e-13
+           19      0.75         1108.344736 0.200438  9958.333333                0.0               1    0.998319           1108.344736 4.547474e-13
+           19      1.00         1479.336368 0.268833 13291.666667                0.0               1    0.998321           1479.336368 2.273737e-13
+           29      0.00            0.000000 0.000000     0.000000                0.0               1         NaN              0.000000 0.000000e+00
+           29      0.25          380.265161 0.066542  3416.666667                0.0               1    0.998329            380.265161 0.000000e+00
+           29      0.50          755.900832 0.134333  6791.666667                0.0               1    0.998318            755.900832 0.000000e+00
+           29      0.75         1136.166014 0.201062 10208.333333                0.0               1    0.998322           1136.166014 0.000000e+00
+           29      1.00         1511.801785 0.269750 13583.333333                0.0               1    0.998318           1511.801785 0.000000e+00
+           39      0.00            0.000000 0.000000     0.000000                0.0               1         NaN              0.000000 0.000000e+00
+           39      0.25          347.835298 0.067625  3125.000000                0.0               1    0.998237            347.835298 5.684342e-14
+ fixture_seed  severity    feature_name  wasserstein_raw  reference_iqr  denominator_floor  denominator_used  floor_active  wasserstein_iqr_normalised  share_within_seed_severity
+           19       1.0  zigbee__events         0.013292       0.000000           0.000001          0.000001          True                13291.666667                    0.998321
+           19       1.0     iot__sensor        32.779539       1.874236           0.000001          1.874236         False                   17.489549                    0.001314
+           19       1.0   router__bytes      3513.044841    1504.305981           0.000001       1504.305981         False                    2.335326                    0.000175
+           19       1.0      iot__power        64.956877      28.654056           0.000001         28.654056         False                    2.266935                    0.000170
+           19       1.0  ota24__retries         0.537667       2.000000           0.000001          2.000000         False                    0.268833                    0.000020
+           19       1.0 router__packets         0.000000       8.000000           0.000001          8.000000         False                    0.000000                    0.000000
+           19       1.0   ota24__frames         0.000000       8.000000           0.000001          8.000000         False                    0.000000                    0.000000
+           19       1.0 zigbee__packets         0.000000       3.000000           0.000001          3.000000         False                    0.000000                    0.000000
+           19       1.0      iot__state         0.000000       1.000000           0.000001          1.000000         False                    0.000000                    0.000000
+           29       1.0  zigbee__events         0.013583       0.000000           0.000001          0.000001          True                13583.333333                    0.998318
+           29       1.0     iot__sensor        32.772240       1.819723           0.000001          1.819723         False                   18.009467                    0.001324
+           29       1.0   router__bytes      3498.572041    1497.797234           0.000001       1497.797234         False                    2.335812                    0.000172
+{
+  "max_abs_reproduction_error": 4.547473508864641e-13,
+  "n_floor_active_total": 15,
+  "severity1_min_reference_iqr": 0.0,
+  "severity1_max_top1_share": 0.9983205199584549
+}
+Supplementary: targeted, cell 9
+             generator_id          scope  n_seeds  candidate_rf_auc  candidate_linear_auc  candidate_max_auc  candidate_selection_gain  anchor_rf_auc  anchor_linear_auc  anchor_max_auc   excess_auc  excess_seed_sd  candidate_n_per_class  candidate_null_p95  candidate_perm_p  resolved_0_994  resolved_0_9945  resolved_0_995  resolved_0_9955  resolved_0_996  candidate_headroom_0_995  anchor_headroom_0_995
+           column_shuffle protocol_value        5          0.999978              0.866972           0.999978                       0.0       0.925420           0.876214        0.925420 7.455835e-02    2.075300e-03                25000.0            0.507645              0.05           False            False           False            False           False                 -0.004978               0.069580
+           column_shuffle      all_modal        5          1.000000              0.999998           1.000000                       0.0       1.000000           0.999967        1.000000 1.568443e-08    2.147692e-08                25000.0            0.507729              0.05           False            False           False            False           False                 -0.005000              -0.005000
+           column_shuffle      mask_only        5          1.000000              1.000000           1.000000                       0.0       0.991919           0.991497        0.992359 7.641280e-03    8.394496e-04                25000.0            0.506929              0.05           False            False           False            False           False                 -0.005000               0.002641
+               hurdle_iid protocol_value        5          0.999980              0.867230           0.999980                       0.0       0.925420           0.876214        0.925420 7.456000e-02    2.078220e-03                25000.0            0.508526              0.05           False            False           False            False           False                 -0.004980               0.069580
+               hurdle_iid      all_modal        5          1.000000              1.000000           1.000000                       0.0       1.000000           0.999967        1.000000 1.568443e-08    2.147692e-08                25000.0            0.507346              0.05           False            False           False            False           False                 -0.005000              -0.005000
+               hurdle_iid      mask_only        5          1.000000              1.000000           1.000000                       0.0       0.991919           0.991497        0.992359 7.641280e-03    8.394496e-04                25000.0            0.507617              0.05           False            False           False            False           False                 -0.005000               0.002641
+hurdle_independent_stitch protocol_value        5          0.999977              0.866725           0.999977                       0.0       0.925420           0.876214        0.925420 7.455664e-02    2.074118e-03                25000.0            0.507264              0.05           False            False           False            False           False                 -0.004977               0.069580
+hurdle_independent_stitch      all_modal        5          1.000000              1.000000           1.000000                       0.0       1.000000           0.999967        1.000000 1.568443e-08    2.147692e-08                25000.0            0.508880              0.05           False            False           False            False           False                 -0.005000              -0.005000
+hurdle_independent_stitch      mask_only        5          0.995431              0.992936           0.995431                       0.0       0.991919           0.991497        0.992359 3.072528e-03    3.119541e-04                25000.0            0.506858              0.05           False            False           False             True            True                 -0.000431               0.002641
+     hurdle_shared_stitch protocol_value        5          0.937417              0.876806           0.937417                       0.0       0.925420           0.876214        0.925420 1.199674e-02    3.546377e-03                25000.0            0.509704              0.05            True             True            True             True            True                  0.057583               0.069580
+     hurdle_shared_stitch      all_modal        5          1.000000              1.000000           1.000000                       0.0       1.000000           0.999967        1.000000 1.568443e-08    2.147692e-08                25000.0            0.509356              0.05           False            False           False            False           False                 -0.005000              -0.005000
+     hurdle_shared_stitch      mask_only        5          0.992090              0.991967           0.992743                       0.0       0.991919           0.991497        0.992359 3.842907e-04    6.844333e-04                25000.0            0.506828              0.05            True             True            True             True            True                  0.002257               0.002641
+Rows: 27
+resolved_0_994     6
+resolved_0_9945    6
+resolved_0_995     8
+resolved_0_9955    9
+resolved_0_996     9
+dtype: int64
+Supplementary: targeted, cell 10
+ ceiling selection_rule  resolved_rows  ceiling_limited_rows
+  0.9945             rf              7                    20
+  0.9945         linear             14                    13
+  0.9945            max              6                    21
+  0.9950             rf              8                    19
+  0.9950         linear             14                    13
+  0.9950            max              8                    19
+              generator_id          scope  n_seeds  candidate_rf_auc  candidate_linear_auc  candidate_max_auc  candidate_selection_gain  anchor_rf_auc  anchor_linear_auc  anchor_max_auc  excess_auc  excess_seed_sd  candidate_n_per_class  candidate_null_p95  candidate_perm_p  resolved_0_994  resolved_0_9945  resolved_0_995  resolved_0_9955  resolved_0_996  candidate_headroom_0_995  anchor_headroom_0_995
+                real_block      mask_only        5          0.993709              0.993305           0.994591                       0.0       0.991919           0.991497        0.992359    0.002232        0.002845                25000.0            0.507331              0.05           False            False            True             True            True                  0.000409               0.002641
+ hurdle_independent_stitch      mask_only        5          0.995431              0.992936           0.995431                       0.0       0.991919           0.991497        0.992359    0.003073        0.000312                25000.0            0.506858              0.05           False            False           False             True            True                 -0.000431               0.002641
+learned_latent_var_overlay protocol_value        5          0.994682              0.881298           0.994682                       0.0       0.925420           0.876214        0.925420    0.069261        0.002459                25000.0            0.506336              0.05           False            False            True             True            True                  0.000318               0.069580
+Supplementary: targeted, cell 21
+{
+  "canonical_notebook": "/workspace/scratch/d2f19d71b02c/deliverable/Thesis_Reproduction/provenance/canonical_cells.json",
+  "canonical_sha256": "b676305d31e2d0ceec7c55efd766f2843a257b76d5bdd65b0cb770d664fa4517",
+  "definition_count": 43,
+  "wass2": {
+    "completed": true,
+    "max_abs_reproduction_error": 4.547473508864641e-13,
+    "n_floor_active_total": 15,
+    "severity1_max_top1_share": 0.9983205199584549
+  },
+  "c2st2": {
+    "completed": true,
+    "rows": 27,
+    "resolved_0_995": 8,
+    "resolved_0_9945": 6
+  },
+  "new_experiments_enabled": false,
+  "posctrl1_completed": false,
+  "tempctrl1_completed": false
+}
+
+Return this notebook plus the complete TIOT_TARGETED_V4_OUTPUTS directory.
+
+Executing code cell 19
+Not executed in records profile: canonical_metrics. This is not a passed raw-data reproduction.
+
+Executing code cell 21
+Not executed in records profile: controlled. This is not a passed raw-data reproduction.
+
+Executing code cell 23
+Not executed in records profile: input_verification. This is not a passed raw-data reproduction.
+
+Executing code cell 25
+Not executed in records profile: residential. This is not a passed raw-data reproduction.
+
+Executing code cell 27
+Not executed in records profile: classifier_capacity. This is not a passed raw-data reproduction.
+
+Executing code cell 29
+Not executed in records profile: temporal_controls. This is not a passed raw-data reproduction.
+
+Executing code cell 31
+Not executed in records profile: positive_controls. This is not a passed raw-data reproduction.
+
+Executing code cell 33
+Not executed in records profile: positive_diagnostics. This is not a passed raw-data reproduction.
+
+Executing code cell 35
+Not executed in records profile: telemetry. This is not a passed raw-data reproduction.
+
+Executing code cell 37
+Not executed in records profile: prepare. This is not a passed raw-data reproduction.
+
+Executing code cell 39
+Not executed in records profile: decoder. This is not a passed raw-data reproduction.
+
+Executing code cell 41
+Not executed in records profile: external. This is not a passed raw-data reproduction.
+
+Executing code cell 43
+report: /workspace/scratch/d2f19d71b02c/.validation-public/bin/python
+              stage execution             comparison  current_binding  complete  passed                                                                                                   output                                                                          evidence_type
+          preflight COMPLETED                   PASS             True      True    True                                    /workspace/scratch/d2f19d71b02c/analysis/master_records_run/preflight                                                       New execution in this invocation
+            history COMPLETED  ARCHIVED_REPORTS_ONLY             True      True    True                                      /workspace/scratch/d2f19d71b02c/analysis/master_records_run/history                                           Previously returned author reports, read now
+            records COMPLETED                   PASS             True      True    True                                      /workspace/scratch/d2f19d71b02c/analysis/master_records_run/records            New arithmetic and plots from archived primitive records; no new model fits
+supplementary_audit COMPLETED RECORDED_DISCREPANCIES             True      True    True                  /workspace/scratch/d2f19d71b02c/analysis/master_records_run/supplementary_discrepancies            New population and printed-precision comparisons of both archived snapshots
+         thresholds COMPLETED                   PASS             True      True    True    /workspace/scratch/d2f19d71b02c/analysis/master_records_run/supplementary/eade3a513c817e99/thresholds          New arithmetic from original canonical P0 records; separate from corrected P0
+      fixture_audit COMPLETED                   PASS             True      True    True /workspace/scratch/d2f19d71b02c/analysis/master_records_run/supplementary/f8194b72b91cfd70/fixture_audit Fresh Wasserstein fixtures plus 27-row classifier reconstruction from archived metrics
+Result report: /workspace/scratch/d2f19d71b02c/analysis/master_records_run/final_report/RESULTS_TO_RETURN.zip
+Return: /workspace/scratch/d2f19d71b02c/analysis/master_records_run/final_report/RESULTS_TO_RETURN.zip
+
+{
+  "execution_status": "COMPLETED",
+  "profile": "records",
+  "cells": 45,
+  "executed_code_cells": 23,
+  "expected_code_cells": 23,
+  "executed_cell_indices": [
+    2,
+    4,
+    6,
+    7,
+    9,
+    10,
+    12,
+    13,
+    15,
+    17,
+    19,
+    21,
+    23,
+    25,
+    27,
+    29,
+    31,
+    33,
+    35,
+    37,
+    39,
+    41,
+    43
+  ],
+  "errors": [],
+  "elapsed_seconds": 24.941522041999633,
+  "execution_method": "Fresh IPython process, all code cells in notebook order; scientific child processes selected by master controller",
+  "native_jupyter_execution": "NOT_AVAILABLE: local kernel network initialization returned Operation not permitted; see native_kernel_attempt.log",
+  "full_raw_reproduction": false
+}

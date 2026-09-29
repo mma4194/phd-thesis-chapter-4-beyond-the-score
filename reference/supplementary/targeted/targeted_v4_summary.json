@@ -1,0 +1,20 @@
+{
+  "canonical_notebook": "/shared/home1/c.c21126547/TIOT_FINALISATION/01_CANONICAL_RUN/TIOT_v7_14_5_CANONICAL_EXECUTED.ipynb",
+  "canonical_sha256": "636feab5a35e7586073e65594dba0b9b7ebb3d3ac110eba43d7acb0cf8a47f63",
+  "definition_count": 43,
+  "wass2": {
+    "completed": true,
+    "max_abs_reproduction_error": 4.547473508864641e-13,
+    "n_floor_active_total": 15,
+    "severity1_max_top1_share": 0.9983205199584549
+  },
+  "c2st2": {
+    "completed": true,
+    "rows": 27,
+    "resolved_0_995": 8,
+    "resolved_0_9945": 6
+  },
+  "new_experiments_enabled": true,
+  "posctrl1_completed": true,
+  "tempctrl1_completed": true
+}

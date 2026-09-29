@@ -1,0 +1,18 @@
+{
+  "sha256": "a4d7446daba0e46dab2dc21607a99c5a734a5366a6c24018a82ef2ef35fc4bda",
+  "bytes": 238609923,
+  "rows": 1277694,
+  "stored_columns": 740,
+  "working_columns": 1010,
+  "raw_working_columns": 664,
+  "registered_masks": 439,
+  "registered_missing_cells": 114941541,
+  "input_diagnostic_rows": 1992,
+  "real_task_windows": 136,
+  "windows_with_saved_records": 136,
+  "checks": 2641,
+  "failures": [],
+  "model_fits": 0,
+  "first_second": 1750446300,
+  "last_second": 1751723993
+}

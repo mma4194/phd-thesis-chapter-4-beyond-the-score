@@ -1,0 +1,24 @@
+{
+  "python": "3.11.11 (main, Jun 20 2025, 00:00:00) [GCC 11.5.0 20240719 (Red Hat 11.5.0-5)]",
+  "python_executable": "/shared/home1/c.c21126547/venvs/tiot-v5/bin/python",
+  "platform": "Linux-5.14.0-503.40.1.el9_5.x86_64-x86_64-with-glibc2.34",
+  "packages": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.0",
+    "matplotlib": "3.11.1",
+    "pyarrow": "25.0.0",
+    "joblib": "1.5.3",
+    "torch": "2.13.0"
+  },
+  "detected_cpus": 20,
+  "blas_threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "notebook_path": "/shared/home1/c.c21126547/TIOT_v7_14_5_ACM_TIOT_MEASUREMENT_ADMISSIBILITY.ipynb",
+  "notebook_sha256": "9b025349278037ea67b96e8e178e5712dfae69d656245d4acd000c19113c9419",
+  "run_id": "run_20260806_113930"
+}

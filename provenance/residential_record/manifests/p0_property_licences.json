@@ -1,0 +1,718 @@
+{
+  "global_licences": {
+    "contemporaneous": true,
+    "temporal": false,
+    "temporal_requires_order_preservation": true,
+    "global_by_suite": {
+      "contemporaneous": {
+        "passed": true,
+        "eligible_capabilities": [
+          "contemporaneous_dependency|byte_volume",
+          "contemporaneous_dependency|management_control",
+          "contemporaneous_dependency|packet_count",
+          "contemporaneous_dependency|protocol_other",
+          "contemporaneous_dependency|radio_quality"
+        ],
+        "licensed_capabilities": [
+          "contemporaneous_dependency|byte_volume",
+          "contemporaneous_dependency|management_control",
+          "contemporaneous_dependency|packet_count",
+          "contemporaneous_dependency|protocol_other",
+          "contemporaneous_dependency|radio_quality"
+        ],
+        "n_eligible": 5,
+        "n_licensed": 5,
+        "licensed_fraction": 1.0,
+        "minimum_licensed_capabilities": 4,
+        "minimum_licensed_fraction": 0.6
+      },
+      "temporal": {
+        "passed": false,
+        "eligible_capabilities": [
+          "burst|byte_volume",
+          "burst|protocol_other",
+          "burst|radio_quality",
+          "cross_tier_response|packet_count",
+          "forecast|byte_volume",
+          "forecast|management_control",
+          "forecast|protocol_other"
+        ],
+        "licensed_capabilities": [
+          "burst|byte_volume",
+          "burst|protocol_other"
+        ],
+        "n_eligible": 7,
+        "n_licensed": 2,
+        "licensed_fraction": 0.2857142857142857,
+        "minimum_licensed_capabilities": 4,
+        "minimum_licensed_fraction": 0.6
+      }
+    }
+  },
+  "capability_licences": {
+    "burst|byte_volume": {
+      "contemporaneous": {
+        "eligible": false,
+        "licensed": false,
+        "identity_ok": false,
+        "property_ok": false,
+        "n_qualification_pairs": 0,
+        "n_seed_units": 0,
+        "margin": 0.09531017980432493
+      },
+      "temporal": {
+        "eligible": true,
+        "licensed": true,
+        "identity_ok": true,
+        "block_transfer_ok": true,
+        "order_effect_ok": true,
+        "n_qualification_pairs": 5,
+        "n_seed_units": 5,
+        "temporal_loss_ratio_max": 1.4260182771265715,
+        "noninferiority_rate": 0.82
+      }
+    },
+    "burst|packet_count": {
+      "contemporaneous": {
+        "eligible": false,
+        "licensed": false,
+        "identity_ok": false,
+        "property_ok": false,
+        "n_qualification_pairs": 0,
+        "n_seed_units": 0,
+        "margin": 0.09531017980432493
+      },
+      "temporal": {
+        "eligible": false,
+        "licensed": false,
+        "identity_ok": false,
+        "block_transfer_ok": false,
+        "order_effect_ok": false,
+        "n_qualification_pairs": 3,
+        "n_seed_units": 5,
+        "temporal_loss_ratio_max": 1.8,
+        "noninferiority_rate": 0.8
+      }
+    },
+    "burst|protocol_other": {
+      "contemporaneous": {
+        "eligible": false,
+        "licensed": false,
+        "identity_ok": false,
+        "property_ok": false,
+        "n_qualification_pairs": 0,
+        "n_seed_units": 0,
+        "margin": 0.09531017980432493
+      },
+      "temporal": {
+        "eligible": true,
+        "licensed": true,
+        "identity_ok": true,
+        "block_transfer_ok": true,
+        "order_effect_ok": true,
+        "n_qualification_pairs": 5,
+        "n_seed_units": 5,
+        "temporal_loss_ratio_max": 1.441181355684478,
+        "noninferiority_rate": 0.7934782608695652
+      }
+    },
+    "burst|radio_quality": {
+      "contemporaneous": {
+        "eligible": false,
+        "licensed": false,
+        "identity_ok": false,
+        "property_ok": false,
+        "n_qualification_pairs": 0,
+        "n_seed_units": 0,
+        "margin": 0.09531017980432493
+      },
+      "temporal": {
+        "eligible": true,
+        "licensed": false,
+        "identity_ok": true,
+        "block_transfer_ok": true,
+        "order_effect_ok": false,
+        "n_qualification_pairs": 5,
+        "n_seed_units": 5,
+        "temporal_loss_ratio_max": 1.3601328776572041,
+        "noninferiority_rate": 0.96
+      }
+    },
+    "contemporaneous_dependency|byte_volume": {
+      "contemporaneous": {
+        "eligible": true,
+        "licensed": true,
+        "identity_ok": true,
+        "property_ok": true,
+        "n_qualification_pairs": 5,
+        "n_seed_units": 5,
+        "margin": 0.4054651081081644
+      },
+      "temporal": {
+        "eligible": false,
+        "licensed": false,
+        "identity_ok": false,
+        "block_transfer_ok": false,
+        "order_effect_ok": false,
+        "n_qualification_pairs": 0,
+        "n_seed_units": 0,
+        "temporal_loss_ratio_max": 1.25,
+        "noninferiority_rate": NaN
+      }
+    },
+    "contemporaneous_dependency|management_control": {
+      "contemporaneous": {
+        "eligible": true,
+        "licensed": true,
+        "identity_ok": true,
+        "property_ok": true,
+        "n_qualification_pairs": 5,
+        "n_seed_units": 5,
+        "margin": 0.4054651081081644
+      },
+      "temporal": {
+        "eligible": false,
+        "licensed": false,
+        "identity_ok": false,
+        "block_transfer_ok": false,
+        "order_effect_ok": false,
+        "n_qualification_pairs": 0,
+        "n_seed_units": 0,
+        "temporal_loss_ratio_max": 1.25,
+        "noninferiority_rate": NaN
+      }
+    },
+    "contemporaneous_dependency|packet_count": {
+      "contemporaneous": {
+        "eligible": true,
+        "licensed": true,
+        "identity_ok": true,
+        "property_ok": true,
+        "n_qualification_pairs": 5,
+        "n_seed_units": 5,
+        "margin": 0.4054651081081644
+      },
+      "temporal": {
+        "eligible": false,
+        "licensed": false,
+        "identity_ok": false,
+        "block_transfer_ok": false,
+        "order_effect_ok": false,
+        "n_qualification_pairs": 0,
+        "n_seed_units": 0,
+        "temporal_loss_ratio_max": 1.25,
+        "noninferiority_rate": NaN
+      }
+    },
+    "contemporaneous_dependency|physical_context": {
+      "contemporaneous": {
+        "eligible": false,
+        "licensed": false,
+        "identity_ok": false,
+        "property_ok": false,
+        "n_qualification_pairs": 3,
+        "n_seed_units": 5,
+        "margin": 0.09531017980432493
+      },
+      "temporal": {
+        "eligible": false,
+        "licensed": false,
+        "identity_ok": false,
+        "block_transfer_ok": false,
+        "order_effect_ok": false,
+        "n_qualification_pairs": 0,
+        "n_seed_units": 0,
+        "temporal_loss_ratio_max": 1.25,
+        "noninferiority_rate": NaN
+      }
+    },
+    "contemporaneous_dependency|protocol_other": {
+      "contemporaneous": {
+        "eligible": true,
+        "licensed": true,
+        "identity_ok": true,
+        "property_ok": true,
+        "n_qualification_pairs": 5,
+        "n_seed_units": 5,
+        "margin": 0.3417106338476925
+      },
+      "temporal": {
+        "eligible": false,
+        "licensed": false,
+        "identity_ok": false,
+        "block_transfer_ok": false,
+        "order_effect_ok": false,
+        "n_qualification_pairs": 0,
+        "n_seed_units": 0,
+        "temporal_loss_ratio_max": 1.25,
+        "noninferiority_rate": NaN
+      }
+    },
+    "contemporaneous_dependency|radio_quality": {
+      "contemporaneous": {
+        "eligible": true,
+        "licensed": true,
+        "identity_ok": true,
+        "property_ok": true,
+        "n_qualification_pairs": 5,
+        "n_seed_units": 5,
+        "margin": 0.4054651081081644
+      },
+      "temporal": {
+        "eligible": false,
+        "licensed": false,
+        "identity_ok": false,
+        "block_transfer_ok": false,
+        "order_effect_ok": false,
+        "n_qualification_pairs": 0,
+        "n_seed_units": 0,
+        "temporal_loss_ratio_max": 1.25,
+        "noninferiority_rate": NaN
+      }
+    },
+    "contemporaneous_dependency|state_event": {
+      "contemporaneous": {
+        "eligible": false,
+        "licensed": false,
+        "identity_ok": false,
+        "property_ok": false,
+        "n_qualification_pairs": 1,
+        "n_seed_units": 5,
+        "margin": 0.09531017980432493
+      },
+      "temporal": {
+        "eligible": false,
+        "licensed": false,
+        "identity_ok": false,
+        "block_transfer_ok": false,
+        "order_effect_ok": false,
+        "n_qualification_pairs": 0,
+        "n_seed_units": 0,
+        "temporal_loss_ratio_max": 1.25,
+        "noninferiority_rate": NaN
+      }
+    },
+    "cross_tier_response|packet_count": {
+      "contemporaneous": {
+        "eligible": false,
+        "licensed": false,
+        "identity_ok": false,
+        "property_ok": false,
+        "n_qualification_pairs": 0,
+        "n_seed_units": 0,
+        "margin": 0.09531017980432493
+      },
+      "temporal": {
+        "eligible": true,
+        "licensed": false,
+        "identity_ok": true,
+        "block_transfer_ok": true,
+        "order_effect_ok": false,
+        "n_qualification_pairs": 5,
+        "n_seed_units": 5,
+        "temporal_loss_ratio_max": 1.3785910279129732,
+        "noninferiority_rate": 0.94
+      }
+    },
+    "cross_tier_response|physical_context": {
+      "contemporaneous": {
+        "eligible": false,
+        "licensed": false,
+        "identity_ok": false,
+        "property_ok": false,
+        "n_qualification_pairs": 0,
+        "n_seed_units": 0,
+        "margin": 0.09531017980432493
+      },
+      "temporal": {
+        "eligible": false,
+        "licensed": false,
+        "identity_ok": false,
+        "block_transfer_ok": false,
+        "order_effect_ok": false,
+        "n_qualification_pairs": 3,
+        "n_seed_units": 5,
+        "temporal_loss_ratio_max": 1.25,
+        "noninferiority_rate": 1.0
+      }
+    },
+    "cross_tier_response|radio_quality": {
+      "contemporaneous": {
+        "eligible": false,
+        "licensed": false,
+        "identity_ok": false,
+        "property_ok": false,
+        "n_qualification_pairs": 0,
+        "n_seed_units": 0,
+        "margin": 0.09531017980432493
+      },
+      "temporal": {
+        "eligible": false,
+        "licensed": false,
+        "identity_ok": false,
+        "block_transfer_ok": false,
+        "order_effect_ok": false,
+        "n_qualification_pairs": 3,
+        "n_seed_units": 5,
+        "temporal_loss_ratio_max": 1.25,
+        "noninferiority_rate": 1.0
+      }
+    },
+    "cross_tier_response|state_event": {
+      "contemporaneous": {
+        "eligible": false,
+        "licensed": false,
+        "identity_ok": false,
+        "property_ok": false,
+        "n_qualification_pairs": 0,
+        "n_seed_units": 0,
+        "margin": 0.09531017980432493
+      },
+      "temporal": {
+        "eligible": false,
+        "licensed": false,
+        "identity_ok": false,
+        "block_transfer_ok": false,
+        "order_effect_ok": false,
+        "n_qualification_pairs": 1,
+        "n_seed_units": 5,
+        "temporal_loss_ratio_max": 1.25,
+        "noninferiority_rate": 1.0
+      }
+    },
+    "forecast|byte_volume": {
+      "contemporaneous": {
+        "eligible": false,
+        "licensed": false,
+        "identity_ok": false,
+        "property_ok": false,
+        "n_qualification_pairs": 0,
+        "n_seed_units": 0,
+        "margin": 0.09531017980432493
+      },
+      "temporal": {
+        "eligible": true,
+        "licensed": false,
+        "identity_ok": true,
+        "block_transfer_ok": true,
+        "order_effect_ok": false,
+        "n_qualification_pairs": 5,
+        "n_seed_units": 5,
+        "temporal_loss_ratio_max": 1.25,
+        "noninferiority_rate": 0.83
+      }
+    },
+    "forecast|management_control": {
+      "contemporaneous": {
+        "eligible": false,
+        "licensed": false,
+        "identity_ok": false,
+        "property_ok": false,
+        "n_qualification_pairs": 0,
+        "n_seed_units": 0,
+        "margin": 0.09531017980432493
+      },
+      "temporal": {
+        "eligible": true,
+        "licensed": false,
+        "identity_ok": true,
+        "block_transfer_ok": true,
+        "order_effect_ok": false,
+        "n_qualification_pairs": 5,
+        "n_seed_units": 5,
+        "temporal_loss_ratio_max": 1.25,
+        "noninferiority_rate": 0.77
+      }
+    },
+    "forecast|physical_context": {
+      "contemporaneous": {
+        "eligible": false,
+        "licensed": false,
+        "identity_ok": false,
+        "property_ok": false,
+        "n_qualification_pairs": 0,
+        "n_seed_units": 0,
+        "margin": 0.09531017980432493
+      },
+      "temporal": {
+        "eligible": false,
+        "licensed": false,
+        "identity_ok": false,
+        "block_transfer_ok": false,
+        "order_effect_ok": false,
+        "n_qualification_pairs": 3,
+        "n_seed_units": 5,
+        "temporal_loss_ratio_max": 1.25,
+        "noninferiority_rate": 1.0
+      }
+    },
+    "forecast|protocol_other": {
+      "contemporaneous": {
+        "eligible": false,
+        "licensed": false,
+        "identity_ok": false,
+        "property_ok": false,
+        "n_qualification_pairs": 0,
+        "n_seed_units": 0,
+        "margin": 0.09531017980432493
+      },
+      "temporal": {
+        "eligible": true,
+        "licensed": false,
+        "identity_ok": true,
+        "block_transfer_ok": true,
+        "order_effect_ok": false,
+        "n_qualification_pairs": 5,
+        "n_seed_units": 5,
+        "temporal_loss_ratio_max": 1.25,
+        "noninferiority_rate": 0.87
+      }
+    },
+    "forecast|radio_quality": {
+      "contemporaneous": {
+        "eligible": false,
+        "licensed": false,
+        "identity_ok": false,
+        "property_ok": false,
+        "n_qualification_pairs": 0,
+        "n_seed_units": 0,
+        "margin": 0.09531017980432493
+      },
+      "temporal": {
+        "eligible": false,
+        "licensed": false,
+        "identity_ok": false,
+        "block_transfer_ok": false,
+        "order_effect_ok": false,
+        "n_qualification_pairs": 2,
+        "n_seed_units": 5,
+        "temporal_loss_ratio_max": 1.25,
+        "noninferiority_rate": 1.0
+      }
+    },
+    "forecast|state_event": {
+      "contemporaneous": {
+        "eligible": false,
+        "licensed": false,
+        "identity_ok": false,
+        "property_ok": false,
+        "n_qualification_pairs": 0,
+        "n_seed_units": 0,
+        "margin": 0.09531017980432493
+      },
+      "temporal": {
+        "eligible": false,
+        "licensed": false,
+        "identity_ok": false,
+        "block_transfer_ok": false,
+        "order_effect_ok": false,
+        "n_qualification_pairs": 1,
+        "n_seed_units": 5,
+        "temporal_loss_ratio_max": 1.25,
+        "noninferiority_rate": 1.0
+      }
+    }
+  },
+  "train_calibrated_margins": {
+    "burst|byte_volume": {
+      "contemporaneous_log_margin": 0.09531017980432493,
+      "temporal_loss_ratio_max": 1.4260182771265715
+    },
+    "burst|packet_count": {
+      "contemporaneous_log_margin": 0.09531017980432493,
+      "temporal_loss_ratio_max": 1.8
+    },
+    "burst|protocol_other": {
+      "contemporaneous_log_margin": 0.09531017980432493,
+      "temporal_loss_ratio_max": 1.441181355684478
+    },
+    "burst|radio_quality": {
+      "contemporaneous_log_margin": 0.09531017980432493,
+      "temporal_loss_ratio_max": 1.3601328776572041
+    },
+    "contemporaneous_dependency|byte_volume": {
+      "contemporaneous_log_margin": 0.4054651081081644,
+      "temporal_loss_ratio_max": 1.25
+    },
+    "contemporaneous_dependency|management_control": {
+      "contemporaneous_log_margin": 0.4054651081081644,
+      "temporal_loss_ratio_max": 1.25
+    },
+    "contemporaneous_dependency|packet_count": {
+      "contemporaneous_log_margin": 0.4054651081081644,
+      "temporal_loss_ratio_max": 1.25
+    },
+    "contemporaneous_dependency|physical_context": {
+      "contemporaneous_log_margin": 0.09531017980432493,
+      "temporal_loss_ratio_max": 1.25
+    },
+    "contemporaneous_dependency|protocol_other": {
+      "contemporaneous_log_margin": 0.3417106338476925,
+      "temporal_loss_ratio_max": 1.25
+    },
+    "contemporaneous_dependency|radio_quality": {
+      "contemporaneous_log_margin": 0.4054651081081644,
+      "temporal_loss_ratio_max": 1.25
+    },
+    "contemporaneous_dependency|state_event": {
+      "contemporaneous_log_margin": 0.09531017980432493,
+      "temporal_loss_ratio_max": 1.25
+    },
+    "cross_tier_response|packet_count": {
+      "contemporaneous_log_margin": 0.09531017980432493,
+      "temporal_loss_ratio_max": 1.3785910279129732
+    },
+    "cross_tier_response|physical_context": {
+      "contemporaneous_log_margin": 0.09531017980432493,
+      "temporal_loss_ratio_max": 1.25
+    },
+    "cross_tier_response|radio_quality": {
+      "contemporaneous_log_margin": 0.09531017980432493,
+      "temporal_loss_ratio_max": 1.25
+    },
+    "cross_tier_response|state_event": {
+      "contemporaneous_log_margin": 0.09531017980432493,
+      "temporal_loss_ratio_max": 1.25
+    },
+    "forecast|byte_volume": {
+      "contemporaneous_log_margin": 0.09531017980432493,
+      "temporal_loss_ratio_max": 1.25
+    },
+    "forecast|management_control": {
+      "contemporaneous_log_margin": 0.09531017980432493,
+      "temporal_loss_ratio_max": 1.25
+    },
+    "forecast|physical_context": {
+      "contemporaneous_log_margin": 0.09531017980432493,
+      "temporal_loss_ratio_max": 1.25
+    },
+    "forecast|protocol_other": {
+      "contemporaneous_log_margin": 0.09531017980432493,
+      "temporal_loss_ratio_max": 1.25
+    },
+    "forecast|radio_quality": {
+      "contemporaneous_log_margin": 0.09531017980432493,
+      "temporal_loss_ratio_max": 1.25
+    },
+    "forecast|state_event": {
+      "contemporaneous_log_margin": 0.09531017980432493,
+      "temporal_loss_ratio_max": 1.25
+    }
+  },
+  "calibration_pairs": [
+    {
+      "pair_id": "pair6",
+      "source_block": 6,
+      "target_block": 17,
+      "profile_distance": 11656.603658302656,
+      "source_start": 235268,
+      "source_end": 256868,
+      "target_start": 666593,
+      "target_end": 688193,
+      "phase": "calibration"
+    },
+    {
+      "pair_id": "pair8",
+      "source_block": 8,
+      "target_block": 14,
+      "profile_distance": 30169.121719402705,
+      "source_start": 313690,
+      "source_end": 335290,
+      "target_start": 548959,
+      "target_end": 570559,
+      "phase": "calibration"
+    },
+    {
+      "pair_id": "pair1",
+      "source_block": 1,
+      "target_block": 12,
+      "profile_distance": 50500000000.00001,
+      "source_start": 39211,
+      "source_end": 60811,
+      "target_start": 470536,
+      "target_end": 492136,
+      "phase": "calibration"
+    },
+    {
+      "pair_id": "pair2",
+      "source_block": 2,
+      "target_block": 13,
+      "profile_distance": 50500000000.00054,
+      "source_start": 78422,
+      "source_end": 100022,
+      "target_start": 509747,
+      "target_end": 531347,
+      "phase": "calibration"
+    },
+    {
+      "pair_id": "pair3",
+      "source_block": 3,
+      "target_block": 15,
+      "profile_distance": 50500000000.00134,
+      "source_start": 117634,
+      "source_end": 139234,
+      "target_start": 588170,
+      "target_end": 609770,
+      "phase": "calibration"
+    }
+  ],
+  "qualification_pairs": [
+    {
+      "pair_id": "pair7",
+      "source_block": 7,
+      "target_block": 19,
+      "profile_distance": 11784.016261777577,
+      "source_start": 274479,
+      "source_end": 296079,
+      "target_start": 745016,
+      "target_end": 766616,
+      "phase": "qualification"
+    },
+    {
+      "pair_id": "pair9",
+      "source_block": 9,
+      "target_block": 16,
+      "profile_distance": 55030140.124302074,
+      "source_start": 352902,
+      "source_end": 374502,
+      "target_start": 627381,
+      "target_end": 648981,
+      "phase": "qualification"
+    },
+    {
+      "pair_id": "pair0",
+      "source_block": 0,
+      "target_block": 10,
+      "profile_distance": 50500000000.00004,
+      "source_start": 0,
+      "source_end": 21600,
+      "target_start": 392113,
+      "target_end": 413713,
+      "phase": "qualification"
+    },
+    {
+      "pair_id": "pair4",
+      "source_block": 4,
+      "target_block": 11,
+      "profile_distance": 50500000000.001,
+      "source_start": 156845,
+      "source_end": 178445,
+      "target_start": 431325,
+      "target_end": 452925,
+      "phase": "qualification"
+    },
+    {
+      "pair_id": "pair5",
+      "source_block": 5,
+      "target_block": 18,
+      "profile_distance": 50500000000.00134,
+      "source_start": 196056,
+      "source_end": 217656,
+      "target_start": 705804,
+      "target_end": 727404,
+      "phase": "qualification"
+    }
+  ],
+  "test_used": false,
+  "interpretation": "Utility is licensed capability by capability. Calibration pairs estimate natural real-to-real variation; disjoint TRAIN qualification pairs issue the licence. TEST is never used to select margins or licences."
+}

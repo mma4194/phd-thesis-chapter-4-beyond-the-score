@@ -1,0 +1,2 @@
+signature.run_profile_scope_state,methodology_hash,signature.instrument_contract.c2st_classifiers,signature.time_axis_contract.explicit_numeric_time_required,_auc,_anchor_auc,headroom,excess_auc,resolution_available
+FULL_CAMPAIGN,592075a39c6a1c0cc8332db9c1b2aba6182c721c3b2cf9ff76c86f859f596195,"['random_forest', 'logistic_regression']",True,0.6,,,,False

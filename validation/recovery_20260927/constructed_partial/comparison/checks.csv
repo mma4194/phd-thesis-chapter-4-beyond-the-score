@@ -1,0 +1,10 @@
+check,passed,detail
+fresh_metric_qualification_unique_keys,True,
+fresh_metric_qualification_same_keys,True,11 joined records
+fresh_metric_qualification_values,True,3 quantities compared
+fresh_metric_seed_curves_unique_keys,True,
+fresh_metric_seed_curves_same_keys,True,45 joined records
+fresh_metric_seed_curves_values,True,29 quantities compared
+completed_scenarios_subset_only_unique_keys,True,
+completed_scenarios_subset_only_same_keys,True,13 joined records
+completed_scenarios_subset_only_values,True,6 quantities compared

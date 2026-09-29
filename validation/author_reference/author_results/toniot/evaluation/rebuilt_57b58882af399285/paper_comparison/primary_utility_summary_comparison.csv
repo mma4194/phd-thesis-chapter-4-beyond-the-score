@@ -1,0 +1,7 @@
+quantity,rows,mismatches,max_absolute_error,atol,rtol
+permission,36,0,,1e-07,1e-06
+outcome,36,0,,1e-07,1e-06
+loss_ratio,36,0,4.440892098500626e-15,1e-07,1e-06
+lo,36,0,7.105427357601002e-15,1e-07,1e-06
+hi,36,0,2.220446049250313e-15,1e-07,1e-06
+common_reportable_tasks,36,0,0.0,1e-07,1e-06

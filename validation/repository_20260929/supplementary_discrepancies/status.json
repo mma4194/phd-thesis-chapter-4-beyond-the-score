@@ -1,0 +1,31 @@
+{
+  "execution_status": "COMPLETED",
+  "evidence_type": "New arithmetic from archived primitive records; fresh fitting is separate",
+  "current_supplementary_records_match": true,
+  "median_population_wording": "Corrected in latest supplied thesis supplement",
+  "current_table_s14_mismatches": 0,
+  "historical_canonical_vs_current_table_s14_differences": 3,
+  "current_supplement_source": "provenance/latest_supplement.json",
+  "comparison": "PASS",
+  "populations": [
+    {
+      "population": "all_features",
+      "feature_seed_rows": 27,
+      "features": 9,
+      "fixture_seeds": 3,
+      "mean_of_seed_means": 1463.9127756500318,
+      "mean_of_seed_medians": 0.268861111111111,
+      "pooled_median": 0.2688333333333333
+    },
+    {
+      "population": "positive_reference_iqr",
+      "feature_seed_rows": 24,
+      "features": 8,
+      "fixture_seeds": 3,
+      "mean_of_seed_means": 2.804650384066693,
+      "mean_of_seed_medians": 0.1344305555555555,
+      "pooled_median": 0.1339999999999999
+    }
+  ],
+  "scientific_reference_tables_modified": false
+}

@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite the thesis chapter and the specific repository release/commit used."
+title: "Beyond the Score: Chapter 4 reproducibility materials"
+type: software
+authors:
+  - family-names: Alosaimi
+    given-names: Mohammed
+url: "https://github.com/mma4194/phd-thesis-chapter-4-beyond-the-score"

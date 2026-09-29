@@ -1,0 +1,21 @@
+{
+  "declared_before_data_analysis": true,
+  "step_seconds": 5,
+  "bin_origin": "Unix epoch UTC",
+  "bin_interval": "left-closed, right-open",
+  "numeric_aggregation": "arithmetic mean of available records",
+  "binary_aggregation": "fraction of observed records in the true state",
+  "duplicate_policy": "retain all supplied rows",
+  "missing_policy": "NaN values; separate observed counts; no imputation",
+  "date_repair_scope": "IoT_normal_fridge_3; only 0?4 Apr 201; validate original GMT dates and every measurement",
+  "clock_offsets_applied": [],
+  "capture_session_gap_seconds": 60,
+  "capture_scope": "per-file chronology only; no network feature reconstruction or pooling",
+  "incomplete_capture_policy": "Classic PCAP incomplete EOF: retain complete-record prefix for diagnostics; exclude incomplete record; do not certify capture completeness. Other decoding errors: export and exclude that file; continue others.",
+  "scientific_claim": "source-supported timestamp repair; not recovery of the lost script",
+  "historical_input_sha256": {
+    "canonical": "4fd1d7225202e111c20e521f19afd56b0c319059d21037d929a2257a3b3a5692",
+    "preimputation": "e9ceacc4d8638ef1f7e56c8bc8d2004430f1de413bd677d124a9ffb6b893968d"
+  },
+  "engine_sha256": "08a2692383be9c8103cb8d622cb1fdbddf742ca935bbeccb8cfef29557db275b"
+}

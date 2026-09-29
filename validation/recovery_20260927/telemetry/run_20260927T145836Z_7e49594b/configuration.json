@@ -1,0 +1,5 @@
+{
+  "input_root": "/workspace/scratch/d2f19d71b02c/input_data",
+  "telemetry_input": "/workspace/scratch/d2f19d71b02c/input_data/TON_IOT_IOT_DATA.zip",
+  "output_root": "validation_current/telemetry"
+}

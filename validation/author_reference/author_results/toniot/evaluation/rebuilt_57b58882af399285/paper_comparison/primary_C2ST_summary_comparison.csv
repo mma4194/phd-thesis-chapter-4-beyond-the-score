@@ -1,0 +1,9 @@
+quantity,rows,mismatches,max_absolute_error,atol,rtol
+resolution_available,72,0,0.0,1e-07,1e-06
+secondary_resolution_available,72,0,0.0,1e-07,1e-06
+candidate_max_AUC,72,0,0.0,1e-07,1e-06
+anchor_max_AUC,72,0,0.0,1e-07,1e-06
+P0_max_AUC,72,0,0.0,1e-07,1e-06
+excess_AUC,72,0,1.0061396160665481e-16,1e-07,1e-06
+excess_lo,72,0,1.97758476261356e-16,1e-07,1e-06
+excess_hi,72,0,0.0,1e-07,1e-06

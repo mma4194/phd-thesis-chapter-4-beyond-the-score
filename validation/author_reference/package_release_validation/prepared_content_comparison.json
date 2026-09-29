@@ -1,0 +1,102 @@
+{
+  "status": "PASS",
+  "policy": "Exact CSV fields after newline/container normalization; only packet-length standard deviations permit one adjacent float64 value. Missingness and zero values remain exact. References are anchored to original compressed SHA256 values.",
+  "checked_files": 6,
+  "files": [
+    {
+      "file": "general_5s_features.csv.gz",
+      "rows": 28746,
+      "expected_rows": 28746,
+      "exact_fields_match": true,
+      "standard_deviations": [
+        {
+          "column": "packet_length_std",
+          "passed": true,
+          "one_ulp_differences": 25,
+          "rejected_values": 0,
+          "max_absolute_difference": 5.684341886080802e-14
+        }
+      ],
+      "passed": true
+    },
+    {
+      "file": "iot_named_5s_features.csv.gz",
+      "rows": 33169,
+      "expected_rows": 33169,
+      "exact_fields_match": true,
+      "standard_deviations": [
+        {
+          "column": "packet_length_std",
+          "passed": true,
+          "one_ulp_differences": 34,
+          "rejected_values": 0,
+          "max_absolute_difference": 1.1368683772161603e-13
+        }
+      ],
+      "passed": true
+    },
+    {
+      "file": "telemetry_observed_counts.csv.gz",
+      "rows": 28752,
+      "expected_rows": 28752,
+      "exact_fields_match": true,
+      "standard_deviations": [],
+      "passed": true
+    },
+    {
+      "file": "TON_IoT_normal_5s_canonical_rebuilt.csv.gz",
+      "rows": 28752,
+      "expected_rows": 28752,
+      "exact_fields_match": true,
+      "standard_deviations": [
+        {
+          "column": "router__general__packet_length_std",
+          "passed": true,
+          "one_ulp_differences": 25,
+          "rejected_values": 0,
+          "max_absolute_difference": 5.684341886080802e-14
+        },
+        {
+          "column": "router__iot_named__packet_length_std",
+          "passed": true,
+          "one_ulp_differences": 29,
+          "rejected_values": 0,
+          "max_absolute_difference": 1.1368683772161603e-13
+        }
+      ],
+      "passed": true
+    },
+    {
+      "file": "TON_IoT_normal_5s_observed_mask.csv.gz",
+      "rows": 28752,
+      "expected_rows": 28752,
+      "exact_fields_match": true,
+      "standard_deviations": [],
+      "passed": true
+    },
+    {
+      "file": "TON_IoT_normal_5s_preimputation_rebuilt.csv.gz",
+      "rows": 28752,
+      "expected_rows": 28752,
+      "exact_fields_match": true,
+      "standard_deviations": [
+        {
+          "column": "router__general__packet_length_std",
+          "passed": true,
+          "one_ulp_differences": 25,
+          "rejected_values": 0,
+          "max_absolute_difference": 5.684341886080802e-14
+        },
+        {
+          "column": "router__iot_named__packet_length_std",
+          "passed": true,
+          "one_ulp_differences": 29,
+          "rejected_values": 0,
+          "max_absolute_difference": 1.1368683772161603e-13
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "data_modified": false
+}

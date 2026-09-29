@@ -1,0 +1,23 @@
+suite,capability,candidate_cards,historically_admitted,corrected_admitted,original_representatives,retained_representatives,eligible,primary_qualified,state,explanation
+contemporaneous,contemporaneous_dependency|byte_volume,10,10,10,2,2,True,True,Admissible,qualified
+contemporaneous,contemporaneous_dependency|management_control,12,11,8,2,2,True,False,Property-Unlicensed,one or more recorded gate predicates failed
+contemporaneous,contemporaneous_dependency|packet_count,12,7,7,2,2,True,False,Property-Unlicensed,one or more recorded gate predicates failed
+contemporaneous,contemporaneous_dependency|physical_context,4,4,2,2,1,False,False,Not-Estimable,insufficient held-out/calibration support
+contemporaneous,contemporaneous_dependency|protocol_other,16,12,12,2,2,True,True,Admissible,qualified
+contemporaneous,contemporaneous_dependency|radio_quality,8,7,3,2,2,True,True,Admissible,qualified
+contemporaneous,contemporaneous_dependency|state_event,8,7,0,2,0,False,False,Not-Estimable,no retained original representative
+temporal,burst|byte_volume,20,16,16,2,2,True,False,Property-Unlicensed,one or more recorded gate predicates failed
+temporal,burst|packet_count,16,7,7,2,2,False,False,Not-Estimable,insufficient held-out/calibration support
+temporal,burst|physical_context,8,2,0,2,0,False,False,Not-Estimable,no retained original representative
+temporal,burst|protocol_other,32,8,8,2,2,True,False,Property-Unlicensed,one or more recorded gate predicates failed
+temporal,burst|radio_quality,16,2,2,2,2,True,False,Property-Unlicensed,one or more recorded gate predicates failed
+temporal,cross_tier_response|packet_count,38,1,1,1,1,True,False,Property-Unlicensed,one or more recorded gate predicates failed
+temporal,cross_tier_response|physical_context,24,12,0,2,0,False,False,Not-Estimable,no retained original representative
+temporal,cross_tier_response|radio_quality,36,12,3,2,0,False,False,Not-Estimable,no retained original representative
+temporal,cross_tier_response|state_event,36,2,0,2,0,False,False,Not-Estimable,no retained original representative
+temporal,forecast|byte_volume,30,12,12,2,2,True,False,Property-Unlicensed,one or more recorded gate predicates failed
+temporal,forecast|management_control,24,12,12,2,2,True,False,Property-Unlicensed,one or more recorded gate predicates failed
+temporal,forecast|physical_context,12,12,6,2,1,False,False,Not-Estimable,insufficient held-out/calibration support
+temporal,forecast|protocol_other,36,10,9,2,2,True,False,Property-Unlicensed,one or more recorded gate predicates failed
+temporal,forecast|radio_quality,24,21,9,2,0,False,False,Not-Estimable,no retained original representative
+temporal,forecast|state_event,24,12,0,2,0,False,False,Not-Estimable,no retained original representative

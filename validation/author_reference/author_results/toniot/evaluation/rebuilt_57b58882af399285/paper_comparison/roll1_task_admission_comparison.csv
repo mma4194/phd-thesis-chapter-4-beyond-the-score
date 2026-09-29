@@ -1,0 +1,8 @@
+quantity,rows,mismatches,max_absolute_error,atol,rtol
+admitted,32,0,0.0,1e-07,1e-06
+reason,32,0,,1e-07,1e-06
+threshold,32,0,0.0,1e-07,1e-06
+n_train,32,0,0.0,1e-07,1e-06
+n_validation,32,0,0.0,1e-07,1e-06
+loss,32,0,1.5543122344752192e-15,1e-07,1e-06
+reference_skill,32,0,2.4424906541753444e-15,1e-07,1e-06

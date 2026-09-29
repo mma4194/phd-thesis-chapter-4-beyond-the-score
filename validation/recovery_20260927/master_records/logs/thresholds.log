@@ -1,0 +1,116 @@
+Supplementary: threshold_closeout, cell 2
+Loaded exact frozen tables.
+P0 utility: (8600, 42)
+All utility: (20895, 42)
+Task cards: (640, 31)
+Supplementary: threshold_closeout, cell 4
+                                   capability  raw_xs_margin  applied_xs_margin xs_binding  raw_temporal_ratio  applied_temporal_ratio temporal_binding
+                            burst|byte_volume            NaN           0.095310       none            1.426018                1.426018             none
+                           burst|packet_count            NaN           0.095310       none            3.267474                1.800000          ceiling
+                         burst|protocol_other            NaN           0.095310       none            1.441181                1.441181             none
+                          burst|radio_quality            NaN           0.095310       none            1.360133                1.360133             none
+       contemporaneous_dependency|byte_volume       1.293119           0.405465    ceiling                 NaN                1.250000             none
+contemporaneous_dependency|management_control       0.542071           0.405465    ceiling                 NaN                1.250000             none
+      contemporaneous_dependency|packet_count       1.908945           0.405465    ceiling                 NaN                1.250000             none
+  contemporaneous_dependency|physical_context       0.000000           0.095310      floor                 NaN                1.250000             none
+    contemporaneous_dependency|protocol_other       0.341711           0.341711       none                 NaN                1.250000             none
+     contemporaneous_dependency|radio_quality       0.766224           0.405465    ceiling                 NaN                1.250000             none
+       contemporaneous_dependency|state_event            NaN           0.095310       none                 NaN                1.250000             none
+             cross_tier_response|packet_count            NaN           0.095310       none            1.378591                1.378591             none
+                                   capability           suite  applied_licensed  raw_licensed  changed
+                            burst|byte_volume        temporal              True          True    False
+                         burst|protocol_other        temporal              True          True    False
+                          burst|radio_quality        temporal             False         False    False
+       contemporaneous_dependency|byte_volume contemporaneous              True          True    False
+contemporaneous_dependency|management_control contemporaneous              True          True    False
+      contemporaneous_dependency|packet_count contemporaneous              True          True    False
+    contemporaneous_dependency|protocol_other contemporaneous              True          True    False
+     contemporaneous_dependency|radio_quality contemporaneous              True          True    False
+             cross_tier_response|packet_count        temporal             False         False    False
+                         forecast|byte_volume        temporal             False         False    False
+                  forecast|management_control        temporal             False         False    False
+                      forecast|protocol_other        temporal             False         False    False
+State changes: 0
+Supplementary: threshold_closeout, cell 6
+{
+  "rows_total": 20895,
+  "rows_with_accounting": 10885,
+  "rows_nonparity": 0,
+  "rows_ntrain_reference_difference": 0,
+  "unique_nonmissing_ratios": [
+    1.0
+  ]
+}
+ count  min  max  mean
+   490  1.0  1.0   1.0
+   490  1.0  1.0   1.0
+  1810  1.0  1.0   1.0
+  2326  1.0  1.0   1.0
+   490  1.0  1.0   1.0
+   490  1.0  1.0   1.0
+  1810  1.0  1.0   1.0
+  2346  1.0  1.0   1.0
+   633  1.0  1.0   1.0
+Supplementary: threshold_closeout, cell 8
+{
+  "candidate_cards": 640,
+  "admitted_cards": 199,
+  "rejected_cards": 441,
+  "leakage_rows": 640,
+  "leakage_passes": 640,
+  "test_used_for_selection": 0,
+  "failed_leakage_checks": 0,
+  "valid_capabilities": 22,
+  "valid_families": 36,
+  "valid_tiers": 4
+}
+Empty DataFrame
+Columns: [card_id, selection_split, admissibility_split, test_used_for_selection, same_lineage_predictors, target_derivation_predictors, cross_tier_driver_violation, passed]
+Index: []
+Supplementary: threshold_closeout, cell 10
+Frozen qualification row:
+          instrument target_perturbation  spearman_rho  endpoint_effect  minimum_endpoint_effect  threshold fixture_seeds  passed  raw_auc_diagnostic
+wasserstein_iqr_mean            marginal           1.0      1463.912776                     0.05        0.8  [19, 29, 39]    True                 NaN
+Per-seed/per-severity aggregate Wasserstein/IQR:
+ fixture_seed  severity  wasserstein_iqr_mean  marginal_n_features
+           19      0.00              0.000000                    9
+           19      0.25            370.991634                    9
+           19      0.50            741.982899                    9
+           19      0.75           1108.344736                    9
+           19      1.00           1479.336368                    9
+           29      0.00              0.000000                    9
+           29      0.25            380.265161                    9
+           29      0.50            755.900832                    9
+           29      0.75           1136.166014                    9
+           29      1.00           1511.801785                    9
+           39      0.00              0.000000                    9
+           39      0.25            347.835298                    9
+Recomputed aggregate endpoint effect: 1463.912775650032
+Reported Table 5 endpoint effect: 1463.912775650032
+Absolute difference: 0.0
+{
+  "aggregate_reproduced": true,
+  "feature_level_denominator_audit_available": false,
+  "required_next_step": "rerun controlled fixture with per-feature raw Wasserstein and reference-IQR logging"
+}
+Supplementary: threshold_closeout, cell 12
+Resolution map shape: (1, 9)
+Columns: ['signature.run_profile_scope_state', 'methodology_hash', 'signature.instrument_contract.c2st_classifiers', 'signature.time_axis_contract.explicit_numeric_time_required', '_auc', '_anchor_auc', 'headroom', 'excess_auc', 'resolution_available']
+signature.run_profile_scope_state                                                 methodology_hash signature.instrument_contract.c2st_classifiers  signature.time_axis_contract.explicit_numeric_time_required  _auc  _anchor_auc  headroom  excess_auc  resolution_available
+                    FULL_CAMPAIGN 592075a39c6a1c0cc8332db9c1b2aba6182c721c3b2cf9ff76c86f859f596195       ['random_forest', 'logistic_regression']                                                         True   0.6          NaN       NaN         NaN                 False
+Numeric AUC columns: ['_auc', '_anchor_auc', 'excess_auc']
+ ceiling  _auc_below  _anchor_auc_below  excess_auc_below
+  0.9940           1                  0                 0
+  0.9945           1                  0                 0
+  0.9950           1                  0                 0
+  0.9955           1                  0                 0
+  0.9960           1                  0                 0
+Supplementary: threshold_closeout, cell 14
+{
+  "p0_raw_vs_applied": "PASS_NO_STATE_CHANGE",
+  "training_budget_parity": "PASS",
+  "task_leakage": "PASS",
+  "wasserstein_aggregate": "PASS",
+  "wasserstein_feature_denominator_audit": "REQUIRES_TARGETED_RERUN",
+  "note": "This gate covers only checks executable from the frozen residential evidence package."
+}

@@ -1,0 +1,4 @@
+quantity,rows,mismatches,max_absolute_error,atol,rtol
+spearman_rho,11,0,0.0,1e-08,1e-07
+endpoint_effect,11,0,0.0,1e-08,1e-07
+passed,11,0,0.0,1e-08,1e-07

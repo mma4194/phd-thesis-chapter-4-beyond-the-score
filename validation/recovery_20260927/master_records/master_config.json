@@ -1,0 +1,10 @@
+{
+  "profile": "records",
+  "public_python": "/workspace/scratch/d2f19d71b02c/.validation-public/bin/python",
+  "residential_python": "/workspace/scratch/d2f19d71b02c/.validation-residential/bin/python",
+  "residential_parquet": "/workspace/scratch/d2f19d71b02c/input_data/cps_unified_1s_FULLGRID_FINAL_WITH_IOT_STATEFUL_STRICTMASKED_TRIMMED.parquet",
+  "toniot_data_root": "/workspace/scratch/d2f19d71b02c/input_data",
+  "run_root": "/workspace/scratch/d2f19d71b02c/analysis/master_records_run",
+  "workers": 4,
+  "budget_hours": 6.0
+}

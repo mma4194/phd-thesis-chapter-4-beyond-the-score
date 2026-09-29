@@ -1,0 +1,11 @@
+instrument,target_perturbation,spearman_rho,endpoint_effect,passed
+marginal_ks_mean,marginal,0.9999999999999999,0.31529012345679014,True
+wasserstein_iqr_mean,marginal,0.9999999999999999,1463.912775650032,True
+zero_rate_mae,marginal,0.9999999999999999,0.03762962962962957,True
+c2st_max_auc,marginal,0.8944271909999157,0.4940318405084124,True
+acf_abs_error_mean,order,0.9999999999999999,0.22620781505145235,True
+spectral_l1_mean,order,0.9999999999999999,1.1799050166524152,True
+transition_rate_mae,order,0.9999999999999999,0.0743302575878933,True
+coupling_corr_mae,coupling,0.9999999999999999,0.6281442095792861,True
+coupling_coactivation_mae,coupling,0.9999999999999999,0.014690972222222168,True
+c2st_max_auc,coupling,0.9999999999999999,0.48190575672332303,True

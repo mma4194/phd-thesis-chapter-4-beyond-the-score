@@ -1,0 +1,5 @@
+quantity,rows,mismatches,max_absolute_error,atol,rtol
+estimate,7,0,2.0122792321330962e-16,1e-07,1e-06
+lo,7,0,0.0,1e-07,1e-06
+hi,7,0,0.0,1e-07,1e-06
+outcome,7,0,,1e-07,1e-06

@@ -1,0 +1,296 @@
+[
+  {
+    "member": "IoT_filtered_normal/IoT_normal_fridge_1.csv",
+    "role": "filtered",
+    "basename": "IoT_normal_fridge_1.csv",
+    "bytes": 1473532,
+    "sha256": "0e8237a4eaee877b0e0366707e027e7bf58d325c8dee3143dc0922c1eb1af0e6"
+  },
+  {
+    "member": "IoT_filtered_normal/IoT_normal_fridge_2.csv",
+    "role": "filtered",
+    "basename": "IoT_normal_fridge_2.csv",
+    "bytes": 7377976,
+    "sha256": "978fce1f9a706cb8453532f345cb0f7bdd80182998d4bccd3eb20e41bf989f03"
+  },
+  {
+    "member": "IoT_filtered_normal/IoT_normal_fridge_3.csv",
+    "role": "filtered",
+    "basename": "IoT_normal_fridge_3.csv",
+    "bytes": 5281696,
+    "sha256": "3e9e82aeae8de0db37c4bae6e4c6eedf3b154055abe5910a95c3e9eb81cbc0c3"
+  },
+  {
+    "member": "IoT_filtered_normal/IoT_normal_Garage_door_1.csv",
+    "role": "filtered",
+    "basename": "IoT_normal_Garage_door_1.csv",
+    "bytes": 1670099,
+    "sha256": "3d1d8a3155f0d139429bb24daa50d4227079e0a7b60c6aa396328ff4c85869ce"
+  },
+  {
+    "member": "IoT_filtered_normal/IoT_normal_Garage_door_2.csv",
+    "role": "filtered",
+    "basename": "IoT_normal_Garage_door_2.csv",
+    "bytes": 8069295,
+    "sha256": "d289108158a0dc03c10ec9da759f425be1e70908e8cf6a7b26c6b66a80a2795c"
+  },
+  {
+    "member": "IoT_filtered_normal/IoT_normal_Garage_door_3.csv",
+    "role": "filtered",
+    "basename": "IoT_normal_Garage_door_3.csv",
+    "bytes": 5483934,
+    "sha256": "84ec48a9e22bb016fa72391cf475acb4bad14f47e894b4f0464a9a9a838fe1e5"
+  },
+  {
+    "member": "IoT_filtered_normal/IoT_normal_GPS_Tracker_1.csv",
+    "role": "filtered",
+    "basename": "IoT_normal_GPS_Tracker_1.csv",
+    "bytes": 2121802,
+    "sha256": "9705549d61d590cee44a30a37e0bb668e02b442429793d9cc36fa5fc17ef18f2"
+  },
+  {
+    "member": "IoT_filtered_normal/IoT_normal_GPS_Tracker_2.csv",
+    "role": "filtered",
+    "basename": "IoT_normal_GPS_Tracker_2.csv",
+    "bytes": 8624467,
+    "sha256": "f7d7bc3cea6c409e8ea3870015be623b16f8dc7d5e23436483eba630213c772c"
+  },
+  {
+    "member": "IoT_filtered_normal/IoT_normal_GPS_Tracker_3.csv",
+    "role": "filtered",
+    "basename": "IoT_normal_GPS_Tracker_3.csv",
+    "bytes": 6648911,
+    "sha256": "4801ddd90cd7d2e2a12fc466204f4a5093c8313d5f18ecb1594a75d19d7e169e"
+  },
+  {
+    "member": "IoT_filtered_normal/IoT_normal_modbus_1.csv",
+    "role": "filtered",
+    "basename": "IoT_normal_modbus_1.csv",
+    "bytes": 2108347,
+    "sha256": "e377425004ed28170da2c459eaaf39089422be1693768301fde7c47269c30246"
+  },
+  {
+    "member": "IoT_filtered_normal/IoT_normal_modbus_2.csv",
+    "role": "filtered",
+    "basename": "IoT_normal_modbus_2.csv",
+    "bytes": 584215,
+    "sha256": "a4e7f04d0ef7fa6c6301d15961269224062a2ca851cfb95160f0b93d07f50c49"
+  },
+  {
+    "member": "IoT_filtered_normal/IoT_normal_modbus_3.csv",
+    "role": "filtered",
+    "basename": "IoT_normal_modbus_3.csv",
+    "bytes": 6578850,
+    "sha256": "bc280f4218b75bc90b543d3570c3510af552aa71025a139ccee498879d9c2adc"
+  },
+  {
+    "member": "IoT_filtered_normal/IoT_normal_Motion_Light_1.csv",
+    "role": "filtered",
+    "basename": "IoT_normal_Motion_Light_1.csv",
+    "bytes": 1474667,
+    "sha256": "86730c2cf2ced6d196735709fc14129f35841b2e506b1d71f9eb13b152168902"
+  },
+  {
+    "member": "IoT_filtered_normal/IoT_normal_Motion_Light_2.csv",
+    "role": "filtered",
+    "basename": "IoT_normal_Motion_Light_2.csv",
+    "bytes": 4616563,
+    "sha256": "8eb704c15f22e3401aa79fef98c908a1d777832aad949cc49e74ea4d821ddb4e"
+  },
+  {
+    "member": "IoT_filtered_normal/IoT_normal_Motion_Light_3.csv",
+    "role": "filtered",
+    "basename": "IoT_normal_Motion_Light_3.csv",
+    "bytes": 2939781,
+    "sha256": "035273018c8629299798c613b523c393b4f4688bb0ad726feff2c9eef3d31881"
+  },
+  {
+    "member": "IoT_filtered_normal/IoT_normal_Thermostat_1.csv",
+    "role": "filtered",
+    "basename": "IoT_normal_Thermostat_1.csv",
+    "bytes": 1564851,
+    "sha256": "9ec45021d0f9f4ec2b218de35a26c46e62227c68e3b4ba21d935c6f62fb83c38"
+  },
+  {
+    "member": "IoT_filtered_normal/IoT_normal_Thermostat_2.csv",
+    "role": "filtered",
+    "basename": "IoT_normal_Thermostat_2.csv",
+    "bytes": 5729500,
+    "sha256": "f2ce2e5b234b292030dfa0f07c03320b0fcfae9bf5c1343928918d59e71146b3"
+  },
+  {
+    "member": "IoT_filtered_normal/IoT_normal_Thermostat_3.csv",
+    "role": "filtered",
+    "basename": "IoT_normal_Thermostat_3.csv",
+    "bytes": 3556604,
+    "sha256": "f35c6c660c0e9c38e36587196ee4ee00eabfaab311d0f798d0035c50f9c2b7c1"
+  },
+  {
+    "member": "IoT_filtered_normal/IoT_normal_weather_1.csv",
+    "role": "filtered",
+    "basename": "IoT_normal_weather_1.csv",
+    "bytes": 3115211,
+    "sha256": "03b368db8cade571d0ae23b2255fb08c15b4e14d78aecc1d769478071987f443"
+  },
+  {
+    "member": "IoT_filtered_normal/IoT_normal_weather_2.csv",
+    "role": "filtered",
+    "basename": "IoT_normal_weather_2.csv",
+    "bytes": 10102807,
+    "sha256": "89e5e46d2bb123595ef4a5066ccef13a387c7df204b0115c8423a50fd7bbc8e4"
+  },
+  {
+    "member": "IoT_filtered_normal/IoT_normal_weather_3.csv",
+    "role": "filtered",
+    "basename": "IoT_normal_weather_3.csv",
+    "bytes": 8448373,
+    "sha256": "4f6d8b968f413074e4479ea165df771341627b440f02ae84499cfad9d23aa45a"
+  },
+  {
+    "member": "IoT_original_normal/IoT_normal_fridge_1.log",
+    "role": "original",
+    "basename": "IoT_normal_fridge_1.log",
+    "bytes": 4077634,
+    "sha256": "92edf120b9bce4c0fd253c7a733a12ce620d9150e0455911c035d6efa86ac0d8"
+  },
+  {
+    "member": "IoT_original_normal/IoT_normal_fridge_2.log",
+    "role": "original",
+    "basename": "IoT_normal_fridge_2.log",
+    "bytes": 19358142,
+    "sha256": "3d918820cc518fe356443c0602824dea20b69fec52479f2e0a939c568945ad93"
+  },
+  {
+    "member": "IoT_original_normal/IoT_normal_fridge_3.log",
+    "role": "original",
+    "basename": "IoT_normal_fridge_3.log",
+    "bytes": 15590289,
+    "sha256": "3e9c52803ab10dcc21c32255269a8147a1a9249f9e28dc2751f5ce49f913d410"
+  },
+  {
+    "member": "IoT_original_normal/IoT_normal_Garage_door_1.log",
+    "role": "original",
+    "basename": "IoT_normal_Garage_door_1.log",
+    "bytes": 6697248,
+    "sha256": "ff150054a609fb0a9d71b046e53bdc0a851a8cc14ac9f91f1e8d43588745db59"
+  },
+  {
+    "member": "IoT_original_normal/IoT_normal_Garage_door_2.log",
+    "role": "original",
+    "basename": "IoT_normal_Garage_door_2.log",
+    "bytes": 22223684,
+    "sha256": "78d1cb4d8bf9db27e485d6370a8d594921c22be100cc0739e06d71d9858f32a6"
+  },
+  {
+    "member": "IoT_original_normal/IoT_normal_Garage_door_3.log",
+    "role": "original",
+    "basename": "IoT_normal_Garage_door_3.log",
+    "bytes": 14608128,
+    "sha256": "a4ae4bbcca73be8984d7e9b44b035c030ebc3a63f9d30e473e5f649593857559"
+  },
+  {
+    "member": "IoT_original_normal/IoT_normal_GPS_Tracker_1.log",
+    "role": "original",
+    "basename": "IoT_normal_GPS_Tracker_1.log",
+    "bytes": 4993372,
+    "sha256": "0e7cab90e8707a7da2871d12c9a92b986032c700f7575d215b577f8402e67427"
+  },
+  {
+    "member": "IoT_original_normal/IoT_normal_GPS_Tracker_2.log",
+    "role": "original",
+    "basename": "IoT_normal_GPS_Tracker_2.log",
+    "bytes": 19456791,
+    "sha256": "e94786e4eb32a918c56149eaae606dce64361ee81ccf7074187b9d7d3022665a"
+  },
+  {
+    "member": "IoT_original_normal/IoT_normal_GPS_Tracker_3.log",
+    "role": "original",
+    "basename": "IoT_normal_GPS_Tracker_3.log",
+    "bytes": 15721204,
+    "sha256": "5274af802686c5d4788218b5d07fff4c9fce4760fc49c89f80e65f3d8afcd0f2"
+  },
+  {
+    "member": "IoT_original_normal/IoT_normal_modbus_1.log",
+    "role": "original",
+    "basename": "IoT_normal_modbus_1.log",
+    "bytes": 1235957,
+    "sha256": "ae5d2d79fcf430c574fce5ad65c105ec8128db15a954f1e66456d10247971893"
+  },
+  {
+    "member": "IoT_original_normal/IoT_normal_modbus_2.log",
+    "role": "original",
+    "basename": "IoT_normal_modbus_2.log",
+    "bytes": 326180,
+    "sha256": "21f7394be0ddbf7ed3c8d7ed61dfb530e1aaac2bd06d73e8cbb587a6bfa8b2c8"
+  },
+  {
+    "member": "IoT_original_normal/IoT_normal_modbus_3.log",
+    "role": "original",
+    "basename": "IoT_normal_modbus_3.log",
+    "bytes": 4194741,
+    "sha256": "17d80750fce11b9e925ec03bb3b5523eb403e05f54c0835847deb46235ce4662"
+  },
+  {
+    "member": "IoT_original_normal/IoT_normal_Motion_Light_1.log",
+    "role": "original",
+    "basename": "IoT_normal_Motion_Light_1.log",
+    "bytes": 1474667,
+    "sha256": "7465b9279905ed68c0f4437620444090786aab8838165616d7ef30edcdd756ce"
+  },
+  {
+    "member": "IoT_original_normal/IoT_normal_Motion_Light_2.log",
+    "role": "original",
+    "basename": "IoT_normal_Motion_Light_2.log",
+    "bytes": 18448902,
+    "sha256": "5610d70906e0c796701d2498e7298af80d1ea6b5b54c1826e257a639f9197fde"
+  },
+  {
+    "member": "IoT_original_normal/IoT_normal_Motion_Light_3.log",
+    "role": "original",
+    "basename": "IoT_normal_Motion_Light_3.log",
+    "bytes": 12275097,
+    "sha256": "53ad9e874230632cdd18477f13e9a86cf35747ae6e1d0ef6a4317210f132193d"
+  },
+  {
+    "member": "IoT_original_normal/IoT_normal_Thermostat_1.log",
+    "role": "original",
+    "basename": "IoT_normal_Thermostat_1.log",
+    "bytes": 6626190,
+    "sha256": "7acee443d8ccc1c8d19c823e9efb084ece1f99c02a90b2b85f7c02bece62c1d4"
+  },
+  {
+    "member": "IoT_original_normal/IoT_normal_Thermostat_2.log",
+    "role": "original",
+    "basename": "IoT_normal_Thermostat_2.log",
+    "bytes": 31432898,
+    "sha256": "518cc94fefcff2fa0ca35bc08e59ec3e8fc890a8358ba7332a814667a410b71e"
+  },
+  {
+    "member": "IoT_original_normal/IoT_normal_Thermostat_3.log",
+    "role": "original",
+    "basename": "IoT_normal_Thermostat_3.log",
+    "bytes": 20579992,
+    "sha256": "7a269e55a2684f1a286c9e30b26905476e5c6638655c2bc4e9625d39da4ea1ec"
+  },
+  {
+    "member": "IoT_original_normal/IoT_normal_weather_1.log",
+    "role": "original",
+    "basename": "IoT_normal_weather_1.log",
+    "bytes": 8175184,
+    "sha256": "8495d95cea6be5031b6200aeade4edac249ef8ede562b477bed491edf7578210"
+  },
+  {
+    "member": "IoT_original_normal/IoT_normal_weather_2.log",
+    "role": "original",
+    "basename": "IoT_normal_weather_2.log",
+    "bytes": 27183888,
+    "sha256": "d7203dc2d7b96a63550d38f0ab2afcbaffab6b7f52ef4ea1e8cdd71156325e7f"
+  },
+  {
+    "member": "IoT_original_normal/IoT_normal_weather_3.log",
+    "role": "original",
+    "basename": "IoT_normal_weather_3.log",
+    "bytes": 22089041,
+    "sha256": "b50e491ab7cf2dd1bbe8ed8f9d9c26b17c73b7a5b5ff8248b9fd081602015dc6"
+  }
+]

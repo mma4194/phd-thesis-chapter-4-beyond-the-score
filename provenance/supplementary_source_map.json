@@ -1,0 +1,479 @@
+[
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_ACM_TIOT_Red_Team_Targeted_Experiments_v4.ipynb",
+    "cell": 1,
+    "original_cell_sha256": "4458f4b14b16c9e459cad5386ba1cfdad518636980eb853792464b49c458e0c1",
+    "extracted_file": "supplementary_source/targeted/01.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": true
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_ACM_TIOT_Red_Team_Targeted_Experiments_v4.ipynb",
+    "cell": 19,
+    "original_cell_sha256": "06980988e319a83dfdf41656214d7078447a1467ee8ad7d3e7524034876914e5",
+    "extracted_file": "supplementary_source/targeted/19.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": true
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_ACM_TIOT_Red_Team_Targeted_Experiments_v4.ipynb",
+    "cell": 12,
+    "original_cell_sha256": "b914e15e9f722ddbcad3caf09ef7a5450a17b4b581fe6636aa6da03c5ffc34f4",
+    "extracted_file": "supplementary_source/targeted/12.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": true
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_ACM_TIOT_Red_Team_Targeted_Experiments_v4.ipynb",
+    "cell": 2,
+    "original_cell_sha256": "73bf84a626c01a077873d3283c4dad504a44c60d5220c7bcc4ba4beedecdbab0",
+    "extracted_file": "supplementary_source/targeted/02.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": false
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_ACM_TIOT_Red_Team_Targeted_Experiments_v4.ipynb",
+    "cell": 10,
+    "original_cell_sha256": "75548cc9934d0f108b20e0299450f1e8e7f2886ebaf2f62631c3a9a70265f9ba",
+    "extracted_file": "supplementary_source/targeted/10.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": true
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_ACM_TIOT_Red_Team_Targeted_Experiments_v4.ipynb",
+    "cell": 15,
+    "original_cell_sha256": "e54adec294a021b1ab0238cd08f65d8fec6979073ab4ee9ca7145e53af568f94",
+    "extracted_file": "supplementary_source/targeted/15.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": false
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_ACM_TIOT_Red_Team_Targeted_Experiments_v4.ipynb",
+    "cell": 16,
+    "original_cell_sha256": "d210659756f8077d999b07200cbebcd2c185fe5d1ac6abbabff344ad711ce945",
+    "extracted_file": "supplementary_source/targeted/16.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": false
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_ACM_TIOT_Red_Team_Targeted_Experiments_v4.ipynb",
+    "cell": 21,
+    "original_cell_sha256": "812355f295097573eac3732ab1686cb64a8e9cb9271ccfe78a51a2a6aabc3586",
+    "extracted_file": "supplementary_source/targeted/21.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": true
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_ACM_TIOT_Red_Team_Targeted_Experiments_v4.ipynb",
+    "cell": 7,
+    "original_cell_sha256": "3810b0933bc876c85976ab374980f4c1f1d6ecf44dc5566055149fcf90098515",
+    "extracted_file": "supplementary_source/targeted/07.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": true
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_ACM_TIOT_Red_Team_Targeted_Experiments_v4.ipynb",
+    "cell": 14,
+    "original_cell_sha256": "3ce79fb6a22a42e73b6003fcdcbaf6bc87c455027191f075cff4569ba3c4dd86",
+    "extracted_file": "supplementary_source/targeted/14.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": false
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_ACM_TIOT_Red_Team_Targeted_Experiments_v4.ipynb",
+    "cell": 5,
+    "original_cell_sha256": "b6a55dac217fd894fa6ac1731e8d7c17b96af8dc57322e8b5abc5a52f448c205",
+    "extracted_file": "supplementary_source/targeted/05.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": true
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_ACM_TIOT_Red_Team_Targeted_Experiments_v4.ipynb",
+    "cell": 9,
+    "original_cell_sha256": "22e848b4bfd5d1ad6e093f6ed3910aa63a88ef099eb842b23ff48712bc0701d3",
+    "extracted_file": "supplementary_source/targeted/09.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": true
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_ACM_TIOT_Red_Team_Targeted_Experiments_v4.ipynb",
+    "cell": 4,
+    "original_cell_sha256": "a68b0015aaea6d773d543906412fd62b2952330dc2b8fd09ddfde246f3e4b8f3",
+    "extracted_file": "supplementary_source/targeted/04.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": true
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_ACM_TIOT_Red_Team_Targeted_Experiments_v4.ipynb",
+    "cell": 17,
+    "original_cell_sha256": "77d99754f707fc3c9a4fedd4e3bc6d8d1c2bd5f693cb8c75ff7d5e00e2d825ec",
+    "extracted_file": "supplementary_source/targeted/17.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": false
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_ACM_TIOT_POSCTRL_Repair_v4_1_PATCHED.ipynb",
+    "cell": 1,
+    "original_cell_sha256": "e5b907bcfb0e6081fed69c9b42c01b583c122053afbea8360899c064967e8b5b",
+    "extracted_file": "supplementary_source/positive_control/01.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": false
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_ACM_TIOT_POSCTRL_Repair_v4_1_PATCHED.ipynb",
+    "cell": 3,
+    "original_cell_sha256": "ecee459f19853355489e16ee01b3e4ce3ce0aa57d2ce16177805dc30229ec4ed",
+    "extracted_file": "supplementary_source/positive_control/03.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": true
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_ACM_TIOT_POSCTRL_Repair_v4_1_PATCHED.ipynb",
+    "cell": 12,
+    "original_cell_sha256": "0582b359d6c2a3729f8ef4f60967cd7805383dd3186f1ed21fa2c67e378ac9a8",
+    "extracted_file": "supplementary_source/positive_control/12.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": true
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_ACM_TIOT_POSCTRL_Repair_v4_1_PATCHED.ipynb",
+    "cell": 11,
+    "original_cell_sha256": "ac241e5f348ba0e3a76db997ace4a5f1604ae68da841e0884d749562aa509ec0",
+    "extracted_file": "supplementary_source/positive_control/11.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": true
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_ACM_TIOT_POSCTRL_Repair_v4_1_PATCHED.ipynb",
+    "cell": 2,
+    "original_cell_sha256": "204c3443c7fee0bf1d427403452ceeb988ada389115d587fe57381fcd00562a4",
+    "extracted_file": "supplementary_source/positive_control/02.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": true
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_ACM_TIOT_POSCTRL_Repair_v4_1_PATCHED.ipynb",
+    "cell": 10,
+    "original_cell_sha256": "33c2ff530b7263f6fc83fc112812ba9e8ff38225efe3f9e5db61dc85a6f707cb",
+    "extracted_file": "supplementary_source/positive_control/10.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": true
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_ACM_TIOT_POSCTRL_Repair_v4_1_PATCHED.ipynb",
+    "cell": 6,
+    "original_cell_sha256": "b6469a4d9c2fe76045511a007bf5f029606add6c1378cb7847288b97155f0a99",
+    "extracted_file": "supplementary_source/positive_control/06.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": true
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_ACM_TIOT_POSCTRL_Repair_v4_1_PATCHED.ipynb",
+    "cell": 7,
+    "original_cell_sha256": "c3503f39030928bcd6ecb39e41d91ed66b071a78ae5e4e4f1854fd34d34729b6",
+    "extracted_file": "supplementary_source/positive_control/07.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": true
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_ACM_TIOT_POSCTRL_Repair_v4_1_PATCHED.ipynb",
+    "cell": 5,
+    "original_cell_sha256": "7da236dcb18a1db41762916c2d623b266806f6c91b3f01eb714ba5df49ec32f9",
+    "extracted_file": "supplementary_source/positive_control/05.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": true
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_ACM_TIOT_POSCTRL_Repair_v4_1_PATCHED.ipynb",
+    "cell": 9,
+    "original_cell_sha256": "b624fb022580350f48aad6511097b768ddcdb27ffbb23d99ca5f0bd4e9f9f9f0",
+    "extracted_file": "supplementary_source/positive_control/09.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": false
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_ACM_TIOT_POSCTRL_Repair_v4_1_PATCHED.ipynb",
+    "cell": 4,
+    "original_cell_sha256": "519474b231149861867e22e7ce314bb4ca332a4de0024c14e9168ff8301070d2",
+    "extracted_file": "supplementary_source/positive_control/04.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": true
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_ACM_TIOT_POSCTRL_Repair_v4_1_PATCHED.ipynb",
+    "cell": 8,
+    "original_cell_sha256": "1b2aef4f3fea23b267534632ff01c66df73a78bd0e8ebbd7fb63abe865faa7a3",
+    "extracted_file": "supplementary_source/positive_control/08.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": true
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_ACM_TIOT_POSCTRL_Diagnostic_v4_2.ipynb",
+    "cell": 1,
+    "original_cell_sha256": "1dfe1c1bb3471e396825443d89c1e6ca06618446ab88a7ea49da45aa95e78442",
+    "extracted_file": "supplementary_source/positive_diagnostics/01.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": false
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_ACM_TIOT_POSCTRL_Diagnostic_v4_2.ipynb",
+    "cell": 3,
+    "original_cell_sha256": "e10551239793d4b8bfbbdf36d3608efb0287988908a0e25544997addc599ea24",
+    "extracted_file": "supplementary_source/positive_diagnostics/03.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": true
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_ACM_TIOT_POSCTRL_Diagnostic_v4_2.ipynb",
+    "cell": 12,
+    "original_cell_sha256": "def5dd36557ff9741317ae4beafea9561fdee51755a97f5c8c670368efb4a2bf",
+    "extracted_file": "supplementary_source/positive_diagnostics/12.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": true
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_ACM_TIOT_POSCTRL_Diagnostic_v4_2.ipynb",
+    "cell": 2,
+    "original_cell_sha256": "f9a1ae904cd7cdc86bd4c4a45aec8c10c8ac4f5a664e64ac283846f08b562c4e",
+    "extracted_file": "supplementary_source/positive_diagnostics/02.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": true
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_ACM_TIOT_POSCTRL_Diagnostic_v4_2.ipynb",
+    "cell": 10,
+    "original_cell_sha256": "65a43c7e74d8fa174166d475a0eed89b94360a5821f777ff6baf0cb0f08ddbb0",
+    "extracted_file": "supplementary_source/positive_diagnostics/10.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": true
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_ACM_TIOT_POSCTRL_Diagnostic_v4_2.ipynb",
+    "cell": 6,
+    "original_cell_sha256": "18a5c58cc8ed28f1220fb8f46ef968eccaa73b92487748e9a7ad51cadec0ff2b",
+    "extracted_file": "supplementary_source/positive_diagnostics/06.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": true
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_ACM_TIOT_POSCTRL_Diagnostic_v4_2.ipynb",
+    "cell": 4,
+    "original_cell_sha256": "85e2e1b4ff864685a76f166221c93491f5ccc4c11ec47cd77212c4bafc7a1da1",
+    "extracted_file": "supplementary_source/positive_diagnostics/04.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": true
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_ACM_TIOT_POSCTRL_Diagnostic_v4_2.ipynb",
+    "cell": 8,
+    "original_cell_sha256": "1786212e4051ac115be1bab42aa326c0f7f78a6252dd2bd9a220f9c47a7b0efc",
+    "extracted_file": "supplementary_source/positive_diagnostics/08.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": true
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_Red_Team_Closeout_v3_EXACT_BINDINGS.ipynb",
+    "cell": 1,
+    "original_cell_sha256": "0f5c58d80e1f6c77d590666c216ebd49520c93fb89792a13b0ce3ff2f19d773a",
+    "extracted_file": "supplementary_source/threshold_closeout/01.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": false
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_Red_Team_Closeout_v3_EXACT_BINDINGS.ipynb",
+    "cell": 12,
+    "original_cell_sha256": "30adc3d073d92396e48718af2e1ef288d649d8b230d3e9831ac4dca9722f9417",
+    "extracted_file": "supplementary_source/threshold_closeout/12.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": true
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_Red_Team_Closeout_v3_EXACT_BINDINGS.ipynb",
+    "cell": 2,
+    "original_cell_sha256": "04361df3b35e8f1bd1dbd44f8d56c077a0ec56872b630db4fed00a2a13848a14",
+    "extracted_file": "supplementary_source/threshold_closeout/02.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": true
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_Red_Team_Closeout_v3_EXACT_BINDINGS.ipynb",
+    "cell": 10,
+    "original_cell_sha256": "026f64b1ea6fde0f9805a46823ce86b5828730a649aa620745c1efb66f002651",
+    "extracted_file": "supplementary_source/threshold_closeout/10.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": true
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_Red_Team_Closeout_v3_EXACT_BINDINGS.ipynb",
+    "cell": 6,
+    "original_cell_sha256": "75a336a9c47461eeae875eddd2a47c0cf6f480a477ae27446e2cbac17dc6a285",
+    "extracted_file": "supplementary_source/threshold_closeout/06.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": true
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_Red_Team_Closeout_v3_EXACT_BINDINGS.ipynb",
+    "cell": 14,
+    "original_cell_sha256": "370b42f812dd5e45cfe57ae277a3655f58a369aba5161756a42b528e463f8d6b",
+    "extracted_file": "supplementary_source/threshold_closeout/14.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": true
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_Red_Team_Closeout_v3_EXACT_BINDINGS.ipynb",
+    "cell": 4,
+    "original_cell_sha256": "15b3e2e2fb4f4a602059dc3dc1e4d4db403e4fb5e2f0eb6f2a188712724edd8e",
+    "extracted_file": "supplementary_source/threshold_closeout/04.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": true
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_Red_Team_Closeout_v3_EXACT_BINDINGS.ipynb",
+    "cell": 8,
+    "original_cell_sha256": "9655320d91cbd09c39f5b3c7676f9b5f7e39c6d834c34763c0e63204e650fe36",
+    "extracted_file": "supplementary_source/threshold_closeout/08.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": true
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_KT10_REGIME_INSTABILITY_FORENSIC_v1_1_PATCHED.ipynb",
+    "cell": 1,
+    "original_cell_sha256": "9b33dd568a8560127d8e423a179f83a27b0a959c6cf5e87b74665720cb64074c",
+    "extracted_file": "supplementary_source/regime_forensic/01.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": false
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_KT10_REGIME_INSTABILITY_FORENSIC_v1_1_PATCHED.ipynb",
+    "cell": 3,
+    "original_cell_sha256": "aa4dd7a59b1bb18359fab00be40fad8ecacfd8cd13b5b19f3fd7b7381ff6bd10",
+    "extracted_file": "supplementary_source/regime_forensic/03.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": false
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_KT10_REGIME_INSTABILITY_FORENSIC_v1_1_PATCHED.ipynb",
+    "cell": 12,
+    "original_cell_sha256": "87f21a312b89b8a55debceb7472202c9a50b7f3ecac72cdeb618aa20596a247c",
+    "extracted_file": "supplementary_source/regime_forensic/12.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": false
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_KT10_REGIME_INSTABILITY_FORENSIC_v1_1_PATCHED.ipynb",
+    "cell": 11,
+    "original_cell_sha256": "c169bb6b95f74ed238587aee45d39b7537702497473256d75638193ccc476db7",
+    "extracted_file": "supplementary_source/regime_forensic/11.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": false
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_KT10_REGIME_INSTABILITY_FORENSIC_v1_1_PATCHED.ipynb",
+    "cell": 2,
+    "original_cell_sha256": "2f449956b8bfc09b7750f68b6a0eedb41c96d9957a31fc79de6b22df54a89c00",
+    "extracted_file": "supplementary_source/regime_forensic/02.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": false
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_KT10_REGIME_INSTABILITY_FORENSIC_v1_1_PATCHED.ipynb",
+    "cell": 10,
+    "original_cell_sha256": "40f8311a618d969455c4e16efb14f58e50a421d211c0d48295b4f0be23de29f7",
+    "extracted_file": "supplementary_source/regime_forensic/10.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": false
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_KT10_REGIME_INSTABILITY_FORENSIC_v1_1_PATCHED.ipynb",
+    "cell": 6,
+    "original_cell_sha256": "4ea5807c5ebb2a4296fe3191245e14702395113d8e5e69fb50d649d5de202699",
+    "extracted_file": "supplementary_source/regime_forensic/06.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": false
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_KT10_REGIME_INSTABILITY_FORENSIC_v1_1_PATCHED.ipynb",
+    "cell": 13,
+    "original_cell_sha256": "1ed5d1211e9f116e82750332ef48cb7a7f61f03f13bb8052ccfeea0265d22979",
+    "extracted_file": "supplementary_source/regime_forensic/13.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": false
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_KT10_REGIME_INSTABILITY_FORENSIC_v1_1_PATCHED.ipynb",
+    "cell": 5,
+    "original_cell_sha256": "876b498c6ef1d6b2a276b74de0eb853337573164f107e0be4b391157e10560a0",
+    "extracted_file": "supplementary_source/regime_forensic/05.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": false
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_KT10_REGIME_INSTABILITY_FORENSIC_v1_1_PATCHED.ipynb",
+    "cell": 9,
+    "original_cell_sha256": "d5802de43b1bc9a851468e0366279a434d7e1d4e440919c67d9336c65ff88785",
+    "extracted_file": "supplementary_source/regime_forensic/09.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": false
+  },
+  {
+    "source_archive": "TIOT_FINALISATION(2).zip",
+    "source_notebook": "TIOT_KT10_REGIME_INSTABILITY_FORENSIC_v1_1_PATCHED.ipynb",
+    "cell": 8,
+    "original_cell_sha256": "3cd97e0dccb2db5dde58ca68b3f03012d760547e64088aeed3cab3fe3eb451fb",
+    "extracted_file": "supplementary_source/regime_forensic/08.py",
+    "scope": "Packaging-neutral terminology; scientific bodies unchanged. Path cells replaced by runner.",
+    "included_active_source": false
+  }
+]

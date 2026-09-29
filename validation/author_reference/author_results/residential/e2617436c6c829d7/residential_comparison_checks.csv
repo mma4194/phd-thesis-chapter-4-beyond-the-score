@@ -1,0 +1,10 @@
+check,passed,detail
+utility_losses_unique_keys,True,
+utility_losses_same_keys,True,3060 joined records
+utility_losses_values,True,8 quantities compared
+utility_summary_unique_keys,True,
+utility_summary_same_keys,True,90 joined records
+utility_summary_values,True,5 quantities compared
+qualification_unique_keys,True,
+qualification_same_keys,True,132 joined records
+qualification_values,True,4 quantities compared

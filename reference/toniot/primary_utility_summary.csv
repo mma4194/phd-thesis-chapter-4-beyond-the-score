@@ -1,0 +1,37 @@
+regime,source,axis,capability,period,admitted_tasks,common_reportable_tasks,conditional_on_fixed_tasks,permission,outcome,period_reference_skill,period_reference_skill_lo,period_reference_skill_hi,period_reference_warning,loss_ratio,lo,hi,seed_ratios,n_seeds
+primary,column_shuffle,temporal,network_burst_prediction,near,1,0,True,Not-Estimable,not_reportable,,,,,,,,,
+primary,column_shuffle,temporal,network_burst_prediction,future,1,0,True,Not-Estimable,not_reportable,,,,,,,,,
+primary,column_shuffle,temporal,network_volume_forecast,near,10,10,True,Admissible,inferior,0.3599457428523426,0.3599457428523426,0.3599457428523426,False,1.8111285300559552,1.7782979602544735,1.8477172748585207,"[1.8307567921065573, 1.7672426130552348, 1.8060953479226434, 1.8781662954380642, 1.7755986814324587]",5.0
+primary,column_shuffle,temporal,network_volume_forecast,future,10,10,True,Admissible,inferior,0.45636744961743914,0.45636744961743914,0.45636744961743914,False,2.1096853070507473,2.0000584868514917,2.201903298383977,"[2.2552070597910983, 2.1400860560462953, 2.151859531318828, 1.908341556693085, 2.1086315757106093]",5.0
+primary,hurdle_iid,temporal,network_burst_prediction,near,1,0,True,Not-Estimable,not_reportable,,,,,,,,,
+primary,hurdle_iid,temporal,network_burst_prediction,future,1,0,True,Not-Estimable,not_reportable,,,,,,,,,
+primary,hurdle_iid,temporal,network_volume_forecast,near,10,10,True,Admissible,inferior,0.3599457428523426,0.3599457428523426,0.3599457428523426,False,1.8341954426809333,1.827966167927881,1.840255918682312,"[1.8253722671062755, 1.8366847230788876, 1.8266853148016882, 1.8370572305694468, 1.8452514908335584]",5.0
+primary,hurdle_iid,temporal,network_volume_forecast,future,10,10,True,Admissible,inferior,0.45636744961743914,0.45636744961743914,0.45636744961743914,False,2.025556028453088,2.0135665261672697,2.039258496450256,"[2.032777721712115, 2.0163016959175764, 2.049141732286175, 2.006295206087184, 2.0235272706253866]",5.0
+primary,independent_marginals,temporal,network_burst_prediction,near,1,0,True,Not-Estimable,not_reportable,,,,,,,,,
+primary,independent_marginals,temporal,network_burst_prediction,future,1,0,True,Not-Estimable,not_reportable,,,,,,,,,
+primary,independent_marginals,temporal,network_volume_forecast,near,10,10,True,Admissible,inferior,0.3599457428523426,0.3599457428523426,0.3599457428523426,False,1.8220665180665125,1.8194046592905775,1.8250341692670329,"[1.8175440874335391, 1.8229632091248191, 1.8206460985295403, 1.8271906057869027, 1.8220021784261309]",5.0
+primary,independent_marginals,temporal,network_volume_forecast,future,10,10,True,Admissible,inferior,0.45636744961743914,0.45636744961743914,0.45636744961743914,False,2.041954168158532,2.0351024231205623,2.0492146793233874,"[2.03057841119006, 2.036965404140159, 2.0468612788615066, 2.04134486144749, 2.054100756813382]",5.0
+primary,independent_stitch,temporal,network_burst_prediction,near,1,0,True,Not-Estimable,not_reportable,,,,,,,,,
+primary,independent_stitch,temporal,network_burst_prediction,future,1,0,True,Not-Estimable,not_reportable,,,,,,,,,
+primary,independent_stitch,temporal,network_volume_forecast,near,10,10,True,Admissible,inferior,0.3599457428523426,0.3599457428523426,0.3599457428523426,False,1.291420684886722,1.263475232173901,1.3269272692883187,"[1.2587103653603147, 1.2631139793578914, 1.2737874449398026, 1.3574323818987821, 1.3066376622497657]",5.0
+primary,independent_stitch,temporal,network_volume_forecast,future,10,10,True,Admissible,inferior,0.45636744961743914,0.45636744961743914,0.45636744961743914,False,1.3296275101147303,1.2724167800438668,1.3931692177646178,"[1.3230883212194327, 1.2370722980115287, 1.3315971514621419, 1.4423433766254419, 1.321978892107211]",5.0
+primary,learned_gmm_overlay,temporal,network_burst_prediction,near,1,0,True,Not-Estimable,not_reportable,,,,,,,,,
+primary,learned_gmm_overlay,temporal,network_burst_prediction,future,1,0,True,Not-Estimable,not_reportable,,,,,,,,,
+primary,learned_gmm_overlay,temporal,network_volume_forecast,near,10,0,True,Fit-Invalid,not_reportable,,,,,,,,,
+primary,learned_gmm_overlay,temporal,network_volume_forecast,future,10,0,True,Fit-Invalid,not_reportable,,,,,,,,,
+primary,learned_latent_var_overlay,temporal,network_burst_prediction,near,1,0,True,Not-Estimable,not_reportable,,,,,,,,,
+primary,learned_latent_var_overlay,temporal,network_burst_prediction,future,1,0,True,Not-Estimable,not_reportable,,,,,,,,,
+primary,learned_latent_var_overlay,temporal,network_volume_forecast,near,10,0,True,Fit-Invalid,not_reportable,,,,,,,,,
+primary,learned_latent_var_overlay,temporal,network_volume_forecast,future,10,0,True,Fit-Invalid,not_reportable,,,,,,,,,
+primary,real_contiguous_block,temporal,network_burst_prediction,near,1,0,True,Not-Estimable,not_reportable,,,,,,,,,
+primary,real_contiguous_block,temporal,network_burst_prediction,future,1,0,True,Not-Estimable,not_reportable,,,,,,,,,
+primary,real_contiguous_block,temporal,network_volume_forecast,near,10,10,True,Admissible,noninferior,0.3573733562022657,0.35480096955218876,0.3599457428523426,False,0.9436687488243646,0.8973776814024687,1.0123044340354632,"[0.9599005500309941, 0.8913445335114052, 0.9002995659529626, 1.075048233519194, 0.9036724201193183]",5.0
+primary,real_contiguous_block,temporal,network_volume_forecast,future,10,10,True,Admissible,noninferior,0.4564270635016907,0.45636744961743914,0.4564866773859424,False,0.9206708254971697,0.8607166675109355,0.9887299951849896,"[1.004277265958364, 0.8591714485418147, 0.8650565593211831, 1.0303754218127292, 0.8600990033222364]",5.0
+primary,real_row_resample,temporal,network_burst_prediction,near,1,0,True,Not-Estimable,not_reportable,,,,,,,,,
+primary,real_row_resample,temporal,network_burst_prediction,future,1,0,True,Not-Estimable,not_reportable,,,,,,,,,
+primary,real_row_resample,temporal,network_volume_forecast,near,10,10,True,Admissible,inferior,0.3576301164561636,0.35350988667998434,0.36218530850979747,False,1.794352982519608,1.776308677016986,1.809903307624893,"[1.794503836938878, 1.7915314240239886, 1.7622327480396758, 1.820242968283929, 1.8037566837503562]",5.0
+primary,real_row_resample,temporal,network_volume_forecast,future,10,10,True,Admissible,inferior,0.45392970752203415,0.4488542432742576,0.4596689033665406,False,2.003389469611216,1.980984988012285,2.0301712370533407,"[2.023674050843111, 1.9776143585256998, 1.98317713675611, 2.0501402014530714, 1.9833515275851996]",5.0
+primary,shared_stitch,temporal,network_burst_prediction,near,1,0,True,Not-Estimable,not_reportable,,,,,,,,,
+primary,shared_stitch,temporal,network_burst_prediction,future,1,0,True,Not-Estimable,not_reportable,,,,,,,,,
+primary,shared_stitch,temporal,network_volume_forecast,near,10,10,True,Admissible,inferior,0.3599457428523426,0.3599457428523426,0.3599457428523426,False,1.3111524108771784,1.3008781564260556,1.32150781074842,"[1.2985169008384283, 1.2965353076662394, 1.326291351227383, 1.320309656538697, 1.3143747194450883]",5.0
+primary,shared_stitch,temporal,network_volume_forecast,future,10,10,True,Admissible,inferior,0.45636744961743914,0.45636744961743914,0.45636744961743914,False,1.3958899706550976,1.3745853202070288,1.414839234314341,"[1.3582743183942245, 1.421492647205592, 1.4148461746798027, 1.3841616581982235, 1.4016119373096034]",5.0

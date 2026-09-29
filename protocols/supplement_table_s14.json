@@ -1,0 +1,72 @@
+[
+  {
+    "label": "KS",
+    "perturbation": "marginal",
+    "metric": "marginal_ks_mean",
+    "severity_zero": 0.0,
+    "severity_one": 0.31529
+  },
+  {
+    "label": "Wasserstein/IQR",
+    "perturbation": "marginal",
+    "metric": "wasserstein_iqr_mean",
+    "severity_zero": 0.0,
+    "severity_one": 1463.912776
+  },
+  {
+    "label": "Zero-fraction error",
+    "perturbation": "marginal",
+    "metric": "zero_rate_mae",
+    "severity_zero": 0.0,
+    "severity_one": 0.03763
+  },
+  {
+    "label": "C2ST AUC",
+    "perturbation": "marginal",
+    "metric": "c2st_max_auc",
+    "severity_zero": 0.505968,
+    "severity_one": 1.0
+  },
+  {
+    "label": "ACF error",
+    "perturbation": "order",
+    "metric": "acf_abs_error_mean",
+    "severity_zero": 0.0,
+    "severity_one": 0.226208
+  },
+  {
+    "label": "Spectral L1",
+    "perturbation": "order",
+    "metric": "spectral_l1_mean",
+    "severity_zero": 0.0,
+    "severity_one": 1.179905
+  },
+  {
+    "label": "Transition-rate error",
+    "perturbation": "order",
+    "metric": "transition_rate_mae",
+    "severity_zero": 0.0,
+    "severity_one": 0.07433
+  },
+  {
+    "label": "Correlation error",
+    "perturbation": "coupling",
+    "metric": "coupling_corr_mae",
+    "severity_zero": 0.0,
+    "severity_one": 0.628144
+  },
+  {
+    "label": "Coactivation error",
+    "perturbation": "coupling",
+    "metric": "coupling_coactivation_mae",
+    "severity_zero": 0.0,
+    "severity_one": 0.014691
+  },
+  {
+    "label": "C2ST AUC",
+    "perturbation": "coupling",
+    "metric": "c2st_max_auc",
+    "severity_zero": 0.505968,
+    "severity_one": 0.987874
+  }
+]

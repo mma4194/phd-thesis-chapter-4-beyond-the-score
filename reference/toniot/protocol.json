@@ -1,0 +1,987 @@
+{
+  "study": "TON_IoT external validation rebuilt from raw sources",
+  "version": "2.0.0",
+  "historical_byte_reproduction": false,
+  "independent_confirmation": false,
+  "preparation_status": {
+    "preparation_id": "5063bf5ce6a07170e2ac9794eee27bf8cad3e1e3b2d1e6227f4f903537c9eb17",
+    "rows": 28752,
+    "value_features": 64,
+    "start": "2019-04-02 15:52:05+00:00",
+    "end": "2019-04-04 07:48:00+00:00",
+    "fridge_dates_repaired": 28200,
+    "complete_packet_records": 31287177,
+    "incomplete_captures": [
+      "normal_IoT_2.pcap",
+      "normal_IoT_3.pcap"
+    ],
+    "scientific_status": "CONDITIONAL_COMPLETE_RECORD_PREFIX",
+    "historical_raw_to_canonical_reproduction": "NOT_ESTABLISHED",
+    "historical_expected_hashes": {
+      "canonical": "4fd1d7225202e111c20e521f19afd56b0c319059d21037d929a2257a3b3a5692",
+      "preimputation": "e9ceacc4d8638ef1f7e56c8bc8d2004430f1de413bd677d124a9ffb6b893968d"
+    },
+    "candidate_shared_sessions_ns": [
+      [
+        1554220324748197000,
+        1554364089146684000
+      ]
+    ],
+    "clock_synchronization": "NOT_INDEPENDENTLY_ESTABLISHED",
+    "source_data_modified": false,
+    "whole_bins_only": true,
+    "evaluation_completed": false
+  },
+  "data_hashes": {
+    "preparation": "5063bf5ce6a07170e2ac9794eee27bf8cad3e1e3b2d1e6227f4f903537c9eb17",
+    "canonical": "8048374314f641dcdba7fbcad5fc1423ea6cf1b9cd6b93984516b1ad52cfcfc0",
+    "preimputation": "2d154d5463c3e0f8a0bf3cbc2aae637a559d1e1c50aa391c6619159a62b08563"
+  },
+  "source_manifest": {
+    "tiot_rebuild/__init__.py": "ffb3a541d6d590ae2369dd022dda48d20ad3fb31006feaa01661f9985cc35e20",
+    "tiot_rebuild/capture_reader.py": "6a0e9136641939decfdcd65f47a3e83a55fdc3a8e1d4faa61a472cd866066763",
+    "tiot_rebuild/crosscheck.py": "b2cece6548ba41e929029476be33f2fd3320171a8d3b7b8c1fc585e81998d9e1",
+    "tiot_rebuild/evaluation.py": "52dafaed1e93e5d69880d5ef83e864a417c81abd224fae46258762983ccd7650",
+    "tiot_rebuild/network.py": "d4fbadbd857e3085b95285b603e62505239cc448c474ac65c536efc9dbb21b9c",
+    "tiot_rebuild/project.py": "9d2d56698ab0570d91d1948a96a47f3cae59a6e6d0a797ef62c6dc7034a025bc",
+    "tiot_rebuild/recovered/canonical_metrics.py": "c8e2ec75d6f529b4885759e3947e0646fd43b5e21f3b401dc6b61293e411afd7",
+    "tiot_rebuild/recovered/historical_assets.json": "7f25d1cfdc6f2971e1185286cca4195438a6c21783829ad802e9f424f8e51e5c",
+    "tiot_rebuild/recovered/legacy_generators.py": "429cc8786925e1a87a870db9e7d795bffa4982c4d67d7f09aebfb45cdf095883",
+    "tiot_rebuild/recovered/matching_helpers.py": "d8c3e85b9f8e100a83933aea7a2612e29ac5fdb46c45ac2e3d84ca739a04694d",
+    "tiot_rebuild/recovered/runtime_c2st.py": "ff7739d8535b51a57477dee00581d7cdf0204d83f3d32db1c41e41e2c11d7984",
+    "tiot_rebuild/recovered/runtime_checks.py": "8a478bdcf18aaaca9a4e26dab6ba6fc509154b923389e57556bec1ab93663aa9",
+    "tiot_rebuild/recovered/runtime_core.py": "fe718865b202be2d888111a8d7c9a1c288d23bed33fb288ecf59f37e21744e34",
+    "tiot_rebuild/recovered/runtime_evaluation.py": "6d9d5531706460570110c5ebf9c478f624ca1047ef4bfd13629679dd04e8e847",
+    "tiot_rebuild/recovered/runtime_p0.py": "a41ba1f3c88965d7dc1e14562eaa7fd72801c9621b8201a720ef62b5b00cc451",
+    "tiot_rebuild/recovered/runtime_protocol.py": "15ae92b96a4335cdb4227d00554991fbf05788c3adad65266606638bd52efae7",
+    "tiot_rebuild/recovered/runtime_tasks.py": "324f1087feefbdcae2b6c8a5b41ca8aadca875e7d634bb6b6e42f241bca8d477",
+    "tiot_rebuild/recovered/statistics_helpers.py": "6179073ee7195bc067e44a9a1e6db5e9d9578c4d2ea2b7e7dc5c6268cc99bcf3",
+    "tiot_rebuild/reference_capture_audit.json": "0db69563b2a02167d8b497c1ecd682d377ccb08c5570092da52e8e73ebfc4a4b",
+    "tiot_rebuild/reporting.py": "8e109d467e4dc9220fd4da5538ade2aa1738c424cb007ebb775a31ea0863bdbb",
+    "tiot_rebuild/telemetry_recovery.py": "08a2692383be9c8103cb8d622cb1fdbddf742ca935bbeccb8cfef29557db275b"
+  },
+  "environment": {
+    "python": "3.13.9 (tags/v3.13.9:8183fa5, Oct 14 2025, 14:09:13) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "scipy": "1.17.0",
+      "scikit-learn": "1.8.0",
+      "pyarrow": "not installed",
+      "matplotlib": "3.10.8",
+      "threadpoolctl": "3.6.0"
+    }
+  },
+  "settings": {
+    "n_jobs": 4,
+    "p0_bootstrap_draws": 5000,
+    "acf_lags": [
+      1,
+      5,
+      30,
+      60,
+      300
+    ],
+    "seeds": [
+      1337,
+      1338,
+      1339,
+      1340,
+      1341
+    ],
+    "min_rows": 300,
+    "reference_loss_floor": 1e-05,
+    "target_IQR_floor": 0.0001,
+    "reference_skill_gain": 0.1,
+    "auc_min": 0.6,
+    "ap_gain_min": 0.01,
+    "prevalence_range": [
+      0.005,
+      0.5
+    ],
+    "inner_selection_fraction": 0.2,
+    "ni_ratio": 1.1,
+    "min_pairs": 4,
+    "min_suite_capabilities": 4,
+    "min_suite_fraction": 0.6,
+    "id_margin": 0.03,
+    "margin_quantile": 0.9,
+    "xs_floor": 0.09531017980432493,
+    "xs_cap": 0.4054651081081644,
+    "temporal_floor": 1.25,
+    "temporal_cap": 1.8,
+    "order_min": 0.04879016416943204,
+    "ni_rate_min": 0.75,
+    "c2st_block_rows": 60,
+    "c2st_splits": 3,
+    "c2st_trees": 100,
+    "c2st_depth": 12,
+    "c2st_leaf": 3,
+    "c2st_null_trees": 25,
+    "c2st_permutations": 19,
+    "c2st_rows_per_class": 8000,
+    "c2st_ceiling": 0.995,
+    "instrument_seeds": [
+      19,
+      29,
+      39
+    ],
+    "instrument_rows": 24000,
+    "instrument_rho": 0.8,
+    "instrument_null_excess": 0.03,
+    "block_coverage_min": 0.95,
+    "pairs": 10,
+    "stitch_rows": 60,
+    "support_violation_max": 0.0001
+  },
+  "regimes": [
+    {
+      "name": "primary",
+      "train": [
+        0,
+        17221
+      ],
+      "near": [
+        17246,
+        22986
+      ],
+      "future": [
+        23011,
+        28752
+      ],
+      "evaluation_seeds": [
+        1337,
+        1338,
+        1339,
+        1340,
+        1341
+      ],
+      "selection_fit": [
+        0,
+        13776
+      ],
+      "selection_validation": [
+        13801,
+        17221
+      ],
+      "output_rows": 5740
+    },
+    {
+      "name": "roll0",
+      "train": [
+        0,
+        12938
+      ],
+      "near": [
+        12963,
+        17275
+      ],
+      "future": [
+        17300,
+        21612
+      ],
+      "evaluation_seeds": [
+        1337
+      ],
+      "selection_fit": [
+        0,
+        10350
+      ],
+      "selection_validation": [
+        10375,
+        12938
+      ],
+      "output_rows": 4312
+    },
+    {
+      "name": "roll1",
+      "train": [
+        0,
+        14376
+      ],
+      "near": [
+        14401,
+        18713
+      ],
+      "future": [
+        18738,
+        23050
+      ],
+      "evaluation_seeds": [
+        1337
+      ],
+      "selection_fit": [
+        0,
+        11500
+      ],
+      "selection_validation": [
+        11525,
+        14376
+      ],
+      "output_rows": 4312
+    },
+    {
+      "name": "roll2",
+      "train": [
+        0,
+        15813
+      ],
+      "near": [
+        15838,
+        20150
+      ],
+      "future": [
+        20175,
+        24487
+      ],
+      "evaluation_seeds": [
+        1337
+      ],
+      "selection_fit": [
+        0,
+        12650
+      ],
+      "selection_validation": [
+        12675,
+        15813
+      ],
+      "output_rows": 4312
+    }
+  ],
+  "source_contracts": {
+    "real_row_resample": "REAL_SAMPLING_ANCHOR",
+    "real_contiguous_block": "REAL_CHRONOLOGICAL_ANCHOR",
+    "independent_marginals": "MARGINAL_DESTRUCTION_MECHANISM",
+    "column_shuffle": "COLUMN_SHUFFLE_INVARIANT",
+    "hurdle_iid": "TRANSPARENT_OUTPUT_HEALTH",
+    "independent_stitch": "TRANSPARENT_STITCH_HEALTH",
+    "shared_stitch": "TRANSPARENT_STITCH_HEALTH",
+    "learned_gmm_overlay": "LEARNED_FIT_HEALTH",
+    "learned_latent_var_overlay": "LEARNED_FIT_HEALTH"
+  },
+  "decision_rules": {
+    "c2st": {
+      "ceiling_auc": 0.995,
+      "same_distribution_excess_max": 0.03
+    },
+    "instrument": {
+      "endpoint_thresholds": {
+        "acf_error": 0.01,
+        "c2st_excess_auc": 0.02,
+        "coactivation_mae": 0.0005,
+        "correlation_mae": 0.02,
+        "iqr_normalized_wasserstein": 0.05,
+        "mean_ks": 0.02,
+        "spectral_l1": 0.03,
+        "transition_rate_mae": 0.0005,
+        "zero_rate_mae": 0.002
+      },
+      "rho_min": 0.8
+    },
+    "learned_fit_health": {
+      "activity_error_max_max": 0.4,
+      "activity_error_mean_max": 0.08,
+      "activity_error_p95_max": 0.2,
+      "support_violation_max": 0.0001,
+      "variable_fraction_min": 0.7
+    },
+    "suite_breadth": {
+      "min_capabilities": 4,
+      "min_fraction": 0.6
+    },
+    "temporal_property": {
+      "order_damage_ratio_min": 1.05
+    },
+    "terminal_state_precedence": [
+      "Instrument-Invalid",
+      "Not-Estimable",
+      "Property-Unlicensed",
+      "Fit-Invalid",
+      "Admissible"
+    ],
+    "utility": {
+      "tstr_trtr_noninferior_upper_ratio": 1.1
+    }
+  },
+  "prior_task_templates": [
+    {
+      "task_id": "C0009",
+      "axis": "temporal",
+      "capability": "state_transition_prediction",
+      "target": "iot__motion_light__motion_true_fraction",
+      "predictors": [
+        "iot__motion_light__motion_true_fraction"
+      ],
+      "lag_rows": 1,
+      "horizon_rows": 1,
+      "task_type": "transition_classification",
+      "train_threshold": 0.5
+    },
+    {
+      "task_id": "C0013",
+      "axis": "temporal",
+      "capability": "state_transition_prediction",
+      "target": "iot__motion_light__light_on_fraction",
+      "predictors": [
+        "iot__motion_light__light_on_fraction"
+      ],
+      "lag_rows": 1,
+      "horizon_rows": 1,
+      "task_type": "transition_classification",
+      "train_threshold": 0.5
+    },
+    {
+      "task_id": "C0021",
+      "axis": "temporal",
+      "capability": "state_transition_prediction",
+      "target": "iot__thermostat__status_true_fraction",
+      "predictors": [
+        "iot__thermostat__status_true_fraction"
+      ],
+      "lag_rows": 1,
+      "horizon_rows": 1,
+      "task_type": "transition_classification",
+      "train_threshold": 0.5
+    },
+    {
+      "task_id": "C0033",
+      "axis": "temporal",
+      "capability": "network_burst_prediction",
+      "target": "router__general__byte_count",
+      "predictors": [
+        "router__general__byte_count"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 1,
+      "task_type": "threshold_classification",
+      "train_threshold": 538177.3
+    },
+    {
+      "task_id": "C0034",
+      "axis": "temporal",
+      "capability": "network_volume_forecast",
+      "target": "router__general__packet_length_max",
+      "predictors": [
+        "router__general__packet_length_max"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 1,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0035",
+      "axis": "temporal",
+      "capability": "network_volume_forecast",
+      "target": "router__general__packet_length_max",
+      "predictors": [
+        "router__general__packet_length_max"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 3,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0037",
+      "axis": "temporal",
+      "capability": "network_burst_prediction",
+      "target": "router__general__packet_length_max",
+      "predictors": [
+        "router__general__packet_length_max"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 1,
+      "task_type": "threshold_classification",
+      "train_threshold": 5669.0
+    },
+    {
+      "task_id": "C0038",
+      "axis": "temporal",
+      "capability": "network_volume_forecast",
+      "target": "router__general__packet_count",
+      "predictors": [
+        "router__general__packet_count"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 1,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0039",
+      "axis": "temporal",
+      "capability": "network_volume_forecast",
+      "target": "router__general__packet_count",
+      "predictors": [
+        "router__general__packet_count"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 3,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0040",
+      "axis": "temporal",
+      "capability": "network_volume_forecast",
+      "target": "router__general__packet_count",
+      "predictors": [
+        "router__general__packet_count"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 12,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0041",
+      "axis": "temporal",
+      "capability": "network_burst_prediction",
+      "target": "router__general__packet_count",
+      "predictors": [
+        "router__general__packet_count"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 1,
+      "task_type": "threshold_classification",
+      "train_threshold": 935.0
+    },
+    {
+      "task_id": "C0044",
+      "axis": "temporal",
+      "capability": "network_volume_forecast",
+      "target": "router__general__packet_length_mean",
+      "predictors": [
+        "router__general__packet_length_mean"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 12,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0045",
+      "axis": "temporal",
+      "capability": "network_burst_prediction",
+      "target": "router__general__packet_length_mean",
+      "predictors": [
+        "router__general__packet_length_mean"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 1,
+      "task_type": "threshold_classification",
+      "train_threshold": 589.3259765625
+    },
+    {
+      "task_id": "C0049",
+      "axis": "temporal",
+      "capability": "network_burst_prediction",
+      "target": "router__general__packet_length_std",
+      "predictors": [
+        "router__general__packet_length_std"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 1,
+      "task_type": "threshold_classification",
+      "train_threshold": 400.6561065673829
+    },
+    {
+      "task_id": "C0050",
+      "axis": "temporal",
+      "capability": "network_volume_forecast",
+      "target": "router__general__ipv4_count",
+      "predictors": [
+        "router__general__ipv4_count"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 1,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0051",
+      "axis": "temporal",
+      "capability": "network_volume_forecast",
+      "target": "router__general__ipv4_count",
+      "predictors": [
+        "router__general__ipv4_count"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 3,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0052",
+      "axis": "temporal",
+      "capability": "network_volume_forecast",
+      "target": "router__general__ipv4_count",
+      "predictors": [
+        "router__general__ipv4_count"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 12,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0053",
+      "axis": "temporal",
+      "capability": "network_burst_prediction",
+      "target": "router__general__ipv4_count",
+      "predictors": [
+        "router__general__ipv4_count"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 1,
+      "task_type": "threshold_classification",
+      "train_threshold": 173.0
+    },
+    {
+      "task_id": "C0057",
+      "axis": "temporal",
+      "capability": "network_burst_prediction",
+      "target": "router__general__tcp_count",
+      "predictors": [
+        "router__general__tcp_count"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 1,
+      "task_type": "threshold_classification",
+      "train_threshold": 134.0
+    },
+    {
+      "task_id": "C0061",
+      "axis": "temporal",
+      "capability": "network_burst_prediction",
+      "target": "router__general__ipv6_count",
+      "predictors": [
+        "router__general__ipv6_count"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 1,
+      "task_type": "threshold_classification",
+      "train_threshold": 7.0
+    },
+    {
+      "task_id": "C0065",
+      "axis": "temporal",
+      "capability": "network_volume_forecast",
+      "target": "router__general__packet_length_min",
+      "predictors": [
+        "router__general__packet_length_min"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 1,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0066",
+      "axis": "temporal",
+      "capability": "network_volume_forecast",
+      "target": "router__general__packet_length_min",
+      "predictors": [
+        "router__general__packet_length_min"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 3,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0067",
+      "axis": "temporal",
+      "capability": "network_volume_forecast",
+      "target": "router__general__packet_length_min",
+      "predictors": [
+        "router__general__packet_length_min"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 12,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0071",
+      "axis": "temporal",
+      "capability": "network_burst_prediction",
+      "target": "router__iot_named__mqtt_port_packets",
+      "predictors": [
+        "router__iot_named__mqtt_port_packets"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 1,
+      "task_type": "threshold_classification",
+      "train_threshold": 47.0
+    },
+    {
+      "task_id": "C0078",
+      "axis": "temporal",
+      "capability": "network_volume_forecast",
+      "target": "router__iot_named__arp_count",
+      "predictors": [
+        "router__iot_named__arp_count"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 12,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0079",
+      "axis": "temporal",
+      "capability": "network_burst_prediction",
+      "target": "router__iot_named__arp_count",
+      "predictors": [
+        "router__iot_named__arp_count"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 1,
+      "task_type": "threshold_classification",
+      "train_threshold": 9.0
+    },
+    {
+      "task_id": "C0081",
+      "axis": "temporal",
+      "capability": "network_volume_forecast",
+      "target": "router__iot_named__udp_count",
+      "predictors": [
+        "router__iot_named__udp_count"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 3,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0082",
+      "axis": "temporal",
+      "capability": "network_volume_forecast",
+      "target": "router__iot_named__udp_count",
+      "predictors": [
+        "router__iot_named__udp_count"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 12,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0085",
+      "axis": "temporal",
+      "capability": "network_volume_forecast",
+      "target": "router__iot_named__dns_port_packets",
+      "predictors": [
+        "router__iot_named__dns_port_packets"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 3,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0086",
+      "axis": "temporal",
+      "capability": "network_volume_forecast",
+      "target": "router__iot_named__dns_port_packets",
+      "predictors": [
+        "router__iot_named__dns_port_packets"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 12,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0149",
+      "axis": "contemporaneous",
+      "capability": "cross_tier_dependency",
+      "target": "router__general__ipv4_count",
+      "predictors": [
+        "router__iot_named__mqtt_port_packets"
+      ],
+      "lag_rows": 0,
+      "horizon_rows": 0,
+      "task_type": "regression",
+      "train_threshold": null
+    },
+    {
+      "task_id": "C0150",
+      "axis": "temporal",
+      "capability": "cross_tier_future_response",
+      "target": "router__general__ipv4_count",
+      "predictors": [
+        "router__iot_named__mqtt_port_packets"
+      ],
+      "lag_rows": 12,
+      "horizon_rows": 1,
+      "task_type": "regression",
+      "train_threshold": null
+    }
+  ],
+  "feature_scopes": {
+    "iot_values": [
+      "iot__modbus__register_3_mean",
+      "iot__modbus__register_1_mean",
+      "iot__modbus__register_4_mean",
+      "iot__modbus__register_2_mean",
+      "iot__gps__longitude_mean",
+      "iot__gps__latitude_mean",
+      "iot__weather__humidity_mean",
+      "iot__thermostat__temperature_mean",
+      "iot__weather__temperature_mean",
+      "iot__weather__pressure_mean",
+      "iot__fridge__temperature_mean",
+      "iot__motion_light__light_on_fraction",
+      "iot__motion_light__motion_true_fraction",
+      "iot__fridge__condition_high_fraction",
+      "iot__thermostat__status_true_fraction",
+      "iot__garage__door_open_fraction",
+      "iot__garage__smartphone_signal_true_fraction"
+    ],
+    "multimodal_balanced": [
+      "router__general__byte_count",
+      "router__general__packet_length_max",
+      "router__general__packet_count",
+      "router__general__packet_length_mean",
+      "router__general__packet_length_std",
+      "router__general__ipv4_count",
+      "router__general__tcp_count",
+      "router__general__ipv6_count",
+      "router__general__http_port_packets",
+      "router__general__packet_length_min",
+      "router__general__mqtt_port_packets",
+      "router__general__icmp_count",
+      "router__general__unique_endpoint_pair_count",
+      "router__general__udp_count",
+      "router__general__dns_port_packets",
+      "router__general__https_port_packets",
+      "router__iot_named__byte_count",
+      "router__iot_named__packet_length_max",
+      "router__iot_named__packet_length_std",
+      "router__iot_named__packet_length_mean",
+      "router__iot_named__packet_count",
+      "router__iot_named__ipv4_count",
+      "router__iot_named__tcp_count",
+      "router__iot_named__mqtt_port_packets",
+      "router__iot_named__packet_length_min",
+      "router__iot_named__https_port_packets",
+      "router__iot_named__arp_count",
+      "router__iot_named__udp_count",
+      "router__iot_named__dns_port_packets",
+      "router__iot_named__unique_endpoint_pair_count",
+      "router__iot_named__unique_src_ip_count",
+      "router__iot_named__unique_dst_ip_count",
+      "iot__modbus__register_3_mean",
+      "iot__modbus__register_1_mean",
+      "iot__modbus__register_4_mean",
+      "iot__modbus__register_2_mean",
+      "iot__gps__longitude_mean",
+      "iot__gps__latitude_mean",
+      "iot__weather__humidity_mean",
+      "iot__thermostat__temperature_mean",
+      "iot__weather__temperature_mean",
+      "iot__weather__pressure_mean",
+      "iot__fridge__temperature_mean",
+      "iot__motion_light__light_on_fraction",
+      "iot__motion_light__motion_true_fraction",
+      "iot__fridge__condition_high_fraction",
+      "iot__thermostat__status_true_fraction",
+      "iot__garage__door_open_fraction"
+    ],
+    "network_general": [
+      "router__general__byte_count",
+      "router__general__packet_length_max",
+      "router__general__packet_count",
+      "router__general__packet_length_mean",
+      "router__general__packet_length_std",
+      "router__general__ipv4_count",
+      "router__general__tcp_count",
+      "router__general__ipv6_count",
+      "router__general__http_port_packets",
+      "router__general__packet_length_min",
+      "router__general__mqtt_port_packets",
+      "router__general__icmp_count",
+      "router__general__unique_endpoint_pair_count",
+      "router__general__udp_count",
+      "router__general__dns_port_packets",
+      "router__general__https_port_packets",
+      "router__general__unique_dst_ip_count",
+      "router__general__arp_count",
+      "router__general__unique_src_ip_count",
+      "router__general__tcp_fin_count",
+      "router__general__tcp_syn_count",
+      "router__general__tcp_rst_count",
+      "router__general__interarrival_positive_mean",
+      "router__general__interarrival_positive_std"
+    ],
+    "network_iot_named": [
+      "router__iot_named__byte_count",
+      "router__iot_named__packet_length_max",
+      "router__iot_named__packet_length_std",
+      "router__iot_named__packet_length_mean",
+      "router__iot_named__packet_count",
+      "router__iot_named__ipv4_count",
+      "router__iot_named__tcp_count",
+      "router__iot_named__mqtt_port_packets",
+      "router__iot_named__packet_length_min",
+      "router__iot_named__https_port_packets",
+      "router__iot_named__arp_count",
+      "router__iot_named__udp_count",
+      "router__iot_named__dns_port_packets",
+      "router__iot_named__unique_endpoint_pair_count",
+      "router__iot_named__unique_src_ip_count",
+      "router__iot_named__unique_dst_ip_count",
+      "router__iot_named__tcp_syn_count",
+      "router__iot_named__tcp_fin_count",
+      "router__iot_named__http_port_packets",
+      "router__iot_named__icmp_count",
+      "router__iot_named__tcp_rst_count",
+      "router__iot_named__interarrival_positive_std",
+      "router__iot_named__interarrival_positive_mean"
+    ]
+  },
+  "adaptations": [
+    {
+      "item": "Data identity",
+      "change": "New preparation hashes and rules; no recovered historical row-count/hash certification."
+    },
+    {
+      "item": "Calendar interval",
+      "change": "Longest common observed session; whole 5 s bins; no historical target row count."
+    },
+    {
+      "item": "Splits",
+      "change": "Recalculate the recovered 60/20/20 primary fractions after two 25-row embargoes; rolling TRAIN 45/50/55% with 15% near and future blocks and the same embargoes."
+    },
+    {
+      "item": "P0",
+      "change": "Use the recovered origin-local TRAIN-only matching for ALL four origins, including primary. No old pair indices or availability flags are reused."
+    },
+    {
+      "item": "Real sampling anchors",
+      "change": "Preserve observation masks on resampled/contiguous real targets. Their zero-imputed missing targets do not become measured labels."
+    },
+    {
+      "item": "Generators",
+      "change": "All nine value-generating algorithms and settings retained; no new architecture search."
+    },
+    {
+      "item": "Masks",
+      "change": "Missing real targets excluded. Real predictors retain zero imputation. Generated value outputs have no learned missingness model."
+    },
+    {
+      "item": "Claims",
+      "change": "Scientific interpretation conditional on available capture prefixes, stated clock convention and prior task exposure. Failed instruments/contracts and Not-Estimable outcomes are retained."
+    },
+    {
+      "item": "Runtime",
+      "change": "Save each completed job, stop between jobs at the operational time budget, resume with identical inputs/code/environment/settings."
+    }
+  ],
+  "recovered_protocol_changes": [
+    {
+      "item": "Scientific scope",
+      "previous": "Earlier TON_IoT implementation lacked Stage 3A",
+      "new": "All six stages, with absolute reference losses and matched real/simple baselines",
+      "reason": "Test the final procedure rather than infer missing checks."
+    },
+    {
+      "item": "Task templates",
+      "previous": "32 tasks selected from 155 candidates in earlier work",
+      "new": "Use those 32 documented templates as prior choices. Re-estimate thresholds and re-admit tasks inside each TRAIN period. Do not claim to recreate the unavailable full candidate-selection process.",
+      "reason": "Preserve the actual task definitions without inventing missing selection code."
+    },
+    {
+      "item": "Period roles",
+      "previous": "Outer VAL selected tasks and overlapped some rolling tests",
+      "new": "Earlier 80% of TRAIN fits task admission models and remaining TRAIN after embargo selects tasks. The old VAL interval is the near-period evaluation. The old TEST interval is the future evaluation. Sources fit full TRAIN once for both evaluations.",
+      "reason": "Keep task selection before both evaluated periods. Near-period does not prove an unchanged data distribution."
+    },
+    {
+      "item": "Utility models",
+      "previous": "External Ridge/logistic fitted without a scaling pipeline",
+      "new": "Use the residential StandardScaler plus Ridge/logistic definitions with fitting only on the model training examples.",
+      "reason": "Consistent numeric treatment across heterogeneous columns. This is an explicit implementation correction."
+    },
+    {
+      "item": "Training counts",
+      "previous": "Real reference had more usable training rows",
+      "new": "Match usable real and synthetic task-example counts before fitting, on the same two real evaluation sets.",
+      "reason": "Remove the known count confound. Equal counts do not imply equal independent information."
+    },
+    {
+      "item": "P0 controls",
+      "previous": "External P0 supplied C2ST only. Residential block controls used stitched sub-blocks.",
+      "new": "Keep the recorded primary matched pairs. Add identity, two contiguous TRAIN-block controls, and row resampling, with equal usable task counts. Control length equals block length minus the maximum task span.",
+      "reason": "Provide actual task losses for Stages 3A/3B. The span-based subtraction leaves room for distinct contiguous controls without inserting joins. These are new external task comparisons, not reconstructed residential values."
+    },
+    {
+      "item": "Rolling P0",
+      "previous": "No origin-specific final-procedure qualification",
+      "new": "Repeat TRAIN-only block selection and qualification inside each rolling TRAIN period. A conservative 0.95 finite-value availability screen replaces the unavailable acquisition-coverage calculation for these new pairs. This distinction is recorded.",
+      "reason": "Earlier primary blocks may lie beyond a rolling training boundary."
+    },
+    {
+      "item": "C2ST",
+      "previous": "Random 65/35 row split and RF only",
+      "new": "Three grouped splits. Use paired five-minute groups before sampling, trim boundary context, RF and scaled logistic, and conditional randomisation diagnostics.",
+      "reason": "Keep related temporal groups together and match the documented discriminator design. This is not a calibrated test for arbitrary sequence dependence."
+    },
+    {
+      "item": "Target observability",
+      "previous": "Canonical imputed values could enter real labels",
+      "new": "Read the saved pre-imputation table and exclude unobserved real targets. Predictors use the original zero-imputed canonical values.",
+      "reason": "An unobserved target must not be labelled as a measured zero. Synthetic outputs are a complete value view. No generated-mask claim is made."
+    },
+    {
+      "item": "Source models",
+      "previous": "Nine sources including GMM and latent-VAR on different bases",
+      "new": "Keep the nine original external generator functions and their settings. Report learned-feature checks and whole-output checks separately.",
+      "reason": "Avoid changing generators to obtain favourable results. The different-base and model-breadth limits remain."
+    },
+    {
+      "item": "Aggregation",
+      "previous": "Five-seed ranges and different external weighting",
+      "new": "Family-balanced capability summaries and pair/seed bootstrap qualification. Five-seed bootstrap intervals for primary utility and paired transfer. Rolling runs remain separate descriptive checks.",
+      "reason": "Do not pool adjacent rows, task clones, or rolling origins as independent deployments."
+    },
+    {
+      "item": "Sensitivity",
+      "previous": "Selected checks reported separately",
+      "new": "Always report raw and clipped P0 decisions, the existing 0.9945 secondary ceiling, and distances to primary thresholds. Primary rules remain unchanged.",
+      "reason": "Check known boundary sensitivity without selecting the most favourable rule."
+    },
+    {
+      "item": "Record keeping",
+      "previous": "Caches could be reused by path without input/code binding",
+      "new": "Freeze data, code, environment and settings. Save component records and verify every cache payload hash.",
+      "reason": "Prevent stale or mixed results from being treated as a new experiment."
+    }
+  ],
+  "recovered_setting_reasons": {
+    "seeds": "Retain the five prior seeds. They describe stochastic variation, not five independent deployments.",
+    "bootstrap_draws": "Retain 5,000 resamples from the residential procedure. This reduces Monte Carlo noise but does not add independent evidence.",
+    "inner_selection_fraction": "Retain the prior 80/20 inner allocation. It is a design convention, not a demonstrated optimum.",
+    "min_rows": "Retain the prior 300 usable-example requirement for task fitting/evaluation. Too few examples produce Not-Estimable, never an automatic pass.",
+    "source_settings": "GMM up to 8 diagonal components, VAR up to 16 PCA components and lags 1/5/30, 60-row stitching. Exact functions are copied from the external notebook. No new architecture tuning.",
+    "c2st_group_duration": "300 seconds was stated in the external protocol. This is 60 rows at the 5-second cadence. Boundary trim uses the full 25-row task span. Remaining dependence is still possible.",
+    "c2st_compute": "100 trees, depth 12, 3 splits and 19 null repetitions retain the residential settings. The external cap of 8,000 rows per class bounds computation.",
+    "p0_duration": "Primary P0 uses the recorded 30-minute pairs. Rolling origins choose the first 30/60/90/120/150/180-minute duration supporting ten screened pairs, using TRAIN only.",
+    "p0_counts": "Retain ten disjoint pairs with five for calibration and five for qualification. At least four usable qualification pairs and all planned seeds are required.",
+    "p0_controls": "Subtract the maximum target/predictor span from a matched block so two contiguous samples can start at different positions. This is derived from task context, not an outcome-selected percentage.",
+    "numerical_guards": "Keep reference loss >=1e-5, target IQR >=1e-4, IQR floor 1e-6 for scaled loss, and epsilon 1e-12 for skill. Record each activation. These guards do not prove a reference is useful.",
+    "thresholds": "Retain rho .80, skill .10, AUC .60, AP gain .01, prevalence .005–.50, identity log margin .03, order log(1.05), NI 1.10 and 75% card rate. They are operational conventions, not universal constants.",
+    "scope": "Keep the four externally documented feature views, 48 learned columns, and all 32 prior task templates. Their earlier selection is a disclosed historical exposure.",
+    "source_health": "Retain role-specific external checks. Learned variation >=.70, support violations <=1e-4, activity errors <=.08/.20/.40. Report each feature, not only the terminal flag."
+  },
+  "inference_scope": "Conditional intervals over the specified seeds/pairs, not independent deployments; prior data/task exposure remains.",
+  "clock_scope": "Supplied UTC coordinates; no independently validated sensor/network synchronization.",
+  "sensitivity_only": {
+    "P0_unclipped": true,
+    "C2ST_secondary_ceiling": 0.9945
+  }
+}

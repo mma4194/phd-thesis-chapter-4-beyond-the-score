@@ -1,0 +1,29 @@
+{
+  "execution_status": "COMPLETED",
+  "evidence_type": "New arithmetic from archived feature/seed records; no model fitting",
+  "median_population_discrepancy": true,
+  "table_s14_original_canonical_matches": true,
+  "table_s14_newer_reference_mismatches": 3,
+  "strict_supplementary_agreement": "DIFFERENT",
+  "reference_files_modified": false,
+  "populations": [
+    {
+      "population": "all_features",
+      "feature_seed_rows": 27,
+      "features": 9,
+      "fixture_seeds": 3,
+      "mean_of_seed_means": 1463.9127756500318,
+      "mean_of_seed_medians": 0.268861111111111,
+      "pooled_median": 0.2688333333333333
+    },
+    {
+      "population": "positive_reference_iqr",
+      "feature_seed_rows": 24,
+      "features": 8,
+      "fixture_seeds": 3,
+      "mean_of_seed_means": 2.804650384066693,
+      "mean_of_seed_medians": 0.1344305555555555,
+      "pooled_median": 0.1339999999999999
+    }
+  ]
+}

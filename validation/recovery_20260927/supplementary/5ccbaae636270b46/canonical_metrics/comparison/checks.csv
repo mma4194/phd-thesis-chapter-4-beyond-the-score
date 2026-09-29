@@ -1,0 +1,4 @@
+check,passed,detail
+canonical_metric_curves_unique_keys,True,
+canonical_metric_curves_same_keys,True,45 joined records
+canonical_metric_curves_values,True,29 quantities compared

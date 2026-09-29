@@ -1,0 +1,7 @@
+stage,execution,comparison,current_binding,complete,passed,output,evidence_type
+preflight,COMPLETED,PASS,True,True,True,/workspace/scratch/d2f19d71b02c/chapter4_work/qa_run/records/preflight,New execution in this invocation
+history,COMPLETED,ARCHIVED_REPORTS_ONLY,True,True,True,/workspace/scratch/d2f19d71b02c/chapter4_work/qa_run/records/history,"Previously returned author reports, read now"
+records,COMPLETED,PASS,True,True,True,/workspace/scratch/d2f19d71b02c/chapter4_work/qa_run/records/records,New arithmetic and plots from archived primitive records; no new model fits
+supplementary_audit,COMPLETED,PASS,True,True,True,/workspace/scratch/d2f19d71b02c/chapter4_work/qa_run/records/supplementary_discrepancies,New population and printed-precision comparisons of both archived snapshots
+thresholds,COMPLETED,PASS,True,True,True,/workspace/scratch/d2f19d71b02c/chapter4_work/qa_run/records/supplementary/c539eb2891696143/thresholds,New arithmetic from original canonical P0 records; separate from corrected P0
+fixture_audit,COMPLETED,PASS,True,True,True,/workspace/scratch/d2f19d71b02c/chapter4_work/qa_run/records/supplementary/a4569927cf373178/fixture_audit,Fresh Wasserstein fixtures plus 27-row classifier reconstruction from archived metrics

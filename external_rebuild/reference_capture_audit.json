@@ -1,0 +1,276 @@
+{
+  "source": "User-supplied recovery results, run 20260920T134807Z_cad5c9ae",
+  "captures": {
+    "normal_1.pcap": {
+      "sha256": "9463135bbb3ab8f6e27a459c6be117e79f72ff8e434b7e70478ed70f4f8bf3c5",
+      "bytes": 1177084172,
+      "packets": 2000000,
+      "first_ns": 1554220324748197000,
+      "last_ns": 1554230126478739000,
+      "integrity_status": "COMPLETE_RECORD_STREAM",
+      "backward_steps": 245,
+      "interfaces": [
+        {
+          "linktype": 113,
+          "ticks_per_second": 1000000,
+          "offset_seconds": 0
+        }
+      ],
+      "incomplete_record": null
+    },
+    "normal_10.pcap": {
+      "sha256": "f13cba4968ebf41cb05237ab8dee23ed7c501e9019c09912a3851202df029d86",
+      "bytes": 1122702904,
+      "packets": 2000000,
+      "first_ns": 1554323885388631000,
+      "last_ns": 1554335401275171000,
+      "integrity_status": "COMPLETE_RECORD_STREAM",
+      "backward_steps": 224,
+      "interfaces": [
+        {
+          "linktype": 113,
+          "ticks_per_second": 1000000,
+          "offset_seconds": 0
+        }
+      ],
+      "incomplete_record": null
+    },
+    "normal_11.pcap": {
+      "sha256": "485f7a61129fc905c5a13b38cce45f27cb185bee62fee20bc0669f44d4b140d9",
+      "bytes": 1118684220,
+      "packets": 2000000,
+      "first_ns": 1554335401281842000,
+      "last_ns": 1554346868336440000,
+      "integrity_status": "COMPLETE_RECORD_STREAM",
+      "backward_steps": 228,
+      "interfaces": [
+        {
+          "linktype": 113,
+          "ticks_per_second": 1000000,
+          "offset_seconds": 0
+        }
+      ],
+      "incomplete_record": null
+    },
+    "normal_12.pcap": {
+      "sha256": "b9c3d6cbbd31b0b2caff7d7cb9d8953d12d08a455e1c04465f5e87991061d954",
+      "bytes": 1119176788,
+      "packets": 2000000,
+      "first_ns": 1554346868343106000,
+      "last_ns": 1554358320019684000,
+      "integrity_status": "COMPLETE_RECORD_STREAM",
+      "backward_steps": 276,
+      "interfaces": [
+        {
+          "linktype": 113,
+          "ticks_per_second": 1000000,
+          "offset_seconds": 0
+        }
+      ],
+      "incomplete_record": null
+    },
+    "normal_13.pcap": {
+      "sha256": "bf6a9d2adc0da1436df48c7bbac3c51858c19eb290b792698cd5ae42a4434b76",
+      "bytes": 1065001940,
+      "packets": 1918446,
+      "first_ns": 1554274040854766000,
+      "last_ns": 1554364089146684000,
+      "integrity_status": "COMPLETE_RECORD_STREAM",
+      "backward_steps": 238,
+      "interfaces": [
+        {
+          "linktype": 113,
+          "ticks_per_second": 1000000,
+          "offset_seconds": 0
+        }
+      ],
+      "incomplete_record": null
+    },
+    "normal_2.pcap": {
+      "sha256": "e7b2e1d7a54b34f8af190693f34cd5d09b3d8248826627bb1e8245ca47ae76ba",
+      "bytes": 1151429180,
+      "packets": 2000000,
+      "first_ns": 1554230126485415000,
+      "last_ns": 1554241002648209000,
+      "integrity_status": "COMPLETE_RECORD_STREAM",
+      "backward_steps": 259,
+      "interfaces": [
+        {
+          "linktype": 113,
+          "ticks_per_second": 1000000,
+          "offset_seconds": 0
+        }
+      ],
+      "incomplete_record": null
+    },
+    "normal_3.pcap": {
+      "sha256": "a64ae59d8701451b3b00d4f9bf8186da20c374d3b5de080a96af9c0b14ed5e03",
+      "bytes": 1102597380,
+      "packets": 2000000,
+      "first_ns": 1554241002648614000,
+      "last_ns": 1554252149407148000,
+      "integrity_status": "COMPLETE_RECORD_STREAM",
+      "backward_steps": 206,
+      "interfaces": [
+        {
+          "linktype": 113,
+          "ticks_per_second": 1000000,
+          "offset_seconds": 0
+        }
+      ],
+      "incomplete_record": null
+    },
+    "normal_4.pcap": {
+      "sha256": "43aea92b6ed04446243d4afc360256ce381d51484779ed611d481943b23d3360",
+      "bytes": 1112341756,
+      "packets": 2000000,
+      "first_ns": 1554252149413813000,
+      "last_ns": 1554263115704439000,
+      "integrity_status": "COMPLETE_RECORD_STREAM",
+      "backward_steps": 207,
+      "interfaces": [
+        {
+          "linktype": 113,
+          "ticks_per_second": 1000000,
+          "offset_seconds": 0
+        }
+      ],
+      "incomplete_record": null
+    },
+    "normal_5.pcap": {
+      "sha256": "25c9370785ccfecdaf9c355bf57e4874d38dfe3dcecfec4ef8d3bb32e1b4fb90",
+      "bytes": 1077665172,
+      "packets": 2000000,
+      "first_ns": 1554263115711102000,
+      "last_ns": 1554274040848101000,
+      "integrity_status": "COMPLETE_RECORD_STREAM",
+      "backward_steps": 249,
+      "interfaces": [
+        {
+          "linktype": 113,
+          "ticks_per_second": 1000000,
+          "offset_seconds": 0
+        }
+      ],
+      "incomplete_record": null
+    },
+    "normal_6.pcap": {
+      "sha256": "a07c1a0962ded9ed84175b102d2af4fa215f335711b598333b232d3b1a74808b",
+      "bytes": 1075817348,
+      "packets": 2000000,
+      "first_ns": 1554278985495920000,
+      "last_ns": 1554289881894258000,
+      "integrity_status": "COMPLETE_RECORD_STREAM",
+      "backward_steps": 277,
+      "interfaces": [
+        {
+          "linktype": 113,
+          "ticks_per_second": 1000000,
+          "offset_seconds": 0
+        }
+      ],
+      "incomplete_record": null
+    },
+    "normal_7.pcap": {
+      "sha256": "e498208aa40238d4e484cf0abeff3f2d40a486842838da8b27f08d106c4485b9",
+      "bytes": 1110516324,
+      "packets": 2000000,
+      "first_ns": 1554289881894277000,
+      "last_ns": 1554301183820870000,
+      "integrity_status": "COMPLETE_RECORD_STREAM",
+      "backward_steps": 260,
+      "interfaces": [
+        {
+          "linktype": 113,
+          "ticks_per_second": 1000000,
+          "offset_seconds": 0
+        }
+      ],
+      "incomplete_record": null
+    },
+    "normal_8.pcap": {
+      "sha256": "b8efc319b635aea0cd6b05733e0969a049a3b837a4b7ecb473dd5b4c7a010863",
+      "bytes": 1262737092,
+      "packets": 2000000,
+      "first_ns": 1554301183827545000,
+      "last_ns": 1554312412864544000,
+      "integrity_status": "COMPLETE_RECORD_STREAM",
+      "backward_steps": 280,
+      "interfaces": [
+        {
+          "linktype": 113,
+          "ticks_per_second": 1000000,
+          "offset_seconds": 0
+        }
+      ],
+      "incomplete_record": null
+    },
+    "normal_9.pcap": {
+      "sha256": "705e71b89bc302c18d277be473a525588f93ff73a89ee7a916d7c11e13f78b08",
+      "bytes": 1150733220,
+      "packets": 2000000,
+      "first_ns": 1554312412871208000,
+      "last_ns": 1554323885385795000,
+      "integrity_status": "COMPLETE_RECORD_STREAM",
+      "backward_steps": 281,
+      "interfaces": [
+        {
+          "linktype": 113,
+          "ticks_per_second": 1000000,
+          "offset_seconds": 0
+        }
+      ],
+      "incomplete_record": null
+    },
+    "normal_IoT_2.pcap": {
+      "sha256": "8be8594f2218c0fc5650a924d72190f3b960b7d300405ae956334d2a3277901b",
+      "bytes": 1056194560,
+      "packets": 2639871,
+      "first_ns": 1554278929307016000,
+      "last_ns": 1554364210912268000,
+      "integrity_status": "INCOMPLETE_EOF",
+      "backward_steps": 61,
+      "interfaces": [
+        {
+          "linktype": 113,
+          "nanoseconds_per_tick": 1000
+        }
+      ],
+      "incomplete_record": {
+        "kind": "packet_payload",
+        "record_start_byte": 1056194493,
+        "payload_start_byte": 1056194509,
+        "expected_bytes": 76,
+        "available_bytes": 51,
+        "missing_bytes_in_declared_record": 25,
+        "excluded_record_timestamp_ns": 1554364211328547000,
+        "interpretation": "Incomplete record excluded; additional missing records cannot be determined."
+      }
+    },
+    "normal_IoT_3.pcap": {
+      "sha256": "542493556432348372507ca949ed394ae66611c967228c66f4c7e5f7a72cc310",
+      "bytes": 1066663936,
+      "packets": 2728860,
+      "first_ns": 1554198358367044000,
+      "last_ns": 1554278908424077000,
+      "integrity_status": "INCOMPLETE_EOF",
+      "backward_steps": 6239,
+      "interfaces": [
+        {
+          "linktype": 113,
+          "nanoseconds_per_tick": 1000
+        }
+      ],
+      "incomplete_record": {
+        "kind": "packet_payload",
+        "record_start_byte": 1066663749,
+        "payload_start_byte": 1066663765,
+        "expected_bytes": 447,
+        "available_bytes": 171,
+        "missing_bytes_in_declared_record": 276,
+        "excluded_record_timestamp_ns": 1554278908473816000,
+        "interpretation": "Incomplete record excluded; additional missing records cannot be determined."
+      }
+    }
+  }
+}

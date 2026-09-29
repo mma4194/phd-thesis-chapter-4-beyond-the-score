@@ -1,0 +1,9 @@
+{
+  "execution_status": "COMPLETED",
+  "comparison": "DIFFERENT",
+  "checks": 3,
+  "failed": 1,
+  "stage": "classifier_capacity",
+  "new_fits": true,
+  "scope": "Recovered fixed supplementary methods. Historical canonical task/licence records remain explicit inputs."
+}

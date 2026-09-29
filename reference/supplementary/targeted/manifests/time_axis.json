@@ -1,0 +1,17 @@
+{
+  "time_column": "sec",
+  "rows": 1277694,
+  "strictly_non_decreasing": true,
+  "duplicate_timestamp_count": 0,
+  "duplicates_allowed": false,
+  "minimum_positive_step": 1.0,
+  "median_positive_step": 1.0,
+  "maximum_positive_step": 1.0,
+  "expected_step": 1.0,
+  "absolute_step_tolerance": 0.01,
+  "irregular_positive_step_count": 0,
+  "irregular_positive_step_rate": 0.0,
+  "selection_contract": "Rows are stable-sorted by an explicit finite numeric time column. Missing timestamps are forbidden; duplicates require an explicit simultaneous-observation waiver.",
+  "temporal_grid_eligible": true,
+  "maximum_allowed_irregular_positive_step_rate": 0.001
+}

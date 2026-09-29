@@ -1,0 +1,641 @@
+[
+  {
+    "feature": "iot__door_window_sensor_pid_005__sensor__linkquality__value",
+    "review_class": "discrete_candidate",
+    "definition": "Link-quality reading. Native LQI is a numeric indicator, but the export aggregation and allowed steps are not established.",
+    "evidence": "Column name alone is insufficient.",
+    "reference": "https://www.zigbee2mqtt.io/devices/MCCGQ11LM.html",
+    "physical_units_verified": false,
+    "policy": "retain original membership rule pending definition"
+  },
+  {
+    "feature": "iot__door_window_sensor_pid_005__sensor__voltage__value",
+    "review_class": "continuous",
+    "definition": "Numerical measurement, proportion or accumulated quantity. Treat as a magnitude for this evaluation, not as an enumerated set of observed values. Native resolution and units are not verified.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://developers.home-assistant.io/docs/core/entity/sensor/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "iot__door_window_sensor_pid_007__sensor__linkquality__value",
+    "review_class": "discrete_candidate",
+    "definition": "Link-quality reading. Native LQI is a numeric indicator, but the export aggregation and allowed steps are not established.",
+    "evidence": "Column name alone is insufficient.",
+    "reference": "https://www.zigbee2mqtt.io/devices/MCCGQ11LM.html",
+    "physical_units_verified": false,
+    "policy": "retain original membership rule pending definition"
+  },
+  {
+    "feature": "iot__door_window_sensor_pid_007__sensor__trigger_count__value",
+    "review_class": "discrete_count",
+    "definition": "Number of occurrences, packets or distinct addresses, or an absolute difference between such counts. Intermediate integer counts need not have occurred in TRAIN.",
+    "evidence": "Count meaning is explicit in the feature name. The notebook verifies integer TRAIN values before applying an integer rule. Full upstream transformation code is not supplied.",
+    "reference": "https://www.zigbee2mqtt.io/devices/MCCGQ11LM.html",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and require integer values only if TRAIN is integer"
+  },
+  {
+    "feature": "iot__door_window_sensor_pid_136__sensor__linkquality__value",
+    "review_class": "discrete_candidate",
+    "definition": "Link-quality reading. Native LQI is a numeric indicator, but the export aggregation and allowed steps are not established.",
+    "evidence": "Column name alone is insufficient.",
+    "reference": "https://www.zigbee2mqtt.io/devices/MCCGQ11LM.html",
+    "physical_units_verified": false,
+    "policy": "retain original membership rule pending definition"
+  },
+  {
+    "feature": "iot__kasa_smart_plug_pid_024__sensor__current__value",
+    "review_class": "continuous",
+    "definition": "Numerical measurement, proportion or accumulated quantity. Treat as a magnitude for this evaluation, not as an enumerated set of observed values. Native resolution and units are not verified.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://developers.home-assistant.io/docs/core/entity/sensor/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "iot__kasa_smart_plug_pid_024__sensor__current_consumption__value",
+    "review_class": "continuous",
+    "definition": "Numerical measurement, proportion or accumulated quantity. Treat as a magnitude for this evaluation, not as an enumerated set of observed values. Native resolution and units are not verified.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://developers.home-assistant.io/docs/core/entity/sensor/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "iot__mi_box__media_player__state__volume_level",
+    "review_class": "continuous",
+    "definition": "Numerical media volume level. Home Assistant defines this property as a float between zero and one.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://developers.home-assistant.io/docs/core/entity/media-player/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "iot__motion_sensor_pid_008__sensor__linkquality__value",
+    "review_class": "discrete_candidate",
+    "definition": "Link-quality reading. Native LQI is a numeric indicator, but the export aggregation and allowed steps are not established.",
+    "evidence": "Column name alone is insufficient.",
+    "reference": "https://www.zigbee2mqtt.io/devices/MCCGQ11LM.html",
+    "physical_units_verified": false,
+    "policy": "retain original membership rule pending definition"
+  },
+  {
+    "feature": "iot__motion_sensor_pid_062__sensor__linkquality__value",
+    "review_class": "discrete_candidate",
+    "definition": "Link-quality reading. Native LQI is a numeric indicator, but the export aggregation and allowed steps are not established.",
+    "evidence": "Column name alone is insufficient.",
+    "reference": "https://www.zigbee2mqtt.io/devices/MCCGQ11LM.html",
+    "physical_units_verified": false,
+    "policy": "retain original membership rule pending definition"
+  },
+  {
+    "feature": "iot__motion_sensor_pid_075__sensor__illuminance__value",
+    "review_class": "continuous",
+    "definition": "Numerical measurement, proportion or accumulated quantity. Treat as a magnitude for this evaluation, not as an enumerated set of observed values. Native resolution and units are not verified.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://developers.home-assistant.io/docs/core/entity/sensor/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "iot__motion_sensor_pid_075__sensor__linkquality__value",
+    "review_class": "discrete_candidate",
+    "definition": "Link-quality reading. Native LQI is a numeric indicator, but the export aggregation and allowed steps are not established.",
+    "evidence": "Column name alone is insufficient.",
+    "reference": "https://www.zigbee2mqtt.io/devices/MCCGQ11LM.html",
+    "physical_units_verified": false,
+    "policy": "retain original membership rule pending definition"
+  },
+  {
+    "feature": "iot__motion_sensor_pid_138__sensor__linkquality__value",
+    "review_class": "discrete_candidate",
+    "definition": "Link-quality reading. Native LQI is a numeric indicator, but the export aggregation and allowed steps are not established.",
+    "evidence": "Column name alone is insufficient.",
+    "reference": "https://www.zigbee2mqtt.io/devices/MCCGQ11LM.html",
+    "physical_units_verified": false,
+    "policy": "retain original membership rule pending definition"
+  },
+  {
+    "feature": "iot__motion_sensor_pid_138__sensor__voltage__value",
+    "review_class": "continuous",
+    "definition": "Numerical measurement, proportion or accumulated quantity. Treat as a magnitude for this evaluation, not as an enumerated set of observed values. Native resolution and units are not verified.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://developers.home-assistant.io/docs/core/entity/sensor/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "iot__multipurpose_sensor_pid_003__sensor__linkquality__value",
+    "review_class": "discrete_candidate",
+    "definition": "Link-quality reading. Native LQI is a numeric indicator, but the export aggregation and allowed steps are not established.",
+    "evidence": "Column name alone is insufficient.",
+    "reference": "https://www.zigbee2mqtt.io/devices/MCCGQ11LM.html",
+    "physical_units_verified": false,
+    "policy": "retain original membership rule pending definition"
+  },
+  {
+    "feature": "iot__multipurpose_sensor_pid_006__sensor__linkquality__value",
+    "review_class": "discrete_candidate",
+    "definition": "Link-quality reading. Native LQI is a numeric indicator, but the export aggregation and allowed steps are not established.",
+    "evidence": "Column name alone is insufficient.",
+    "reference": "https://www.zigbee2mqtt.io/devices/MCCGQ11LM.html",
+    "physical_units_verified": false,
+    "policy": "retain original membership rule pending definition"
+  },
+  {
+    "feature": "iot__s5_max_filter_time_left__sensor__state__value",
+    "review_class": "continuous",
+    "definition": "Duration. Modeled as a numerical magnitude. The export time unit and any integer reporting resolution are not independently verified.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://developers.home-assistant.io/docs/core/entity/sensor/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "iot__s5_max_main_brush_time_left__sensor__state__value",
+    "review_class": "continuous",
+    "definition": "Duration. Modeled as a numerical magnitude. The export time unit and any integer reporting resolution are not independently verified.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://developers.home-assistant.io/docs/core/entity/sensor/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "iot__s5_max_sensor_time_left__sensor__state__value",
+    "review_class": "continuous",
+    "definition": "Duration. Modeled as a numerical magnitude. The export time unit and any integer reporting resolution are not independently verified.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://developers.home-assistant.io/docs/core/entity/sensor/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "iot__s5_max_side_brush_time_left__sensor__state__value",
+    "review_class": "continuous",
+    "definition": "Duration. Modeled as a numerical magnitude. The export time unit and any integer reporting resolution are not independently verified.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://developers.home-assistant.io/docs/core/entity/sensor/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "iot__s5_max_total_cleaning_area__sensor__state__value",
+    "review_class": "continuous",
+    "definition": "Numerical measurement, proportion or accumulated quantity. Treat as a magnitude for this evaluation, not as an enumerated set of observed values. Native resolution and units are not verified.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://developers.home-assistant.io/docs/core/entity/sensor/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "iot__s5_max_total_cleaning_time__sensor__state__value",
+    "review_class": "continuous",
+    "definition": "Duration. Modeled as a numerical magnitude. The export time unit and any integer reporting resolution are not independently verified.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://developers.home-assistant.io/docs/core/entity/sensor/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "iot__smart_light_strip_pid_147__sensor__linkquality__value",
+    "review_class": "discrete_candidate",
+    "definition": "Link-quality reading. Native LQI is a numeric indicator, but the export aggregation and allowed steps are not established.",
+    "evidence": "Column name alone is insufficient.",
+    "reference": "https://www.zigbee2mqtt.io/devices/MCCGQ11LM.html",
+    "physical_units_verified": false,
+    "policy": "retain original membership rule pending definition"
+  },
+  {
+    "feature": "iot__smart_plug_ps5_this_month_s__sensor__consumption__value",
+    "review_class": "continuous",
+    "definition": "Numerical measurement, proportion or accumulated quantity. Treat as a magnitude for this evaluation, not as an enumerated set of observed values. Native resolution and units are not verified.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://developers.home-assistant.io/docs/core/entity/sensor/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "iot__temperature_and_humidity_pid_001__sensor__linkquality__value",
+    "review_class": "discrete_candidate",
+    "definition": "Link-quality reading. Native LQI is a numeric indicator, but the export aggregation and allowed steps are not established.",
+    "evidence": "Column name alone is insufficient.",
+    "reference": "https://www.zigbee2mqtt.io/devices/MCCGQ11LM.html",
+    "physical_units_verified": false,
+    "policy": "retain original membership rule pending definition"
+  },
+  {
+    "feature": "iot__temperature_and_humidity_pid_070__sensor__battery__value",
+    "review_class": "continuous",
+    "definition": "Numerical measurement, proportion or accumulated quantity. Treat as a magnitude for this evaluation, not as an enumerated set of observed values. Native resolution and units are not verified.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://developers.home-assistant.io/docs/core/entity/sensor/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "iot__temperature_and_humidity_pid_070__sensor__linkquality__value",
+    "review_class": "discrete_candidate",
+    "definition": "Link-quality reading. Native LQI is a numeric indicator, but the export aggregation and allowed steps are not established.",
+    "evidence": "Column name alone is insufficient.",
+    "reference": "https://www.zigbee2mqtt.io/devices/MCCGQ11LM.html",
+    "physical_units_verified": false,
+    "policy": "retain original membership rule pending definition"
+  },
+  {
+    "feature": "iot__temperature_and_humidity_pid_070__sensor__voltage__value",
+    "review_class": "continuous",
+    "definition": "Numerical measurement, proportion or accumulated quantity. Treat as a magnitude for this evaluation, not as an enumerated set of observed values. Native resolution and units are not verified.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://developers.home-assistant.io/docs/core/entity/sensor/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "iot__temperature_and_humidity_pid_073__sensor__battery__value",
+    "review_class": "continuous",
+    "definition": "Numerical measurement, proportion or accumulated quantity. Treat as a magnitude for this evaluation, not as an enumerated set of observed values. Native resolution and units are not verified.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://developers.home-assistant.io/docs/core/entity/sensor/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "iot__temperature_and_humidity_pid_073__sensor__linkquality__value",
+    "review_class": "discrete_candidate",
+    "definition": "Link-quality reading. Native LQI is a numeric indicator, but the export aggregation and allowed steps are not established.",
+    "evidence": "Column name alone is insufficient.",
+    "reference": "https://www.zigbee2mqtt.io/devices/MCCGQ11LM.html",
+    "physical_units_verified": false,
+    "policy": "retain original membership rule pending definition"
+  },
+  {
+    "feature": "iot__temperature_and_humidity_pid_073__sensor__voltage__value",
+    "review_class": "continuous",
+    "definition": "Numerical measurement, proportion or accumulated quantity. Treat as a magnitude for this evaluation, not as an enumerated set of observed values. Native resolution and units are not verified.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://developers.home-assistant.io/docs/core/entity/sensor/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "iot__unknown_70_ee_50_7a_e5_2c__sensor__rain_gauge_precipitation__value",
+    "review_class": "continuous",
+    "definition": "Numerical measurement, proportion or accumulated quantity. Treat as a magnitude for this evaluation, not as an enumerated set of observed values. Native resolution and units are not verified.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://developers.home-assistant.io/docs/core/entity/sensor/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "iot__unknown_70_ee_50_7a_e5_2c__sensor__rain_gauge_precipitation_last_hour__value",
+    "review_class": "continuous",
+    "definition": "Numerical measurement, proportion or accumulated quantity. Treat as a magnitude for this evaluation, not as an enumerated set of observed values. Native resolution and units are not verified.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://developers.home-assistant.io/docs/core/entity/sensor/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "iot__unknown_70_ee_50_7a_e5_2c__sensor__rain_gauge_precipitation_today__value",
+    "review_class": "continuous",
+    "definition": "Numerical measurement, proportion or accumulated quantity. Treat as a magnitude for this evaluation, not as an enumerated set of observed values. Native resolution and units are not verified.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://developers.home-assistant.io/docs/core/entity/sensor/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "iot__vibration_sensor_pid_078__sensor__linkquality__value",
+    "review_class": "discrete_candidate",
+    "definition": "Link-quality reading. Native LQI is a numeric indicator, but the export aggregation and allowed steps are not established.",
+    "evidence": "Column name alone is insufficient.",
+    "reference": "https://www.zigbee2mqtt.io/devices/MCCGQ11LM.html",
+    "physical_units_verified": false,
+    "policy": "retain original membership rule pending definition"
+  },
+  {
+    "feature": "iot__vibration_sensor_pid_078__sensor__strength__value",
+    "review_class": "unresolved",
+    "definition": "Score, strength or derived intensity. The complete allowed encoding is not established.",
+    "evidence": "Column name alone is insufficient.",
+    "reference": "",
+    "physical_units_verified": false,
+    "policy": "retain original membership rule pending definition"
+  },
+  {
+    "feature": "iot__vibration_sensor_pid_078__sensor__voltage__value",
+    "review_class": "continuous",
+    "definition": "Numerical measurement, proportion or accumulated quantity. Treat as a magnitude for this evaluation, not as an enumerated set of observed values. Native resolution and units are not verified.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://developers.home-assistant.io/docs/core/entity/sensor/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "iot__vibration_sensor_pid_079__sensor__linkquality__value",
+    "review_class": "discrete_candidate",
+    "definition": "Link-quality reading. Native LQI is a numeric indicator, but the export aggregation and allowed steps are not established.",
+    "evidence": "Column name alone is insufficient.",
+    "reference": "https://www.zigbee2mqtt.io/devices/MCCGQ11LM.html",
+    "physical_units_verified": false,
+    "policy": "retain original membership rule pending definition"
+  },
+  {
+    "feature": "iot__vibration_sensor_pid_079__sensor__voltage__value",
+    "review_class": "continuous",
+    "definition": "Numerical measurement, proportion or accumulated quantity. Treat as a magnitude for this evaluation, not as an enumerated set of observed values. Native resolution and units are not verified.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://developers.home-assistant.io/docs/core/entity/sensor/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "iot__water_leak_sensor_pid_083__sensor__linkquality__value",
+    "review_class": "discrete_candidate",
+    "definition": "Link-quality reading. Native LQI is a numeric indicator, but the export aggregation and allowed steps are not established.",
+    "evidence": "Column name alone is insufficient.",
+    "reference": "https://www.zigbee2mqtt.io/devices/MCCGQ11LM.html",
+    "physical_units_verified": false,
+    "policy": "retain original membership rule pending definition"
+  },
+  {
+    "feature": "iot__water_leak_sensor_pid_083__sensor__voltage__value",
+    "review_class": "continuous",
+    "definition": "Numerical measurement, proportion or accumulated quantity. Treat as a magnitude for this evaluation, not as an enumerated set of observed values. Native resolution and units are not verified.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://developers.home-assistant.io/docs/core/entity/sensor/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "iot__wireless_mini_switch_pid_080__sensor__device_temperature__value",
+    "review_class": "continuous",
+    "definition": "Numerical measurement, proportion or accumulated quantity. Treat as a magnitude for this evaluation, not as an enumerated set of observed values. Native resolution and units are not verified.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://developers.home-assistant.io/docs/core/entity/sensor/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "iot__wireless_mini_switch_pid_080__sensor__linkquality__value",
+    "review_class": "discrete_candidate",
+    "definition": "Link-quality reading. Native LQI is a numeric indicator, but the export aggregation and allowed steps are not established.",
+    "evidence": "Column name alone is insufficient.",
+    "reference": "https://www.zigbee2mqtt.io/devices/MCCGQ11LM.html",
+    "physical_units_verified": false,
+    "policy": "retain original membership rule pending definition"
+  },
+  {
+    "feature": "iot__wireless_mini_switch_pid_080__sensor__voltage__value",
+    "review_class": "continuous",
+    "definition": "Numerical measurement, proportion or accumulated quantity. Treat as a magnitude for this evaluation, not as an enumerated set of observed values. Native resolution and units are not verified.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://developers.home-assistant.io/docs/core/entity/sensor/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "iot__withings_breathing_disturbances_intensity__sensor__state__value",
+    "review_class": "unresolved",
+    "definition": "Score, strength or derived intensity. The complete allowed encoding is not established.",
+    "evidence": "Column name alone is insufficient.",
+    "reference": "https://www.home-assistant.io/integrations/withings/",
+    "physical_units_verified": false,
+    "policy": "retain original membership rule pending definition"
+  },
+  {
+    "feature": "iot__withings_deep_sleep__sensor__state__value",
+    "review_class": "continuous",
+    "definition": "Duration. Modeled as a numerical magnitude. The export time unit and any integer reporting resolution are not independently verified.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://www.home-assistant.io/integrations/withings/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "iot__withings_light_sleep__sensor__state__value",
+    "review_class": "continuous",
+    "definition": "Duration. Modeled as a numerical magnitude. The export time unit and any integer reporting resolution are not independently verified.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://www.home-assistant.io/integrations/withings/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "iot__withings_maximum_heart_rate__sensor__state__value",
+    "review_class": "continuous",
+    "definition": "Numerical measurement, proportion or accumulated quantity. Treat as a magnitude for this evaluation, not as an enumerated set of observed values. Native resolution and units are not verified.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://developers.home-assistant.io/docs/core/entity/sensor/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "iot__withings_minimum_heart_rate__sensor__state__value",
+    "review_class": "continuous",
+    "definition": "Numerical measurement, proportion or accumulated quantity. Treat as a magnitude for this evaluation, not as an enumerated set of observed values. Native resolution and units are not verified.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://developers.home-assistant.io/docs/core/entity/sensor/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "iot__withings_minimum_respiratory_rate__sensor__state__value",
+    "review_class": "continuous",
+    "definition": "Numerical measurement, proportion or accumulated quantity. Treat as a magnitude for this evaluation, not as an enumerated set of observed values. Native resolution and units are not verified.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://developers.home-assistant.io/docs/core/entity/sensor/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "iot__withings_rem_sleep__sensor__state__value",
+    "review_class": "continuous",
+    "definition": "Duration. Modeled as a numerical magnitude. The export time unit and any integer reporting resolution are not independently verified.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://www.home-assistant.io/integrations/withings/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "iot__withings_sleep_score__sensor__state__value",
+    "review_class": "unresolved",
+    "definition": "Score, strength or derived intensity. The complete allowed encoding is not established.",
+    "evidence": "Column name alone is insufficient.",
+    "reference": "https://www.home-assistant.io/integrations/withings/",
+    "physical_units_verified": false,
+    "policy": "retain original membership rule pending definition"
+  },
+  {
+    "feature": "iot__withings_snoring__sensor__state__value",
+    "review_class": "continuous",
+    "definition": "Duration. Modeled as a numerical magnitude. The export time unit and any integer reporting resolution are not independently verified.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://www.home-assistant.io/integrations/withings/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "iot__withings_snoring_episode_count__sensor__state__value",
+    "review_class": "discrete_count",
+    "definition": "Number of occurrences, packets or distinct addresses, or an absolute difference between such counts. Intermediate integer counts need not have occurred in TRAIN.",
+    "evidence": "Count meaning is explicit in the feature name. The notebook verifies integer TRAIN values before applying an integer rule. Full upstream transformation code is not supplied.",
+    "reference": "https://www.home-assistant.io/integrations/withings/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and require integer values only if TRAIN is integer"
+  },
+  {
+    "feature": "iot__withings_time_to_sleep__sensor__state__value",
+    "review_class": "continuous",
+    "definition": "Duration. Modeled as a numerical magnitude. The export time unit and any integer reporting resolution are not independently verified.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://www.home-assistant.io/integrations/withings/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "iot__withings_time_to_wakeup__sensor__state__value",
+    "review_class": "continuous",
+    "definition": "Duration. Modeled as a numerical magnitude. The export time unit and any integer reporting resolution are not independently verified.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://www.home-assistant.io/integrations/withings/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "iot__withings_wakeup_time__sensor__state__value",
+    "review_class": "continuous",
+    "definition": "Duration. Modeled as a numerical magnitude. The export time unit and any integer reporting resolution are not independently verified.",
+    "evidence": "Semantic mapping from the supplied field name to the documented quantity. This is not verification of the deployed device, unit or resolution.",
+    "reference": "https://www.home-assistant.io/integrations/withings/",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "ota24__auth",
+    "review_class": "discrete_count",
+    "definition": "Number of occurrences, packets or distinct addresses, or an absolute difference between such counts. Intermediate integer counts need not have occurred in TRAIN.",
+    "evidence": "Count meaning is explicit in the feature name. The notebook verifies integer TRAIN values before applying an integer rule. Full upstream transformation code is not supplied.",
+    "reference": "",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and require integer values only if TRAIN is integer"
+  },
+  {
+    "feature": "ota24__deauth",
+    "review_class": "discrete_count",
+    "definition": "Number of occurrences, packets or distinct addresses, or an absolute difference between such counts. Intermediate integer counts need not have occurred in TRAIN.",
+    "evidence": "Count meaning is explicit in the feature name. The notebook verifies integer TRAIN values before applying an integer rule. Full upstream transformation code is not supplied.",
+    "reference": "",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and require integer values only if TRAIN is integer"
+  },
+  {
+    "feature": "ota24__disassoc",
+    "review_class": "discrete_count",
+    "definition": "Number of occurrences, packets or distinct addresses, or an absolute difference between such counts. Intermediate integer counts need not have occurred in TRAIN.",
+    "evidence": "Count meaning is explicit in the feature name. The notebook verifies integer TRAIN values before applying an integer rule. Full upstream transformation code is not supplied.",
+    "reference": "",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and require integer values only if TRAIN is integer"
+  },
+  {
+    "feature": "ota24__probe_req",
+    "review_class": "discrete_count",
+    "definition": "Number of occurrences, packets or distinct addresses, or an absolute difference between such counts. Intermediate integer counts need not have occurred in TRAIN.",
+    "evidence": "Count meaning is explicit in the feature name. The notebook verifies integer TRAIN values before applying an integer rule. Full upstream transformation code is not supplied.",
+    "reference": "",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and require integer values only if TRAIN is integer"
+  },
+  {
+    "feature": "ota5__auth",
+    "review_class": "discrete_count",
+    "definition": "Number of occurrences, packets or distinct addresses, or an absolute difference between such counts. Intermediate integer counts need not have occurred in TRAIN.",
+    "evidence": "Count meaning is explicit in the feature name. The notebook verifies integer TRAIN values before applying an integer rule. Full upstream transformation code is not supplied.",
+    "reference": "",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and require integer values only if TRAIN is integer"
+  },
+  {
+    "feature": "ota__auth",
+    "review_class": "discrete_count",
+    "definition": "Number of occurrences, packets or distinct addresses, or an absolute difference between such counts. Intermediate integer counts need not have occurred in TRAIN.",
+    "evidence": "Count meaning is explicit in the feature name. The notebook verifies integer TRAIN values before applying an integer rule. Full upstream transformation code is not supplied.",
+    "reference": "",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and require integer values only if TRAIN is integer"
+  },
+  {
+    "feature": "ota__deauth",
+    "review_class": "discrete_count",
+    "definition": "Number of occurrences, packets or distinct addresses, or an absolute difference between such counts. Intermediate integer counts need not have occurred in TRAIN.",
+    "evidence": "Count meaning is explicit in the feature name. The notebook verifies integer TRAIN values before applying an integer rule. Full upstream transformation code is not supplied.",
+    "reference": "",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and require integer values only if TRAIN is integer"
+  },
+  {
+    "feature": "router__dhcp_pkt",
+    "review_class": "discrete_count",
+    "definition": "Number of occurrences, packets or distinct addresses, or an absolute difference between such counts. Intermediate integer counts need not have occurred in TRAIN.",
+    "evidence": "Count meaning is explicit in the feature name. The notebook verifies integer TRAIN values before applying an integer rule. Full upstream transformation code is not supplied.",
+    "reference": "",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and require integer values only if TRAIN is integer"
+  },
+  {
+    "feature": "router__dns_nx_rate",
+    "review_class": "continuous",
+    "definition": "Numerical rate. New values inside the TRAIN interval are not invalid merely because they were not previously observed.",
+    "evidence": "Rate meaning is explicit in the feature name. The exact numerator and denominator are not supplied.",
+    "reference": "",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "router__icmp_pkt",
+    "review_class": "discrete_count",
+    "definition": "Number of occurrences, packets or distinct addresses, or an absolute difference between such counts. Intermediate integer counts need not have occurred in TRAIN.",
+    "evidence": "Count meaning is explicit in the feature name. The notebook verifies integer TRAIN values before applying an integer rule. Full upstream transformation code is not supplied.",
+    "reference": "",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and require integer values only if TRAIN is integer"
+  },
+  {
+    "feature": "router__ip_dst_unique__absdiff1",
+    "review_class": "discrete_count",
+    "definition": "Number of occurrences, packets or distinct addresses, or an absolute difference between such counts. Intermediate integer counts need not have occurred in TRAIN.",
+    "evidence": "Count meaning is explicit in the feature name. The notebook verifies integer TRAIN values before applying an integer rule. Full upstream transformation code is not supplied.",
+    "reference": "",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and require integer values only if TRAIN is integer"
+  },
+  {
+    "feature": "router__tcp_syn_minus_ack_rate",
+    "review_class": "continuous",
+    "definition": "Numerical rate. New values inside the TRAIN interval are not invalid merely because they were not previously observed.",
+    "evidence": "Rate meaning is explicit in the feature name. The exact numerator and denominator are not supplied.",
+    "reference": "",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and remove empirical membership for continuous magnitude"
+  },
+  {
+    "feature": "zb__app_event_intensity",
+    "review_class": "unresolved",
+    "definition": "Score, strength or derived intensity. The complete allowed encoding is not established.",
+    "evidence": "Column name alone is insufficient.",
+    "reference": "",
+    "physical_units_verified": false,
+    "policy": "retain original membership rule pending definition"
+  },
+  {
+    "feature": "zigbee__other_type",
+    "review_class": "discrete_count",
+    "definition": "Number of occurrences, packets or distinct addresses, or an absolute difference between such counts. Intermediate integer counts need not have occurred in TRAIN.",
+    "evidence": "Count meaning is explicit in the feature name. The notebook verifies integer TRAIN values before applying an integer rule. Full upstream transformation code is not supplied.",
+    "reference": "",
+    "physical_units_verified": false,
+    "policy": "retain TRAIN range and require integer values only if TRAIN is integer"
+  }
+]

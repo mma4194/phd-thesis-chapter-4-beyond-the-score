@@ -1,0 +1,3 @@
+population,feature_seed_rows,features,fixture_seeds,mean_of_seed_means,mean_of_seed_medians,pooled_median
+all_features,27,9,3,1463.9127756500318,0.268861111111111,0.2688333333333333
+positive_reference_iqr,24,8,3,2.804650384066693,0.1344305555555555,0.1339999999999999
