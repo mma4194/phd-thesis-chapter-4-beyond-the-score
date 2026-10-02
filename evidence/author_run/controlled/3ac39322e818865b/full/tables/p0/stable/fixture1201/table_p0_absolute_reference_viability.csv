@@ -1,0 +1,3 @@
+capability,suite,criterion,estimate,ci_lo,ci_hi,n_pairs,n_seeds,n_units,threshold,passed,estimable
+contemporaneous_dependency|iot_power,contemporaneous,absolute_matched_real_reference_viability,0.9688157483990041,0.9675767617438891,0.9700487451929997,5,5,25,crossed pair-seed 95% CI lower bound of reference_skill_gain > 0,True,True
+forecast|router_bytes,temporal,absolute_matched_real_reference_viability,0.7441685394092762,0.7277272036472336,0.7599656123586275,5,5,25,crossed pair-seed 95% CI lower bound of reference_skill_gain > 0,True,True

@@ -1,0 +1,1 @@
+ablation,scenario_id,fixture_seed,expected_permission,observed_permission,expected_outcome,observed_outcome,permission_correct,outcome_correct,full_label_correct,observed_failure_stage,expected_failure_stage,failure_stage_correct,mixed_failure,failure_vector

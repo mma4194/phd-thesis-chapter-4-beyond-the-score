@@ -1,0 +1,49 @@
+{
+  "records": {
+    "output": "records",
+    "status": "master_status/records.json"
+  },
+  "canonical_metrics": {
+    "output": "supplementary/724eda7669b08d7b/canonical_metrics",
+    "status": "master_status/canonical_metrics.json"
+  },
+  "controlled": {
+    "output": "controlled/e16cae316ea10b3b/full",
+    "status": "master_status/controlled.json"
+  },
+  "input_verification": {
+    "output": "residential_input",
+    "status": "master_status/input_verification.json"
+  },
+  "residential": {
+    "output": "residential/f575bd165ffa4f27",
+    "status": "master_status/residential.json"
+  },
+  "telemetry": {
+    "output": "telemetry_input/run_20260930T111717Z_489c905e",
+    "status": "master_status/telemetry.json"
+  },
+  "prepare": {
+    "output": "toniot/preparation/prep_a94622fd138586a2",
+    "status": "master_status/prepare.json"
+  },
+  "external": {
+    "output": "toniot/evaluation/rebuilt_e3d753d1ea4b9b8a",
+    "status": "master_status/external.json"
+  },
+  "_origin": {
+    "results_archive_sha256": "5fdd750daf53e210ba944609f9bc0a719a50d30c2b4937bb2de10def2aa4e62c",
+    "notebook_html_sha256": "1fd08f4d9cecb972df567a1595b02150d808ddfb0c4e5bdbf9f557c2ef9470b9",
+    "evidence_type": "Previously executed author runs; read and verified here",
+    "selected_stages": [
+      "records",
+      "canonical_metrics",
+      "controlled",
+      "input_verification",
+      "residential",
+      "telemetry",
+      "prepare",
+      "external"
+    ]
+  }
+}

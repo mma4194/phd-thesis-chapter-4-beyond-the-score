@@ -1,0 +1,61 @@
+{
+  "rules": {
+    "version": "reconstruction-2.0.0",
+    "step_seconds": 5,
+    "bin_origin": "Unix epoch, UTC coordinate",
+    "bin_interval": "left closed, right open",
+    "numeric_aggregation": "arithmetic mean of available filtered records",
+    "telemetry_duplicate_policy": "retain all supplied filtered records; original logs verify values and date repair only",
+    "fridge_repair": "Only 0?4 Apr 201 in fridge part 3; require exact rowwise measurement and original GMT agreement",
+    "network_byte_basis": "original wire length; population standard deviation ddof=0",
+    "network_endpoint_pair": "directed outer source/destination IP pair; no ports, no assumed device mapping",
+    "interarrival": "sort every complete packet timestamp within each group/bin across files; positive differences only; seconds; ddof=0; undefined means/std are missing",
+    "port_rules": {
+      "http": [
+        80
+      ],
+      "https": [
+        443
+      ],
+      "dns": [
+        53
+      ],
+      "mqtt": [
+        1883,
+        8883
+      ]
+    },
+    "duplicate_packets": "retain records; identical input files rejected; equal timestamps are not proof of duplicate packets",
+    "missing_values": "preimputation NaN and explicit observation masks; canonical zero fill, never forward/backward interpolation",
+    "empty_network_bins": "unobserved; do not infer zero measured traffic from an empty bin",
+    "session_gap_seconds": 60,
+    "analysis_interval": "longest intersection of general and IoT-named packet sessions and telemetry occupied-bin spans (gaps >60 s); ties choose earliest; exclude first/last bins not fully inside that coordinate interval; bin occupancy does not prove acquisition continuity",
+    "incomplete_capture_policy": "complete-record prefixes allowed as a new conditional dataset; incomplete record omitted; its entire bin masked; if header incomplete mask last complete-record bin",
+    "malformed_capture_policy": "stop before evaluation; keep earlier per-file caches and error report",
+    "clock_policy": "zero offset; no performance/overlap-optimised alignment; UTC coordinates do not prove physical clock synchronization",
+    "historical_identity": "new dataset; no historical byte-identical reconstruction claim"
+  },
+  "source_manifest": {
+    "external_rebuild/__init__.py": "ffb3a541d6d590ae2369dd022dda48d20ad3fb31006feaa01661f9985cc35e20",
+    "external_rebuild/capture_reader.py": "6a0e9136641939decfdcd65f47a3e83a55fdc3a8e1d4faa61a472cd866066763",
+    "external_rebuild/crosscheck.py": "b2cece6548ba41e929029476be33f2fd3320171a8d3b7b8c1fc585e81998d9e1",
+    "external_rebuild/evaluation.py": "f14e8510e20e686bb7c3eb3d0d2708c8824366bb9cb1aa93d3f9f22a66a30b71",
+    "external_rebuild/network.py": "d4fbadbd857e3085b95285b603e62505239cc448c474ac65c536efc9dbb21b9c",
+    "external_rebuild/project.py": "573f4eddeeb1f1e531438698da092eeff65f14501fce12b79d2623b03e94314a",
+    "external_rebuild/recovered/canonical_metrics.py": "c8e2ec75d6f529b4885759e3947e0646fd43b5e21f3b401dc6b61293e411afd7",
+    "external_rebuild/recovered/historical_assets.json": "d4631b0543b0e119931b568d3502fc51596f9d1d37d82699916078564b22a3bc",
+    "external_rebuild/recovered/legacy_generators.py": "429cc8786925e1a87a870db9e7d795bffa4982c4d67d7f09aebfb45cdf095883",
+    "external_rebuild/recovered/matching_helpers.py": "d8c3e85b9f8e100a83933aea7a2612e29ac5fdb46c45ac2e3d84ca739a04694d",
+    "external_rebuild/recovered/runtime_c2st.py": "ff7739d8535b51a57477dee00581d7cdf0204d83f3d32db1c41e41e2c11d7984",
+    "external_rebuild/recovered/runtime_checks.py": "8a478bdcf18aaaca9a4e26dab6ba6fc509154b923389e57556bec1ab93663aa9",
+    "external_rebuild/recovered/runtime_core.py": "fe718865b202be2d888111a8d7c9a1c288d23bed33fb288ecf59f37e21744e34",
+    "external_rebuild/recovered/runtime_evaluation.py": "6d9d5531706460570110c5ebf9c478f624ca1047ef4bfd13629679dd04e8e847",
+    "external_rebuild/recovered/runtime_p0.py": "a41ba1f3c88965d7dc1e14562eaa7fd72801c9621b8201a720ef62b5b00cc451",
+    "external_rebuild/recovered/runtime_protocol.py": "15ae92b96a4335cdb4227d00554991fbf05788c3adad65266606638bd52efae7",
+    "external_rebuild/recovered/runtime_tasks.py": "324f1087feefbdcae2b6c8a5b41ca8aadca875e7d634bb6b6e42f241bca8d477",
+    "external_rebuild/recovered/statistics_helpers.py": "6179073ee7195bc067e44a9a1e6db5e9d9578c4d2ea2b7e7dc5c6268cc99bcf3",
+    "external_rebuild/reference_capture_audit.json": "0db69563b2a02167d8b497c1ecd682d377ccb08c5570092da52e8e73ebfc4a4b",
+    "external_rebuild/reporting.py": "8e109d467e4dc9220fd4da5538ade2aa1738c424cb007ebb775a31ea0863bdbb",
+    "external_rebuild/telemetry_recovery.py": "08a2692383be9c8103cb8d622cb1fdbddf742ca935bbeccb8cfef29557db275b"
+  }
+}

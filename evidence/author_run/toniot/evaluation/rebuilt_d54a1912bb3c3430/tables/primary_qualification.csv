@@ -1,0 +1,3 @@
+axis,capability,unclipped,eligible,licensed,state,reason,calibration_pairs,qualification_pairs,identity_ok,reference_viable,relative_ok,order_ok,raw_margin,applied_margin,reference_skill,reference_skill_lo,reference_skill_hi,relative_log_difference,relative_log_difference_lo,relative_log_difference_hi,block_ratio,block_ratio_hi,noninferiority_rate,identity_log_lo,identity_log_hi
+temporal,network_burst_prediction,False,False,False,Not-Estimable,insufficient_calibration_pairs,1,,,,,,,,,,,,,,,,,,
+temporal,network_volume_forecast,False,True,True,Admissible,,5,5.0,True,True,True,True,1.0238436217576656,1.25,0.3530623103318802,0.271000143368225,0.4006441116956433,0.8189076123984301,0.6933967281853974,0.9511601370625924,1.0094184275375262,1.0165843070368692,0.946,0.0,0.0

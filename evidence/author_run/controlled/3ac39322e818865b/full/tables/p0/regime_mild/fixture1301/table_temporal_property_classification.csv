@@ -1,0 +1,2 @@
+capability,state,eligible,licensed,block_transfer_ok,order_effect_ok,allowed_interpretation
+contemporaneous_dependency|regime_power,NOT_ESTIMABLE,False,False,False,False,insufficient frozen TRAIN power or valid task units

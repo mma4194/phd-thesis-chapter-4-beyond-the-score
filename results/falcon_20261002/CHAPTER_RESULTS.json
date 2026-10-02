@@ -1,0 +1,10 @@
+{
+  "scope": "Declared Chapter 4 experiments and 45 mapped headline values",
+  "mode": "fresh",
+  "chapter_comparisons": "PASS",
+  "headline_values_checked": 45,
+  "new_raw_model_run_in_this_execution": true,
+  "decoder_execution": "Separate recorded local execution",
+  "fixed_historical_task_registry": true,
+  "posthoc_extensions_in_scope": false
+}

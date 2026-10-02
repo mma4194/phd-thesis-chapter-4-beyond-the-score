@@ -1,0 +1,3 @@
+card_id,task_id,model_id,task_type,suite,target,tier,family,capability,signal_class,target_family,driver_tier,label_window_steps,threshold_kind,n_train,n_val,admissible,reason
+event_onset__kt_rare_zigbee__model_linear,event_onset__kt_rare_zigbee,linear,classification,temporal,zigbee__events,zigbee,known_truth_rare_zigbee_event,event_onset|zigbee_events,event,zigbee__events,,0,binary,60000,23994,False,single_class
+event_onset__kt_rare_zigbee__model_rf,event_onset__kt_rare_zigbee,rf,classification,temporal,zigbee__events,zigbee,known_truth_rare_zigbee_event,event_onset|zigbee_events,event,zigbee__events,,0,binary,60000,23994,False,single_class

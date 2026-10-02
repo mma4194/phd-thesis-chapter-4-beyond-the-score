@@ -1,0 +1,81 @@
+{
+  "archive_sha256": "838235536f8bec17fc440532396c21a5652d0a758f358c59f28c8fb43de9d30f",
+  "selected_stage_comparisons": [
+    {
+      "stage": "records",
+      "comparisons": 144,
+      "failed": 0
+    },
+    {
+      "stage": "canonical_metrics",
+      "comparisons": 3,
+      "failed": 0
+    },
+    {
+      "stage": "controlled",
+      "comparisons": 9,
+      "failed": 0
+    },
+    {
+      "stage": "residential",
+      "comparisons": 9,
+      "failed": 0
+    },
+    {
+      "stage": "external",
+      "comparisons": 87,
+      "failed": 0
+    }
+  ],
+  "headline_values": 45,
+  "headline_matches": 45,
+  "stage_durations": [
+    {
+      "stage": "records",
+      "seconds": 14.067915
+    },
+    {
+      "stage": "canonical_metrics",
+      "seconds": 78.774277
+    },
+    {
+      "stage": "controlled",
+      "seconds": 3657.893771
+    },
+    {
+      "stage": "input_verification",
+      "seconds": 16.680977
+    },
+    {
+      "stage": "residential",
+      "seconds": 54017.969966
+    },
+    {
+      "stage": "telemetry",
+      "seconds": 45.521758
+    },
+    {
+      "stage": "prepare",
+      "seconds": 396.531319
+    },
+    {
+      "stage": "external",
+      "seconds": 3290.052655
+    }
+  ],
+  "preparation_verification": {
+    "status": "PASS",
+    "preparation_id": "2d1ab0321cbf17799f4dbab796dbfdc6542620858429ca81f118bf990e98ca21",
+    "receipt_digest": "81c41373de649ccf905cde5a93783bc2c144d8bf7d35b814bc013d3b2a21728c",
+    "immutable_files": 13,
+    "mutable_progress_files_hashed": false
+  },
+  "after_evaluation": {
+    "status": "PASS",
+    "preparation_id": "2d1ab0321cbf17799f4dbab796dbfdc6542620858429ca81f118bf990e98ca21",
+    "receipt_digest": "81c41373de649ccf905cde5a93783bc2c144d8bf7d35b814bc013d3b2a21728c",
+    "immutable_files": 13,
+    "mutable_progress_files_hashed": false
+  },
+  "note": "Scientific qualification false values are retained expected outcomes; comparison checks are audited separately."
+}

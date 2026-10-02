@@ -1,48 +1,38 @@
-# Implementation
+# Implementation and experimental scope
 
-## Entry points and configuration
+## Execution flow
 
-`notebooks/Beyond_the_Score_Chapter4.ipynb` and `run.py` call the same `master_workflow.Workflow`. `src/configuration.py` expands local paths, validates the operational configuration and keeps raw inputs separate from the output root. `artifact/stages.py` executes each stage in the interpreter selected by the controller. Numerical settings remain in the frozen scientific protocols, not optional notebook controls.
+The root notebook orchestrates `chapter_support/reviewer.py`. Scientific stages execute in subprocesses using the public or residential interpreter, with numerical thread environment variables set to one. Four configured workers are separate from the numerical thread limit. Each stage records its environment, code binding, configuration and outputs. The controller checks completion and comparison status before admitting tables into the final report.
 
-| Stage | Engine | Interpreter | Main evidence |
-|---|---|---|---|
-| preflight | `artifact/preflight.py`, `tests/` | Public | Integrity and software contracts |
-| history | `artifact/stages.py` | Public | Supplied author reports, explicitly historical |
-| records | `artifact/recalculate.py`, `record_methods.py`, `plots.py` | Public | Primitive losses to decisions, intervals, figures and 45 headlines |
-| supplementary_audit | `artifact/supplementary_audit.py` | Public | Latest supplement targets and historical snapshot differences |
-| thresholds, fixture_audit | `artifact/supplementary.py` | Residential | Original threshold ledger, fresh Wasserstein fixtures, recorded classifier arithmetic |
-| canonical_metrics | Same, original canonical definitions | Residential | Original instrument seed curves |
-| controlled | `artifact/controlled.py`, `controlled_source/` | Public | Full fixed constructed benchmark, P0, 72 cases, 576 ablations |
-| input_verification | `input_verification/verify_residential_input.py` | Residential | Exact Parquet, missingness, chronology and 136 task windows |
-| residential | `artifact/residential.py`, `residential_source/` | Residential | Fresh admission, matching, P0, 90 sources/jobs and new prediction checks |
-| classifier_capacity | Recovered supplementary classifier diagnostic | Public | Twelve sample-size rows; this reproducing environment was checked |
-| temporal_controls | Exact TEST-window loader and original temporal functions | Residential | Twenty condition/seed rows |
-| positive_controls, positive_diagnostics | Repaired canonical v4.1 and v4.2 source cells | Residential | Role-matched controls and anchor-relative diagnostics |
-| telemetry, prepare | `external_rebuild/`, `artifact/toniot.py` | Public | Raw member identities, packet parsing, time grid, masks and six tables |
-| decoder | `external_rebuild/crosscheck.py` | Public + TShark | First 10,000 complete packets in each of 15 captures |
-| external | `external_rebuild/evaluation.py`, recovered modules | Public | Four origins, 72 source jobs, 87 comparisons and 8,508 loss checks |
-| report | `artifact/stages.py` | Public | Current configuration/source-bound stage statuses and compact export |
+| Stage | Interpreter | Implementation and output |
+|---|---|---|
+| records | public | `artifact/recalculate.py`: recomputes archived primitive-record arithmetic; no model fits |
+| canonical_metrics | residential | `artifact/supplementary.py`, retained canonical metric sources |
+| input_verification | residential | Raw Parquet identity, chronology and missingness contracts |
+| residential | residential | `artifact/residential.py`, `residential_source/`: qualification, calibration and 3,060 utility rows |
+| controlled | public | `controlled_source/`: 18 constructed scenarios, four seeds, 72 cases and ablations |
+| telemetry | public | `external_rebuild/telemetry_recovery.py`: 42 input member identities and timestamp recovery |
+| prepare | public | `artifact/toniot.py`, `external_rebuild/project.py`: 15 captures and five-second prepared tables |
+| external | public | `external_rebuild/evaluation.py`: primary and additional-origin experiments, 72 source jobs |
 
-## Preserved scientific rules
+The notebook invokes these in the narrative order shown in its cells. Stage names are fixed; the controller does not select numerical rows by whether they agree.
 
-The repository retains source-specific chronological splits, embargoes, seeds, task/model cards, train-only fitting and imputation, observation masks, join exclusions, equal training counts, source-health checks, group splits for classifiers, bootstrap seeds and aggregation order. The residential family/capability hierarchy intentionally differs from the external hierarchy. Expected failed source-health outcomes remain scientific outcomes; they are not replaced with successful values.
+## Methods and comparisons
 
-The original 640-card discovery ledger, 199 retained task/model configurations and selected P0 cards are fixed historical inputs. The corrected pipeline repeats admission on that declared set and does not restart exploratory discovery. The 25 same-time plus nine temporal scored configurations are retained, while the primary supported scope uses the three qualified same-time groups. Supplementary canonical controls retain their earlier licence scope and do not replace corrected primary findings.
+`protocols/` holds the fixed task registry, split definitions, field contracts, seeds, expected environments and 45 printed headline targets. `reference/` retains historical numerical comparison records. `residential_source/`, `controlled_source/` and `supplementary_source/` retain recovered scientific definitions. `provenance/` and `SOURCE_ARCHIVES.json` retain lineage.
 
-`residential_source/support.py` preserves field-definition review and full prepared-input range checks for the five affected methods, including separation of out-of-range and unseen-in-range values. Full-support binary detection inspects the supplied values rather than a prefix. Its generated per-source health reports should be included when collecting the latest full Falcon run.
+TRAIN-only choices, observed-target handling, matching plans, fitted models, seeds and original tolerances remain in the scientific source. The later stability solvers are not substituted. The headline comparison rounds to the publication’s registered precision; selected stage comparisons separately apply their original stricter rules. Inspect the comparison CSVs for per-quantity tolerances and keys.
 
-## Preparation completion fix
+`artifact/preparation_integrity.py` freezes immutable prepared tables and copied input-check reports. Thirteen immutable files are checked before and after external evaluation. Mutable progress files are excluded. Preparation must not be validated by hashing files that evaluation subsequently updates.
 
-`artifact/preparation_integrity.py` hashes six immutable prepared tables, `prepared_files.json` and copies of six input-check reports under `verified_input_checks/`. The immutable `preparation_record.json` is covered by the prepared manifest. Mutable progress, current pointers and evaluation-status views are excluded. The receipt is checked before fitting and after evaluation; an existing changed receipt is not reblessed by recalculating its expected hash.
+Saved-prediction receipts verify losses calculated from targets and predictions. The repository contains those verification records; the large prediction arrays remain in the original Falcon output and are generated again by fresh execution.
 
-Raw file identity, parsed prepared content and fitted-result agreement are separate checks. The original portable rule permits at most the documented one-ULP difference for packet-length standard deviations; it does not loosen model-result comparison tolerances.
+## Evidence layout
 
-## Repository-only adaptations
+- `evidence/author_run/`: October 2026 Falcon reports and comparison tables, preserved from the supplied result archive.
+- `evidence/index.json`: portable paths selecting the completed run plus input archive hashes.
+- `evidence/local_decoder_receipt.json`: separately executed local decoder check.
+- `results/falcon_20261002/`: final chapter report, 45-value comparison, archive audit and original HTML.
+- `reference/`: historical scientific reference tables, distinct from new execution evidence.
 
-The notebook now reads `config/local.json`, the environment setup separates Python-version-specific locks, and documentation follows the Chapter 3 layout. Scientific engine directories remain in their established locations to avoid changing import or file-resolution contracts just for cosmetic uniformity. Current printed supplement targets were updated from the supplied latest Overleaf source, while historical targets and fitted references remain separately preserved.
-
-The temporal-only wrapper reads the same first 70,000 TEST rows column by column, preserving original column order, float32 conversion and nonfinite replacement. It avoids allocating the full canonical matrix solely for this diagnostic; original output comparisons and equivalence tests passed.
-
-## What is not reconstructed from raw data
-
-Upstream residential acquisition/Parquet assembly, original full exploratory task discovery, independent sensor calibration and independently established physical clock alignment are outside this pipeline. No claim is made that historical compact reports contain absent raw prediction arrays. These boundaries are explicit research inputs and evidence limits, not hidden substitutes for fresh computation.
+Absolute author paths inside archived receipts are historical metadata. Evidence-mode lookup uses relative paths in the index. Keep the fixed historical registry dependency explicit: exploratory task discovery is not repeated.

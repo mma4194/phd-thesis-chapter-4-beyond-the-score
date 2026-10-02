@@ -1,6 +1,0 @@
-workflow,status,result,report
-Recorded calculations,MATCH,PASS,runs/records/20260921T153200_979364Z/status.json
-Controlled full experiment,MATCH,PASS,runs/controlled/cc440df80810281d/full/artifact_status.json
-TON_IoT fresh evaluation,MATCH,PASS,runs/toniot/evaluation/rebuilt_57b58882af399285/paper_comparison/status.json
-TON_IoT prediction verification,MATCH,True,runs/toniot/evaluation/rebuilt_57b58882af399285/prediction_verification/status.json
-Residential fresh evaluation,MATCH,PASS,runs/residential/e2617436c6c829d7/status.json

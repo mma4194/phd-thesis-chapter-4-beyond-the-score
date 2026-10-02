@@ -1,0 +1,77 @@
+{
+  "context": "regime_unstable",
+  "fixture_seed": 1401,
+  "pair": {
+    "pair_id": "pair7",
+    "phase": "calibration",
+    "profile_distance": 8.012639139606753,
+    "source_block": 7,
+    "source_end": 28800,
+    "source_start": 25200,
+    "target_block": 18,
+    "target_end": 68400,
+    "target_start": 64800
+  },
+  "protocol_hash": "56671d836844cd549869ef5fb0ec2c4c7e9f240f26176af245fad12b4c0e38d0",
+  "protocol_seed": 1340,
+  "summary_rows": [
+    {
+      "capability": "contemporaneous_dependency|regime_power",
+      "log_loss_ratio": 0.0,
+      "n_families": 1,
+      "noninferiority_rate": 1.0,
+      "p0_anchor": "real_identity",
+      "pair_id": "pair7",
+      "phase": "calibration",
+      "profile_distance": 8.012639139606753,
+      "seed": 1340,
+      "source_rows": 3600,
+      "suite": "contemporaneous",
+      "target_rows": 3600
+    },
+    {
+      "capability": "contemporaneous_dependency|regime_power",
+      "log_loss_ratio": 0.0002422167502421148,
+      "n_families": 1,
+      "noninferiority_rate": 1.0,
+      "p0_anchor": "real_block_a",
+      "pair_id": "pair7",
+      "phase": "calibration",
+      "profile_distance": 8.012639139606753,
+      "seed": 1340,
+      "source_rows": 3600,
+      "suite": "contemporaneous",
+      "target_rows": 3600
+    },
+    {
+      "capability": "contemporaneous_dependency|regime_power",
+      "log_loss_ratio": -0.00034429721549245057,
+      "n_families": 1,
+      "noninferiority_rate": 1.0,
+      "p0_anchor": "real_block_b",
+      "pair_id": "pair7",
+      "phase": "calibration",
+      "profile_distance": 8.012639139606753,
+      "seed": 1340,
+      "source_rows": 3600,
+      "suite": "contemporaneous",
+      "target_rows": 3600
+    },
+    {
+      "capability": "contemporaneous_dependency|regime_power",
+      "log_loss_ratio": 0.00012761822880249214,
+      "n_families": 1,
+      "noninferiority_rate": 1.0,
+      "p0_anchor": "real_resample",
+      "pair_id": "pair7",
+      "phase": "calibration",
+      "profile_distance": 8.012639139606753,
+      "seed": 1340,
+      "source_rows": 3600,
+      "suite": "contemporaneous",
+      "target_rows": 3600
+    }
+  ],
+  "utility_path": "/shared/scratch/SCWF00162/Chapter4_Reported_Results/fresh/execution/controlled/3ac39322e818865b/full/checkpoints/p0/regime_unstable/fixture1401/pair7__seed1340.utility.csv",
+  "utility_rows": 8
+}

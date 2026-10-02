@@ -1,0 +1,2 @@
+capability,state,eligible,licensed,block_transfer_ok,order_effect_ok,allowed_interpretation
+forecast|nominal_non_temporal_power,ORDER_DEPENDENCE_NOT_DEMONSTRATED,True,False,True,False,no qualifying order-dependence evidence was observed; this is not evidence of order independence

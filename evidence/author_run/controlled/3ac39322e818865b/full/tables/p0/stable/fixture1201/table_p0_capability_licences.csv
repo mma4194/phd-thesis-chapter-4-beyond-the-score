@@ -1,0 +1,5 @@
+capability,suite,eligible,licensed,identity_ok,property_ok,n_qualification_pairs,n_seed_units,margin,relative_licensed,reference_viability_estimable,reference_viability_ok,reference_skill_gain_estimate,reference_skill_gain_ci_lo,reference_skill_gain_ci_hi,block_transfer_ok,order_effect_ok,temporal_loss_ratio_max,noninferiority_rate
+contemporaneous_dependency|iot_power,contemporaneous,True,True,True,True,5,5,0.09531017980432493,True,True,True,0.9688157483990041,0.9675767617438891,0.9700487451929997,,,,
+contemporaneous_dependency|iot_power,temporal,False,False,False,,0,0,,,,,,,,False,False,1.25,
+forecast|router_bytes,contemporaneous,False,False,False,False,0,0,0.09531017980432493,,,,,,,,,,
+forecast|router_bytes,temporal,True,True,True,,5,5,,True,True,True,0.7441685394092762,0.7277272036472336,0.7599656123586275,True,True,1.25,1.0

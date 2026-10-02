@@ -1,0 +1,38 @@
+[
+  {
+    "file": "general_5s_features.csv.gz",
+    "sha256": "0a330519c880703ff9b4b53dcd30543286e5876a7e7d18d2c059b80fe414d492",
+    "expected_sha256": "7f4ade837bf1ab9a0a1785986a80b6eb2d9fcd0190b02461e6804b655008d37f",
+    "exact_bytes_match": false
+  },
+  {
+    "file": "iot_named_5s_features.csv.gz",
+    "sha256": "6a51717d4e633fbb8a7fb55c6199720973a141755ca18a011d471be425df5ff5",
+    "expected_sha256": "0297d763720c7ee5902069d1b409e708d794732298b3b6b4363c95aa0d9ac6c2",
+    "exact_bytes_match": false
+  },
+  {
+    "file": "telemetry_observed_counts.csv.gz",
+    "sha256": "e60e56a03083846a64209c5f81d170863ff700dc10b6388148ee65da38269618",
+    "expected_sha256": "acf32b593a10ee83fc0f1b0c28abf44ed1c8da8608601bf1f3c1230fd346036a",
+    "exact_bytes_match": false
+  },
+  {
+    "file": "TON_IoT_normal_5s_canonical_rebuilt.csv.gz",
+    "sha256": "e571465ef5de5814b8e57e938a757eccc264b32aa2ae758d8fe18408c30c30a6",
+    "expected_sha256": "8048374314f641dcdba7fbcad5fc1423ea6cf1b9cd6b93984516b1ad52cfcfc0",
+    "exact_bytes_match": false
+  },
+  {
+    "file": "TON_IoT_normal_5s_observed_mask.csv.gz",
+    "sha256": "d364717752eb273aa65458a46eecf71b5d61fdd1d486e286c4f90399a72ffc3f",
+    "expected_sha256": "8ab22b23f3b4e0fee0bfae986f2e57a8d39ccaf96b823e6d1f969681323b6866",
+    "exact_bytes_match": false
+  },
+  {
+    "file": "TON_IoT_normal_5s_preimputation_rebuilt.csv.gz",
+    "sha256": "cecf85d431be5bb3821bbd642aaa81e9e290ebdf2e74d01ee796584c323034ee",
+    "expected_sha256": "2d154d5463c3e0f8a0bf3cbc2aae637a559d1e1c50aa391c6619159a62b08563",
+    "exact_bytes_match": false
+  }
+]

@@ -1,0 +1,249 @@
+{
+  "status": "PASS",
+  "utc": "2026-09-30T14:43:13.001024+00:00",
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "scope": "First 10000 packets per each of 15 full original captures; no full-payload validation or model fits",
+  "input_files": [
+    {
+      "name": "normal_1.pcap",
+      "bytes": 1177084172,
+      "sha256": "9463135bbb3ab8f6e27a459c6be117e79f72ff8e434b7e70478ed70f4f8bf3c5",
+      "expected_sha256": "9463135bbb3ab8f6e27a459c6be117e79f72ff8e434b7e70478ed70f4f8bf3c5",
+      "matched": true
+    },
+    {
+      "name": "normal_2.pcap",
+      "bytes": 1151429180,
+      "sha256": "e7b2e1d7a54b34f8af190693f34cd5d09b3d8248826627bb1e8245ca47ae76ba",
+      "expected_sha256": "e7b2e1d7a54b34f8af190693f34cd5d09b3d8248826627bb1e8245ca47ae76ba",
+      "matched": true
+    },
+    {
+      "name": "normal_3.pcap",
+      "bytes": 1102597380,
+      "sha256": "a64ae59d8701451b3b00d4f9bf8186da20c374d3b5de080a96af9c0b14ed5e03",
+      "expected_sha256": "a64ae59d8701451b3b00d4f9bf8186da20c374d3b5de080a96af9c0b14ed5e03",
+      "matched": true
+    },
+    {
+      "name": "normal_4.pcap",
+      "bytes": 1112341756,
+      "sha256": "43aea92b6ed04446243d4afc360256ce381d51484779ed611d481943b23d3360",
+      "expected_sha256": "43aea92b6ed04446243d4afc360256ce381d51484779ed611d481943b23d3360",
+      "matched": true
+    },
+    {
+      "name": "normal_5.pcap",
+      "bytes": 1077665172,
+      "sha256": "25c9370785ccfecdaf9c355bf57e4874d38dfe3dcecfec4ef8d3bb32e1b4fb90",
+      "expected_sha256": "25c9370785ccfecdaf9c355bf57e4874d38dfe3dcecfec4ef8d3bb32e1b4fb90",
+      "matched": true
+    },
+    {
+      "name": "normal_6.pcap",
+      "bytes": 1075817348,
+      "sha256": "a07c1a0962ded9ed84175b102d2af4fa215f335711b598333b232d3b1a74808b",
+      "expected_sha256": "a07c1a0962ded9ed84175b102d2af4fa215f335711b598333b232d3b1a74808b",
+      "matched": true
+    },
+    {
+      "name": "normal_7.pcap",
+      "bytes": 1110516324,
+      "sha256": "e498208aa40238d4e484cf0abeff3f2d40a486842838da8b27f08d106c4485b9",
+      "expected_sha256": "e498208aa40238d4e484cf0abeff3f2d40a486842838da8b27f08d106c4485b9",
+      "matched": true
+    },
+    {
+      "name": "normal_8.pcap",
+      "bytes": 1262737092,
+      "sha256": "b8efc319b635aea0cd6b05733e0969a049a3b837a4b7ecb473dd5b4c7a010863",
+      "expected_sha256": "b8efc319b635aea0cd6b05733e0969a049a3b837a4b7ecb473dd5b4c7a010863",
+      "matched": true
+    },
+    {
+      "name": "normal_9.pcap",
+      "bytes": 1150733220,
+      "sha256": "705e71b89bc302c18d277be473a525588f93ff73a89ee7a916d7c11e13f78b08",
+      "expected_sha256": "705e71b89bc302c18d277be473a525588f93ff73a89ee7a916d7c11e13f78b08",
+      "matched": true
+    },
+    {
+      "name": "normal_10.pcap",
+      "bytes": 1122702904,
+      "sha256": "f13cba4968ebf41cb05237ab8dee23ed7c501e9019c09912a3851202df029d86",
+      "expected_sha256": "f13cba4968ebf41cb05237ab8dee23ed7c501e9019c09912a3851202df029d86",
+      "matched": true
+    },
+    {
+      "name": "normal_11.pcap",
+      "bytes": 1118684220,
+      "sha256": "485f7a61129fc905c5a13b38cce45f27cb185bee62fee20bc0669f44d4b140d9",
+      "expected_sha256": "485f7a61129fc905c5a13b38cce45f27cb185bee62fee20bc0669f44d4b140d9",
+      "matched": true
+    },
+    {
+      "name": "normal_12.pcap",
+      "bytes": 1119176788,
+      "sha256": "b9c3d6cbbd31b0b2caff7d7cb9d8953d12d08a455e1c04465f5e87991061d954",
+      "expected_sha256": "b9c3d6cbbd31b0b2caff7d7cb9d8953d12d08a455e1c04465f5e87991061d954",
+      "matched": true
+    },
+    {
+      "name": "normal_13.pcap",
+      "bytes": 1065001940,
+      "sha256": "bf6a9d2adc0da1436df48c7bbac3c51858c19eb290b792698cd5ae42a4434b76",
+      "expected_sha256": "bf6a9d2adc0da1436df48c7bbac3c51858c19eb290b792698cd5ae42a4434b76",
+      "matched": true
+    },
+    {
+      "name": "normal_IoT_2.pcap",
+      "bytes": 1056194560,
+      "sha256": "8be8594f2218c0fc5650a924d72190f3b960b7d300405ae956334d2a3277901b",
+      "expected_sha256": "8be8594f2218c0fc5650a924d72190f3b960b7d300405ae956334d2a3277901b",
+      "matched": true
+    },
+    {
+      "name": "normal_IoT_3.pcap",
+      "bytes": 1066663936,
+      "sha256": "542493556432348372507ca949ed394ae66611c967228c66f4c7e5f7a72cc310",
+      "expected_sha256": "542493556432348372507ca949ed394ae66611c967228c66f4c7e5f7a72cc310",
+      "matched": true
+    }
+  ],
+  "decoder_code_hashes": {
+    "telemetry_recovery.py": "08a2692383be9c8103cb8d622cb1fdbddf742ca935bbeccb8cfef29557db275b",
+    "network.py": "d4fbadbd857e3085b95285b603e62505239cc448c474ac65c536efc9dbb21b9c",
+    "capture_reader.py": "6a0e9136641939decfdcd65f47a3e83a55fdc3a8e1d4faa61a472cd866066763",
+    "crosscheck.py": "b2cece6548ba41e929029476be33f2fd3320171a8d3b7b8c1fc585e81998d9e1",
+    "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "check": {
+    "status": "PASS",
+    "tshark_version": "TShark (Wireshark) 4.6.8 (v4.6.8-0-ge677bf052328).",
+    "scope": "First packets per file; timestamps and lengths for every sampled packet, simple outer IPv4 addresses/protocols/ports. Not exhaustive payload or whole-file validation.",
+    "files": [
+      {
+        "file": "normal_1",
+        "packets_compared": 10000,
+        "ipv4_headers_compared": 3119,
+        "field_comparisons": 52273,
+        "differences": [],
+        "difference_count": 0
+      },
+      {
+        "file": "normal_2",
+        "packets_compared": 10000,
+        "ipv4_headers_compared": 1812,
+        "field_comparisons": 37277,
+        "differences": [],
+        "difference_count": 0
+      },
+      {
+        "file": "normal_3",
+        "packets_compared": 10000,
+        "ipv4_headers_compared": 1722,
+        "field_comparisons": 36607,
+        "differences": [],
+        "difference_count": 0
+      },
+      {
+        "file": "normal_4",
+        "packets_compared": 10000,
+        "ipv4_headers_compared": 1477,
+        "field_comparisons": 33868,
+        "differences": [],
+        "difference_count": 0
+      },
+      {
+        "file": "normal_5",
+        "packets_compared": 10000,
+        "ipv4_headers_compared": 1566,
+        "field_comparisons": 35636,
+        "differences": [],
+        "difference_count": 0
+      },
+      {
+        "file": "normal_6",
+        "packets_compared": 10000,
+        "ipv4_headers_compared": 1729,
+        "field_comparisons": 36426,
+        "differences": [],
+        "difference_count": 0
+      },
+      {
+        "file": "normal_7",
+        "packets_compared": 10000,
+        "ipv4_headers_compared": 1527,
+        "field_comparisons": 36545,
+        "differences": [],
+        "difference_count": 0
+      },
+      {
+        "file": "normal_8",
+        "packets_compared": 10000,
+        "ipv4_headers_compared": 1269,
+        "field_comparisons": 33863,
+        "differences": [],
+        "difference_count": 0
+      },
+      {
+        "file": "normal_9",
+        "packets_compared": 10000,
+        "ipv4_headers_compared": 1262,
+        "field_comparisons": 33831,
+        "differences": [],
+        "difference_count": 0
+      },
+      {
+        "file": "normal_10",
+        "packets_compared": 10000,
+        "ipv4_headers_compared": 1375,
+        "field_comparisons": 34864,
+        "differences": [],
+        "difference_count": 0
+      },
+      {
+        "file": "normal_11",
+        "packets_compared": 10000,
+        "ipv4_headers_compared": 1347,
+        "field_comparisons": 34769,
+        "differences": [],
+        "difference_count": 0
+      },
+      {
+        "file": "normal_12",
+        "packets_compared": 10000,
+        "ipv4_headers_compared": 1398,
+        "field_comparisons": 35185,
+        "differences": [],
+        "difference_count": 0
+      },
+      {
+        "file": "normal_13",
+        "packets_compared": 10000,
+        "ipv4_headers_compared": 1661,
+        "field_comparisons": 35794,
+        "differences": [],
+        "difference_count": 0
+      },
+      {
+        "file": "normal_IoT_2",
+        "packets_compared": 10000,
+        "ipv4_headers_compared": 9369,
+        "field_comparisons": 122081,
+        "differences": [],
+        "difference_count": 0
+      },
+      {
+        "file": "normal_IoT_3",
+        "packets_compared": 10000,
+        "ipv4_headers_compared": 9367,
+        "field_comparisons": 122076,
+        "differences": [],
+        "difference_count": 0
+      }
+    ]
+  },
+  "finished_utc": "2026-09-30T14:43:35.489101+00:00"
+}

@@ -1,0 +1,49 @@
+{
+  "records": {
+    "output": "records",
+    "status": "master_status/records.json"
+  },
+  "canonical_metrics": {
+    "output": "supplementary/1166c275c7b296c5/canonical_metrics",
+    "status": "master_status/canonical_metrics.json"
+  },
+  "controlled": {
+    "output": "controlled/3ac39322e818865b/full",
+    "status": "master_status/controlled.json"
+  },
+  "input_verification": {
+    "output": "residential_input",
+    "status": "master_status/input_verification.json"
+  },
+  "residential": {
+    "output": "residential/ec13e01eb7788180",
+    "status": "master_status/residential.json"
+  },
+  "telemetry": {
+    "output": "telemetry_input/run_20261002T022557Z_7a1e6ac7",
+    "status": "master_status/telemetry.json"
+  },
+  "prepare": {
+    "output": "toniot/preparation/prep_2d1ab0321cbf1779",
+    "status": "master_status/prepare.json"
+  },
+  "external": {
+    "output": "toniot/evaluation/rebuilt_d54a1912bb3c3430",
+    "status": "master_status/external.json"
+  },
+  "_origin": {
+    "results_archive_sha256": "838235536f8bec17fc440532396c21a5652d0a758f358c59f28c8fb43de9d30f",
+    "notebook_html_sha256": "9a8da223f5c9ebccb42c0a42ad6eff2ee94406d1e49a9b37f94859c11de2fd8e",
+    "evidence_type": "Completed author fresh run, 2026-10-01 to 2026-10-02; evidence mode reviews these records without new fits",
+    "selected_stages": [
+      "records",
+      "canonical_metrics",
+      "controlled",
+      "input_verification",
+      "residential",
+      "telemetry",
+      "prepare",
+      "external"
+    ]
+  }
+}

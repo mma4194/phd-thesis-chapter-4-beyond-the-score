@@ -1,0 +1,10 @@
+{
+  "public_python": "/shared/home1/c.c21126547/venvs/thesis-public/bin/python",
+  "residential_python": "/shared/home1/c.c21126547/venvs/tiot-v5/bin/python",
+  "residential_parquet": "/shared/home1/c.c21126547/data/cps_unified_1s_FULLGRID_FINAL_WITH_IOT_STATEFUL_STRICTMASKED_TRIMMED.parquet",
+  "toniot_data_root": "/shared/home1/c.c21126547/raw_TON_IoT",
+  "workers": 4,
+  "budget_hours": null,
+  "profile": "full",
+  "run_root": "/shared/scratch/SCWF00162/Chapter4_Reported_Results/fresh/execution"
+}

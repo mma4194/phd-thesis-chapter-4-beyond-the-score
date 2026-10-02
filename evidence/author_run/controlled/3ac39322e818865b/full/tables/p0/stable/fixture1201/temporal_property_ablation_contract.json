@@ -1,0 +1,10 @@
+{
+  "classification_table": "table_temporal_property_classification.csv",
+  "primary_order_destruction": "row-resampled TRAIN anchor",
+  "required_followup_diagnostics": [
+    "lag-permuted predictors",
+    "feature-lag ablation",
+    "persistence-only baseline"
+  ],
+  "test_used_for_task_reclassification": false
+}

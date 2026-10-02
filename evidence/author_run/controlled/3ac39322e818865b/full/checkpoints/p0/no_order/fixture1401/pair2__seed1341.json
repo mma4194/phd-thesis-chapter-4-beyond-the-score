@@ -1,0 +1,77 @@
+{
+  "context": "no_order",
+  "fixture_seed": 1401,
+  "pair": {
+    "pair_id": "pair2",
+    "phase": "qualification",
+    "profile_distance": 6.637524474461422,
+    "source_block": 2,
+    "source_end": 10800,
+    "source_start": 7200,
+    "target_block": 16,
+    "target_end": 61200,
+    "target_start": 57600
+  },
+  "protocol_hash": "56671d836844cd549869ef5fb0ec2c4c7e9f240f26176af245fad12b4c0e38d0",
+  "protocol_seed": 1341,
+  "summary_rows": [
+    {
+      "capability": "forecast|nominal_non_temporal_power",
+      "log_loss_ratio": -1.1102230246251568e-16,
+      "n_families": 1,
+      "noninferiority_rate": 1.0,
+      "p0_anchor": "real_identity",
+      "pair_id": "pair2",
+      "phase": "qualification",
+      "profile_distance": 6.637524474461422,
+      "seed": 1341,
+      "source_rows": 3600,
+      "suite": "temporal",
+      "target_rows": 3600
+    },
+    {
+      "capability": "forecast|nominal_non_temporal_power",
+      "log_loss_ratio": 0.045604486197881655,
+      "n_families": 1,
+      "noninferiority_rate": 1.0,
+      "p0_anchor": "real_block_a",
+      "pair_id": "pair2",
+      "phase": "qualification",
+      "profile_distance": 6.637524474461422,
+      "seed": 1341,
+      "source_rows": 3600,
+      "suite": "temporal",
+      "target_rows": 3600
+    },
+    {
+      "capability": "forecast|nominal_non_temporal_power",
+      "log_loss_ratio": 0.06574788203090459,
+      "n_families": 1,
+      "noninferiority_rate": 0.5,
+      "p0_anchor": "real_block_b",
+      "pair_id": "pair2",
+      "phase": "qualification",
+      "profile_distance": 6.637524474461422,
+      "seed": 1341,
+      "source_rows": 3600,
+      "suite": "temporal",
+      "target_rows": 3600
+    },
+    {
+      "capability": "forecast|nominal_non_temporal_power",
+      "log_loss_ratio": 0.03700584372957477,
+      "n_families": 1,
+      "noninferiority_rate": 1.0,
+      "p0_anchor": "real_resample",
+      "pair_id": "pair2",
+      "phase": "qualification",
+      "profile_distance": 6.637524474461422,
+      "seed": 1341,
+      "source_rows": 3600,
+      "suite": "temporal",
+      "target_rows": 3600
+    }
+  ],
+  "utility_path": "/shared/scratch/SCWF00162/Chapter4_Reported_Results/fresh/execution/controlled/3ac39322e818865b/full/checkpoints/p0/no_order/fixture1401/pair2__seed1341.utility.csv",
+  "utility_rows": 8
+}

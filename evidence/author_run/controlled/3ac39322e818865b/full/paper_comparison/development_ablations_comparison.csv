@@ -1,0 +1,3 @@
+quantity,rows,mismatches,max_absolute_error,atol,rtol
+observed_permission,576,0,,1e-10,1e-09
+observed_outcome,576,0,,1e-10,1e-09

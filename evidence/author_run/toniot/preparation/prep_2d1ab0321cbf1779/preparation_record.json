@@ -1,0 +1,29 @@
+{
+  "preparation_id": "2d1ab0321cbf17799f4dbab796dbfdc6542620858429ca81f118bf990e98ca21",
+  "rows": 28752,
+  "value_features": 64,
+  "start": "2019-04-02 15:52:05+00:00",
+  "end": "2019-04-04 07:48:00+00:00",
+  "fridge_dates_repaired": 28200,
+  "complete_packet_records": 31287177,
+  "incomplete_captures": [
+    "normal_IoT_2.pcap",
+    "normal_IoT_3.pcap"
+  ],
+  "scientific_status": "CONDITIONAL_COMPLETE_RECORD_PREFIX",
+  "historical_raw_to_canonical_reproduction": "NOT_ESTABLISHED",
+  "historical_expected_hashes": {
+    "canonical": "4fd1d7225202e111c20e521f19afd56b0c319059d21037d929a2257a3b3a5692",
+    "preimputation": "e9ceacc4d8638ef1f7e56c8bc8d2004430f1de413bd677d124a9ffb6b893968d"
+  },
+  "candidate_shared_sessions_ns": [
+    [
+      1554220324748197000,
+      1554364089146684000
+    ]
+  ],
+  "clock_synchronization": "NOT_INDEPENDENTLY_ESTABLISHED",
+  "source_data_modified": false,
+  "whole_bins_only": true,
+  "evaluation_completed": false
+}

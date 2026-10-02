@@ -1,5 +1,0 @@
-quantity,rows,mismatches,max_absolute_error,atol,rtol
-ci_hi,45,0,2.220446049250313e-16,1e-10,1e-09
-ci_lo,45,0,1.6653345369377348e-16,1e-10,1e-09
-gap,45,0,2.220446049250313e-16,1e-10,1e-09
-n_seeds,45,0,0.0,1e-10,1e-09

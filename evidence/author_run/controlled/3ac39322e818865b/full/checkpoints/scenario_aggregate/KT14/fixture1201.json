@@ -1,0 +1,43 @@
+{
+  "absolute_skill_outcome": "NOT_ESTIMABLE",
+  "capability": "contemporaneous_dependency|iot_power",
+  "claim_kind": "closeness",
+  "closeness_summary": {
+    "anchor_mean_auc": 1.0,
+    "anchor_peak_auc": 1.0,
+    "candidate_mean_auc": 1.0,
+    "candidate_peak_auc": 1.0,
+    "ci_hi": 0.0,
+    "ci_lo": 0.0,
+    "estimate": 0.0,
+    "permission": "NOT_ESTIMABLE"
+  },
+  "diagnostic_failures": [
+    "not_estimable"
+  ],
+  "expected_failure_stage": 2,
+  "expected_outcome": "NOT_ESTIMABLE",
+  "expected_permission": "NOT_ESTIMABLE",
+  "failure_stage_correct": true,
+  "fixture_seed": 1201,
+  "full_label_correct": true,
+  "instrument_valid": true,
+  "mixed_failure": false,
+  "observed_failure_stage": 2,
+  "observed_outcome": "NOT_ESTIMABLE",
+  "observed_permission": "NOT_ESTIMABLE",
+  "outcome_correct": true,
+  "permission_correct": true,
+  "protocol_hash": "56671d836844cd549869ef5fb0ec2c4c7e9f240f26176af245fad12b4c0e38d0",
+  "resolution_available": false,
+  "scenario_id": "KT14",
+  "source_failure_type": "",
+  "source_valid": true,
+  "stage2_estimable": true,
+  "stage3_property_licensed": true,
+  "stage3_reference_viability_ok": true,
+  "stage3_relative_property_licensed": true,
+  "suite": "contemporaneous",
+  "task_admitted_count": 4,
+  "utility_summary": {}
+}

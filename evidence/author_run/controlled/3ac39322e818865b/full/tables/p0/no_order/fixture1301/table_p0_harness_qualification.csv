@@ -1,0 +1,7 @@
+capability,suite,criterion,estimate,ci_lo,ci_hi,n_pairs,n_seeds,n_units,threshold,passed,noninferiority_rate,noninferiority_ci_lo,noninferiority_ci_hi
+forecast|nominal_non_temporal_power,contemporaneous,identity_equivalence,,,,0,0,0,crossed pair-seed CI inside +/-0.03,False,,,
+forecast|nominal_non_temporal_power,contemporaneous,matched_block_resample_equivalence,,,,0,0,0,crossed pair-seed qualification CI inside TRAIN-calibrated +/-0.0953,False,,,
+forecast|nominal_non_temporal_power,temporal,identity_equivalence,2.664535259100374e-17,-3.996802888650565e-17,9.103828801926282e-17,5,5,25,crossed pair-seed CI inside +/-0.03,True,,,
+forecast|nominal_non_temporal_power,temporal,matched_block_temporal_transfer,1.048139466145678,1.0377816627685144,1.0589530234501459,5,5,25,crossed pair-seed upper CI <= TRAIN-calibrated ratio 1.2500; NI rate >= 0.75,False,0.74,0.6,0.88
+forecast|nominal_non_temporal_power,temporal,row_resample_order_destruction,-0.003776253988110526,-0.013850273335385951,0.006367028148217033,5,5,25,crossed pair-seed lower CI >= 0.0488,False,,,
+forecast|nominal_non_temporal_power,temporal,absolute_matched_real_reference_viability,0.9684427117823905,0.9671777371344524,0.9695822566049519,5,5,25,crossed pair-seed 95% CI lower bound of reference_skill_gain > 0,True,,,

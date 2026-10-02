@@ -1,0 +1,97 @@
+{
+  "active_fixture_replicates": [
+    1101,
+    1201,
+    1301,
+    1401
+  ],
+  "active_models": [
+    "linear",
+    "rf"
+  ],
+  "active_protocol_seeds": [
+    1337,
+    1338,
+    1339,
+    1340,
+    1341
+  ],
+  "active_scenarios": [
+    "KT01",
+    "KT02",
+    "KT03",
+    "KT04",
+    "KT05",
+    "KT06",
+    "KT07",
+    "KT08",
+    "KT09",
+    "KT10",
+    "KT11",
+    "KT12",
+    "KT13",
+    "KT14",
+    "KT15",
+    "KT16",
+    "KT17",
+    "KT18"
+  ],
+  "all_jobs_completed_without_exception": true,
+  "cache_stats": {
+    "hit": 6360,
+    "miss": 2256
+  },
+  "canonical_definition_count": 66,
+  "canonical_notebook_sha256": "8d1c53b41cfc2511d3ac6a5da55a4c50b1bbad3f7b0e4a9cac9e569543fe0724",
+  "canonical_p0_decision_sha256": "7207c099ac47b5a481331afb9a3e8d31cad10a0b194d1fd0612215daa850c9c8",
+  "core_result_units": 72,
+  "elapsed_hours": 1.0155466449260713,
+  "engineering_success_criteria": {
+    "exact_permission_accuracy_min": 0.9,
+    "false_admission_rate_max": 0.05,
+    "false_rejection_rate_max": 0.1,
+    "mixed_failure_precedence_accuracy_min": 0.95
+  },
+  "engineering_target_results": {
+    "exact_permission_accuracy": true,
+    "false_admission_rate": true,
+    "false_rejection_rate": true,
+    "mixed_failure_precedence_accuracy": true
+  },
+  "engineering_targets_all_passed": true,
+  "expected_core_result_units": 72,
+  "experiment_version": "TIOT-KT-v2",
+  "full_stack_operating_characteristics": {
+    "ablation": "FULL",
+    "exact_permission_accuracy_ci_hi": 1.0,
+    "exact_permission_accuracy_ci_lo": 1.0,
+    "exact_permission_accuracy_estimate": 1.0,
+    "false_admission_rate_ci_hi": 0.0,
+    "false_admission_rate_ci_lo": 0.0,
+    "false_admission_rate_estimate": 0.0,
+    "false_rejection_rate_ci_hi": 0.0,
+    "false_rejection_rate_ci_lo": 0.0,
+    "false_rejection_rate_estimate": 0.0,
+    "full_label_accuracy_ci_hi": 1.0,
+    "full_label_accuracy_ci_lo": 1.0,
+    "full_label_accuracy_estimate": 1.0,
+    "mixed_failure_precedence_accuracy_ci_hi": 1.0,
+    "mixed_failure_precedence_accuracy_ci_lo": 1.0,
+    "mixed_failure_precedence_accuracy_estimate": 1.0,
+    "n_fixture_replicates": 4,
+    "n_scenarios": 18,
+    "n_units": 72,
+    "stage_localisation_accuracy_ci_hi": 1.0,
+    "stage_localisation_accuracy_ci_lo": 1.0,
+    "stage_localisation_accuracy_estimate": 1.0
+  },
+  "misclassified_units": 0,
+  "protocol_hash": "56671d836844cd549869ef5fb0ec2c4c7e9f240f26176af245fad12b4c0e38d0",
+  "run_profile": "full",
+  "scientific_interpretation_allowed": true,
+  "scope_warning": "Controlled post-hoc benchmark only; not population validity or untouched residential confirmation.",
+  "severity_rows": 424,
+  "stage3a_rule": "reference_skill_gain crossed pair-seed 95% CI lower bound > 0",
+  "structural_precedence_passed": true,
+  "utility_execution_error_rows": 0
+}

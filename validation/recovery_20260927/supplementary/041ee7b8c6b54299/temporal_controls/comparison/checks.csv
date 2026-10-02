@@ -1,4 +1,0 @@
-check,passed,detail
-TEMPCTRL1_temporal_instruments_unique_keys,True,
-TEMPCTRL1_temporal_instruments_same_keys,True,20 joined records
-TEMPCTRL1_temporal_instruments_values,True,6 quantities compared

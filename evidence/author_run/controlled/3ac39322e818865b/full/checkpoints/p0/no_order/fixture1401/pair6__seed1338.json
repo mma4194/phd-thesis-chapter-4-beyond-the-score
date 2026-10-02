@@ -1,0 +1,77 @@
+{
+  "context": "no_order",
+  "fixture_seed": 1401,
+  "pair": {
+    "pair_id": "pair6",
+    "phase": "qualification",
+    "profile_distance": 5.869459310890983,
+    "source_block": 6,
+    "source_end": 25200,
+    "source_start": 21600,
+    "target_block": 12,
+    "target_end": 46800,
+    "target_start": 43200
+  },
+  "protocol_hash": "56671d836844cd549869ef5fb0ec2c4c7e9f240f26176af245fad12b4c0e38d0",
+  "protocol_seed": 1338,
+  "summary_rows": [
+    {
+      "capability": "forecast|nominal_non_temporal_power",
+      "log_loss_ratio": 0.0,
+      "n_families": 1,
+      "noninferiority_rate": 1.0,
+      "p0_anchor": "real_identity",
+      "pair_id": "pair6",
+      "phase": "qualification",
+      "profile_distance": 5.869459310890983,
+      "seed": 1338,
+      "source_rows": 3600,
+      "suite": "temporal",
+      "target_rows": 3600
+    },
+    {
+      "capability": "forecast|nominal_non_temporal_power",
+      "log_loss_ratio": 0.05783350852713373,
+      "n_families": 1,
+      "noninferiority_rate": 0.5,
+      "p0_anchor": "real_block_a",
+      "pair_id": "pair6",
+      "phase": "qualification",
+      "profile_distance": 5.869459310890983,
+      "seed": 1338,
+      "source_rows": 3600,
+      "suite": "temporal",
+      "target_rows": 3600
+    },
+    {
+      "capability": "forecast|nominal_non_temporal_power",
+      "log_loss_ratio": 0.04203646233675081,
+      "n_families": 1,
+      "noninferiority_rate": 1.0,
+      "p0_anchor": "real_block_b",
+      "pair_id": "pair6",
+      "phase": "qualification",
+      "profile_distance": 5.869459310890983,
+      "seed": 1338,
+      "source_rows": 3600,
+      "suite": "temporal",
+      "target_rows": 3600
+    },
+    {
+      "capability": "forecast|nominal_non_temporal_power",
+      "log_loss_ratio": 0.02935388055920406,
+      "n_families": 1,
+      "noninferiority_rate": 1.0,
+      "p0_anchor": "real_resample",
+      "pair_id": "pair6",
+      "phase": "qualification",
+      "profile_distance": 5.869459310890983,
+      "seed": 1338,
+      "source_rows": 3600,
+      "suite": "temporal",
+      "target_rows": 3600
+    }
+  ],
+  "utility_path": "/shared/scratch/SCWF00162/Chapter4_Reported_Results/fresh/execution/controlled/3ac39322e818865b/full/checkpoints/p0/no_order/fixture1401/pair6__seed1338.utility.csv",
+  "utility_rows": 8
+}

@@ -1,9 +1,0 @@
-{
-  "execution_status": "COMPLETED",
-  "comparison": "PASS",
-  "checks": 9,
-  "failed": 0,
-  "stage": "fixture_audit",
-  "new_fits": false,
-  "scope": "Recovered fixed supplementary methods. Historical canonical task/licence records remain explicit inputs."
-}

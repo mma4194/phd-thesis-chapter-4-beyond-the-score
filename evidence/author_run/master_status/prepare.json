@@ -1,0 +1,35 @@
+{
+  "stage": "prepare",
+  "config_digest": "6345a28b8341230d12d716b6124c77f7c237e2248946e89a14e0886472d38bde",
+  "source_digest": "8db984b0198212612c77d1a6537e4aa0673f39a9b058fd638d272f12edc9cc3f",
+  "started_utc": "2026-10-02T06:36:19.429041+00:00",
+  "execution_status": "COMPLETED",
+  "environment": {
+    "python": "3.11.11 (main, Jun 20 2025, 00:00:00) [GCC 11.5.0 20240719 (Red Hat 11.5.0-5)]",
+    "platform": "Linux-5.14.0-503.40.1.el9_5.x86_64-x86_64-with-glibc2.34",
+    "packages": {
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "scipy": "1.17.0",
+      "scikit-learn": "1.8.0",
+      "pyarrow": "25.0.0",
+      "matplotlib": "3.10.8",
+      "threadpoolctl": "3.6.0",
+      "joblib": "1.5.3",
+      "nbformat": "5.10.4",
+      "nbclient": "0.10.2",
+      "ipykernel": "6.30.1"
+    }
+  },
+  "preparation_verification": {
+    "status": "PASS",
+    "preparation_id": "2d1ab0321cbf17799f4dbab796dbfdc6542620858429ca81f118bf990e98ca21",
+    "receipt_digest": "81c41373de649ccf905cde5a93783bc2c144d8bf7d35b814bc013d3b2a21728c",
+    "immutable_files": 13,
+    "mutable_progress_files_hashed": false
+  },
+  "comparison": "PASS",
+  "output": "/shared/scratch/SCWF00162/Chapter4_Reported_Results/fresh/execution/toniot/preparation/prep_2d1ab0321cbf1779",
+  "evidence_type": "New/revalidated raw PCAP and telemetry preparation, immutable tables and frozen input checks",
+  "finished_utc": "2026-10-02T06:42:55.960360+00:00"
+}

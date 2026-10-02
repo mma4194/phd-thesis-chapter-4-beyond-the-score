@@ -20,7 +20,7 @@ def verify_telemetry_members(path):
 def prepare(data_root,output=None,n_jobs=4,budget_hours=6):
  data_root=Path(data_root).expanduser().resolve()
  if not data_root.is_dir():raise FileNotFoundError('Set DATA_ROOT to the folder containing TON_IOT_IOT_DATA.zip and pcap_files/.')
- p=Project(data_root,output_root=Path(output) if output else ROOT/'runs/toniot',n_jobs=int(n_jobs),budget_hours=float(budget_hours))
+ p=Project(data_root,output_root=Path(output) if output else ROOT/'runs/toniot',n_jobs=int(n_jobs),budget_hours=(None if budget_hours is None else float(budget_hours)))
  write_json(p.out/'artifact_workflow.json',{'phase':'PREPARING','run':None})
  p.phase('Input inventory',p.inventory)
  # Hash every raw file before fitting. Archive repackaging also changes the archive hash;

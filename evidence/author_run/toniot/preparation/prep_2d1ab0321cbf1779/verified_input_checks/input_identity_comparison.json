@@ -1,0 +1,114 @@
+[
+  {
+    "name": "TON_IOT_IOT_DATA.zip",
+    "sha256": "434513f8c2d3da4639a8110e956a4c08d31f8c2ea3a2fd6ffb8d85912f8c3aeb",
+    "expected_sha256": "434513f8c2d3da4639a8110e956a4c08d31f8c2ea3a2fd6ffb8d85912f8c3aeb",
+    "match": true,
+    "basis": "exact file bytes"
+  },
+  {
+    "name": "normal_1.pcap",
+    "sha256": "9463135bbb3ab8f6e27a459c6be117e79f72ff8e434b7e70478ed70f4f8bf3c5",
+    "expected_sha256": "9463135bbb3ab8f6e27a459c6be117e79f72ff8e434b7e70478ed70f4f8bf3c5",
+    "match": true,
+    "basis": "exact file bytes"
+  },
+  {
+    "name": "normal_2.pcap",
+    "sha256": "e7b2e1d7a54b34f8af190693f34cd5d09b3d8248826627bb1e8245ca47ae76ba",
+    "expected_sha256": "e7b2e1d7a54b34f8af190693f34cd5d09b3d8248826627bb1e8245ca47ae76ba",
+    "match": true,
+    "basis": "exact file bytes"
+  },
+  {
+    "name": "normal_3.pcap",
+    "sha256": "a64ae59d8701451b3b00d4f9bf8186da20c374d3b5de080a96af9c0b14ed5e03",
+    "expected_sha256": "a64ae59d8701451b3b00d4f9bf8186da20c374d3b5de080a96af9c0b14ed5e03",
+    "match": true,
+    "basis": "exact file bytes"
+  },
+  {
+    "name": "normal_4.pcap",
+    "sha256": "43aea92b6ed04446243d4afc360256ce381d51484779ed611d481943b23d3360",
+    "expected_sha256": "43aea92b6ed04446243d4afc360256ce381d51484779ed611d481943b23d3360",
+    "match": true,
+    "basis": "exact file bytes"
+  },
+  {
+    "name": "normal_5.pcap",
+    "sha256": "25c9370785ccfecdaf9c355bf57e4874d38dfe3dcecfec4ef8d3bb32e1b4fb90",
+    "expected_sha256": "25c9370785ccfecdaf9c355bf57e4874d38dfe3dcecfec4ef8d3bb32e1b4fb90",
+    "match": true,
+    "basis": "exact file bytes"
+  },
+  {
+    "name": "normal_6.pcap",
+    "sha256": "a07c1a0962ded9ed84175b102d2af4fa215f335711b598333b232d3b1a74808b",
+    "expected_sha256": "a07c1a0962ded9ed84175b102d2af4fa215f335711b598333b232d3b1a74808b",
+    "match": true,
+    "basis": "exact file bytes"
+  },
+  {
+    "name": "normal_7.pcap",
+    "sha256": "e498208aa40238d4e484cf0abeff3f2d40a486842838da8b27f08d106c4485b9",
+    "expected_sha256": "e498208aa40238d4e484cf0abeff3f2d40a486842838da8b27f08d106c4485b9",
+    "match": true,
+    "basis": "exact file bytes"
+  },
+  {
+    "name": "normal_8.pcap",
+    "sha256": "b8efc319b635aea0cd6b05733e0969a049a3b837a4b7ecb473dd5b4c7a010863",
+    "expected_sha256": "b8efc319b635aea0cd6b05733e0969a049a3b837a4b7ecb473dd5b4c7a010863",
+    "match": true,
+    "basis": "exact file bytes"
+  },
+  {
+    "name": "normal_9.pcap",
+    "sha256": "705e71b89bc302c18d277be473a525588f93ff73a89ee7a916d7c11e13f78b08",
+    "expected_sha256": "705e71b89bc302c18d277be473a525588f93ff73a89ee7a916d7c11e13f78b08",
+    "match": true,
+    "basis": "exact file bytes"
+  },
+  {
+    "name": "normal_10.pcap",
+    "sha256": "f13cba4968ebf41cb05237ab8dee23ed7c501e9019c09912a3851202df029d86",
+    "expected_sha256": "f13cba4968ebf41cb05237ab8dee23ed7c501e9019c09912a3851202df029d86",
+    "match": true,
+    "basis": "exact file bytes"
+  },
+  {
+    "name": "normal_11.pcap",
+    "sha256": "485f7a61129fc905c5a13b38cce45f27cb185bee62fee20bc0669f44d4b140d9",
+    "expected_sha256": "485f7a61129fc905c5a13b38cce45f27cb185bee62fee20bc0669f44d4b140d9",
+    "match": true,
+    "basis": "exact file bytes"
+  },
+  {
+    "name": "normal_12.pcap",
+    "sha256": "b9c3d6cbbd31b0b2caff7d7cb9d8953d12d08a455e1c04465f5e87991061d954",
+    "expected_sha256": "b9c3d6cbbd31b0b2caff7d7cb9d8953d12d08a455e1c04465f5e87991061d954",
+    "match": true,
+    "basis": "exact file bytes"
+  },
+  {
+    "name": "normal_13.pcap",
+    "sha256": "bf6a9d2adc0da1436df48c7bbac3c51858c19eb290b792698cd5ae42a4434b76",
+    "expected_sha256": "bf6a9d2adc0da1436df48c7bbac3c51858c19eb290b792698cd5ae42a4434b76",
+    "match": true,
+    "basis": "exact file bytes"
+  },
+  {
+    "name": "normal_IoT_2.pcap",
+    "sha256": "8be8594f2218c0fc5650a924d72190f3b960b7d300405ae956334d2a3277901b",
+    "expected_sha256": "8be8594f2218c0fc5650a924d72190f3b960b7d300405ae956334d2a3277901b",
+    "match": true,
+    "basis": "exact file bytes"
+  },
+  {
+    "name": "normal_IoT_3.pcap",
+    "sha256": "542493556432348372507ca949ed394ae66611c967228c66f4c7e5f7a72cc310",
+    "expected_sha256": "542493556432348372507ca949ed394ae66611c967228c66f4c7e5f7a72cc310",
+    "match": true,
+    "basis": "exact file bytes"
+  }
+]

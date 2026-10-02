@@ -1,0 +1,10 @@
+Experiment,Execution,Comparison
+Recorded arithmetic and headline values,Current run,PASS
+Metric-response experiments,Current run,PASS
+Residential input identity,Current run,PASS
+Residential evaluation,Current run,PASS
+72 constructed cases and ablations,Current run,PASS
+Raw telemetry recovery,Current run,PASS
+Raw capture preparation,Current run,PASS
+External evaluation,Current run,PASS
+"Independent decoder: 15 captures / 150,000 packets",Separate recorded local execution,PASS

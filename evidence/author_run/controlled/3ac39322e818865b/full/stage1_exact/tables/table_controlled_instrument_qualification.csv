@@ -1,0 +1,12 @@
+instrument,target_perturbation,spearman_rho,endpoint_effect,minimum_endpoint_effect,threshold,fixture_seeds,passed,raw_auc_diagnostic
+marginal_ks_mean,marginal,0.9999999999999999,0.31529012345679014,0.02,0.8,"[19, 29, 39]",True,
+wasserstein_iqr_mean,marginal,0.9999999999999999,1463.912775650032,0.05,0.8,"[19, 29, 39]",True,
+zero_rate_mae,marginal,0.9999999999999999,0.037629629629629624,0.002,0.8,"[19, 29, 39]",True,
+c2st_max_auc,marginal,0.8944271909999157,0.4940318405084124,0.02,0.8,"[19, 29, 39]",True,
+acf_abs_error_mean,order,0.9999999999999999,0.22620781505145238,0.01,0.8,"[19, 29, 39]",True,
+spectral_l1_mean,order,0.9999999999999999,1.1799050166524152,0.03,0.8,"[19, 29, 39]",True,
+transition_rate_mae,order,0.9999999999999999,0.07433025758789331,0.0005,0.8,"[19, 29, 39]",True,
+coupling_corr_mae,coupling,0.9999999999999999,0.6281442095792861,0.02,0.8,"[19, 29, 39]",True,
+coupling_coactivation_mae,coupling,0.9999999999999999,0.01469097222222221,0.0005,0.8,"[19, 29, 39]",True,
+c2st_max_auc,coupling,0.9999999999999999,0.4819057567233229,0.02,0.8,"[19, 29, 39]",True,
+c2st_same_distribution_negative_control,none,,0.0,,0.03,"[19, 29, 39]",True,0.5059681594915876

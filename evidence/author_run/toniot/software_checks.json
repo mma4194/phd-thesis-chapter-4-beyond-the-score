@@ -1,0 +1,42 @@
+[
+  {
+    "check": "missing real target excluded",
+    "passed": true
+  },
+  {
+    "check": "lag/target windows stay within segment",
+    "passed": true
+  },
+  {
+    "check": "identity has equal counts and unit ratio",
+    "passed": true
+  },
+  {
+    "check": "unequal input amounts produce equal training counts",
+    "passed": true
+  },
+  {
+    "check": "matching completed job resumes without recomputation",
+    "passed": true
+  },
+  {
+    "check": "changed checkpoint payload is rejected",
+    "passed": true
+  },
+  {
+    "check": "C2ST keeps complete groups separate",
+    "passed": true
+  },
+  {
+    "check": "identical C2ST inputs are not falsely well separated",
+    "passed": true
+  },
+  {
+    "check": "C2ST trims a derived time gap",
+    "passed": true
+  },
+  {
+    "check": "failed reference check cannot admit utility",
+    "passed": true
+  }
+]

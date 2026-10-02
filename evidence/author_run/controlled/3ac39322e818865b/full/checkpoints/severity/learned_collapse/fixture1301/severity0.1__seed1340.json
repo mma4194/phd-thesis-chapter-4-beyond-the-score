@@ -1,0 +1,11 @@
+{
+  "failed_predicates": [],
+  "failure_type": "",
+  "fixture_seed": 1301,
+  "intervention": "learned_collapse",
+  "protocol_hash": "56671d836844cd549869ef5fb0ec2c4c7e9f240f26176af245fad12b4c0e38d0",
+  "protocol_seed": 1340,
+  "response": 0.0,
+  "severity": 0.1,
+  "source_valid": true
+}

@@ -1,0 +1,11 @@
+{
+  "c2st_max_auc": 1.0,
+  "c2st_null_p95": 0.7709979019167297,
+  "fixture_seed": 1101,
+  "intervention": "session_shift",
+  "protocol_hash": "56671d836844cd549869ef5fb0ec2c4c7e9f240f26176af245fad12b4c0e38d0",
+  "protocol_seed": 1337,
+  "resolution_limited": true,
+  "response": 1.0,
+  "severity": 0.1
+}

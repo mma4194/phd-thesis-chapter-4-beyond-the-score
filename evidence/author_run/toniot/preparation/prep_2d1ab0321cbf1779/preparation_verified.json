@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "preparation_id": "2d1ab0321cbf17799f4dbab796dbfdc6542620858429ca81f118bf990e98ca21",
+  "files": {
+    "TON_IoT_normal_5s_canonical_rebuilt.csv.gz": "e571465ef5de5814b8e57e938a757eccc264b32aa2ae758d8fe18408c30c30a6",
+    "TON_IoT_normal_5s_preimputation_rebuilt.csv.gz": "cecf85d431be5bb3821bbd642aaa81e9e290ebdf2e74d01ee796584c323034ee",
+    "TON_IoT_normal_5s_observed_mask.csv.gz": "d364717752eb273aa65458a46eecf71b5d61fdd1d486e286c4f90399a72ffc3f",
+    "general_5s_features.csv.gz": "0a330519c880703ff9b4b53dcd30543286e5876a7e7d18d2c059b80fe414d492",
+    "iot_named_5s_features.csv.gz": "6a51717d4e633fbb8a7fb55c6199720973a141755ca18a011d471be425df5ff5",
+    "telemetry_observed_counts.csv.gz": "e60e56a03083846a64209c5f81d170863ff700dc10b6388148ee65da38269618",
+    "prepared_files.json": "b28408e1330cb89ac6365b937f6b8e70c9839b26c33676c1aa1030f1c45697b9",
+    "verified_input_checks/input_identity_comparison.json": "be88b459e00280dde5bed7f440f13666995aecf1e6a4923aec718c4226339ffb",
+    "verified_input_checks/telemetry_member_comparison.json": "81ba06aea01d1aba79a7bf98f06d662acc32bfe4938fb4a89690ba878f05c91c",
+    "verified_input_checks/capture_audit_comparison.csv": "7269090045370a4a9089ff4ac827ae6adb0db84d9cfa1b449d19ff30b52f5f0f",
+    "verified_input_checks/software_checks.json": "e72374c7fbbcc68d5c3438f40e0baa01eab188382c0928a22a3b78dbc7b7bc85",
+    "verified_input_checks/prepared_table_comparison.json": "45d4e2022f0641fa7466aa2da507ebbfc94496f609cb7dfaedfc7d133c1f0da3",
+    "verified_input_checks/prepared_content_comparison.json": "319dcbec8f351629a0bf4f9d4fedf53e1f9182919d2bdccaeeb71114b74504a0"
+  },
+  "scope": "Immutable prepared tables and copied input checks only",
+  "receipt_digest": "81c41373de649ccf905cde5a93783bc2c144d8bf7d35b814bc013d3b2a21728c"
+}

@@ -1,0 +1,16 @@
+file,same_bytes_as_prior_audit,timestamp_audit_reproduced,status
+normal_1.pcap,True,True,MATCH
+normal_2.pcap,True,True,MATCH
+normal_3.pcap,True,True,MATCH
+normal_4.pcap,True,True,MATCH
+normal_5.pcap,True,True,MATCH
+normal_6.pcap,True,True,MATCH
+normal_7.pcap,True,True,MATCH
+normal_8.pcap,True,True,MATCH
+normal_9.pcap,True,True,MATCH
+normal_10.pcap,True,True,MATCH
+normal_11.pcap,True,True,MATCH
+normal_12.pcap,True,True,MATCH
+normal_13.pcap,True,True,MATCH
+normal_IoT_2.pcap,True,True,MATCH
+normal_IoT_3.pcap,True,True,MATCH

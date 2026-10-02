@@ -22,7 +22,7 @@ def check_environment(stage):
     return observed
 
 def history(out):
-    base=ROOT/'validation/author_reference/author_results'
+    base=ROOT/'previously_verified/author_results'
     files=[('record_arithmetic','records/20260921T153200_979364Z/status.json'),
            ('controlled','controlled/cc440df80810281d/full/artifact_status.json'),
            ('residential','residential/e2617436c6c829d7/status.json'),
@@ -76,14 +76,12 @@ def report(config):
                      'current_binding':current,'complete':complete,'passed':passes,'output':r.get('output',''),
                      'evidence_type':r.get('evidence_type','No execution evidence')})
     table=pd.DataFrame(rows);table.to_csv(out/'workflow_comparison.csv',index=False)
-    audit_path=run/'supplementary_discrepancies/status.json'
-    current_audit=json.loads(audit_path.read_text()) if audit_path.is_file() else {}
-    unresolved=not current_audit.get('current_supplementary_records_match',False)
+    unresolved=True  # This package preserves the supplied manuscript and both reference snapshots.
     result={'execution_status':'COMPLETED','profile':config['profile'],
             'selected_workflows_complete':bool(table.complete.all()),'selected_workflow_checks_passed':bool(table.passed.all()),
             'new_full_raw_reproduction_complete':config['profile']=='full' and bool(table.passed.all()),
-            'strict_manuscript_agreement':config['profile']=='full' and bool(table.passed.all()) and not unresolved,'supplementary_discrepancies_unresolved':unresolved,
-            'reason':'Current supplement targets are checked separately from historical canonical curves; full raw reproduction requires every selected fresh stage.',
+            'strict_manuscript_agreement':False,'supplementary_discrepancies_unresolved':unresolved,
+            'reason':'Median population wording and three cross-snapshot six-decimal AUC differences remain explicitly reported.',
             'historical_results_do_not_satisfy_new_runs':True,'environment':environment(),'workflows':rows}
     write_json(out/'status.json',result)
     archive=out/'RESULTS_TO_RETURN.zip'
@@ -123,7 +121,7 @@ def execute(config,stage):
             scope='New arithmetic and plots from archived primitive records; no new model fits'
         elif stage=='supplementary_audit':
             from .supplementary_audit import run as audit
-            out=audit(run/'supplementary_discrepancies');comparison='PASS'
+            out=audit(run/'supplementary_discrepancies');comparison='RECORDED_DISCREPANCIES'
             scope='New population and printed-precision comparisons of both archived snapshots'
         elif stage=='input_verification':
             out=run/'residential_input';out.mkdir(exist_ok=True)

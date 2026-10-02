@@ -1,0 +1,17 @@
+instrument_valid,estimable,property_licensed,source_valid,observed,expected,correct,failure_vector,stage
+False,False,False,False,INSTRUMENT_INVALID,INSTRUMENT_INVALID,True,instrument_invalid|not_estimable|property_unlicensed|source_invalid,1
+False,False,False,True,INSTRUMENT_INVALID,INSTRUMENT_INVALID,True,instrument_invalid|not_estimable|property_unlicensed,1
+False,False,True,False,INSTRUMENT_INVALID,INSTRUMENT_INVALID,True,instrument_invalid|not_estimable|source_invalid,1
+False,False,True,True,INSTRUMENT_INVALID,INSTRUMENT_INVALID,True,instrument_invalid|not_estimable,1
+False,True,False,False,INSTRUMENT_INVALID,INSTRUMENT_INVALID,True,instrument_invalid|property_unlicensed|source_invalid,1
+False,True,False,True,INSTRUMENT_INVALID,INSTRUMENT_INVALID,True,instrument_invalid|property_unlicensed,1
+False,True,True,False,INSTRUMENT_INVALID,INSTRUMENT_INVALID,True,instrument_invalid|source_invalid,1
+False,True,True,True,INSTRUMENT_INVALID,INSTRUMENT_INVALID,True,instrument_invalid,1
+True,False,False,False,NOT_ESTIMABLE,NOT_ESTIMABLE,True,not_estimable|property_unlicensed|source_invalid,2
+True,False,False,True,NOT_ESTIMABLE,NOT_ESTIMABLE,True,not_estimable|property_unlicensed,2
+True,False,True,False,NOT_ESTIMABLE,NOT_ESTIMABLE,True,not_estimable|source_invalid,2
+True,False,True,True,NOT_ESTIMABLE,NOT_ESTIMABLE,True,not_estimable,2
+True,True,False,False,PROPERTY_UNLICENSED,PROPERTY_UNLICENSED,True,property_unlicensed|source_invalid,3
+True,True,False,True,PROPERTY_UNLICENSED,PROPERTY_UNLICENSED,True,property_unlicensed,3
+True,True,True,False,SOURCE_INVALID,SOURCE_INVALID,True,source_invalid,4
+True,True,True,True,ADMISSIBLE,ADMISSIBLE,True,,0

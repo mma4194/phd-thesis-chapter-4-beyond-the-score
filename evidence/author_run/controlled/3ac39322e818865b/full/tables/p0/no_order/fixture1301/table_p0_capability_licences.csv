@@ -1,0 +1,3 @@
+capability,suite,eligible,licensed,identity_ok,property_ok,n_qualification_pairs,n_seed_units,margin,block_transfer_ok,order_effect_ok,temporal_loss_ratio_max,noninferiority_rate,relative_licensed,reference_viability_estimable,reference_viability_ok,reference_skill_gain_estimate,reference_skill_gain_ci_lo,reference_skill_gain_ci_hi
+forecast|nominal_non_temporal_power,contemporaneous,False,False,False,False,0,0,0.09531017980432493,,,,,,,,,,
+forecast|nominal_non_temporal_power,temporal,True,False,True,,5,5,,False,False,1.25,0.74,False,True,True,0.9684427117823905,0.9671777371344524,0.9695822566049519

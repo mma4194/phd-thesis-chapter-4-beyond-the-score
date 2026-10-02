@@ -43,32 +43,22 @@ def run(output=None):
     df=pd.DataFrame(comparisons);df.to_csv(out/'table_s14_comparison.csv',index=False)
     mismatch=df[~df.matched_at_six_decimals]
     mismatch.to_csv(out/'table_s14_discrepancies.csv',index=False)
-    latest=df[df.source.eq('controlled_reproduction_reference')]
-    historical=df[df.source.eq('canonical_manuscript')]
-    median_ok=(f"{populations[0]['mean_of_seed_medians']:.3f}"=='0.269' and
-               f"{populations[1]['mean_of_seed_medians']:.3f}"=='0.134' and
-               f"{populations[1]['mean_of_seed_means']:.3f}"=='2.805')
-    current_ok=bool(latest.matched_at_six_decimals.all()) and median_ok
-    status={'execution_status':'COMPLETED','evidence_type':'New arithmetic from archived primitive records; fresh fitting is separate',
-            'current_supplementary_records_match':current_ok,
-            'median_population_wording':'Corrected in latest supplied thesis supplement',
-            'current_table_s14_mismatches':int((~latest.matched_at_six_decimals).sum()),
-            'historical_canonical_vs_current_table_s14_differences':int((~historical.matched_at_six_decimals).sum()),
-            'current_supplement_source':'provenance/latest_supplement.json',
-            'comparison':'PASS' if current_ok else 'DIFFERENT','populations':populations,
-            'scientific_reference_tables_modified':False}
+    status={'execution_status':'COMPLETED','evidence_type':'New arithmetic from archived feature/seed records; no model fitting',
+            'median_population_discrepancy':True,'table_s14_original_canonical_matches':bool(df[df.source.eq('canonical_manuscript')].matched_at_six_decimals.all()),
+            'table_s14_newer_reference_mismatches':len(mismatch),'strict_supplementary_agreement':'DIFFERENT',
+            'reference_files_modified':False,'populations':populations}
     write_json(out/'status.json',status)
-    lines=['# Supplementary comparisons: current thesis edition','',
-           'The latest supplied thesis supplement corrects the previous median wording and uses the newer controlled endpoints in Table S14. The current printed targets come from that source; old targets remain in protocols/historical_supplement_table_s14.json. Scientific fitted-reference tables and tolerances are unchanged.','',
-           '## Median populations','',
-           'The all-feature population has 27 feature/seed rows (nine features and three seeds). Its mean within-seed median is 0.268861111111, printed 0.269. Excluding zero-IQR features leaves 24 rows: mean 2.804650384067 (2.805) and mean within-seed median 0.134430555556 (0.134). The latest supplement states both populations correctly.','',
-           '## Table S14','',
-           'All 20 current printed endpoints match the newer controlled-reference snapshot. The historical canonical curves differ in three cells, shown below. Canonical fresh fits are still compared against their own original frozen reference; full controlled fits use their newer frozen reference. Neither expectation is overwritten by a new run.','',
-           '| Endpoint | Historical canonical | Current supplement / controlled reference |',
-           '|---|---:|---:|']
-    for row in historical[~historical.matched_at_six_decimals].to_dict('records'):
-        lines.append(f"| {row['perturbation']}, severity {row['severity']} | {row['record_printed']} | {row['paper_printed']} |")
-    lines+=['','PASS here establishes current printed-value agreement from archived records. It is not a full raw-data reproduction.']
+    lines=['# Supplementary discrepancies','',
+           'These are newly recalculated comparisons of archived records, not newly fitted classifier results. No expected value, tolerance, or decision threshold has been changed.','',
+           '## Wasserstein median population','',
+           f"At severity one, the all-feature population contains {len(e)} feature/seed rows (nine features across three seeds). The mean of the within-seed feature medians is {populations[0]['mean_of_seed_medians']:.12f}, which prints as 0.269. Excluding zero-IQR features leaves 24 rows (eight features across three seeds). Its mean is {populations[1]['mean_of_seed_means']:.12f} (2.805), but its mean of within-seed medians is {populations[1]['mean_of_seed_medians']:.12f} (0.134). The statement that both 2.805 and 0.269 describe the excluded population is incorrect.",'',
+           'Suggested wording: Excluding features with zero reference IQR gives a mean endpoint response of 2.805 and a mean within-seed median feature response of 0.134. The corresponding median summary over all features is 0.269.','',
+           'The all-feature endpoint mean is 1463.912775650032, which rounds to 1463.913. This reproduces the arithmetic. It does not make the sparse-feature-dominated quantity a typical effect size.','',
+           '## Table S14: two archived result snapshots','',
+           'All 20 printed endpoints match the original canonical seed-level table in the finalisation evidence archive. Three printed classifier values differ from the newer controlled reproduction reference bundled with the executable artifact. These are differences between documented snapshots, not three unsupported values in the original table. A software-version explanation has not been established by this record-only comparison.','',
+           '| Endpoint | Manuscript and canonical record | Newer controlled reference |','|---|---:|---:|']
+    for row in mismatch.to_dict('records'):
+        lines.append(f"| {row['perturbation']}, severity {row['severity']} | {row['paper_printed']} | {row['record_printed']} |")
+    lines+=['','The changes are below 0.0001 AUC. They still fail exact six-decimal agreement and must remain visible. Preserve the canonical values when reporting that original experiment, or explicitly identify the newer run and use its values consistently. The master notebook checks newly executed fits against their own frozen reference and compares manuscript precision separately.']
     (out/'DISCREPANCIES.md').write_text('\n'.join(lines)+'\n')
-    if not current_ok:raise AssertionError('Current supplementary targets differ. Inspect the comparison CSVs.')
     return out

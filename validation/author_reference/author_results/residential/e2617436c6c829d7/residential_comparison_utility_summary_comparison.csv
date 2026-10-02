@@ -1,6 +1,0 @@
-quantity,rows,mismatches,max_absolute_error,atol,rtol
-loss_ratio,90,0,8.526512829121202e-14,1e-07,1e-06
-ci_lo,90,0,2.1316282072803006e-13,1e-07,1e-06
-ci_hi,90,0,9.947598300641403e-14,1e-07,1e-06
-outcome,90,0,,1e-07,1e-06
-complete_support,90,0,0.0,1e-07,1e-06

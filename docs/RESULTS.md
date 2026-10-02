@@ -1,21 +1,43 @@
-# Results and evidence boundaries
+# Completed Falcon run — 1–2 October 2026
 
-Three kinds of evidence must remain separate:
+The supplied final archive records `mode: fresh`, `chapter_comparisons: PASS`, `headline_values_checked: 45`, and `new_raw_model_run_in_this_execution: true`. All eight master stage reports are COMPLETED/PASS. See `results/falcon_20261002/CHAPTER_RESULTS.json` and `ARCHIVE_AUDIT.json`.
 
-1. **Supplied author reference results:** historical runs recovered from the supplied archives. The supplement reports 144 checks / 45 headline checks, a full controlled-experiment PASS, 72 telemetry jobs / 87 checks / 8,508 loss rows, and 90 residential jobs / 3,060 metric rows / 132 quality rows / 16,291 prediction rows. These are historical counts, not a claim that this repository build reran those experiments.
-2. **Recovery and repository validation:** dated reports in `validation/`. Record rechecks, unit tests and notebook execution in the `records` profile do not retrain the full experiment. See EXECUTION_STATUS.md for this build's actual checks.
-3. **Your new full run:** outputs in the configured `run_root`. The final report must show completed required stages and strict comparison outcomes. A budget pause, missing stage or merely green GitHub Actions job is not a full reproduction PASS.
+## Comparison coverage
 
-## Supplementary corrections
+| Selected comparison file | Passing checks |
+|---|---:|
+| Recorded arithmetic | 144 |
+| Canonical metric responses | 3 |
+| Constructed benchmark | 9 |
+| Residential evaluation | 9 |
+| External evaluation | 87 |
+| Total | 252 |
 
-The latest supplied Overleaf supplement resolves the previously identified wording/value discrepancies. The reported 0.269 is the mean of within-seed medians over **all nine features**; it is not the median restricted to positive-IQR features. The corresponding positive-IQR summary is approximately median 0.134 and mean 2.805. The audit computes these from the supplied records.
+All 45 registered headline values agree at their printed precision. Residential saved-prediction verification records 16,291 arrays; external verification records 8,508 loss comparisons. These counts are recorded by the completed Falcon run; the release packaging review does not refit models or reopen those large arrays.
 
-Table S14 now prints classifier values 0.505968 in the two severity-zero entries (marginal and coupling controls), and 0.987874 for the severity-one coupling control. Earlier canonical records contained 0.505879, 0.505879 and 0.987818 respectively. Both snapshots are retained. No fitted scientific reference table has been rewritten to conceal this difference. `protocols/supplement_table_s14.json` represents the current printed supplement; `protocols/historical_supplement_table_s14.json` preserves the earlier printed targets.
+The independent decoder receipt records the first 10,000 packets from each of 15 hash-verified captures, totalling 150,000 packets. This is a separate local execution, with its documented field coverage, not a new Falcon TShark run or exhaustive payload validation.
 
-Run `supplementary_audit` to regenerate the population and table checks. Its detailed output is under `run_root/supplementary_discrepancies/`. The current printed values agree with the newer controlled reference; the older canonical snapshot still differs in those three cells.
+## Measured duration
 
-## Strict comparison
+| Stage | Successful invocation duration |
+|---|---:|
+| records | 0.2 minutes |
+| canonical_metrics | 1.3 minutes |
+| controlled | 61.0 minutes |
+| input_verification | 0.3 minutes |
+| residential | 900.3 minutes |
+| telemetry | 0.8 minutes |
+| prepare | 6.6 minutes |
+| external | 54.8 minutes |
 
-Use the original comparators, rounding conventions and tolerances supplied by the experiment. Do not loosen tolerances, update reference CSVs or change random seeds to obtain PASS. Read both `execution_status` and `comparison`: successful computation can still be numerically DIFFERENT. Preserve a difference report alongside the interpreter versions and input hashes. `python compare_runs.py --config config/local.json` regenerates the final report from available stage evidence.
+Successful stage durations total approximately 17 hours. Residential evaluation took approximately 15 hours. The wall-clock span also includes the pause to repair the preparation wrapper. These are measured author-run durations, not a performance guarantee for another machine.
 
-For each full run, archive the executed notebook, source snapshot, comparison reports and exact environment freeze using [the collection guide](FALCON_FILES_TO_SEND.md).
+## Interpretation and provenance
+
+The full constructed protocol assigns all 72 expected labels correctly, including 20 admissible and 52 withheld cases. Scientific qualification tables contain false criteria and external tables contain expected invalid or not-estimable outcomes. These are retained study results; they must not be treated as failed comparison checks or removed from the release.
+
+The 45 headline matches and selected stage PASS reports identify no required change to the checked main chapter results. They do not assert verification of every prose numeral, independently regenerate the historical task registry, or resolve the separate later exploratory positive-control discrepancies.
+
+The run resumed after a preparation budget-conversion fix. Stage receipts retain both original and patched source digests. They have not been rewritten to appear to come from one uninterrupted source snapshot. The published scientific code includes the patch; see `CHANGELOG.md`.
+
+The original Falcon HTML is preserved unchanged. It shows telemetry commented out when resuming and the temporary repair cell. The clean executable notebook restores telemetry and removes repair cells. The HTML is the historical execution record, not the notebook reviewers should run.

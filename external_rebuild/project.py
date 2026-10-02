@@ -58,7 +58,7 @@ class Project:
         self.out=Path(output_root).expanduser().resolve() if output_root else ROOT/'TON_IoT'
         self.telemetry_input=Path(telemetry_input).expanduser().resolve() if telemetry_input else self.data_root/'TON_IOT_IOT_DATA.zip'
         self.pcap_root=Path(pcap_root).expanduser().resolve() if pcap_root else self.data_root/'pcap_files'
-        self.n_jobs=max(1,int(n_jobs));self.budget_hours=float(budget_hours)
+        self.n_jobs=max(1,int(n_jobs));self.budget_hours=None if budget_hours is None else float(budget_hours)
         self.out.mkdir(parents=True,exist_ok=True);self.status={};self.prep=None;self.runtime=None
         self.configuration={'data_root':str(self.data_root),'output_root':str(self.out),'telemetry_input':str(self.telemetry_input),
                             'pcap_root':str(self.pcap_root),'n_jobs':self.n_jobs,'budget_hours':self.budget_hours}

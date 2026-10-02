@@ -1,9 +1,0 @@
-quantity,rows,mismatches,max_absolute_error,atol,rtol
-common_reportable_tasks,14,0,0.0,1e-10,1e-09
-hi,14,0,2.220446049250313e-16,1e-10,1e-09
-lo,14,0,4.440892098500626e-16,1e-10,1e-09
-loss_ratio,14,0,4.440892098500626e-16,1e-10,1e-09
-n_seeds,14,0,0.0,1e-10,1e-09
-period_reference_skill,14,0,5.551115123125783e-17,1e-10,1e-09
-period_reference_skill_hi,14,0,5.551115123125783e-17,1e-10,1e-09
-period_reference_skill_lo,14,0,5.551115123125783e-17,1e-10,1e-09

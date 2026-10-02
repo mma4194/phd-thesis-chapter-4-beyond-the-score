@@ -1,0 +1,309 @@
+{
+  "context": "no_order",
+  "fixture_seed": 1401,
+  "global_licences": {
+    "contemporaneous": false,
+    "global_by_suite": {
+      "contemporaneous": {
+        "eligible_capabilities": [],
+        "licensed_capabilities": [],
+        "licensed_fraction": 0.0,
+        "minimum_licensed_capabilities": 4,
+        "minimum_licensed_fraction": 0.6,
+        "n_eligible": 0,
+        "n_licensed": 0,
+        "passed": false
+      },
+      "temporal": {
+        "eligible_capabilities": [
+          "forecast|nominal_non_temporal_power"
+        ],
+        "licensed_capabilities": [],
+        "licensed_fraction": 0.0,
+        "minimum_licensed_capabilities": 4,
+        "minimum_licensed_fraction": 0.6,
+        "n_eligible": 1,
+        "n_licensed": 0,
+        "passed": false
+      }
+    },
+    "temporal": false,
+    "temporal_requires_order_preservation": true
+  },
+  "identity_failures": [],
+  "licences": {
+    "forecast|nominal_non_temporal_power": {
+      "contemporaneous": {
+        "eligible": false,
+        "identity_ok": false,
+        "licensed": false,
+        "margin": 0.09531017980432493,
+        "n_qualification_pairs": 0,
+        "n_seed_units": 0,
+        "property_ok": false
+      },
+      "temporal": {
+        "block_transfer_ok": true,
+        "eligible": true,
+        "identity_ok": true,
+        "licensed": false,
+        "n_qualification_pairs": 5,
+        "n_seed_units": 5,
+        "noninferiority_rate": 0.77,
+        "order_effect_ok": false,
+        "reference_skill_gain_ci_hi": 0.9696358834870771,
+        "reference_skill_gain_ci_lo": 0.968130626019384,
+        "reference_skill_gain_estimate": 0.9689814474376045,
+        "reference_viability_estimable": true,
+        "reference_viability_ok": true,
+        "relative_licensed": false,
+        "temporal_loss_ratio_max": 1.25
+      }
+    }
+  },
+  "margins": {
+    "forecast|nominal_non_temporal_power": {
+      "contemporaneous_log_margin": 0.09531017980432493,
+      "temporal_loss_ratio_max": 1.25
+    }
+  },
+  "matched_pairs": [
+    {
+      "pair_id": "pair0",
+      "phase": "calibration",
+      "profile_distance": 5.552514817626001,
+      "source_block": 0,
+      "source_end": 3600,
+      "source_start": 0,
+      "target_block": 10,
+      "target_end": 39600,
+      "target_start": 36000
+    },
+    {
+      "pair_id": "pair6",
+      "phase": "qualification",
+      "profile_distance": 5.869459310890983,
+      "source_block": 6,
+      "source_end": 25200,
+      "source_start": 21600,
+      "target_block": 12,
+      "target_end": 46800,
+      "target_start": 43200
+    },
+    {
+      "pair_id": "pair3",
+      "phase": "calibration",
+      "profile_distance": 6.409524911789516,
+      "source_block": 3,
+      "source_end": 14400,
+      "source_start": 10800,
+      "target_block": 17,
+      "target_end": 64800,
+      "target_start": 61200
+    },
+    {
+      "pair_id": "pair2",
+      "phase": "qualification",
+      "profile_distance": 6.637524474461422,
+      "source_block": 2,
+      "source_end": 10800,
+      "source_start": 7200,
+      "target_block": 16,
+      "target_end": 61200,
+      "target_start": 57600
+    },
+    {
+      "pair_id": "pair1",
+      "phase": "calibration",
+      "profile_distance": 6.967080523730647,
+      "source_block": 1,
+      "source_end": 7200,
+      "source_start": 3600,
+      "target_block": 11,
+      "target_end": 43200,
+      "target_start": 39600
+    },
+    {
+      "pair_id": "pair4",
+      "phase": "qualification",
+      "profile_distance": 7.535801336457179,
+      "source_block": 4,
+      "source_end": 18000,
+      "source_start": 14400,
+      "target_block": 13,
+      "target_end": 50400,
+      "target_start": 46800
+    },
+    {
+      "pair_id": "pair9",
+      "phase": "calibration",
+      "profile_distance": 8.437872567179614,
+      "source_block": 9,
+      "source_end": 36000,
+      "source_start": 32400,
+      "target_block": 18,
+      "target_end": 68400,
+      "target_start": 64800
+    },
+    {
+      "pair_id": "pair7",
+      "phase": "qualification",
+      "profile_distance": 9.62397357525023,
+      "source_block": 7,
+      "source_end": 28800,
+      "source_start": 25200,
+      "target_block": 14,
+      "target_end": 54000,
+      "target_start": 50400
+    },
+    {
+      "pair_id": "pair8",
+      "phase": "calibration",
+      "profile_distance": 9.87322354704642,
+      "source_block": 8,
+      "source_end": 32400,
+      "source_start": 28800,
+      "target_block": 19,
+      "target_end": 72000,
+      "target_start": 68400
+    },
+    {
+      "pair_id": "pair5",
+      "phase": "qualification",
+      "profile_distance": 17.048663575327847,
+      "source_block": 5,
+      "source_end": 21600,
+      "source_start": 18000,
+      "target_block": 15,
+      "target_end": 57600,
+      "target_start": 54000
+    }
+  ],
+  "p0_decisions": [
+    {
+      "capability": "forecast|nominal_non_temporal_power",
+      "ci_hi": null,
+      "ci_lo": null,
+      "criterion": "identity_equivalence",
+      "estimate": null,
+      "n_pairs": 0,
+      "n_seeds": 0,
+      "n_units": 0,
+      "noninferiority_ci_hi": null,
+      "noninferiority_ci_lo": null,
+      "noninferiority_rate": null,
+      "passed": false,
+      "suite": "contemporaneous",
+      "threshold": "crossed pair-seed CI inside +/-0.03"
+    },
+    {
+      "capability": "forecast|nominal_non_temporal_power",
+      "ci_hi": null,
+      "ci_lo": null,
+      "criterion": "matched_block_resample_equivalence",
+      "estimate": null,
+      "n_pairs": 0,
+      "n_seeds": 0,
+      "n_units": 0,
+      "noninferiority_ci_hi": null,
+      "noninferiority_ci_lo": null,
+      "noninferiority_rate": null,
+      "passed": false,
+      "suite": "contemporaneous",
+      "threshold": "crossed pair-seed qualification CI inside TRAIN-calibrated +/-0.0953"
+    },
+    {
+      "capability": "forecast|nominal_non_temporal_power",
+      "ci_hi": 5.32907051820075e-17,
+      "ci_lo": -7.105427357601003e-17,
+      "criterion": "identity_equivalence",
+      "estimate": -8.881784197001265e-18,
+      "n_pairs": 5,
+      "n_seeds": 5,
+      "n_units": 25,
+      "noninferiority_ci_hi": null,
+      "noninferiority_ci_lo": null,
+      "noninferiority_rate": null,
+      "passed": true,
+      "suite": "temporal",
+      "threshold": "crossed pair-seed CI inside +/-0.03"
+    },
+    {
+      "capability": "forecast|nominal_non_temporal_power",
+      "ci_hi": 1.0616938939774634,
+      "ci_lo": 1.0372686770094106,
+      "criterion": "matched_block_temporal_transfer",
+      "estimate": 1.0485519450380725,
+      "n_pairs": 5,
+      "n_seeds": 5,
+      "n_units": 25,
+      "noninferiority_ci_hi": 0.93,
+      "noninferiority_ci_lo": 0.61,
+      "noninferiority_rate": 0.77,
+      "passed": true,
+      "suite": "temporal",
+      "threshold": "crossed pair-seed upper CI <= TRAIN-calibrated ratio 1.2500; NI rate >= 0.75"
+    },
+    {
+      "capability": "forecast|nominal_non_temporal_power",
+      "ci_hi": 0.00960160807545955,
+      "ci_lo": -0.01805522877003357,
+      "criterion": "row_resample_order_destruction",
+      "estimate": -0.0038882931011569675,
+      "n_pairs": 5,
+      "n_seeds": 5,
+      "n_units": 25,
+      "noninferiority_ci_hi": null,
+      "noninferiority_ci_lo": null,
+      "noninferiority_rate": null,
+      "passed": false,
+      "suite": "temporal",
+      "threshold": "crossed pair-seed lower CI >= 0.0488"
+    },
+    {
+      "capability": "forecast|nominal_non_temporal_power",
+      "ci_hi": 0.9696358834870771,
+      "ci_lo": 0.968130626019384,
+      "criterion": "absolute_matched_real_reference_viability",
+      "estimate": 0.9689814474376045,
+      "n_pairs": 5,
+      "n_seeds": 5,
+      "n_units": 25,
+      "noninferiority_ci_hi": null,
+      "noninferiority_ci_lo": null,
+      "noninferiority_rate": null,
+      "passed": true,
+      "suite": "temporal",
+      "threshold": "crossed pair-seed 95% CI lower bound of reference_skill_gain > 0"
+    }
+  ],
+  "p0_seed_summary_rows": 200,
+  "protocol_hash": "56671d836844cd549869ef5fb0ec2c4c7e9f240f26176af245fad12b4c0e38d0",
+  "reference_viability": [
+    {
+      "capability": "forecast|nominal_non_temporal_power",
+      "ci_hi": 0.9696358834870771,
+      "ci_lo": 0.968130626019384,
+      "criterion": "absolute_matched_real_reference_viability",
+      "estimable": true,
+      "estimate": 0.9689814474376045,
+      "n_pairs": 5,
+      "n_seeds": 5,
+      "n_units": 25,
+      "passed": true,
+      "suite": "temporal",
+      "threshold": "crossed pair-seed 95% CI lower bound of reference_skill_gain > 0"
+    }
+  ],
+  "temporal_property": [
+    {
+      "allowed_interpretation": "no qualifying order-dependence evidence was observed; this is not evidence of order independence",
+      "block_transfer_ok": true,
+      "capability": "forecast|nominal_non_temporal_power",
+      "eligible": true,
+      "licensed": false,
+      "order_effect_ok": false,
+      "state": "ORDER_DEPENDENCE_NOT_DEMONSTRATED"
+    }
+  ]
+}

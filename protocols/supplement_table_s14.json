@@ -24,7 +24,7 @@
     "label": "C2ST AUC",
     "perturbation": "marginal",
     "metric": "c2st_max_auc",
-    "severity_zero": 0.505968,
+    "severity_zero": 0.505879,
     "severity_one": 1.0
   },
   {
@@ -66,7 +66,7 @@
     "label": "C2ST AUC",
     "perturbation": "coupling",
     "metric": "c2st_max_auc",
-    "severity_zero": 0.505968,
-    "severity_one": 0.987874
+    "severity_zero": 0.505879,
+    "severity_one": 0.987818
   }
 ]

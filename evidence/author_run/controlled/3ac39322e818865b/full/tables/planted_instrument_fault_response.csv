@@ -1,0 +1,11 @@
+scenario_id,fault,severity,response
+KT03,flat_marginal,0.0,0.0
+KT04,reversed_temporal,0.0,1.0
+KT03,flat_marginal,0.25,0.0
+KT04,reversed_temporal,0.25,0.75
+KT03,flat_marginal,0.5,0.0
+KT04,reversed_temporal,0.5,0.5
+KT03,flat_marginal,0.75,0.0
+KT04,reversed_temporal,0.75,0.25
+KT03,flat_marginal,1.0,0.0
+KT04,reversed_temporal,1.0,0.0

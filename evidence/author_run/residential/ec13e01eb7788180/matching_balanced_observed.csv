@@ -1,0 +1,11 @@
+pair_id,source_block,target_block,phase,distance_under_corrected_scale
+pair0,0,13,calibration,0.23841518942207318
+pair1,1,12,qualification,0.12744932084333777
+pair2,2,15,calibration,0.2453262158945213
+pair3,3,14,qualification,0.23816101222995567
+pair4,4,17,calibration,0.23125892553619443
+pair5,5,16,qualification,0.22925394438839655
+pair6,6,19,calibration,0.21985861067889248
+pair7,7,18,qualification,0.220656439667242
+pair8,8,10,calibration,0.06372052518355063
+pair9,9,11,qualification,0.08911016419590284

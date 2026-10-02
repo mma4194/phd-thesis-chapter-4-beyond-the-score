@@ -1,0 +1,28 @@
+{
+  "stage": "canonical_metrics",
+  "config_digest": "6345a28b8341230d12d716b6124c77f7c237e2248946e89a14e0886472d38bde",
+  "source_digest": "9d3a50ad51c05a34fd7cb36eb8cb5ad0b4d9bff335b34f59b2c85fae9626e85a",
+  "started_utc": "2026-10-01T10:22:58.988950+00:00",
+  "execution_status": "COMPLETED",
+  "environment": {
+    "python": "3.11.11 (main, Jun 20 2025, 00:00:00) [GCC 11.5.0 20240719 (Red Hat 11.5.0-5)]",
+    "platform": "Linux-5.14.0-503.40.1.el9_5.x86_64-x86_64-with-glibc2.34",
+    "packages": {
+      "numpy": "2.4.6",
+      "pandas": "2.3.3",
+      "scipy": "1.17.1",
+      "scikit-learn": "1.9.0",
+      "pyarrow": "25.0.0",
+      "matplotlib": "3.11.1",
+      "threadpoolctl": "3.6.0",
+      "joblib": "1.5.3",
+      "nbformat": "5.10.4",
+      "nbclient": "not installed",
+      "ipykernel": "7.3.0"
+    }
+  },
+  "comparison": "PASS",
+  "output": "/shared/scratch/SCWF00162/Chapter4_Reported_Results/fresh/execution/supplementary/1166c275c7b296c5/canonical_metrics",
+  "evidence_type": "New execution in this invocation",
+  "finished_utc": "2026-10-01T10:24:17.763227+00:00"
+}

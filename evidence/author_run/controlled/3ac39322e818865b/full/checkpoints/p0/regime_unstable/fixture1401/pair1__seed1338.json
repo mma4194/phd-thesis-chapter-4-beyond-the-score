@@ -1,0 +1,77 @@
+{
+  "context": "regime_unstable",
+  "fixture_seed": 1401,
+  "pair": {
+    "pair_id": "pair1",
+    "phase": "qualification",
+    "profile_distance": 7.489927633391899,
+    "source_block": 1,
+    "source_end": 7200,
+    "source_start": 3600,
+    "target_block": 13,
+    "target_end": 50400,
+    "target_start": 46800
+  },
+  "protocol_hash": "56671d836844cd549869ef5fb0ec2c4c7e9f240f26176af245fad12b4c0e38d0",
+  "protocol_seed": 1338,
+  "summary_rows": [
+    {
+      "capability": "contemporaneous_dependency|regime_power",
+      "log_loss_ratio": 0.0,
+      "n_families": 1,
+      "noninferiority_rate": 1.0,
+      "p0_anchor": "real_identity",
+      "pair_id": "pair1",
+      "phase": "qualification",
+      "profile_distance": 7.489927633391899,
+      "seed": 1338,
+      "source_rows": 3600,
+      "suite": "contemporaneous",
+      "target_rows": 3600
+    },
+    {
+      "capability": "contemporaneous_dependency|regime_power",
+      "log_loss_ratio": -0.0009085978936279142,
+      "n_families": 1,
+      "noninferiority_rate": 1.0,
+      "p0_anchor": "real_block_a",
+      "pair_id": "pair1",
+      "phase": "qualification",
+      "profile_distance": 7.489927633391899,
+      "seed": 1338,
+      "source_rows": 3600,
+      "suite": "contemporaneous",
+      "target_rows": 3600
+    },
+    {
+      "capability": "contemporaneous_dependency|regime_power",
+      "log_loss_ratio": -0.0006304642555217459,
+      "n_families": 1,
+      "noninferiority_rate": 1.0,
+      "p0_anchor": "real_block_b",
+      "pair_id": "pair1",
+      "phase": "qualification",
+      "profile_distance": 7.489927633391899,
+      "seed": 1338,
+      "source_rows": 3600,
+      "suite": "contemporaneous",
+      "target_rows": 3600
+    },
+    {
+      "capability": "contemporaneous_dependency|regime_power",
+      "log_loss_ratio": -7.589126246162152e-05,
+      "n_families": 1,
+      "noninferiority_rate": 1.0,
+      "p0_anchor": "real_resample",
+      "pair_id": "pair1",
+      "phase": "qualification",
+      "profile_distance": 7.489927633391899,
+      "seed": 1338,
+      "source_rows": 3600,
+      "suite": "contemporaneous",
+      "target_rows": 3600
+    }
+  ],
+  "utility_path": "/shared/scratch/SCWF00162/Chapter4_Reported_Results/fresh/execution/controlled/3ac39322e818865b/full/checkpoints/p0/regime_unstable/fixture1401/pair1__seed1338.utility.csv",
+  "utility_rows": 8
+}

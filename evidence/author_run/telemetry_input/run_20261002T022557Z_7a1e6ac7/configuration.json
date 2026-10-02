@@ -1,0 +1,5 @@
+{
+  "input_root": "/shared/home1/c.c21126547/raw_TON_IoT",
+  "telemetry_input": "/shared/home1/c.c21126547/raw_TON_IoT/TON_IOT_IOT_DATA.zip",
+  "output_root": "/shared/scratch/SCWF00162/Chapter4_Reported_Results/fresh/execution/telemetry_input"
+}

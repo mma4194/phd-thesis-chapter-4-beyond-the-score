@@ -1,4 +1,0 @@
-check,passed,detail
-metric_instruments_unique_keys,True,
-metric_instruments_same_keys,True,11 joined records
-metric_instruments_values,True,3 quantities compared

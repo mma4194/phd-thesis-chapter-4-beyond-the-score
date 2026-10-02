@@ -1,0 +1,2 @@
+capability,suite,criterion,estimate,ci_lo,ci_hi,n_pairs,n_seeds,n_units,threshold,passed,estimable
+forecast|nominal_non_temporal_power,temporal,absolute_matched_real_reference_viability,0.9685236291763024,0.9677211518255544,0.9692030109205647,5,5,25,crossed pair-seed 95% CI lower bound of reference_skill_gain > 0,True,True

@@ -1,0 +1,25 @@
+{
+  "execution_status": "COMPLETED",
+  "calculation_status": "PASS",
+  "checks": 144,
+  "failed": 0,
+  "model_fits": 0,
+  "scope": "Recalculation from saved task losses, gate inputs and metric responses. Predictions and raw-input fits are separate workflows.",
+  "environment": {
+    "python": "3.11.11 (main, Jun 20 2025, 00:00:00) [GCC 11.5.0 20240719 (Red Hat 11.5.0-5)]",
+    "platform": "Linux-5.14.0-503.40.1.el9_5.x86_64-x86_64-with-glibc2.34",
+    "packages": {
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "scipy": "1.17.0",
+      "scikit-learn": "1.8.0",
+      "pyarrow": "25.0.0",
+      "matplotlib": "3.10.8",
+      "threadpoolctl": "3.6.0",
+      "joblib": "1.5.3",
+      "nbformat": "5.10.4",
+      "nbclient": "0.10.2",
+      "ipykernel": "6.30.1"
+    }
+  }
+}

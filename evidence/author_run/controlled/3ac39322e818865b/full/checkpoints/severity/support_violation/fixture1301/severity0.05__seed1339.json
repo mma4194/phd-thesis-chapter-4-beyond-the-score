@@ -1,0 +1,13 @@
+{
+  "failed_predicates": [
+    "empirical_support_violation"
+  ],
+  "failure_type": "SOURCE_INVALID",
+  "fixture_seed": 1301,
+  "intervention": "support_violation",
+  "protocol_hash": "56671d836844cd549869ef5fb0ec2c4c7e9f240f26176af245fad12b4c0e38d0",
+  "protocol_seed": 1339,
+  "response": 1.0,
+  "severity": 0.05,
+  "source_valid": false
+}

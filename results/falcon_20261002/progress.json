@@ -1,0 +1,42 @@
+[
+  {
+    "Experiment": "Recorded arithmetic and headline values",
+    "Execution": "Current run",
+    "Comparison": "PASS"
+  },
+  {
+    "Experiment": "Metric-response experiments",
+    "Execution": "Current run",
+    "Comparison": "PASS"
+  },
+  {
+    "Experiment": "Residential input identity",
+    "Execution": "Current run",
+    "Comparison": "PASS"
+  },
+  {
+    "Experiment": "Residential evaluation",
+    "Execution": "Current run",
+    "Comparison": "PASS"
+  },
+  {
+    "Experiment": "72 constructed cases and ablations",
+    "Execution": "Current run",
+    "Comparison": "PASS"
+  },
+  {
+    "Experiment": "Raw telemetry recovery",
+    "Execution": "Current run",
+    "Comparison": "PASS"
+  },
+  {
+    "Experiment": "Raw capture preparation",
+    "Execution": "Current run",
+    "Comparison": "PASS"
+  },
+  {
+    "Experiment": "External evaluation",
+    "Execution": "Current run",
+    "Comparison": "PASS"
+  }
+]

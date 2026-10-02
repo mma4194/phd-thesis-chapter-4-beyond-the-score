@@ -1,0 +1,55 @@
+file,date_token,rows
+IoT_normal_fridge_1,31 Mar 2019,23174
+IoT_normal_fridge_1,1-Apr-19,13019
+IoT_normal_fridge_1,2-Apr-19,3864
+IoT_normal_fridge_2,2 Apr 2019,190160
+IoT_normal_fridge_2,02 Apr 2019,2
+IoT_normal_fridge_3,3-Apr-19,86270
+IoT_normal_fridge_3,2-Apr-19,38680
+IoT_normal_fridge_3,4 Apr 201,28198
+IoT_normal_fridge_3,04 Apr 201,2
+IoT_normal_Garage_door_1,31 Mar 2019,23174
+IoT_normal_Garage_door_1,1-Apr-19,13019
+IoT_normal_Garage_door_1,2-Apr-19,3864
+IoT_normal_Garage_door_2,2 Apr 2019,188976
+IoT_normal_Garage_door_2,02 Apr 2019,2
+IoT_normal_Garage_door_3,3-Apr-19,86270
+IoT_normal_Garage_door_3,2-Apr-19,38680
+IoT_normal_Garage_door_3,4-Apr-19,28200
+IoT_normal_GPS_Tracker_1,31-Mar-19,23174
+IoT_normal_GPS_Tracker_1,1-Apr-19,19522
+IoT_normal_GPS_Tracker_1,2-Apr-19,5796
+IoT_normal_GPS_Tracker_2,2/04/2019,188979
+IoT_normal_GPS_Tracker_3,3-Apr-19,86269
+IoT_normal_GPS_Tracker_3,2-Apr-19,38678
+IoT_normal_GPS_Tracker_3,4-Apr-19,28200
+IoT_normal_modbus_1,31-Mar-19,23174
+IoT_normal_modbus_1,1-Apr-19,19522
+IoT_normal_modbus_1,2-Apr-19,5796
+IoT_normal_modbus_2,2/04/2019,12901
+IoT_normal_modbus_3,3-Apr-19,86269
+IoT_normal_modbus_3,2-Apr-19,38678
+IoT_normal_modbus_3,4-Apr-19,28200
+IoT_normal_Motion_Light_1,1 Apr 2019,20641
+IoT_normal_Motion_Light_1,31-Mar-19,18351
+IoT_normal_Motion_Light_1,2-Apr-19,6143
+IoT_normal_Motion_Light_1,01 Apr 2019,2
+IoT_normal_Motion_Light_2,2-Apr-19,147745
+IoT_normal_Motion_Light_3,3-Apr-19,54647
+IoT_normal_Motion_Light_3,2-Apr-19,25785
+IoT_normal_Motion_Light_3,4-Apr-19,17869
+IoT_normal_Thermostat_1,1 Apr 2019,20641
+IoT_normal_Thermostat_1,31-Mar-19,18351
+IoT_normal_Thermostat_1,2-Apr-19,1055
+IoT_normal_Thermostat_1,01 Apr 2019,2
+IoT_normal_Thermostat_2,2-Apr-19,152833
+IoT_normal_Thermostat_3,3-Apr-19,54647
+IoT_normal_Thermostat_3,2-Apr-19,25785
+IoT_normal_Thermostat_3,4-Apr-19,17869
+IoT_normal_weather_1,1-Apr-19,26045
+IoT_normal_weather_1,31-Mar-19,23174
+IoT_normal_weather_1,2-Apr-19,7728
+IoT_normal_weather_2,2-Apr-19,189090
+IoT_normal_weather_3,3-Apr-19,86268
+IoT_normal_weather_3,2-Apr-19,38684
+IoT_normal_weather_3,4-Apr-19,28200

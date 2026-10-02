@@ -1,0 +1,9 @@
+{
+  "receipt_sha256": "099ed07894c9fbc844f2deaa1c43546fba6f6e40e239eadb1f07788b8eb15d1d",
+  "status": "PASS",
+  "tshark_version": "TShark (Wireshark) 4.6.8 (v4.6.8-0-ge677bf052328).",
+  "captures": 15,
+  "packets": 150000,
+  "scope": "First packets per file; timestamps and lengths for every sampled packet, simple outer IPv4 addresses/protocols/ports. Not exhaustive payload or whole-file validation.",
+  "evidence_type": "Separate local execution; original Falcon decoder status remains unchanged"
+}

@@ -1,0 +1,2 @@
+file,line_1based,bytes,nul_bytes,line_sha256,error
+IoT_normal_modbus_1.log,600,498,489,632ddc20f8f2dc6e634d1682666c6925f3649c0d448042ae6ccf0bb7fea10fbb,'utf-32-be' codec can't decode bytes in position 488-491: code point not in range(0x110000)

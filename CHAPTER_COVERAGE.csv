@@ -1,0 +1,12 @@
+Chapter result,Executable stage,Result scope
+Metric responses and Figure 2,canonical_metrics,Original canonical curves and instrument checks
+Residential qualification and Figure 3,residential,Admission and P0 qualification with all three pairing plans
+Residential table and Figure 4,residential,Nine sources; five seeds; two periods; 3060 utility rows
+Residential synthetic skill and period contrasts,residential,Direct skills and conditional seed intervals recomputed from primitive losses
+Constructed benchmark and Figure 5,controlled,All 72 development cases; expected outcomes; stage ablations
+External evaluation and Figure 6,external,Primary and three additional origins; output checks; classifier resolution; utility
+Declared reproduction headline checks,records,45 registered values and associated record arithmetic
+Residential input identity,input_verification,Prepared Parquet identity; observation masks; chronology
+External input reconstruction,telemetry + prepare,42 telemetry members; 15 normal captures; immutable preparation identity
+Saved-prediction verification,residential + external,16291 residential prediction files and 8508 external loss comparisons in supplied runs
+Independent decoder comparison,separate local receipt,150000 packets; original full capture identities; documented fields

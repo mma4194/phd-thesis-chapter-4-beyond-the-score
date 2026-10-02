@@ -1,14 +1,25 @@
-# Interruptions, budgets and safe recovery
+# Recovery and preparation budget fix
 
-Keep source, notebook and environments in home. Keep `run_root` on scratch. Never recreate an environment inside scratch on this Falcon setup.
+Version 1.0.1 fixes `artifact/toniot.py`, which previously called `float(budget_hours)` even when the notebook set `budget_hours = None`. The permanent expression is:
 
-1. Retain the same source checkout, input files, interpreter paths and configuration when resuming a budget-limited run.
-2. Inspect `run_root/logs/<stage>.log` and `run_root/master_status/<stage>.json`.
-3. Rerun the interrupted notebook cell, or `python run.py --config config/local.json --stage <stage>`. The stage's own checkpoint logic decides what can resume. Do not delete progress or falsify completed status.
-4. If code, experiment configuration or dataset content changes, use a new run directory. Preserve the prior run for comparison. Do not bypass a source/configuration/input binding failure.
-5. Preparation verification hashes immutable prepared tables and copied input-check reports. Evaluation may update progress files without invalidating those immutable products. If an immutable hash fails, regenerate preparation from the original inputs and investigate the changed file.
-6. Generate the final report only after the required stages have completed. A completed report file alone is not evidence that all experiments passed.
+```python
+budget_hours=(None if budget_hours is None else float(budget_hours))
+```
 
-Scratch can be purged. Copy the final reports, executed notebook, exact source snapshot, environment freezes and manifests to durable institutional storage. `collect_run.py` produces a compact review archive, not a complete backup of all predictions/prepared arrays. Back up those separately if you need to resume without recomputation. Exclude raw provider data from public GitHub uploads.
+`Project` and the downstream deadline guards already support `None`. Numerical methods, comparison references and tolerances are unchanged by this correction.
 
-Moving a run directory changes the configuration binding. Keep an untouched original; use a new configuration/run root for a fresh validation instead of manually editing signed status records.
+## Existing completed Falcon run
+
+Keep the original project and output folder. The successful resumed run already used this patch and does not need another full rerun solely to publish the package. Extract the GitHub release into a separate folder. Never replace source files while a run is active.
+
+## Resume an interrupted new run
+
+Keep the same code version, configuration and output directory. If the kernel is still alive, rerun the failed stage cell and continue downward. If the kernel was lost, restart the notebook from its configuration and Run All so stage locations are reconstructed; underlying residential and external job checkpoints are reused where valid. Some setup, validation and other stages may run again. There is no promise that every completed stage is skipped.
+
+Do not remove checkpoints, edit historical status JSON, weaken comparison tolerances, or regenerate a manifest merely to make an unexplained difference disappear. Inspect `logs/<stage>.log` and the reported comparison files. A source/configuration binding change can prevent reuse and should be handled in a separate run directory.
+
+`budget_hours = None` disables the application’s time budget, but cannot extend a scheduler allocation. Use a compute allocation long enough for the measured workload.
+
+## Package integrity
+
+`PACKAGE_SHA256.json` checks executable sources, reference tables and evidence. Notebook and HTML files are excluded from that runtime manifest so users can configure and save notebooks. The clean notebook is additionally recorded in `RELEASE_FILES_SHA256.json`, which is a release inventory rather than a runtime editing restriction. Git line-ending conversion is disabled to preserve exact bytes.

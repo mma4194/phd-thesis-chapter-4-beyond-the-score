@@ -1,0 +1,13 @@
+{
+  "failed_predicates": [
+    "maximum_activity_rate_error"
+  ],
+  "failure_type": "FIT_INVALID",
+  "fixture_seed": 1401,
+  "intervention": "learned_collapse",
+  "protocol_hash": "56671d836844cd549869ef5fb0ec2c4c7e9f240f26176af245fad12b4c0e38d0",
+  "protocol_seed": 1340,
+  "response": 1.0,
+  "severity": 0.2,
+  "source_valid": false
+}

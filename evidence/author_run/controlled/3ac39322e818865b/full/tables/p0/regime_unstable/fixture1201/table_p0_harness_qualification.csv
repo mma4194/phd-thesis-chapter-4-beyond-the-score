@@ -1,0 +1,7 @@
+capability,suite,criterion,estimate,ci_lo,ci_hi,n_pairs,n_seeds,n_units,threshold,passed,noninferiority_rate,noninferiority_ci_lo,noninferiority_ci_hi
+contemporaneous_dependency|regime_power,contemporaneous,identity_equivalence,1.3322676295501876e-17,0.0,3.996802888650563e-17,5,5,25,crossed pair-seed CI inside +/-0.03,True,,,
+contemporaneous_dependency|regime_power,contemporaneous,matched_block_resample_equivalence,4.4621760732210114e-05,-0.00019243304836989096,0.00023322600381001841,5,5,25,crossed pair-seed qualification CI inside TRAIN-calibrated +/-0.0953,True,,,
+contemporaneous_dependency|regime_power,temporal,identity_equivalence,,,,0,0,0,crossed pair-seed CI inside +/-0.03,False,,,
+contemporaneous_dependency|regime_power,temporal,matched_block_temporal_transfer,,,,0,0,0,crossed pair-seed upper CI <= TRAIN-calibrated ratio 1.2500; NI rate >= 0.75,False,,,
+contemporaneous_dependency|regime_power,temporal,row_resample_order_destruction,,,,0,0,0,crossed pair-seed lower CI >= 0.0488,False,,,
+contemporaneous_dependency|regime_power,contemporaneous,absolute_matched_real_reference_viability,-0.34933418733574584,-0.43836388162664386,-0.26030763728440737,5,5,25,crossed pair-seed 95% CI lower bound of reference_skill_gain > 0,False,,,

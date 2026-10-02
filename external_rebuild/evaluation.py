@@ -109,7 +109,7 @@ def run(project):
     values=values_df.to_numpy(float);regimes=plan_regimes(len(values),ns['CFG']);initialise(project,ns,hashes,regimes)
     table=ns['table'];run_dir=ns['RUN'];start=time.monotonic();cache=ns['cached_job']
     def bounded_cache(kind,key,fn):
-        if time.monotonic()-start>=project.budget_hours*3600:raise TimeBudgetReached('Operational time budget reached between jobs. Rerun the evaluation cell to resume this same protocol.')
+        if project.budget_hours is not None and time.monotonic()-start>=project.budget_hours*3600:raise TimeBudgetReached('Operational time budget reached between jobs. Rerun the evaluation cell to resume this same protocol.')
         return cache(kind,key,fn)
     ns['cached_job']=bounded_cache
     table(run_dir/'tables'/'observed_input_fraction.csv',[{'feature':c,'observed_fraction':observed[:,i].mean(),'training_observed_fraction':observed[:regimes[0]['train'][1],i].mean()} for i,c in enumerate(values_df)])

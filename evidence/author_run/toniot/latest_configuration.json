@@ -1,0 +1,8 @@
+{
+  "data_root": "/shared/home1/c.c21126547/raw_TON_IoT",
+  "output_root": "/shared/scratch/SCWF00162/Chapter4_Reported_Results/fresh/execution/toniot",
+  "telemetry_input": "/shared/home1/c.c21126547/raw_TON_IoT/TON_IOT_IOT_DATA.zip",
+  "pcap_root": "/shared/home1/c.c21126547/raw_TON_IoT/pcap_files",
+  "n_jobs": 4,
+  "budget_hours": null
+}

@@ -1,0 +1,10 @@
+item,change
+Data identity,New preparation hashes and rules; no recovered historical row-count/hash certification.
+Calendar interval,Longest common observed session; whole 5 s bins; no historical target row count.
+Splits,Recalculate the recovered 60/20/20 primary fractions after two 25-row embargoes; rolling TRAIN 45/50/55% with 15% near and future blocks and the same embargoes.
+P0,"Use the recovered origin-local TRAIN-only matching for ALL four origins, including primary. No old pair indices or availability flags are reused."
+Real sampling anchors,Preserve observation masks on resampled/contiguous real targets. Their zero-imputed missing targets do not become measured labels.
+Generators,All nine value-generating algorithms and settings retained; no new architecture search.
+Masks,Missing real targets excluded. Real predictors retain zero imputation. Generated value outputs have no learned missingness model.
+Claims,"Scientific interpretation conditional on available capture prefixes, stated clock convention and prior task exposure. Failed instruments/contracts and Not-Estimable outcomes are retained."
+Runtime,"Save each completed job, stop between jobs at the operational time budget, resume with identical inputs/code/environment/settings."

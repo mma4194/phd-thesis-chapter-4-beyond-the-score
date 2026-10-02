@@ -1,0 +1,159 @@
+{
+  "rules": {
+    "version": "reconstruction-2.0.0",
+    "step_seconds": 5,
+    "bin_origin": "Unix epoch, UTC coordinate",
+    "bin_interval": "left closed, right open",
+    "numeric_aggregation": "arithmetic mean of available filtered records",
+    "telemetry_duplicate_policy": "retain all supplied filtered records; original logs verify values and date repair only",
+    "fridge_repair": "Only 0?4 Apr 201 in fridge part 3; require exact rowwise measurement and original GMT agreement",
+    "network_byte_basis": "original wire length; population standard deviation ddof=0",
+    "network_endpoint_pair": "directed outer source/destination IP pair; no ports, no assumed device mapping",
+    "interarrival": "sort every complete packet timestamp within each group/bin across files; positive differences only; seconds; ddof=0; undefined means/std are missing",
+    "port_rules": {
+      "http": [
+        80
+      ],
+      "https": [
+        443
+      ],
+      "dns": [
+        53
+      ],
+      "mqtt": [
+        1883,
+        8883
+      ]
+    },
+    "duplicate_packets": "retain records; identical input files rejected; equal timestamps are not proof of duplicate packets",
+    "missing_values": "preimputation NaN and explicit observation masks; canonical zero fill, never forward/backward interpolation",
+    "empty_network_bins": "unobserved; do not infer zero measured traffic from an empty bin",
+    "session_gap_seconds": 60,
+    "analysis_interval": "longest intersection of general and IoT-named packet sessions and telemetry occupied-bin spans (gaps >60 s); ties choose earliest; exclude first/last bins not fully inside that coordinate interval; bin occupancy does not prove acquisition continuity",
+    "incomplete_capture_policy": "complete-record prefixes allowed as a new conditional dataset; incomplete record omitted; its entire bin masked; if header incomplete mask last complete-record bin",
+    "malformed_capture_policy": "stop before evaluation; keep earlier per-file caches and error report",
+    "clock_policy": "zero offset; no performance/overlap-optimised alignment; UTC coordinates do not prove physical clock synchronization",
+    "historical_identity": "new dataset; no historical byte-identical reconstruction claim"
+  },
+  "input_files": [
+    {
+      "role": "telemetry",
+      "name": "TON_IOT_IOT_DATA.zip",
+      "sha256": "434513f8c2d3da4639a8110e956a4c08d31f8c2ea3a2fd6ffb8d85912f8c3aeb",
+      "bytes": 374348460
+    },
+    {
+      "role": "general",
+      "name": "normal_1.pcap",
+      "sha256": "9463135bbb3ab8f6e27a459c6be117e79f72ff8e434b7e70478ed70f4f8bf3c5",
+      "bytes": 1177084172
+    },
+    {
+      "role": "general",
+      "name": "normal_2.pcap",
+      "sha256": "e7b2e1d7a54b34f8af190693f34cd5d09b3d8248826627bb1e8245ca47ae76ba",
+      "bytes": 1151429180
+    },
+    {
+      "role": "general",
+      "name": "normal_3.pcap",
+      "sha256": "a64ae59d8701451b3b00d4f9bf8186da20c374d3b5de080a96af9c0b14ed5e03",
+      "bytes": 1102597380
+    },
+    {
+      "role": "general",
+      "name": "normal_4.pcap",
+      "sha256": "43aea92b6ed04446243d4afc360256ce381d51484779ed611d481943b23d3360",
+      "bytes": 1112341756
+    },
+    {
+      "role": "general",
+      "name": "normal_5.pcap",
+      "sha256": "25c9370785ccfecdaf9c355bf57e4874d38dfe3dcecfec4ef8d3bb32e1b4fb90",
+      "bytes": 1077665172
+    },
+    {
+      "role": "general",
+      "name": "normal_6.pcap",
+      "sha256": "a07c1a0962ded9ed84175b102d2af4fa215f335711b598333b232d3b1a74808b",
+      "bytes": 1075817348
+    },
+    {
+      "role": "general",
+      "name": "normal_7.pcap",
+      "sha256": "e498208aa40238d4e484cf0abeff3f2d40a486842838da8b27f08d106c4485b9",
+      "bytes": 1110516324
+    },
+    {
+      "role": "general",
+      "name": "normal_8.pcap",
+      "sha256": "b8efc319b635aea0cd6b05733e0969a049a3b837a4b7ecb473dd5b4c7a010863",
+      "bytes": 1262737092
+    },
+    {
+      "role": "general",
+      "name": "normal_9.pcap",
+      "sha256": "705e71b89bc302c18d277be473a525588f93ff73a89ee7a916d7c11e13f78b08",
+      "bytes": 1150733220
+    },
+    {
+      "role": "general",
+      "name": "normal_10.pcap",
+      "sha256": "f13cba4968ebf41cb05237ab8dee23ed7c501e9019c09912a3851202df029d86",
+      "bytes": 1122702904
+    },
+    {
+      "role": "general",
+      "name": "normal_11.pcap",
+      "sha256": "485f7a61129fc905c5a13b38cce45f27cb185bee62fee20bc0669f44d4b140d9",
+      "bytes": 1118684220
+    },
+    {
+      "role": "general",
+      "name": "normal_12.pcap",
+      "sha256": "b9c3d6cbbd31b0b2caff7d7cb9d8953d12d08a455e1c04465f5e87991061d954",
+      "bytes": 1119176788
+    },
+    {
+      "role": "general",
+      "name": "normal_13.pcap",
+      "sha256": "bf6a9d2adc0da1436df48c7bbac3c51858c19eb290b792698cd5ae42a4434b76",
+      "bytes": 1065001940
+    },
+    {
+      "role": "iot_named",
+      "name": "normal_IoT_2.pcap",
+      "sha256": "8be8594f2218c0fc5650a924d72190f3b960b7d300405ae956334d2a3277901b",
+      "bytes": 1056194560
+    },
+    {
+      "role": "iot_named",
+      "name": "normal_IoT_3.pcap",
+      "sha256": "542493556432348372507ca949ed394ae66611c967228c66f4c7e5f7a72cc310",
+      "bytes": 1066663936
+    }
+  ],
+  "code_files": {
+    "tiot_rebuild/__init__.py": "ffb3a541d6d590ae2369dd022dda48d20ad3fb31006feaa01661f9985cc35e20",
+    "tiot_rebuild/capture_reader.py": "6a0e9136641939decfdcd65f47a3e83a55fdc3a8e1d4faa61a472cd866066763",
+    "tiot_rebuild/crosscheck.py": "b2cece6548ba41e929029476be33f2fd3320171a8d3b7b8c1fc585e81998d9e1",
+    "tiot_rebuild/evaluation.py": "52dafaed1e93e5d69880d5ef83e864a417c81abd224fae46258762983ccd7650",
+    "tiot_rebuild/network.py": "d4fbadbd857e3085b95285b603e62505239cc448c474ac65c536efc9dbb21b9c",
+    "tiot_rebuild/project.py": "9d2d56698ab0570d91d1948a96a47f3cae59a6e6d0a797ef62c6dc7034a025bc",
+    "tiot_rebuild/recovered/canonical_metrics.py": "c8e2ec75d6f529b4885759e3947e0646fd43b5e21f3b401dc6b61293e411afd7",
+    "tiot_rebuild/recovered/historical_assets.json": "7f25d1cfdc6f2971e1185286cca4195438a6c21783829ad802e9f424f8e51e5c",
+    "tiot_rebuild/recovered/legacy_generators.py": "429cc8786925e1a87a870db9e7d795bffa4982c4d67d7f09aebfb45cdf095883",
+    "tiot_rebuild/recovered/matching_helpers.py": "d8c3e85b9f8e100a83933aea7a2612e29ac5fdb46c45ac2e3d84ca739a04694d",
+    "tiot_rebuild/recovered/runtime_c2st.py": "ff7739d8535b51a57477dee00581d7cdf0204d83f3d32db1c41e41e2c11d7984",
+    "tiot_rebuild/recovered/runtime_checks.py": "8a478bdcf18aaaca9a4e26dab6ba6fc509154b923389e57556bec1ab93663aa9",
+    "tiot_rebuild/recovered/runtime_core.py": "fe718865b202be2d888111a8d7c9a1c288d23bed33fb288ecf59f37e21744e34",
+    "tiot_rebuild/recovered/runtime_evaluation.py": "6d9d5531706460570110c5ebf9c478f624ca1047ef4bfd13629679dd04e8e847",
+    "tiot_rebuild/recovered/runtime_p0.py": "a41ba1f3c88965d7dc1e14562eaa7fd72801c9621b8201a720ef62b5b00cc451",
+    "tiot_rebuild/recovered/runtime_protocol.py": "15ae92b96a4335cdb4227d00554991fbf05788c3adad65266606638bd52efae7",
+    "tiot_rebuild/recovered/runtime_tasks.py": "324f1087feefbdcae2b6c8a5b41ca8aadca875e7d634bb6b6e42f241bca8d477",
+    "tiot_rebuild/recovered/statistics_helpers.py": "6179073ee7195bc067e44a9a1e6db5e9d9578c4d2ea2b7e7dc5c6268cc99bcf3",
+    "tiot_rebuild/reference_capture_audit.json": "0db69563b2a02167d8b497c1ecd682d377ccb08c5570092da52e8e73ebfc4a4b",
+    "tiot_rebuild/reporting.py": "8e109d467e4dc9220fd4da5538ade2aa1738c424cb007ebb775a31ea0863bdbb",
+    "tiot_rebuild/telemetry_recovery.py": "08a2692383be9c8103cb8d622cb1fdbddf742ca935bbeccb8cfef29557db275b"
+  }
+}

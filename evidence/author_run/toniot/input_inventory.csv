@@ -1,0 +1,17 @@
+role,name,path,bytes
+telemetry,TON_IOT_IOT_DATA.zip,/shared/home1/c.c21126547/raw_TON_IoT/TON_IOT_IOT_DATA.zip,374348460
+general,normal_1.pcap,/shared/scratch/SCWF00162/PAPER_04/pcap_files/normal_pcaps/normal_1.pcap,1177084172
+general,normal_2.pcap,/shared/scratch/SCWF00162/PAPER_04/pcap_files/normal_pcaps/normal_2.pcap,1151429180
+general,normal_3.pcap,/shared/scratch/SCWF00162/PAPER_04/pcap_files/normal_pcaps/normal_3.pcap,1102597380
+general,normal_4.pcap,/shared/scratch/SCWF00162/PAPER_04/pcap_files/normal_pcaps/normal_4.pcap,1112341756
+general,normal_5.pcap,/shared/scratch/SCWF00162/PAPER_04/pcap_files/normal_pcaps/normal_5.pcap,1077665172
+general,normal_6.pcap,/shared/scratch/SCWF00162/PAPER_04/pcap_files/normal_pcaps/normal_6.pcap,1075817348
+general,normal_7.pcap,/shared/scratch/SCWF00162/PAPER_04/pcap_files/normal_pcaps/normal_7.pcap,1110516324
+general,normal_8.pcap,/shared/scratch/SCWF00162/PAPER_04/pcap_files/normal_pcaps/normal_8.pcap,1262737092
+general,normal_9.pcap,/shared/scratch/SCWF00162/PAPER_04/pcap_files/normal_pcaps/normal_9.pcap,1150733220
+general,normal_10.pcap,/shared/scratch/SCWF00162/PAPER_04/pcap_files/normal_pcaps/normal_10.pcap,1122702904
+general,normal_11.pcap,/shared/scratch/SCWF00162/PAPER_04/pcap_files/normal_pcaps/normal_11.pcap,1118684220
+general,normal_12.pcap,/shared/scratch/SCWF00162/PAPER_04/pcap_files/normal_pcaps/normal_12.pcap,1119176788
+general,normal_13.pcap,/shared/scratch/SCWF00162/PAPER_04/pcap_files/normal_pcaps/normal_13.pcap,1065001940
+iot_named,normal_IoT_2.pcap,/shared/scratch/SCWF00162/PAPER_04/pcap_files/normal_pcaps/normal_IoT_2.pcap,1056194560
+iot_named,normal_IoT_3.pcap,/shared/scratch/SCWF00162/PAPER_04/pcap_files/normal_pcaps/normal_IoT_3.pcap,1066663936

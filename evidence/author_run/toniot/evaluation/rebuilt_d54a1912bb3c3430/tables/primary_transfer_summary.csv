@@ -1,0 +1,8 @@
+regime,source,axis,capability,common_tasks,permission,outcome,estimate,lo,hi,n_seeds,interpretation
+primary,column_shuffle,temporal,network_volume_forecast,10,Admissible,future_worse,0.1524703960624938,0.08222860603236973,0.1948304750018249,5,Change in synthetic/real loss ratio. Not a causal estimate of drift.
+primary,hurdle_iid,temporal,network_volume_forecast,10,Admissible,future_worse,0.09923831031614437,0.09080115075252339,0.10891997633040311,5,Change in synthetic/real loss ratio. Not a causal estimate of drift.
+primary,independent_marginals,temporal,network_volume_forecast,10,Admissible,future_worse,0.11379471475915837,0.1106162745084904,0.11749289649840759,5,Change in synthetic/real loss ratio. Not a causal estimate of drift.
+primary,independent_stitch,temporal,network_volume_forecast,10,Admissible,future_worse,0.029155916929880798,0.0019698286267860023,0.05309893255686351,5,Change in synthetic/real loss ratio. Not a causal estimate of drift.
+primary,real_contiguous_block,temporal,network_volume_forecast,10,Admissible,inconclusive,-0.024738837986362422,-0.04523315349351191,0.01058594378426663,5,Change in synthetic/real loss ratio. Not a causal estimate of drift.
+primary,real_row_resample,temporal,network_volume_forecast,10,Admissible,future_worse,0.11019597938322061,0.1005016689342968,0.11927343912152277,5,Change in synthetic/real loss ratio. Not a causal estimate of drift.
+primary,shared_stitch,temporal,network_volume_forecast,10,Admissible,future_worse,0.06262573019073571,0.04936786233058763,0.07757966915788704,5,Change in synthetic/real loss ratio. Not a causal estimate of drift.

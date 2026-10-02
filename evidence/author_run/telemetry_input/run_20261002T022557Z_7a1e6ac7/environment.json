@@ -1,0 +1,8 @@
+{
+  "python": "3.11.11 (main, Jun 20 2025, 00:00:00) [GCC 11.5.0 20240719 (Red Hat 11.5.0-5)]",
+  "platform": "Linux-5.14.0-503.40.1.el9_5.x86_64-x86_64-with-glibc2.34",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "version": "1.1.0",
+  "engine_sha256": "08a2692383be9c8103cb8d622cb1fdbddf742ca935bbeccb8cfef29557db275b"
+}

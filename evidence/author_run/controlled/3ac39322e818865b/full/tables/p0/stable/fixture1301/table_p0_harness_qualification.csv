@@ -1,0 +1,13 @@
+capability,suite,criterion,estimate,ci_lo,ci_hi,n_pairs,n_seeds,n_units,threshold,passed,noninferiority_rate,noninferiority_ci_lo,noninferiority_ci_hi
+contemporaneous_dependency|iot_power,contemporaneous,identity_equivalence,-2.664535259100377e-17,-8.659739592076223e-17,4.440892098500625e-17,5,5,25,crossed pair-seed CI inside +/-0.03,True,,,
+contemporaneous_dependency|iot_power,contemporaneous,matched_block_resample_equivalence,-0.0037762539881105155,-0.01395333109769909,0.006367028148216998,5,5,25,crossed pair-seed qualification CI inside TRAIN-calibrated +/-0.0953,True,,,
+contemporaneous_dependency|iot_power,temporal,identity_equivalence,,,,0,0,0,crossed pair-seed CI inside +/-0.03,False,,,
+contemporaneous_dependency|iot_power,temporal,matched_block_temporal_transfer,,,,0,0,0,crossed pair-seed upper CI <= TRAIN-calibrated ratio 1.2500; NI rate >= 0.75,False,,,
+contemporaneous_dependency|iot_power,temporal,row_resample_order_destruction,,,,0,0,0,crossed pair-seed lower CI >= 0.0488,False,,,
+forecast|router_bytes,contemporaneous,identity_equivalence,,,,0,0,0,crossed pair-seed CI inside +/-0.03,False,,,
+forecast|router_bytes,contemporaneous,matched_block_resample_equivalence,,,,0,0,0,crossed pair-seed qualification CI inside TRAIN-calibrated +/-0.0953,False,,,
+forecast|router_bytes,temporal,identity_equivalence,-8.881784197001256e-18,-4.8849813083506907e-17,2.6645352591003753e-17,5,5,25,crossed pair-seed CI inside +/-0.03,True,,,
+forecast|router_bytes,temporal,matched_block_temporal_transfer,1.0197498955521596,1.0142517819522692,1.0268519594530288,5,5,25,crossed pair-seed upper CI <= TRAIN-calibrated ratio 1.2500; NI rate >= 0.75,True,0.97,0.9,1.0
+forecast|router_bytes,temporal,row_resample_order_destruction,1.3398756544777561,1.3015424464362202,1.3719518259471843,5,5,25,crossed pair-seed lower CI >= 0.0488,True,,,
+contemporaneous_dependency|iot_power,contemporaneous,absolute_matched_real_reference_viability,0.9684427117823905,0.9671777371344524,0.9695822566049519,5,5,25,crossed pair-seed 95% CI lower bound of reference_skill_gain > 0,True,,,
+forecast|router_bytes,temporal,absolute_matched_real_reference_viability,0.7391589036776521,0.7317391274896435,0.746594250011347,5,5,25,crossed pair-seed 95% CI lower bound of reference_skill_gain > 0,True,,,

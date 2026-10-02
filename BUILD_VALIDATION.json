@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-02",
+  "syntax": "PASS",
+  "scientific_source_digest": "8db984b0198212612c77d1a6537e4aa0673f39a9b058fd638d272f12edc9cc3f",
+  "source_matches_patched_Falcon_run": true,
+  "preparation_budget_regression_check": {
+    "inputs": [
+      null,
+      6,
+      "2.5"
+    ],
+    "received": [
+      null,
+      6.0,
+      2.5
+    ],
+    "result": "PASS",
+    "scope": "Real wrapper and Project constructor; stopped before raw inventory"
+  },
+  "evidence_notebook_code_cells_executed": 12,
+  "evidence_report": {
+    "scope": "Declared Chapter 4 experiments and 45 mapped headline values",
+    "mode": "evidence",
+    "chapter_comparisons": "PASS",
+    "headline_values_checked": 45,
+    "new_raw_model_run_in_this_execution": false,
+    "decoder_execution": "Separate recorded local execution",
+    "fixed_historical_task_registry": true,
+    "posthoc_extensions_in_scope": false
+  },
+  "new_raw_model_fits_during_packaging": false
+}

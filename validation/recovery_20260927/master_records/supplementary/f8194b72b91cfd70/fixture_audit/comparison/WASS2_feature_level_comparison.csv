@@ -1,8 +1,0 @@
-quantity,rows,mismatches,max_absolute_error,atol,rtol
-denominator_floor,135,0,0.0,1e-07,1e-06
-denominator_used,135,0,0.0,1e-07,1e-06
-floor_active,135,0,0.0,1e-07,1e-06
-reference_iqr,135,0,0.0,1e-07,1e-06
-share_within_seed_severity,135,0,0.0,1e-07,1e-06
-wasserstein_iqr_normalised,135,0,1.4210854715202004e-14,1e-07,1e-06
-wasserstein_raw,135,0,1.8189894035458565e-12,1e-07,1e-06

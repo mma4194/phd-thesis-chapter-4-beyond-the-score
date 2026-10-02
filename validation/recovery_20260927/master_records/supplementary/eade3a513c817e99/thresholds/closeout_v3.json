@@ -1,8 +1,0 @@
-{
-  "p0_raw_vs_applied": "PASS_NO_STATE_CHANGE",
-  "training_budget_parity": "PASS",
-  "task_leakage": "PASS",
-  "wasserstein_aggregate": "PASS",
-  "wasserstein_feature_denominator_audit": "REQUIRES_TARGETED_RERUN",
-  "note": "This gate covers only checks executable from the frozen residential evidence package."
-}

@@ -1,0 +1,77 @@
+{
+  "context": "regime_mild",
+  "fixture_seed": 1401,
+  "pair": {
+    "pair_id": "pair6",
+    "phase": "calibration",
+    "profile_distance": 6.824049551862259,
+    "source_block": 6,
+    "source_end": 25200,
+    "source_start": 21600,
+    "target_block": 10,
+    "target_end": 39600,
+    "target_start": 36000
+  },
+  "protocol_hash": "56671d836844cd549869ef5fb0ec2c4c7e9f240f26176af245fad12b4c0e38d0",
+  "protocol_seed": 1340,
+  "summary_rows": [
+    {
+      "capability": "contemporaneous_dependency|regime_power",
+      "log_loss_ratio": 0.0,
+      "n_families": 1,
+      "noninferiority_rate": 1.0,
+      "p0_anchor": "real_identity",
+      "pair_id": "pair6",
+      "phase": "calibration",
+      "profile_distance": 6.824049551862259,
+      "seed": 1340,
+      "source_rows": 3600,
+      "suite": "contemporaneous",
+      "target_rows": 3600
+    },
+    {
+      "capability": "contemporaneous_dependency|regime_power",
+      "log_loss_ratio": 0.00345252502931816,
+      "n_families": 1,
+      "noninferiority_rate": 1.0,
+      "p0_anchor": "real_block_a",
+      "pair_id": "pair6",
+      "phase": "calibration",
+      "profile_distance": 6.824049551862259,
+      "seed": 1340,
+      "source_rows": 3600,
+      "suite": "contemporaneous",
+      "target_rows": 3600
+    },
+    {
+      "capability": "contemporaneous_dependency|regime_power",
+      "log_loss_ratio": 0.001507196648610635,
+      "n_families": 1,
+      "noninferiority_rate": 1.0,
+      "p0_anchor": "real_block_b",
+      "pair_id": "pair6",
+      "phase": "calibration",
+      "profile_distance": 6.824049551862259,
+      "seed": 1340,
+      "source_rows": 3600,
+      "suite": "contemporaneous",
+      "target_rows": 3600
+    },
+    {
+      "capability": "contemporaneous_dependency|regime_power",
+      "log_loss_ratio": 0.0002569975317411752,
+      "n_families": 1,
+      "noninferiority_rate": 1.0,
+      "p0_anchor": "real_resample",
+      "pair_id": "pair6",
+      "phase": "calibration",
+      "profile_distance": 6.824049551862259,
+      "seed": 1340,
+      "source_rows": 3600,
+      "suite": "contemporaneous",
+      "target_rows": 3600
+    }
+  ],
+  "utility_path": "/shared/scratch/SCWF00162/Chapter4_Reported_Results/fresh/execution/controlled/3ac39322e818865b/full/checkpoints/p0/regime_mild/fixture1401/pair6__seed1340.utility.csv",
+  "utility_rows": 8
+}

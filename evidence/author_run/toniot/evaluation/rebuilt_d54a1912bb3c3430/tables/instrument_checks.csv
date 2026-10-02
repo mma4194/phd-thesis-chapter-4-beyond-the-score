@@ -1,0 +1,12 @@
+metric,target,rho,endpoint,rho_min,endpoint_min,passed
+marginal_ks_mean,marginal,0.9999999999999999,0.31529012345679014,0.8,0.02,True
+wasserstein_iqr_mean,marginal,0.9999999999999999,1463.912775650032,0.8,0.05,True
+zero_rate_mae,marginal,0.9999999999999999,0.037629629629629624,0.8,0.002,True
+c2st_max_auc,marginal,0.8944271909999157,0.5,0.8,0.02,True
+acf_abs_error_mean,order,0.9999999999999999,0.22620781505145238,0.8,0.01,True
+spectral_l1_mean,order,0.9999999999999999,1.1799050166524152,0.8,0.03,True
+transition_rate_mae,order,0.9999999999999999,0.07433025758789331,0.8,0.0005,True
+coupling_corr_mae,coupling,0.9999999999999999,0.6281442095792861,0.8,0.02,True
+coupling_coactivation_mae,coupling,0.9999999999999999,0.01469097222222221,0.8,0.0005,True
+c2st_max_auc,coupling,0.9999999999999999,0.48879114386495337,0.8,0.02,True
+c2st_null,same_distribution,,0.0,,,True

@@ -1,0 +1,514 @@
+{
+  "pairs": [
+    {
+      "a_start": 1440,
+      "b_start": 12240,
+      "width": 360,
+      "distance": 12.225959747251796,
+      "a_coverage": 0.9998263888888889,
+      "b_coverage": 0.9998263888888889,
+      "pair_id": "p0",
+      "phase": "calibration",
+      "usable": true,
+      "selection": "origin_TRAIN_only",
+      "distance_screen": 52.40435768986648
+    },
+    {
+      "a_start": 4320,
+      "b_start": 9000,
+      "width": 360,
+      "distance": 13.024322848086406,
+      "a_coverage": 1.0,
+      "b_coverage": 0.9998263888888889,
+      "pair_id": "p1",
+      "phase": "qualification",
+      "usable": true,
+      "selection": "origin_TRAIN_only",
+      "distance_screen": 52.40435768986648
+    },
+    {
+      "a_start": 1800,
+      "b_start": 8280,
+      "width": 360,
+      "distance": 13.138488590922105,
+      "a_coverage": 1.0,
+      "b_coverage": 1.0,
+      "pair_id": "p2",
+      "phase": "calibration",
+      "usable": true,
+      "selection": "origin_TRAIN_only",
+      "distance_screen": 52.40435768986648
+    },
+    {
+      "a_start": 2520,
+      "b_start": 9360,
+      "width": 360,
+      "distance": 13.256579276267543,
+      "a_coverage": 1.0,
+      "b_coverage": 0.9998263888888889,
+      "pair_id": "p3",
+      "phase": "qualification",
+      "usable": true,
+      "selection": "origin_TRAIN_only",
+      "distance_screen": 52.40435768986648
+    },
+    {
+      "a_start": 2880,
+      "b_start": 12960,
+      "width": 360,
+      "distance": 13.272673413428752,
+      "a_coverage": 1.0,
+      "b_coverage": 0.9998263888888889,
+      "pair_id": "p4",
+      "phase": "calibration",
+      "usable": true,
+      "selection": "origin_TRAIN_only",
+      "distance_screen": 52.40435768986648
+    },
+    {
+      "a_start": 3960,
+      "b_start": 10080,
+      "width": 360,
+      "distance": 14.460135035043697,
+      "a_coverage": 0.9998263888888889,
+      "b_coverage": 1.0,
+      "pair_id": "p5",
+      "phase": "qualification",
+      "usable": true,
+      "selection": "origin_TRAIN_only",
+      "distance_screen": 52.40435768986648
+    },
+    {
+      "a_start": 3600,
+      "b_start": 10440,
+      "width": 360,
+      "distance": 15.203051970398016,
+      "a_coverage": 1.0,
+      "b_coverage": 1.0,
+      "pair_id": "p6",
+      "phase": "calibration",
+      "usable": true,
+      "selection": "origin_TRAIN_only",
+      "distance_screen": 52.40435768986648
+    },
+    {
+      "a_start": 4680,
+      "b_start": 9720,
+      "width": 360,
+      "distance": 15.411976761187612,
+      "a_coverage": 0.9998263888888889,
+      "b_coverage": 1.0,
+      "pair_id": "p7",
+      "phase": "qualification",
+      "usable": true,
+      "selection": "origin_TRAIN_only",
+      "distance_screen": 52.40435768986648
+    },
+    {
+      "a_start": 5040,
+      "b_start": 12600,
+      "width": 360,
+      "distance": 17.58343540976285,
+      "a_coverage": 1.0,
+      "b_coverage": 1.0,
+      "pair_id": "p8",
+      "phase": "calibration",
+      "usable": true,
+      "selection": "origin_TRAIN_only",
+      "distance_screen": 52.40435768986648
+    },
+    {
+      "a_start": 2160,
+      "b_start": 8640,
+      "width": 360,
+      "distance": 18.794959662203844,
+      "a_coverage": 1.0,
+      "b_coverage": 1.0,
+      "pair_id": "p9",
+      "phase": "qualification",
+      "usable": true,
+      "selection": "origin_TRAIN_only",
+      "distance_screen": 52.40435768986648
+    }
+  ],
+  "candidate_blocks": [
+    {
+      "minutes": 30,
+      "start": 0,
+      "end": 360,
+      "coverage": 1.0,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 360,
+      "end": 720,
+      "coverage": 1.0,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 720,
+      "end": 1080,
+      "coverage": 0.9998263888888889,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 1080,
+      "end": 1440,
+      "coverage": 0.9986545138888889,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 1440,
+      "end": 1800,
+      "coverage": 0.9998263888888889,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 1800,
+      "end": 2160,
+      "coverage": 1.0,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 2160,
+      "end": 2520,
+      "coverage": 1.0,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 2520,
+      "end": 2880,
+      "coverage": 1.0,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 2880,
+      "end": 3240,
+      "coverage": 1.0,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 3240,
+      "end": 3600,
+      "coverage": 1.0,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 3600,
+      "end": 3960,
+      "coverage": 1.0,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 3960,
+      "end": 4320,
+      "coverage": 0.9998263888888889,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 4320,
+      "end": 4680,
+      "coverage": 1.0,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 4680,
+      "end": 5040,
+      "coverage": 0.9998263888888889,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 5040,
+      "end": 5400,
+      "coverage": 1.0,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 5400,
+      "end": 5760,
+      "coverage": 0.9998263888888889,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 5760,
+      "end": 6120,
+      "coverage": 0.9998263888888889,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 6120,
+      "end": 6480,
+      "coverage": 1.0,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 6480,
+      "end": 6840,
+      "coverage": 0.9994357638888889,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 6840,
+      "end": 7200,
+      "coverage": 0.9998263888888889,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 7200,
+      "end": 7560,
+      "coverage": 1.0,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 7560,
+      "end": 7920,
+      "coverage": 0.9998263888888889,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 7920,
+      "end": 8280,
+      "coverage": 1.0,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 8280,
+      "end": 8640,
+      "coverage": 1.0,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 8640,
+      "end": 9000,
+      "coverage": 1.0,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 9000,
+      "end": 9360,
+      "coverage": 0.9998263888888889,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 9360,
+      "end": 9720,
+      "coverage": 0.9998263888888889,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 9720,
+      "end": 10080,
+      "coverage": 1.0,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 10080,
+      "end": 10440,
+      "coverage": 1.0,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 10440,
+      "end": 10800,
+      "coverage": 1.0,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 10800,
+      "end": 11160,
+      "coverage": 0.9996527777777777,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 11160,
+      "end": 11520,
+      "coverage": 1.0,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 11520,
+      "end": 11880,
+      "coverage": 0.9773871527777778,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 11880,
+      "end": 12240,
+      "coverage": 1.0,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 12240,
+      "end": 12600,
+      "coverage": 0.9998263888888889,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 12600,
+      "end": 12960,
+      "coverage": 1.0,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 12960,
+      "end": 13320,
+      "coverage": 0.9998263888888889,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 13320,
+      "end": 13680,
+      "coverage": 1.0,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 13680,
+      "end": 14040,
+      "coverage": 0.9998263888888889,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 14040,
+      "end": 14400,
+      "coverage": 0.9992621527777777,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 14400,
+      "end": 14760,
+      "coverage": 0.9998263888888889,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 14760,
+      "end": 15120,
+      "coverage": 1.0,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 15120,
+      "end": 15480,
+      "coverage": 0.9998263888888889,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 15480,
+      "end": 15840,
+      "coverage": 0.9998263888888889,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 15840,
+      "end": 16200,
+      "coverage": 0.9998263888888889,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 16200,
+      "end": 16560,
+      "coverage": 1.0,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    },
+    {
+      "minutes": 30,
+      "start": 16560,
+      "end": 16920,
+      "coverage": 0.9998263888888889,
+      "passes_value_availability": true,
+      "quantity": "fraction of finite pre-imputation values, not acquisition coverage"
+    }
+  ],
+  "duration_minutes": 30.0,
+  "method": "First duration with ten value-availability- and distance-screened disjoint pairs. The 0.95 availability screen is an explicit new origin rule, not a reconstruction of the historical acquisition-coverage calculation. TRAIN MAD-scaled means, zero rates, and 24-hour cycle position in the recorded experiment clock (not local time of day). Exact profiles and rules are code-bound."
+}

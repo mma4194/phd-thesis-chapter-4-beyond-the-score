@@ -41,7 +41,7 @@ def run(data_file,output=None,n_jobs=4,budget_hours=6,recompute_p0=True):
   if rel not in verified_file_hashes:verified_file_hashes[rel]=sha(out/rel)
   if verified_file_hashes[rel]!=expected:raise RuntimeError('Prediction evidence changed: '+rel)
  def cache(kind,key,fn):
-  if time.monotonic()-start>budget_hours*3600:raise BudgetReached('Time budget reached between jobs; rerun the cell to resume.')
+  if budget_hours is not None and time.monotonic()-start>budget_hours*3600:raise BudgetReached('Time budget reached between jobs; rerun the cell to resume.')
   previous=dict(current);current.clear();current.update(kind=kind,key=key)
   cp=out/'jobs'/kind/(ns['dh'](key)+'.json')
   try:
@@ -82,7 +82,7 @@ def run(data_file,output=None,n_jobs=4,budget_hours=6,recompute_p0=True):
        for rel,hp in rec['prediction_files'].items():
         verify_file(rel,hp)
        rows.extend(rec['payload']['rows']);checks.append(rec['payload']['health']);continue
-      if time.monotonic()-start>budget_hours*3600:raise BudgetReached('Time budget reached before source fit; rerun the same cell.')
+      if budget_hours is not None and time.monotonic()-start>budget_hours*3600:raise BudgetReached('Time budget reached before source fit; rerun the same cell.')
       print(period,source,seed,flush=True);array_start=len(new_arrays)
       try:
        with warnings.catch_warnings(record=True) as ws:

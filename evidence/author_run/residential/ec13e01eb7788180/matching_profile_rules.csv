@@ -1,0 +1,33 @@
+feature,TRAIN_observed,value_descriptors_included,reason
+iot__entity_stale__s5_max_total_cleaning_count,766616,True,bounded ranks and observed zero fraction
+iot__smart_plug__sensor__voltage__value,249075,True,bounded ranks and observed zero fraction
+iot__coffee_maker_hot__sensor__water__value,541470,False,"no observed variation, retain missingness descriptor only"
+iot__smart_plug_ps5__sensor__signal_strength__value,249026,True,bounded ranks and observed zero fraction
+iot__s5_max_main_brush_time_left__sensor__state__value,740047,True,bounded ranks and observed zero fraction
+ota__bytes_total,766609,True,bounded ranks and observed zero fraction
+ota__mgmt,766609,True,bounded ranks and observed zero fraction
+ota__pkt_total,766609,True,bounded ranks and observed zero fraction
+ota5__rssi_n,766356,True,bounded ranks and observed zero fraction
+router__bytes_total__diff1,765565,True,bounded ranks and observed zero fraction
+router__udp_pkt,765565,True,bounded ranks and observed zero fraction
+router__pkt_total__diff1,765565,True,bounded ranks and observed zero fraction
+zigbee__bytes_total,707511,True,bounded ranks and observed zero fraction
+zigbee__beacon,707511,True,bounded ranks and observed zero fraction
+zigbee__ack,707511,True,bounded ranks and observed zero fraction
+zigbee__pkt_total,707511,True,bounded ranks and observed zero fraction
+zb__app_event_intensity,766616,True,bounded ranks and observed zero fraction
+iot__entity_stale__withings_snoring_episode_count,766616,True,bounded ranks and observed zero fraction
+iot__smart_plug_ps5__sensor__voltage__value,249076,True,bounded ranks and observed zero fraction
+iot__twinguard_087__sensor__purity__value,766616,True,bounded ranks and observed zero fraction
+iot__smart_plug__sensor__signal_strength__value,249055,True,bounded ranks and observed zero fraction
+iot__s5_max_side_brush_time_left__sensor__state__value,740047,True,bounded ranks and observed zero fraction
+ota24__bytes_total,766351,True,bounded ranks and observed zero fraction
+ota5__mgmt,766356,True,bounded ranks and observed zero fraction
+ota__data,766609,True,bounded ranks and observed zero fraction
+ota24__rssi_n,766351,True,bounded ranks and observed zero fraction
+router__bytes_total__absdiff1,765565,True,bounded ranks and observed zero fraction
+router__tcp_pkt,765565,True,bounded ranks and observed zero fraction
+router__pkt_total__absdiff1,765565,True,bounded ranks and observed zero fraction
+zigbee__beacon_rate,707511,True,bounded ranks and observed zero fraction
+zigbee__ack_rate,707511,True,bounded ranks and observed zero fraction
+zigbee__pps,707511,True,bounded ranks and observed zero fraction

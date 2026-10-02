@@ -1,0 +1,2 @@
+capability,suite,criterion,estimate,ci_lo,ci_hi,n_pairs,n_seeds,n_units,threshold,passed,estimable
+contemporaneous_dependency|regime_power,contemporaneous,absolute_matched_real_reference_viability,-0.34933418733574584,-0.43836388162664386,-0.26030763728440737,5,5,25,crossed pair-seed 95% CI lower bound of reference_skill_gain > 0,False,True
